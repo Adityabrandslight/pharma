@@ -1,14 +1,21 @@
-import { Geist, Geist_Mono } from "next/font/google";
+// app/layout.tsx or layout.jsx (depending on your setup)
+
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+// ✅ Import Poppins font
+import { Poppins } from "next/font/google";
+import { Footer } from "@/components/Footer";
+import Topbar from "@/components/Topbar";
+import MedicineCategoryNav from "@/components/Navbar";
+
+
+// ✅ Load the font with desired weights and subsets
+const poppins = Poppins({
   subsets: ["latin"],
+  weight: ["400", "500", "600", "700"], // Choose weights as needed
+  variable: "--font-poppins", // Optional: useful if using CSS variables
+  display: "swap",
 });
 
 export const metadata = {
@@ -19,10 +26,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${poppins.className} antialiased`}>
+        <Topbar/>
+        <MedicineCategoryNav/>
         {children}
+        <Footer />
       </body>
     </html>
   );
