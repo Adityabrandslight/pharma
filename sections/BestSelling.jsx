@@ -8,7 +8,7 @@ import { Star, StarHalf, ShoppingCart, Heart } from "lucide-react";
 const PRODUCTS = [
   {
     id: "paracetamol-650",
-    name: "Paracetamol 650 mg",
+    name: "Fildena",
     img: "/images/imageone.JPG",
     price: 89,
     mrp: 120,
@@ -19,7 +19,7 @@ const PRODUCTS = [
   },
   {
     id: "vitamin-c-1000",
-    name: "Vitamin C 1000 mg",
+    name: "Tadarise",
     img: "/images/imagetwo.JPG",
     price: 349,
     mrp: 499,
@@ -30,7 +30,7 @@ const PRODUCTS = [
   },
   {
     id: "d3-calcium",
-    name: "Vitamin D3 + Calcium",
+    name: "Poxet-60",
     img: "/images/imagethree.JPG",
     price: 299,
     mrp: 420,
@@ -41,7 +41,7 @@ const PRODUCTS = [
   },
   {
     id: "bp-monitor",
-    name: "Digital BP Monitor",
+    name: "Fildena",
     img: "/images/imagefour.JPG",
     price: 1799,
     mrp: 2499,
@@ -52,7 +52,7 @@ const PRODUCTS = [
   },
   {
     id: "cough-syrup",
-    name: "Herbal Cough Syrup",
+    name: "Fildena",
     img: "/images/imagefive.JPG",
     price: 159,
     mrp: 210,
@@ -63,7 +63,7 @@ const PRODUCTS = [
   },
   {
     id: "glucose-meter",
-    name: "Glucose Meter Kit",
+    name: "FemaleGra-100",
     img: "/images/imagesix.JPG",
     price: 1299,
     mrp: 1899,
@@ -74,7 +74,7 @@ const PRODUCTS = [
   },
   {
     id: "probiotic",
-    name: "Daily Probiotic",
+    name: "Tadalista",
     img: "/images/imageseven.JPG",
     price: 399,
     mrp: 520,
@@ -85,7 +85,7 @@ const PRODUCTS = [
   },
   {
     id: "sunscreen-50",
-    name: "Sunscreen SPF 50",
+    name: "Tadarise-20",
     img: "/images/imageeight.JPG",
     price: 449,
     mrp: 599,

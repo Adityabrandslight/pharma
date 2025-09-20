@@ -5,18 +5,18 @@ import Link from "next/link";
 
 // swap these with your real categories
 const CATEGORIES = [
-  { name: "Pain Relief", slug: "pain-relief", img: "/images/antibiotics.png" },
-  { name: "Cough & Cold", slug: "cough-cold", img: "/images/diabeties.png" },
-  { name: "Digestive Health", slug: "digestive", img: "/images/ed.png" },
-  { name: "Diabetes", slug: "diabetes", img: "/images/anticancer.png" },
-  { name: "Heart Care", slug: "cardiac", img: "/images/deaddiction.png" },
-  { name: "Skin Care", slug: "derma", img: "/images/painkiller.png" },
-  { name: "Vitamins", slug: "vitamins", img: "/images/hearthealth.png" },
-  { name: "Ayurveda", slug: "ayurveda", img: "/images/skin.png" },
-  { name: "Women’s Health", slug: "women", img: "/images/sleep.png" },
-  { name: "Baby Care", slug: "baby", img: "/images/steroids.png" },
-  { name: "Elderly Care", slug: "elderly", img: "/images/thyroid.png" },
-  { name: "Devices", slug: "devices", img: "/images/weightloss.png" },
+  { name: "Antibiotics", slug: "pain-relief", img: "/images/antibiotics.png" },
+  { name: "Diabeties", slug: "cough-cold", img: "/images/diabeties.png" },
+  { name: "ED", slug: "digestive", img: "/images/ed.png" },
+  { name: "AntiCancer", slug: "diabetes", img: "/images/anticancer.png" },
+  { name: "Deaddiction", slug: "cardiac", img: "/images/deaddiction.png" },
+  { name: "Painkiller", slug: "derma", img: "/images/painkiller.png" },
+  { name: "Hearthealth", slug: "vitamins", img: "/images/hearthealth.png" },
+  { name: "Skin", slug: "ayurveda", img: "/images/skin.png" },
+  { name: "Sleep", slug: "women", img: "/images/sleep.png" },
+  { name: "Steroids", slug: "baby", img: "/images/steroids.png" },
+  { name: "Thyroid", slug: "elderly", img: "/images/thyroid.png" },
+  { name: "Weighgtloss", slug: "devices", img: "/images/weightloss.png" },
 ];
 
 export default function CategoriesGrid({ categories = CATEGORIES, title = "Shop by Category" }) {

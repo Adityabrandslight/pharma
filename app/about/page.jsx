@@ -9,10 +9,10 @@ const AboutUs = () => {
   ];
 
   const certifications = [
-    { name: "WHO-GMP", description: "World Health Organization Good Manufacturing Practice" },
-    { name: "ISO 9001:2015", description: "Quality Management Systems" },
-    { name: "ISO 14001", description: "Environmental Management" },
-    { name: "FDA Approved", description: "Food and Drug Administration Compliance" }
+    { image:"/images/pharmalogo1.jpeg" },
+    { image:"/images/pharmalogo2.jpeg" },
+    { image:"/images/pharmalogo3.png" },
+    { image:"/images/pharmalogo4.png" }
   ];
 
   const leadership = [
@@ -39,7 +39,7 @@ const AboutUs = () => {
   return (
     <div className="bg-white">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-indigo-900 text-white py-24 px-6 lg:px-12 overflow-hidden">
+      <section className="relative bg-gradient-to-br from-blue-500 via-blue-400 to-indigo-900 text-white py-24 px-6 lg:px-12 overflow-hidden">
         <div className="absolute inset-0 bg-black/10"></div>
         <div className="absolute top-0 right-0 w-96 h-96 bg-blue-400/10 rounded-full blur-3xl -translate-y-48 translate-x-48"></div>
         <div className="absolute bottom-0 left-0 w-64 h-64 bg-indigo-400/10 rounded-full blur-2xl translate-y-32 -translate-x-32"></div>
@@ -52,7 +52,7 @@ const AboutUs = () => {
           
           <h1 className="text-2xl lg:text-4xl font-black mb-8 leading-tight">
             Empowering Health Through 
-            <span className="bg-gradient-to-r from-blue-300 to-indigo-300 bg-clip-text text-transparent"> Science & Innovation</span>
+            <span className="text-white"> Science & Innovation</span>
           </h1>
           
           <p className="text-xl lg:text-2xl mb-12 max-w-4xl mx-auto text-blue-100 leading-relaxed">
@@ -71,7 +71,7 @@ const AboutUs = () => {
                 <div className="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300">
                   {stat.icon}
                 </div>
-                <div className="text-3xl lg:text-4xl font-black text-blue-900 mb-2">
+                <div className="text-3xl lg:text-4xl font-black text-blue-500 mb-2">
                   {stat.number}
                 </div>
                 <div className="text-gray-600 font-medium text-sm lg:text-base">
@@ -93,14 +93,14 @@ const AboutUs = () => {
               About PharmaCare
             </div>
             
-            <h2 className="text-4xl lg:text-5xl font-black text-blue-900 mb-8 leading-tight">
+            <h2 className="text-4xl lg:text-5xl font-black text-blue-500 mb-8 leading-tight">
               Pioneering Excellence in 
-              <span className="text-indigo-600"> Pharmaceutical Care</span>
+              <span className="text-blue-500"> Pharmaceutical Care</span>
             </h2>
             
             <div className="space-y-6">
               <p className="text-lg text-gray-700 leading-relaxed">
-                At <span className="font-bold text-blue-700">PharmaCare</span>, we are more than a pharmaceutical company—we are a movement committed to transforming lives. Since our inception in 1999, we have been driven by a relentless pursuit of quality, precision, and integrity in every solution we provide.
+                At <span className="font-bold text-blue-500">PharmaCare</span>, we are more than a pharmaceutical company—we are a movement committed to transforming lives. Since our inception in 1999, we have been driven by a relentless pursuit of quality, precision, and integrity in every solution we provide.
               </p>
               
               <p className="text-lg text-gray-700 leading-relaxed">
@@ -170,7 +170,7 @@ const AboutUs = () => {
       <section className="py-24 bg-gradient-to-br from-blue-50 via-indigo-50 to-blue-50">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-black text-blue-900 mb-6">
+            <h2 className="text-4xl lg:text-5xl font-black text-blue-600 mb-6">
               Our Foundation
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -187,7 +187,7 @@ const AboutUs = () => {
                     <path fillRule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clipRule="evenodd"/>
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold text-blue-800 mb-4">Our Vision</h3>
+                <h3 className="text-2xl font-bold text-blue-600 mb-4">Our Vision</h3>
                 <p className="text-gray-600 leading-relaxed">
                   To be a global leader in pharmaceutical excellence, pioneering innovations that redefine health outcomes and set new standards for patient care worldwide.
                 </p>
@@ -201,7 +201,7 @@ const AboutUs = () => {
                     <path fillRule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clipRule="evenodd"/>
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold text-blue-800 mb-4">Our Mission</h3>
+                <h3 className="text-2xl font-bold text-blue-600 mb-4">Our Mission</h3>
                 <p className="text-gray-600 leading-relaxed">
                   To enhance human health by delivering high-quality, affordable, and accessible pharmaceutical solutions that improve lives and create lasting positive impact across the globe.
                 </p>
@@ -215,7 +215,7 @@ const AboutUs = () => {
                     <path fillRule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clipRule="evenodd"/>
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold text-blue-800 mb-4">Core Values</h3>
+                <h3 className="text-2xl font-bold text-blue-600 mb-4">Core Values</h3>
                 <div className="space-y-2">
                   {["Innovation", "Compassion", "Quality", "Integrity", "Collaboration", "Sustainability"].map((value, index) => (
                     <div key={index} className="flex items-center space-x-2">
@@ -245,13 +245,14 @@ const AboutUs = () => {
           <div className="grid md:grid-cols-4 gap-6">
             {certifications.map((cert, index) => (
               <div key={index} className="bg-gradient-to-br from-blue-50 to-indigo-50 p-8 rounded-2xl border border-blue-100 hover:border-blue-300 transition-all duration-300 hover:scale-105 text-center group">
-                <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+                {/* <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
                   <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"/>
                   </svg>
-                </div>
-                <h3 className="text-xl font-bold text-blue-800 mb-2">{cert.name}</h3>
-                <p className="text-sm text-gray-600">{cert.description}</p>
+                </div> */}
+              {/*   <h3 className="text-xl font-bold text-blue-800 mb-2">{cert.name}</h3>
+                <p className="text-sm text-gray-600">{cert.description}</p> */}
+                <img src={cert.image} alt="" className='h-35' />
               </div>
             ))}
           </div>
