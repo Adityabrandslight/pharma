@@ -1,0 +1,214 @@
+{
+  "products": [
+    {
+      "id": "paracetamol-650",
+      "slug": "fildena-100",
+      "name": "Fildena 100",
+      "img": "/images/imageone.JPG",
+      "price": 89,
+      "mrp": 120,
+      "rating": 4.6,
+      "reviews": 1432,
+      "badge": "Bestseller",
+      "category": "Erectile Dysfunction",
+      "tags": ["bestseller", "deals"]
+    },
+    {
+      "id": "vitamin-c-1000",
+      "slug": "tadarise-20",
+      "name": "Tadarise 20",
+      "img": "/images/imagetwo.JPG",
+      "price": 349,
+      "mrp": 499,
+      "rating": 4.7,
+      "reviews": 980,
+      "badge": "Top Rated",
+      "category": "Vitamins",
+      "tags": ["latest"]
+    },
+    {
+      "id": "d3-calcium",
+      "slug": "poxet-60",
+      "name": "Poxet 60",
+      "img": "/images/imagethree.JPG",
+      "price": 299,
+      "mrp": 420,
+      "rating": 4.5,
+      "reviews": 764,
+      "badge": "Bestseller",
+      "category": "Vitamins",
+      "tags": ["bestseller"]
+    },
+    {
+      "id": "bp-monitor",
+      "slug": "fildena-super",
+      "name": "Fildena Super",
+      "img": "/images/imagefour.JPG",
+      "price": 1799,
+      "mrp": 2499,
+      "rating": 4.4,
+      "reviews": 312,
+      "badge": "Hot",
+      "category": "Devices",
+      "tags": ["deals"]
+    },
+    {
+      "id": "cough-syrup",
+      "slug": "fildena-50",
+      "name": "Fildena 50",
+      "img": "/images/imagefive.JPG",
+      "price": 159,
+      "mrp": 210,
+      "rating": 4.2,
+      "reviews": 540,
+      "badge": "Trending",
+      "category": "Cough & Cold",
+      "tags": ["latest"]
+    },
+    {
+      "id": "glucose-meter",
+      "slug": "femalegra-100",
+      "name": "FemaleGra 100",
+      "img": "/images/imagesix.JPG",
+      "price": 1299,
+      "mrp": 1899,
+      "rating": 4.6,
+      "reviews": 451,
+      "badge": "Bestseller",
+      "category": "Diabetes",
+      "tags": ["bestseller", "deals"]
+    },
+    {
+      "id": "probiotic",
+      "slug": "tadalista-10",
+      "name": "Tadalista 10",
+      "img": "/images/imageseven.JPG",
+      "price": 399,
+      "mrp": 520,
+      "rating": 4.3,
+      "reviews": 220,
+      "badge": "Popular",
+      "category": "Digestive Health",
+      "tags": ["latest"]
+    },
+    {
+      "id": "sunscreen-50",
+      "slug": "tadarise-20-soft",
+      "name": "Tadarise 20 Soft",
+      "img": "/images/imageeight.JPG",
+      "price": 449,
+      "mrp": 599,
+      "rating": 4.5,
+      "reviews": 870,
+      "badge": "Derm Pick",
+      "category": "Skin Care",
+      "tags": ["bestseller"]
+    },
+    {
+      "id": "omega3",
+      "slug": "omega3-fish-oil",
+      "name": "Omega-3 Fish Oil",
+      "img": "/images/imagetwo.JPG",
+      "price": 599,
+      "mrp": 799,
+      "rating": 4.4,
+      "reviews": 390,
+      "badge": "Heart Care",
+      "category": "Heart Care",
+      "tags": ["latest"]
+    },
+    {
+      "id": "nebulizer",
+      "slug": "portable-nebulizer",
+      "name": "Portable Nebulizer",
+      "img": "/images/imagefive.JPG",
+      "price": 1699,
+      "mrp": 2399,
+      "rating": 4.1,
+      "reviews": 180,
+      "badge": "Hot",
+      "category": "Devices",
+      "tags": ["deals"]
+    },
+    {
+      "id": "ayur-ashwagandha",
+      "slug": "ayurvedic-ashwagandha",
+      "name": "Ayurvedic Ashwagandha",
+      "img": "/images/imageone.JPG",
+      "price": 299,
+      "mrp": 399,
+      "rating": 4.6,
+      "reviews": 650,
+      "badge": "Ayurveda",
+      "category": "Ayurveda",
+      "tags": ["bestseller"]
+    },
+    {
+      "id": "iron-folic",
+      "slug": "iron-folic-acid",
+      "name": "Iron + Folic Acid",
+      "img": "/images/imagefour.JPG",
+      "price": 249,
+      "mrp": 329,
+      "rating": 4.3,
+      "reviews": 415,
+      "badge": "Women’s Health",
+      "category": "Women’s Health",
+      "tags": ["latest"]
+    },
+    {
+      "id": "ivermectin-12",
+      "slug": "ivermectin-12mg",
+      "name": "Ivermectin 12mg",
+      "img": "/images/ivermectin.jpg",
+      "price": 89,
+      "mrp": 120,
+      "rating": 4.6,
+      "reviews": 1432,
+      "badge": "Bestseller",
+      "category": "Antibiotics",
+      "tags": ["bestseller"],
+      "content": {
+        "longDescription": "Ivermectin 12mg Tablets – Trusted Antiparasitic Treatment for Internal and External Infections. ...",
+        "keyBenefits": [
+          "Eliminates a Wide Range of Parasites – Effectively targets and eradicates intestinal and external parasites",
+          "Fast-Acting Symptom Relief – Alleviates itching, irritation, and inflammation quickly",
+          "Convenient Oral Treatment – Easy-to-take tablets require no messy creams"
+        ],
+        "keyFeatures": [
+          "High-Potency 12mg Dosage – Suitable for moderate to severe infestations",
+          "Broad-Spectrum Action – Works against multiple parasites",
+          "Globally Approved & Well-Tolerated – Safe profile backed by decades of clinical use"
+        ],
+        "shortDescription": "Ivermectin 12mg Tablets are a powerful antiparasitic solution designed to treat a variety of internal and external parasitic infections."
+      }
+    },
+    {
+      "id": "cenforce-100",
+      "slug": "cenforce-100mg",
+      "name": "Cenforce 100mg",
+      "img": "/images/cenforce.jpg",
+      "price": 299,
+      "mrp": 399,
+      "rating": 4.7,
+      "reviews": 980,
+      "badge": "Top Rated",
+      "category": "ED",
+      "tags": ["bestseller", "deals"],
+      "content": {
+        "longDescription": "Sildenafil 100mg Tablets – Trusted Support for Improved Sexual Performance and Confidence. ...",
+        "keyBenefits": [
+          "Restores Erectile Function Naturally – Promotes blood flow for stronger erection",
+          "Boosts Confidence & Intimacy – Helps overcome performance anxiety",
+          "Fast Onset & Long-Lasting – Works within 30 to 60 minutes, lasts up to 6 hours"
+        ],
+        "keyFeatures": [
+          "Clinically Proven Formula – Backed by clinical research and millions of men worldwide",
+          "Convenient Once-Daily Tablet – Easy-to-take oral pill",
+          "High-Quality Standards – Produced under strict pharmaceutical guidelines"
+        ],
+        "shortDescription": "Sildenafil 100mg is a reliable, fast-acting solution for erectile dysfunction."
+      }
+    }
+  ]
+}

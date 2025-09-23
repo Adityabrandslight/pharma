@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, useMemo } from "react";
 import Link from "next/link";
 import {
   ChevronLeft,
@@ -19,18 +19,19 @@ import {
 } from "lucide-react";
 
 const CATEGORIES = [
-  { name: "Pain Relief", slug: "pain-relief", items: ["Paracetamol", "Ibuprofen", "Diclofenac", "Aspirin"] },
-  { name: "Cough & Cold", slug: "cough-cold", items: ["Cough Syrup", "Decongestant", "Throat Lozenges", "Antihistamines"] },
-  { name: "Digestive Health", slug: "digestive", items: ["Antacids", "Laxatives", "Probiotics", "ORS"] },
-  { name: "Diabetes", slug: "diabetes", items: ["Glucose Monitors", "Lancets", "Test Strips", "Sugar Substitutes"] },
-  { name: "Heart Care", slug: "cardiac", items: ["Statins", "BP Monitors", "Omega-3", "CoQ10"] },
-  { name: "Skin Care", slug: "derma", items: ["Antifungal", "Antibacterial", "Moisturizers", "Sunscreen"] },
-  { name: "Vitamins", slug: "vitamins", items: ["Multivitamins", "Vitamin C", "Vitamin D3", "Calcium"] },
-  { name: "Ayurveda", slug: "ayurveda", items: ["Chyawanprash", "Ashwagandha", "Triphala", "Giloy"] },
-  { name: "Women’s Health", slug: "women", items: ["Iron", "PCOS Support", "Sanitary", "UTI Care"] },
-  { name: "Baby Care", slug: "baby", items: ["Diapers", "Wipes", "Rash Cream", "Supplements"] },
-  { name: "Elderly Care", slug: "elderly", items: ["Adult Diapers", "Joint Care", "Walking Aids", "Nutrition"] },
-  { name: "Devices", slug: "devices", items: ["Thermometers", "Pulse Oximeter", "Nebulizer", "BP Monitor"] },
+  { name: "Pain Relief", slug: "pain-relief" },
+  { name: "Cough & Cold", slug: "cough-cold" },
+  { name: "Digestive Health", slug: "digestive" },
+  { name: "Antibiotics  ", slug: "antibiotics" },
+  { name: "Diabetes", slug: "diabetes" },
+  { name: "Heart Care", slug: "cardiac" },
+  { name: "Skin Care", slug: "derma" },
+  { name: "Vitamins", slug: "vitamins" },
+  { name: "Ayurveda", slug: "ayurveda" },
+  { name: "Women’s Health", slug: "women" },
+  { name: "Baby Care", slug: "baby" },
+  { name: "Elderly Care", slug: "elderly" },
+  { name: "Devices", slug: "devices" },
 ];
 
 // Different icon per category
@@ -49,10 +50,54 @@ const ICONS = {
   Devices: Thermometer,
 };
 
+// Helper to normalize strings for matching
+const norm = (s = "") => s.toLowerCase().replace(/\s+/g, "").replace(/[’']/g, "");
+
 export default function MedicineCategoryNav() {
   const scrollerRef = useRef(null);
-  const [openMenu, setOpenMenu] = useState(null);
+  const [openMenu, setOpenMenu] = useState(null); // {slug,label,left,top,width}
   const closeTimer = useRef(null);
+
+  // products.json data
+  const [products, setProducts] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+  // fetch once
+  useEffect(() => {
+    let alive = true;
+    fetch("/data/products.json")
+      .then((r) => r.json())
+      .then((json) => {
+        if (!alive) return;
+        setProducts(Array.isArray(json.products) ? json.products : []);
+        setLoading(false);
+      })
+      .catch(() => setLoading(false));
+    return () => {
+      alive = false;
+    };
+  }, []);
+
+  // Build a map: categorySlug -> products[]
+  const byCategory = useMemo(() => {
+    const map = {};
+    for (const cat of CATEGORIES) map[cat.slug] = [];
+    for (const p of products) {
+      // Try to map product.category to our CATEGORIES
+      const match =
+        CATEGORIES.find(
+          (c) =>
+            norm(c.name) === norm(p.category) ||
+            norm(c.slug) === norm(p.category) ||
+            norm(c.name).includes(norm(p.category)) ||
+            norm(p.category).includes(norm(c.name))
+        ) || null;
+      if (match) {
+        map[match.slug].push(p);
+      }
+    }
+    return map;
+  }, [products]);
 
   const scrollBy = (delta) => scrollerRef.current?.scrollBy({ left: delta, behavior: "smooth" });
 
@@ -62,14 +107,13 @@ export default function MedicineCategoryNav() {
     closeTimer.current = setTimeout(() => setOpenMenu(null), delay);
   };
 
-  // Open dropdown for a category
   const openFor = (target, cat) => {
     cancelClose();
     const rect = target.getBoundingClientRect();
-    const minWidth = 240;
+    const minWidth = 280;
     const left = Math.max(8, Math.min(rect.left, window.innerWidth - minWidth - 8));
     const top = rect.bottom;
-    setOpenMenu({ slug: cat.slug, label: cat.name, items: cat.items, left, top, width: minWidth });
+    setOpenMenu({ slug: cat.slug, label: cat.name, left, top, width: minWidth });
   };
 
   useEffect(() => {
@@ -115,7 +159,6 @@ export default function MedicineCategoryNav() {
                   onPointerEnter={(e) => openFor(e.currentTarget, cat)}
                   onPointerLeave={() => scheduleClose(250)}
                   onClick={(e) => {
-                    // toggle on click for touch/desktop
                     if (isOpen) setOpenMenu(null);
                     else openFor(e.currentTarget, cat);
                   }}
@@ -126,7 +169,7 @@ export default function MedicineCategoryNav() {
                       else openFor(e.currentTarget, cat);
                     }
                   }}
-                  className={`flex snap-start items-center gap-2 rounded-full border px-4 py-2 text-sm font-medium whitespace-nowrap transition-colors
+                  className={`cursor-pointer flex snap-start items-center gap-2 rounded-full border px-4 py-2 text-sm font-medium whitespace-nowrap transition-colors
                     ${isOpen ? "border-sky-300 bg-sky-50 text-sky-800" : "border-sky-200 text-gray-800 hover:bg-sky-50 hover:text-sky-700"}`}
                 >
                   <Icon className="h-4 w-4 text-sky-500" />
@@ -167,29 +210,50 @@ export default function MedicineCategoryNav() {
             role="menu"
             aria-label={`${openMenu.label} submenu`}
           >
-            <div className="min-w-[240px] rounded-lg border border-sky-200 bg-white p-2 shadow-md">
-              <ul className="grid gap-1">
-                {openMenu.items.map((item) => (
-                  <li key={item}>
-                    <Link
-                      href={`/category/${openMenu.slug}/${item.toLowerCase().replace(/\s+/g, "-")}`}
-                      className="block rounded-md px-3 py-2 text-sm text-gray-700 hover:bg-sky-50 hover:text-sky-700 whitespace-nowrap"
-                      role="menuitem"
-                      tabIndex={0}
-                    >
-                      {item}
-                    </Link>
-                  </li>
-                ))}
-                <li className="pt-1">
-                  <Link
-                    href={`/category/${openMenu.slug}`}
-                    className="block rounded-md bg-sky-600 px-3 py-2 text-center text-sm font-semibold text-white hover:bg-sky-700"
-                  >
-                    View all
-                  </Link>
-                </li>
+            <div className="min-w-[280px] rounded-lg border border-sky-200 bg-white p-2 shadow-md">
+              {/* Header */}
+              <div className="mb-2 px-2">
+                <p className="text-[13px] font-semibold text-sky-700">{openMenu.label}</p>
+                <p className="text-[12px] text-slate-500">Top products</p>
+              </div>
+
+              {/* Product list */}
+              <ul className="max-h-[320px] w-full overflow-auto rounded-md">
+                {loading ? (
+                  <li className="px-3 py-2 text-sm text-slate-500">Loading…</li>
+                ) : byCategory[openMenu.slug]?.length ? (
+                  byCategory[openMenu.slug]
+                    .slice(0, 10) // show first 10; tweak as needed
+                    .map((p) => (
+                      <li key={p.id}>
+                        <Link
+                          href={`/product/${p.slug}`}
+                          className="flex items-center justify-between gap-2 rounded-md px-3 py-2 text-sm text-gray-700 hover:bg-sky-50 hover:text-sky-800"
+                          role="menuitem"
+                          tabIndex={0}
+                        >
+                          <span className="line-clamp-1">{p.name}</span>
+                          {/* tiny price if present */}
+                          {typeof p.price === "number" && (
+                            <span className="shrink-0 text-[12px] font-medium text-slate-600">₹{p.price}</span>
+                          )}
+                        </Link>
+                      </li>
+                    ))
+                ) : (
+                  <li className="px-3 py-2 text-sm text-slate-500">No products found.</li>
+                )}
               </ul>
+
+              {/* View all */}
+              <div className="pt-2">
+                <Link
+                  href={`/category/${openMenu.slug}`}
+                  className="block rounded-md bg-sky-600 px-3 py-2 text-center text-sm font-semibold text-white hover:bg-sky-700"
+                >
+                  View all {openMenu.label}
+                </Link>
+              </div>
             </div>
           </div>
         </>
