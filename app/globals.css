@@ -2,3 +2,13 @@
 @import "tailwindcss";
 
 
+/* Hide horizontal scrollbar but keep scrolling */
+.no-scrollbar {
+  -ms-overflow-style: none;      /* IE/Edge */
+  scrollbar-width: none;         /* Firefox */
+}
+.no-scrollbar::-webkit-scrollbar {
+  height: 0;                     /* Chrome/Safari/Opera */
+  width: 0;
+  background: transparent;
+}

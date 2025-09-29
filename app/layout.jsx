@@ -8,6 +8,7 @@ import { Poppins } from "next/font/google";
 import { Footer } from "@/components/Footer";
 import Topbar from "@/components/Topbar";
 import MedicineCategoryNav from "@/components/Navbar";
+import { CartProvider } from "./context/cartcontext";
 
 
 // ✅ Load the font with desired weights and subsets
@@ -29,7 +30,7 @@ export default function RootLayout({ children }) {
       <body className={`${poppins.className} antialiased`}>
         <Topbar/>
         <MedicineCategoryNav/>
-        {children}
+        <CartProvider>{children}</CartProvider>
         <Footer />
       </body>
     </html>

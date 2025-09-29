@@ -18,36 +18,39 @@ import {
   Droplet,
 } from "lucide-react";
 
+// Categories (sirf name + slug)
 const CATEGORIES = [
-  { name: "Pain Relief", slug: "pain-relief" },
-  { name: "Cough & Cold", slug: "cough-cold" },
-  { name: "Digestive Health", slug: "digestive" },
-  { name: "Antibiotics  ", slug: "antibiotics" },
-  { name: "Diabetes", slug: "diabetes" },
-  { name: "Heart Care", slug: "cardiac" },
-  { name: "Skin Care", slug: "derma" },
-  { name: "Vitamins", slug: "vitamins" },
-  { name: "Ayurveda", slug: "ayurveda" },
-  { name: "Women’s Health", slug: "women" },
-  { name: "Baby Care", slug: "baby" },
-  { name: "Elderly Care", slug: "elderly" },
-  { name: "Devices", slug: "devices" },
+  { name: "Antibiotics", slug: "antibiotics" },
+  { name: "ED", slug: "ed" },
+  { name: "Steroids", slug: "steroids" },
+  { name: "Diabetic Care", slug: "diabetic-care" },
+  { name: "Skin & Dermatology", slug: "skin-dermatology" },
+  { name: "Sleeping Aids", slug: "sleeping-aids" },
+  { name: "ADHD & Neurological", slug: "adhd-neurological" },
+  { name: "Weightloss & Female", slug: "weightloss-female" },
+  { name: "Heart Health", slug: "heart-health" },
+  { name: "Anti-cancer", slug: "anti-cancer" },
+  { name: "Pain-killers", slug: "pain-killers" },
+  { name: "Thyroid", slug: "thyroid" },
+  { name: "Deaddiction", slug: "deaddiction" },
 ];
+
 
 // Different icon per category
 const ICONS = {
-  "Pain Relief": Pill,
-  "Cough & Cold": Thermometer,
-  "Digestive Health": Droplet,
-  Diabetes: Syringe,
-  "Heart Care": HeartPulse,
-  "Skin Care": Sun,
-  Vitamins: Apple,
-  Ayurveda: Stethoscope,
-  "Women’s Health": Activity,
-  "Baby Care": Baby,
-  "Elderly Care": ShieldCheck,
-  Devices: Thermometer,
+  Antibiotics: Pill,
+  ED: Activity,
+  Steroids: Syringe,
+  "Diabetic Care": Syringe,
+  "Skin & Dermatology": Sun,
+  "Sleeping Aids": Stethoscope,
+  "ADHD & Neurological": Activity,
+  "Weightloss & Female": Apple,
+  "Heart Health": HeartPulse,
+  "Anti-cancer": Pill,
+  "Pain-killers": Droplet,
+  Thyroid: Thermometer,
+  Deaddiction: ShieldCheck,
 };
 
 // Helper to normalize strings for matching

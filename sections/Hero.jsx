@@ -4,9 +4,9 @@ import { useEffect, useRef, useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const IMAGES = [
-  "/images/bannerone.png",
-  "/images/bannerone.png",
-  "/images/bannerone.png",
+  "/images/banner.png",
+  "/images/banner.png",
+  "/images/banner.png",
 ];
 
 const AUTOPLAY_MS = 5000;
@@ -88,7 +88,7 @@ export default function BannerSlider() {
       onMouseLeave={() => setIsPaused(false)}
     >
       <div
-        className="relative h-[420px] sm:h-[480px] lg:h-[560px] overflow-hidden"
+        className="relative h-[200px] md:h-[580px]  overflow-hidden"
         onTouchStart={onTouchStart}
         onTouchEnd={onTouchEnd}
       >
