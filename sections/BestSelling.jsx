@@ -95,14 +95,14 @@ function ProductCard({ product, onAddToCart }) {
         </div>
         <div className="p-4 space-y-2">
           <h3 className="font-semibold text-gray-900 line-clamp-2 leading-tight group-hover:text-gray-700 transition-colors">{product.name}</h3>
-          <StarRating rating={product.rating} reviews={product.reviews} />
-          <PriceDisplay price={product.price} mrp={product.mrp} />
+{/*           <StarRating rating={product.rating} reviews={product.reviews} />
+ */}          <PriceDisplay price={product.price} mrp={product.mrp} />
         </div>
       </Link>
       <div className="px-4 pb-4 flex items-center gap-3">
         <Link
           href={`/checkout/${product.slug}`}
-          className="flex-1 bg-gray-900 hover:bg-gray-800 text-white font-semibold py-2 px-3 rounded-lg transition-all duration-200 text-center text-sm shadow-md hover:shadow-lg"
+          className="flex-1 bg-blue-500 text-white font-semibold py-2 px-3 rounded-lg transition-all duration-200 text-center text-sm shadow-md hover:shadow-lg"
         >
           Buy Now
         </Link>
