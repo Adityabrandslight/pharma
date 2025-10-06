@@ -5,11 +5,14 @@ import { useParams, useRouter } from "next/navigation";
 import Image from "next/image";
 import { ShoppingBag, Shield, Truck, Award, CheckCircle, ArrowLeft, Heart, Share2, Info } from "lucide-react";
 import { ToastNotification } from "@/components/Toatnotification";
+import Link from "next/link";
+import { FaCartPlus } from "react-icons/fa";
 
 export default function ProductPage() {
   const { slug } = useParams();
   const router = useRouter();
   const [product, setProduct] = useState(null);
+  const [relatedProducts, setRelatedProducts] = useState([]);
   const [toastMessage, setToastMessage] = useState("");
   const [quantity, setQuantity] = useState(1);
   const [activeTab, setActiveTab] = useState("benefits");
@@ -18,8 +21,17 @@ export default function ProductPage() {
     fetch("/data/products.json")
       .then((r) => r.json())
       .then((json) => {
-        const found = json.products.find((p) => p.slug === slug);
+        const products = json.products;
+        const found = products.find((p) => p.slug === slug);
         setProduct(found || null);
+
+        if (found) {
+          // Related products = same category, exclude current
+          const related = products
+            .filter((p) => p.category === found.category && p.slug !== found.slug)
+            .slice(0, 4); // max 4
+          setRelatedProducts(related);
+        }
       });
   }, [slug]);
 
@@ -63,7 +75,7 @@ export default function ProductPage() {
     }
   };
 
-  const discount = product.mrp > product.price 
+  const discount = product.mrp > product.price
     ? Math.round(((product.mrp - product.price) / product.mrp) * 100)
     : 0;
 
@@ -82,7 +94,7 @@ export default function ProductPage() {
               <ArrowLeft className="w-4 h-4" />
               <span className="font-medium text-sm tracking-wide uppercase">Back to Products</span>
             </button>
-            
+
             <div className="flex items-center space-x-4">
               <button className="p-2 text-gray-600 hover:text-blue-600 transition-colors duration-200">
                 <Heart className="w-5 h-5" />
@@ -101,11 +113,11 @@ export default function ProductPage() {
           {/* Product Image */}
           <div className="space-y-6">
             <div className="relative aspect-square bg-gradient-to-br from-blue-50 to-gray-50 rounded-lg overflow-hidden border border-gray-200">
-              <Image 
-                src={product.img} 
-                alt={product.name} 
-                fill 
-                className="object-contain p-8" 
+              <Image
+                src={product.img}
+                alt={product.name}
+                fill
+                className="object-contain p-8"
               />
               {discount > 0 && (
                 <div className="absolute top-4 right-4 bg-blue-600 text-white px-3 py-1 rounded-full font-semibold text-sm">
@@ -214,7 +226,7 @@ export default function ProductPage() {
                 <ShoppingBag className="w-5 h-5" />
                 <span>Buy Now</span>
               </button>
-              
+
               <button
                 onClick={addToCart}
                 className="w-full bg-black hover:bg-gray-800 text-white py-4 px-8 rounded font-semibold tracking-wide uppercase transition-all duration-200 flex items-center justify-center space-x-2"
@@ -313,6 +325,68 @@ export default function ProductPage() {
             )}
           </div>
         </div>
+
+        {/* Related Products */}
+        {/* Related Products */}
+{relatedProducts.length > 0 && (
+  <div className="mt-16">
+    <h2 className="text-2xl font-bold mb-6">Related Products</h2>
+    <div className="grid grid-cols-1 sm:grid-cols-4 gap-6">
+      {relatedProducts.map((p) => (
+        <div key={p.slug} className="border p-4 rounded hover:shadow-md flex flex-col items-center">
+          <Link href={`/product/${p.slug}`} className="w-full">
+            <Image src={p.img} alt={p.name} width={200} height={200} className="object-contain rounded" />
+            <p className="mt-2 text-sm font-medium">{p.name}</p>
+            <p className="text-sm text-gray-600">₹{p.price.toLocaleString()}</p>
+          </Link>
+
+          <div className="mt-3 flex  sm:space-x-2 w-full gap-2">
+  {/* Add to Cart Icon Only */}
+  <button
+    onClick={() => {
+      const cart = JSON.parse(localStorage.getItem("cart") || "[]");
+      const existingItem = cart.find((item) => item.slug === p.slug);
+      if (existingItem) {
+        existingItem.qty = (existingItem.qty || 1) + 1;
+      } else {
+        cart.push({ ...p, qty: 1 });
+      }
+      localStorage.setItem("cart", JSON.stringify(cart));
+      window.dispatchEvent(new Event("cart-updated"));
+      setToastMessage(`${p.name} added to cart successfully!`);
+      setTimeout(() => setToastMessage(""), 3000);
+    }}
+    className="flex justify-center items-center w-25 py-3 px-0 rounded-lg border border-gray-300 hover:bg-gray-800 hover:text-white transition-colors"
+  >
+    <FaCartPlus className="w-5 h-5" />
+  </button>
+
+  {/* Buy Now */}
+  <button
+    onClick={() => {
+      const cart = JSON.parse(localStorage.getItem("cart") || "[]");
+      const existingItem = cart.find((item) => item.slug === p.slug);
+      if (existingItem) {
+        existingItem.qty = (existingItem.qty || 1) + 1;
+      } else {
+        cart.push({ ...p, qty: 1 });
+      }
+      localStorage.setItem("cart", JSON.stringify(cart));
+      window.dispatchEvent(new Event("cart-updated"));
+      router.push(`/checkout/${p.slug}`);
+    }}
+    className="flex-1 flex justify-center items-center py-3 px-4 rounded-lg font-semibold text-md bg-blue-600 text-white hover:bg-blue-700 transition-colors"
+  >
+    Buy Now
+  </button>
+</div>
+
+        </div>
+      ))}
+    </div>
+  </div>
+)}
+
       </div>
 
       <ToastNotification message={toastMessage} />

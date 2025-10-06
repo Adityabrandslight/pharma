@@ -6,21 +6,21 @@ import Link from "next/link";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const CATEGORIES = [
-  { name: "Antibiotics",  slug: "antibiotics",   img: "/images/antibiotics.png" },
-  { name: "Diabetes",     slug: "diabetes",      img: "/images/diabeties.png" },
-  { name: "ED",           slug: "ed",            img: "/images/ed.png" },
-  { name: "Anti Cancer",  slug: "anti-cancer",   img: "/images/anticancer.png" },
-  { name: "Deaddiction",  slug: "deaddiction",   img: "/images/deaddiction.png" },
-  { name: "Painkiller",   slug: "painkiller",    img: "/images/painkiller.png" },
-  { name: "Heart Health", slug: "heart-health",  img: "/images/hearthealth.png" },
-  { name: "Skin",         slug: "skin",          img: "/images/skin.png" },
-  { name: "Sleep",        slug: "sleep",         img: "/images/sleep.png" },
-  { name: "Steroids",     slug: "steroids",      img: "/images/steroids.png" },
-  { name: "Thyroid",      slug: "thyroid",       img: "/images/thyroid.png" },
-  { name: "Weight Loss",  slug: "weight-loss",   img: "/images/weightloss.png" },
+  { name: "Antibiotics",  slug: "antibiotics",        img: "/images/antibiotics.png" },
+  { name: "Diabetic Care",slug: "diabetic-care",      img: "/images/diabeties.png" },
+  { name: "ED",           slug: "ed",                 img: "/images/ed.png" },
+  { name: "Anti-cancer",  slug: "anti-cancer",        img: "/images/anticancer.png" },
+  { name: "Deaddiction",  slug: "deaddiction",        img: "/images/deaddiction.png" },
+  { name: "Pain-killers", slug: "pain-killers",       img: "/images/painkiller.png" },
+  { name: "Heart Health", slug: "heart-health",       img: "/images/hearthealth.png" },
+  { name: "Skin & Dermatology", slug: "skin-dermatology", img: "/images/skin.png" },
+  { name: "Sleeping Aids",slug: "sleeping-aids",      img: "/images/sleep.png" },
+  { name: "Steroids",     slug: "steroids",           img: "/images/steroids.png" },
+  { name: "Thyroid",      slug: "thyroid",            img: "/images/thyroid.png" },
+  { name: "Weightloss & Female", slug: "weightloss-female", img: "/images/weightloss.png" },
 ];
 
-export default function CategoriesGrid({ categories = CATEGORIES, title = "Shop by Category" }) {
+export default function CategoriesGrid({ categories = CATEGORIES, title = "Categories" }) {
   const scrollerRef = useRef(null);
   const scrollBy = (px) => scrollerRef.current?.scrollBy({ left: px, behavior: "smooth" });
 
@@ -33,9 +33,8 @@ export default function CategoriesGrid({ categories = CATEGORIES, title = "Shop 
         </Link>
       </div>
 
-      {/* Mobile: SAME CARD, horizontal snap carousel */}
+      {/* Mobile carousel */}
       <div className="sm:hidden relative">
-        {/* edge arrows */}
         <button
           aria-label="Scroll left"
           onClick={() => scrollBy(-240)}
@@ -51,7 +50,6 @@ export default function CategoriesGrid({ categories = CATEGORIES, title = "Shop 
           <ChevronRight className="h-5 w-5" />
         </button>
 
-        {/* scroller */}
         <div
           ref={scrollerRef}
           className="no-scrollbar -mx-4 flex gap-3 overflow-x-auto px-4 pb-1 snap-x snap-mandatory scroll-smooth"
@@ -59,14 +57,9 @@ export default function CategoriesGrid({ categories = CATEGORIES, title = "Shop 
           aria-label="Categories"
         >
           {categories.map((cat, i) => (
-            <Link
-              key={cat.slug}
-              href={`/category/${cat.slug}`}
-              className="snap-start shrink-0 w-40"   // ~160px card width; tweak if needed
-            >
+            <Link key={cat.slug} href={`/category/${cat.slug}`} className="snap-start shrink-0 w-40">
               <div className="rounded-xl border border-sky-200 bg-white">
                 <div className="relative aspect-square p-3">
-                  {/* contain = no crop, consistent look */}
                   <Image
                     src={cat.img}
                     alt={cat.name}
@@ -83,7 +76,7 @@ export default function CategoriesGrid({ categories = CATEGORIES, title = "Shop 
         </div>
       </div>
 
-      {/* Tablet/Desktop: GRID (unchanged) */}
+      {/* Desktop grid */}
       <ul className="hidden sm:grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-6">
         {categories.map((cat, i) => (
           <li key={cat.slug}>

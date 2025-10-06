@@ -6,6 +6,20 @@ import { useRouter, useParams } from "next/navigation";
 import { ShoppingBag, Package, Shield, Clock } from "lucide-react";
 import { ToastNotification } from "@/components/Toatnotification";
 
+// Robust slugify
+const toSlug = (s = "") =>
+  s
+    .toString()
+    .toLowerCase()
+    .replace(/\bweight\s+loss\b/g, "weightloss")
+    .replace(/&/g, "-")
+    .replace(/\bhealth\b/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/-+/g, "-")
+    .replace(/^-|-$/g, "");
+
+const stripWeak = (s = "") => s.replace(/-/g, "");
+
 export default function CategoryPage() {
   const { category } = useParams();
   const router = useRouter();
@@ -13,28 +27,41 @@ export default function CategoryPage() {
   const [products, setProducts] = useState([]);
   const [toastMessage, setToastMessage] = useState("");
 
-  // Fetch products
   useEffect(() => {
-    fetch("/data/products.json")
-      .then((res) => res.json())
-      .then((data) => {
-        const filtered = data.products.filter(
-          (p) => p.category.toLowerCase().replace(/ & /g, "-") === category
+    const fetchData = async () => {
+      const res = await fetch("/data/products.json");
+      const data = await res.json();
+
+      const catSlug = String(category || "").toLowerCase();
+      const catLoose = stripWeak(catSlug);
+
+      const filtered = (data?.products || []).filter((p) => {
+        const pSlug = toSlug(p.category || "");
+        const pLoose = stripWeak(pSlug);
+
+        // strict match, contains match, and loose (hyphen-insensitive) match
+        return (
+          pSlug === catSlug ||
+          pSlug.includes(catSlug) ||
+          catSlug.includes(pSlug) ||
+          pLoose === catLoose ||
+          pLoose.includes(catLoose) ||
+          catLoose.includes(pLoose)
         );
-        setProducts(filtered);
       });
+
+      setProducts(filtered);
+    };
+
+    fetchData();
   }, [category]);
 
-  // Add to Cart
   const addToCart = (product) => {
     const cart = JSON.parse(localStorage.getItem("cart") || "[]");
     const existingItem = cart.find((item) => item.slug === product.slug);
 
-    if (existingItem) {
-      existingItem.qty = (existingItem.qty || 1) + 1;
-    } else {
-      cart.push({ ...product, qty: 1 });
-    }
+    if (existingItem) existingItem.qty = (existingItem.qty || 1) + 1;
+    else cart.push({ ...product, qty: 1 });
 
     localStorage.setItem("cart", JSON.stringify(cart));
     window.dispatchEvent(new Event("cart-updated"));
@@ -43,7 +70,6 @@ export default function CategoryPage() {
     setTimeout(() => setToastMessage(""), 4000);
   };
 
-  // Buy Now
   const buyNow = (product) => {
     addToCart(product);
     router.push(`/checkout/${product.slug}`);
@@ -69,7 +95,7 @@ export default function CategoryPage() {
             <span className="text-sm font-semibold text-blue-600 uppercase tracking-wider">Category</span>
           </div>
           <h1 className="text-3xl md:text-4xl font-bold text-slate-900 capitalize mb-4">
-            {category.replace("-", " & ")}
+            {(category || "").replaceAll("-", " ")}
           </h1>
           <p className="text-slate-600 max-w-2xl">
             Browse our curated selection of quality pharmaceutical products with verified authenticity and fast delivery.
@@ -97,7 +123,10 @@ export default function CategoryPage() {
         {/* Products Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {products.map((product) => {
-            const discount = product.mrp > product.price ? Math.round(((product.mrp - product.price) / product.mrp) * 100) : 0;
+            const discount =
+              product.mrp > product.price
+                ? Math.round(((product.mrp - product.price) / product.mrp) * 100)
+                : 0;
 
             return (
               <div
@@ -105,31 +134,22 @@ export default function CategoryPage() {
                 className="group bg-white rounded-2xl border-2 border-slate-200 hover:border-blue-300 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col overflow-hidden cursor-pointer relative"
                 onClick={() => router.push(`/product/${product.slug}`)}
               >
-                {/* Discount Badge */}
                 {discount > 0 && (
                   <div className="absolute top-3 right-3 z-10 bg-gradient-to-r from-emerald-500 to-green-600 text-white text-xs font-bold px-3 py-1.5 rounded-full shadow-lg">
                     {discount}% OFF
                   </div>
                 )}
 
-                {/* Product Image */}
                 <div className="relative aspect-[4/3] bg-gradient-to-br from-slate-50 to-blue-50 p-6 group-hover:scale-[1.02] transition-transform duration-300">
-                  <Image
-                    src={product.img}
-                    alt={product.name}
-                    fill
-                    className="object-contain"
-                  />
+                  <Image src={product.img} alt={product.name} fill className="object-contain" />
                 </div>
 
-                {/* Product Info */}
                 <div className="p-5 flex-1 flex flex-col justify-between">
                   <div>
                     <h2 className="text-base font-bold text-slate-900 line-clamp-2 mb-3 group-hover:text-blue-600 transition-colors">
                       {product.name}
                     </h2>
-                    
-                    {/* Price Section */}
+
                     <div className="flex items-baseline gap-2 mb-1">
                       <span className="text-2xl font-bold text-slate-900">₹{product.price}</span>
                       {discount > 0 && (
@@ -137,17 +157,11 @@ export default function CategoryPage() {
                       )}
                     </div>
                     {discount > 0 && (
-                      <p className="text-xs text-emerald-600 font-semibold">
-                        You save ₹{product.mrp - product.price}
-                      </p>
+                      <p className="text-xs text-emerald-600 font-semibold">You save ₹{product.mrp - product.price}</p>
                     )}
                   </div>
 
-                  {/* Action Buttons */}
-                  <div
-                    className="mt-5 flex gap-2"
-                    onClick={(e) => e.stopPropagation()}
-                  >
+                  <div className="mt-5 flex gap-2" onClick={(e) => e.stopPropagation()}>
                     <button
                       onClick={() => addToCart(product)}
                       className="flex-1 flex items-center justify-center gap-2 bg-white border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-semibold py-2.5 rounded-xl transition-all duration-200 group/btn"
@@ -168,7 +182,6 @@ export default function CategoryPage() {
           })}
         </div>
 
-        {/* Bottom Info Banner */}
         <div className="mt-12 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-2xl p-6 text-center text-white">
           <h3 className="text-xl font-bold mb-2">Need Help Finding the Right Product?</h3>
           <p className="text-blue-100 mb-4">Our pharmaceutical experts are here to assist you</p>

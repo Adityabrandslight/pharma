@@ -11,14 +11,13 @@ import {
   HeartPulse,
   Sun,
   Syringe,
-  Baby,
-  Apple,
   ShieldCheck,
   Activity,
   Droplet,
+  Apple,
 } from "lucide-react";
 
-// Categories (sirf name + slug)
+// Route slugs you already use
 const CATEGORIES = [
   { name: "Antibiotics", slug: "antibiotics" },
   { name: "ED", slug: "ed" },
@@ -35,8 +34,6 @@ const CATEGORIES = [
   { name: "Deaddiction", slug: "deaddiction" },
 ];
 
-
-// Different icon per category
 const ICONS = {
   Antibiotics: Pill,
   ED: Activity,
@@ -53,19 +50,35 @@ const ICONS = {
   Deaddiction: ShieldCheck,
 };
 
-// Helper to normalize strings for matching
-const norm = (s = "") => s.toLowerCase().replace(/\s+/g, "").replace(/[’']/g, "");
+// Normalize to route-style slug: & -> '-', compress, drop filler words
+const toSlug = (s = "") => {
+  let t = s.toString().toLowerCase();
+
+  // special: weight loss -> weightloss (route uses weightloss)
+  t = t.replace(/\bweight\s+loss\b/g, "weightloss");
+
+  // & should behave like route slugs
+  t = t.replace(/&/g, "-");
+
+  // remove common filler words that break matching
+  t = t.replace(/\bhealth\b/g, ""); // "female health" -> "female"
+
+  // squash non-alnum to "-"
+  t = t.replace(/[^a-z0-9]+/g, "-").replace(/-+/g, "-").replace(/^-|-$/g, "");
+  return t;
+};
+
+// hyphen-insensitive string for loose match
+const loose = (s = "") => toSlug(s).replace(/-/g, "");
 
 export default function MedicineCategoryNav() {
   const scrollerRef = useRef(null);
-  const [openMenu, setOpenMenu] = useState(null); // {slug,label,left,top,width}
+  const [openMenu, setOpenMenu] = useState(null);
   const closeTimer = useRef(null);
 
-  // products.json data
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  // fetch once
   useEffect(() => {
     let alive = true;
     fetch("/data/products.json")
@@ -81,23 +94,32 @@ export default function MedicineCategoryNav() {
     };
   }, []);
 
-  // Build a map: categorySlug -> products[]
+  // Map: categorySlug -> products[]
   const byCategory = useMemo(() => {
     const map = {};
     for (const cat of CATEGORIES) map[cat.slug] = [];
+
     for (const p of products) {
-      // Try to map product.category to our CATEGORIES
-      const match =
-        CATEGORIES.find(
-          (c) =>
-            norm(c.name) === norm(p.category) ||
-            norm(c.slug) === norm(p.category) ||
-            norm(c.name).includes(norm(p.category)) ||
-            norm(p.category).includes(norm(c.name))
-        ) || null;
-      if (match) {
-        map[match.slug].push(p);
-      }
+      const pSlug = toSlug(p.category || "");
+      const pLoose = loose(p.category || "");
+
+      const matchedCat =
+        CATEGORIES.find((c) => {
+          const cSlug = c.slug;
+          const cLoose = loose(c.slug);
+
+          // strict or contains, plus loose equality/contains
+          return (
+            pSlug === cSlug ||
+            pSlug.includes(cSlug) ||
+            cSlug.includes(pSlug) ||
+            pLoose === cLoose ||
+            pLoose.includes(cLoose) ||
+            cLoose.includes(pLoose)
+          );
+        }) || null;
+
+      if (matchedCat) map[matchedCat.slug].push(p);
     }
     return map;
   }, [products]);
@@ -106,6 +128,7 @@ export default function MedicineCategoryNav() {
 
   const cancelClose = () => clearTimeout(closeTimer.current);
   const scheduleClose = (delay = 250) => {
+    if ("ontouchstart" in window) return; // don't auto-close on mobile
     cancelClose();
     closeTimer.current = setTimeout(() => setOpenMenu(null), delay);
   };
@@ -144,24 +167,23 @@ export default function MedicineCategoryNav() {
         </button>
 
         {/* Scrollable Categories */}
-        <div
-          ref={scrollerRef}
-          className="no-scrollbar relative flex gap-2 overflow-x-auto scroll-smooth py-3"
-        >
+        <div ref={scrollerRef} className="no-scrollbar relative flex gap-2 overflow-x-auto scroll-smooth py-3">
           {CATEGORIES.map((cat) => {
             const Icon = ICONS[cat.name] || Pill;
             const isOpen = openMenu?.slug === cat.slug;
 
             return (
               <div key={cat.slug} className="relative">
-                {/* Category trigger as BUTTON (no navigation) */}
                 <button
                   type="button"
                   aria-haspopup="menu"
                   aria-expanded={isOpen}
-                  onPointerEnter={(e) => openFor(e.currentTarget, cat)}
+                  onPointerEnter={(e) => {
+                    if (!("ontouchstart" in window)) openFor(e.currentTarget, cat);
+                  }}
                   onPointerLeave={() => scheduleClose(250)}
                   onClick={(e) => {
+                    e.preventDefault();
                     if (isOpen) setOpenMenu(null);
                     else openFor(e.currentTarget, cat);
                   }}
@@ -194,7 +216,7 @@ export default function MedicineCategoryNav() {
         </button>
       </div>
 
-      {/* Dropdown outside the scroller */}
+      {/* Dropdown */}
       {openMenu && (
         <>
           {/* Hover bridge */}
@@ -204,7 +226,6 @@ export default function MedicineCategoryNav() {
             onPointerEnter={cancelClose}
             onPointerLeave={() => scheduleClose(180)}
           />
-
           <div
             className="fixed z-50"
             style={{ left: openMenu.left, top: openMenu.top }}
@@ -225,24 +246,21 @@ export default function MedicineCategoryNav() {
                 {loading ? (
                   <li className="px-3 py-2 text-sm text-slate-500">Loading…</li>
                 ) : byCategory[openMenu.slug]?.length ? (
-                  byCategory[openMenu.slug]
-                    .slice(0, 10) // show first 10; tweak as needed
-                    .map((p) => (
-                      <li key={p.id}>
-                        <Link
-                          href={`/product/${p.slug}`}
-                          className="flex items-center justify-between gap-2 rounded-md px-3 py-2 text-sm text-gray-700 hover:bg-sky-50 hover:text-sky-800"
-                          role="menuitem"
-                          tabIndex={0}
-                        >
-                          <span className="line-clamp-1">{p.name}</span>
-                          {/* tiny price if present */}
-                          {typeof p.price === "number" && (
-                            <span className="shrink-0 text-[12px] font-medium text-slate-600">₹{p.price}</span>
-                          )}
-                        </Link>
-                      </li>
-                    ))
+                  byCategory[openMenu.slug].slice(0, 10).map((p) => (
+                    <li key={p.id}>
+                      <Link
+                        href={`/product/${p.slug}`}
+                        className="flex items-center justify-between gap-2 rounded-md px-3 py-2 text-sm text-gray-700 hover:bg-sky-50 hover:text-sky-800"
+                        role="menuitem"
+                        tabIndex={0}
+                      >
+                        <span className="line-clamp-1">{p.name}</span>
+                        {typeof p.price === "number" && (
+                          <span className="shrink-0 text-[12px] font-medium text-slate-600">₹{p.price}</span>
+                        )}
+                      </Link>
+                    </li>
+                  ))
                 ) : (
                   <li className="px-3 py-2 text-sm text-slate-500">No products found.</li>
                 )}
@@ -253,6 +271,7 @@ export default function MedicineCategoryNav() {
                 <Link
                   href={`/category/${openMenu.slug}`}
                   className="block rounded-md bg-sky-600 px-3 py-2 text-center text-sm font-semibold text-white hover:bg-sky-700"
+                  onClick={() => setOpenMenu(null)}
                 >
                   View all {openMenu.label}
                 </Link>

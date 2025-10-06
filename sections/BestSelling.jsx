@@ -15,7 +15,6 @@ function StarRating({ rating, reviews }) {
       className={`w-3.5 h-3.5 ${i < Math.floor(rating) ? "text-yellow-400 fill-yellow-400" : "text-gray-300 fill-gray-300"}`}
     />
   ));
-
   return (
     <div className="flex items-center gap-2">
       <div className="flex items-center gap-0.5">{stars}</div>
@@ -26,7 +25,6 @@ function StarRating({ rating, reviews }) {
 
 function PriceDisplay({ price, mrp }) {
   const discount = mrp > price ? Math.round(((mrp - price) / mrp) * 100) : 0;
-
   return (
     <div className="space-y-1">
       <div className="flex items-center gap-3">
@@ -83,7 +81,6 @@ function ProductCard({ product, onAddToCart }) {
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
             className="object-contain p-4 transition-transform duration-500 group-hover:scale-105"
           />
-          {/* Badge removed */}
           <button
             onClick={toggleWishlist}
             className="absolute top-4 right-4 p-2 bg-white/80 backdrop-blur-sm rounded-full hover:bg-white transition-all duration-200 opacity-0 group-hover:opacity-100"
@@ -95,8 +92,7 @@ function ProductCard({ product, onAddToCart }) {
         </div>
         <div className="p-4 space-y-2">
           <h3 className="font-semibold text-gray-900 line-clamp-2 leading-tight group-hover:text-gray-700 transition-colors">{product.name}</h3>
-{/*           <StarRating rating={product.rating} reviews={product.reviews} />
- */}          <PriceDisplay price={product.price} mrp={product.mrp} />
+          <PriceDisplay price={product.price} mrp={product.mrp} />
         </div>
       </Link>
       <div className="px-4 pb-4 flex items-center gap-3">
@@ -163,38 +159,6 @@ function FilterBar({ categories, filters, onFiltersChange, onToggleFilters, show
           </select>
         </div>
       </div>
-      {showFilters && (
-        <div className="bg-white rounded-lg border border-gray-200 p-6 shadow-sm space-y-6">
-          <div>
-            <h3 className="font-semibold text-gray-900 mb-3">Categories</h3>
-            <div className="flex flex-wrap gap-2">
-              {categories.map((category) => (
-                <button
-                  key={category}
-                  onClick={() => onFiltersChange({ ...filters, category })}
-                  className={`px-4 py-2 rounded-lg font-medium transition-all duration-200 ${filters.category === category ? "bg-gray-900 text-white shadow-md" : "bg-gray-100 text-gray-700 hover:bg-gray-200"}`}
-                >
-                  {category}
-                </button>
-              ))}
-            </div>
-          </div>
-          <div>
-            <h3 className="font-semibold text-gray-900 mb-3">Collections</h3>
-            <div className="flex flex-wrap gap-2">
-              {TAGS.map((tag) => (
-                <button
-                  key={tag}
-                  onClick={() => onFiltersChange({ ...filters, tag })}
-                  className={`px-4 py-2 rounded-lg font-medium transition-all duration-200 ${filters.tag === tag ? "bg-gray-900 text-white shadow-md" : "bg-gray-100 text-gray-700 hover:bg-gray-200"}`}
-                >
-                  {tag === "all" ? "All Products" : tag.charAt(0).toUpperCase() + tag.slice(1)}
-                </button>
-              ))}
-            </div>
-          </div>
-        </div>
-      )}
     </div>
   );
 }
@@ -218,13 +182,12 @@ function EmptyState() {
 export default function Bestseller() {
   const [loading, setLoading] = useState(true);
   const [data, setData] = useState({ products: [] });
-  const [showFilters, setShowFilters] = useState(false);
   const [filters, setFilters] = useState({ search: "", category: "All", tag: "all", sort: "popular" });
+  const [showFilters, setShowFilters] = useState(false);
   const [toastMessage, setToastMessage] = useState("");
 
   useEffect(() => {
     let mounted = true;
-
     const loadData = async () => {
       try {
         const response = await fetch("/data/products.json");
@@ -237,7 +200,6 @@ export default function Bestseller() {
         if (mounted) setLoading(false);
       }
     };
-
     loadData();
     return () => { mounted = false; };
   }, []);
@@ -250,11 +212,9 @@ export default function Bestseller() {
     if (filters.tag !== "all") {
       products = products.filter((p) => Array.isArray(p.tags) && p.tags.includes(filters.tag));
     }
-
     if (filters.category !== "All") {
       products = products.filter((p) => p.category === filters.category);
     }
-
     if (filters.search.trim()) {
       const searchTerm = filters.search.toLowerCase();
       products = products.filter((p) =>
@@ -262,32 +222,27 @@ export default function Bestseller() {
       );
     }
 
-    products.sort((a, b) => {
-      switch (filters.sort) {
-        case "price_asc": return a.price - b.price;
-        case "price_desc": return b.price - a.price;
-        case "rating": return b.rating - a.rating;
-        case "popular": 
-        default: return b.reviews - a.reviews;
-      }
-    });
+    // Shuffle randomly
+    for (let i = products.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [products[i], products[j]] = [products[j], products[i]];
+    }
 
-    return products;
+    // Only take first 12
+    return products.slice(0, 12);
+
   }, [data, filters]);
 
   const handleAddToCart = (product) => {
     const cart = JSON.parse(localStorage.getItem("cart") || "[]");
     const existingItem = cart.find((item) => item.id === product.id);
-
     if (existingItem) {
       existingItem.qty = (existingItem.qty || 1) + 1;
     } else {
       cart.push({ ...product, qty: 1 });
     }
-
     localStorage.setItem("cart", JSON.stringify(cart));
     window.dispatchEvent(new Event("cart-updated"));
-
     setToastMessage(`${product.name} added to cart!`);
     setTimeout(() => setToastMessage(""), 4000);
   };
@@ -297,9 +252,7 @@ export default function Bestseller() {
       <div className="min-h-screen bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-            {Array.from({ length: 12 }, (_, i) => (
-              <ProductSkeleton key={i} />
-            ))}
+            {Array.from({ length: 12 }, (_, i) => (<ProductSkeleton key={i} />))}
           </div>
         </div>
       </div>

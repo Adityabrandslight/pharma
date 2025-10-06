@@ -4,7 +4,7 @@
       "slug": "ivermectin-12mg",
       "name": "Ivermectin 12mg",
       "category": "Antibiotics",
-      "img": "/images/ivermectin-12mg.jpg",
+      "img": "/images/items/IVERMECTOL 12.webp",
       "price": 149,
       "mrp": 199,
       "content": {
@@ -70,7 +70,7 @@
       "slug": "azithromycin-500mg",
       "name": "Azithromycin 500mg",
       "category": "Antibiotics",
-      "img": "/images/azithromycin-500mg.jpg",
+      "img": "/images/items/AZITHR-500.webp",
       "price": 219,
       "mrp": 279,
       "content": {
@@ -1458,14 +1458,848 @@
         ],
         "longDescription": "Minoxidil 10mg provides intensive systemic support for stubborn alopecia. By enhancing scalp blood supply, it helps revive follicles, improve density, and restore volume. Best for patients needing a stronger, non-topical solution under medical guidance."
       }
+    },
+  {
+    "slug": "zopiclone-7-5mg",
+    "name": "Zopiclone 7.5mg",
+    "category": "Sleeping Aids",
+    "img": "/images/zopiclone-7-5mg.jpg",
+    "price": 299,
+    "mrp": 349,
+    "content": {
+      "shortDescription": "Zopiclone 7.5mg tablets for fast, effective relief from short-term insomnia.",
+      "keyBenefits": [
+        "Promotes fast sleep onset",
+        "Improves sleep duration and quality",
+        "Ideal for short-term insomnia relief"
+      ],
+      "keyFeatures": [
+        "Effective 7.5mg dosage",
+        "Non-benzodiazepine hypnotic",
+        "Convenient once-nightly dosing"
+      ],
+      "longDescription": "Zopiclone 7.5mg Tablets are a prescription sleep aid designed to help individuals suffering from short-term insomnia or sleep disturbances. Belonging to the class of non-benzodiazepine hypnotics, Zopiclone acts on the central nervous system to calm the brain and promote natural, uninterrupted sleep. Ideal for stress-induced or situational insomnia, it ensures a restful night and refreshed mornings."
     }
+  },
+  {
+    "slug": "zopiclone-10mg",
+    "name": "Zopiclone 10mg",
+    "category": "Sleeping Aids",
+    "img": "/images/zopiclone-10mg.jpg",
+    "price": 349,
+    "mrp": 399,
+    "content": {
+      "shortDescription": "Zopiclone 10mg tablets for deep, uninterrupted sleep and daytime alertness.",
+      "keyBenefits": [
+        "Promotes natural sleep cycle",
+        "Improves daytime alertness",
+        "Reduces nighttime anxiety and restlessness"
+      ],
+      "keyFeatures": [
+        "Effective 10mg dosage",
+        "Fast-acting formula",
+        "Convenient once-daily tablet"
+      ],
+      "longDescription": "Zopiclone 10mg Tablets are a clinically approved prescription sleep aid designed for individuals struggling with insomnia and poor sleep quality. As a non-benzodiazepine hypnotic, it acts on the CNS to induce calmness and relaxation, allowing for deep, uninterrupted sleep. Ideal for short-term treatment under medical supervision."
+    }
+  },
+  {
+    "slug": "eszopiclone-3mg",
+    "name": "Eszopiclone 3mg",
+    "category": "Sleeping Aids",
+    "img": "/images/eszopiclone-3mg.jpg",
+    "price": 329,
+    "mrp": 379,
+    "content": {
+      "shortDescription": "Eszopiclone 3mg tablets for restful, uninterrupted sleep without next-day grogginess.",
+      "keyBenefits": [
+        "Fall asleep faster, stay asleep longer",
+        "Improves sleep quality",
+        "Reduces sleep-related anxiety"
+      ],
+      "keyFeatures": [
+        "Clinically proven 3mg formula",
+        "Non-benzodiazepine action",
+        "Suitable for long-term use under supervision"
+      ],
+      "longDescription": "Eszopiclone 3mg Tablets are designed to provide effective relief from insomnia and sleep disturbances. It interacts with brain receptors to calm the nervous system and promote natural sleep patterns, without causing a hangover effect the next morning. Ideal for stress, anxiety, or chronic sleep disorders."
+    }
+  },
+  {
+    "slug": "eszopiclone-6mg",
+    "name": "Eszopiclone 6mg",
+    "category": "Sleeping Aids",
+    "img": "/images/eszopiclone-6mg.jpg",
+    "price": 399,
+    "mrp": 449,
+    "content": {
+      "shortDescription": "Eszopiclone 6mg tablets for enhanced sleep induction and restorative rest.",
+      "keyBenefits": [
+        "Helps fall asleep quickly",
+        "Supports longer, deeper sleep",
+        "Reduces night-time awakenings"
+      ],
+      "keyFeatures": [
+        "Clinically tested 6mg strength",
+        "Non-benzodiazepine hypnotic",
+        "Once-daily evening dose"
+      ],
+      "longDescription": "Eszopiclone 6mg Tablets are an extended-strength sleep aid for individuals with moderate to severe insomnia. It calms the central nervous system and promotes longer, uninterrupted sleep, helping users wake up refreshed and alert. Recommended for short-term or supervised long-term use."
+    }
+  },
+  {
+    "slug": "zaleplon",
+    "name": "Zaleplon",
+    "category": "Sleeping Aids",
+    "img": "/images/zaleplon.jpg",
+    "price": 279,
+    "mrp": 329,
+    "content": {
+      "shortDescription": "Zaleplon tablets – fast-acting sleep aid for short-term insomnia and better sleep quality.",
+      "keyBenefits": [
+        "Promotes rapid sleep onset",
+        "Helps reduce nighttime awakenings",
+        "Supports restful, uninterrupted sleep"
+      ],
+      "keyFeatures": [
+        "Short-acting hypnotic",
+        "Quick absorption and effect",
+        "Once-daily bedtime use"
+      ],
+      "longDescription": "Zaleplon is a prescription sleep aid used to treat short-term insomnia. It helps patients fall asleep quickly and improves the overall quality of sleep by reducing night-time awakenings. Ideal for temporary or situational sleep disturbances, with minimal next-day grogginess."
+    }
+  },
+  {
+    "slug": "modafinil-200mg",
+    "name": "Modafinil 200mg",
+    "category": "ADHD & Neurological",
+    "img": "/images/modafinil-200mg.jpg",
+    "price": 499,
+    "mrp": 549,
+    "content": {
+      "shortDescription": "Modafinil 200mg tablets for enhanced wakefulness, focus, and cognitive alertness.",
+      "keyBenefits": [
+        "Promotes wakefulness and reduces fatigue",
+        "Improves focus and mental clarity",
+        "Supports a healthy sleep-wake cycle"
+      ],
+      "keyFeatures": [
+        "Each tablet contains 200mg Modafinil",
+        "Non-habit forming with low risk of dependency",
+        "Doctor-recommended for sleep disorders and productivity"
+      ],
+      "longDescription": "Modafinil 200mg Tablets are designed to enhance mental alertness, improve focus, and fight fatigue in people with sleep disorders or demanding routines. Backed by research and trusted by professionals, Modafinil offers a safe and effective way to stay awake, alert, and in control throughout your day. Ideal for narcolepsy, shift work, and productivity enhancement."
+    }
+  },
+  {
+    "slug": "modafinil-300mg",
+    "name": "Modafinil 300mg",
+    "category": "ADHD & Neurological",
+    "img": "/images/modafinil-300mg.jpg",
+    "price": 699,
+    "mrp": 749,
+    "content": {
+      "shortDescription": "Modafinil 300mg tablets for enhanced wakefulness, focus, and sustained cognitive performance.",
+      "keyBenefits": [
+        "Improved wakefulness and alertness",
+        "Enhanced cognitive function and focus",
+        "Better productivity and motivation"
+      ],
+      "keyFeatures": [
+        "High-potency 300mg dose",
+        "Non-amphetamine stimulant",
+        "Long-lasting effects up to 12–15 hours"
+      ],
+      "longDescription": "Modafinil 300mg Tablets are a high-strength cognitive enhancer promoting wakefulness, focus, and mental clarity. Suitable for individuals combating excessive sleepiness or seeking sustained productivity, it delivers a potent 300mg dose for long-lasting mental performance. Ideal for shift work, long hours, or high-demand tasks."
+    }
+  },
+  {
+    "slug": "modafinil-400mg",
+    "name": "Modafinil 400mg",
+    "category": "ADHD & Neurological",
+    "img": "/images/modafinil-400mg.jpg",
+    "price": 799,
+    "mrp": 859,
+    "content": {
+      "shortDescription": "Modafinil 400mg tablets for peak cognitive performance and sustained wakefulness.",
+      "keyBenefits": [
+        "Boosts mental alertness and focus",
+        "Fights fatigue without crash",
+        "Improves cognitive performance"
+      ],
+      "keyFeatures": [
+        "High-potency 400mg dosage",
+        "Long-lasting effect up to 12–15 hours",
+        "Non-addictive and well-tolerated"
+      ],
+      "longDescription": "Modafinil 400mg Tablets provide high-strength support for enhanced wakefulness, focus, and productivity in demanding situations. Ideal for professionals, students, or anyone facing mental fatigue, each tablet ensures long-lasting cognitive energy without the crash associated with stimulants."
+    }
+  },
+  {
+    "slug": "armodafinil-150mg",
+    "name": "Armodafinil 150mg",
+    "category": "ADHD & Neurological",
+    "img": "/images/armodafinil-150mg.jpg",
+    "price": 749,
+    "mrp": 809,
+    "content": {
+      "shortDescription": "Armodafinil 150mg tablets for sustained wakefulness and enhanced focus.",
+      "keyBenefits": [
+        "Promotes alertness and reduces fatigue",
+        "Supports mental clarity and cognitive function",
+        "Helps maintain focus during long hours or shift work"
+      ],
+      "keyFeatures": [
+        "Each tablet contains 150mg Armodafinil",
+        "Long-acting and fast-absorbing",
+        "Non-amphetamine stimulant with low risk of dependency"
+      ],
+      "longDescription": "Armodafinil 150mg Tablets are a wakefulness-promoting agent used to combat excessive daytime sleepiness. Suitable for individuals with ADHD, narcolepsy, or shift work sleep disorder, it helps enhance focus, alertness, and cognitive performance for extended periods without causing jitters or energy crashes."
+    }
+  },
+  {
+    "slug": "atomoxetine",
+    "name": "Atomoxetine",
+    "category": "ADHD & Neurological",
+    "img": "/images/atomoxetine.jpg",
+    "price": 549,
+    "mrp": 609,
+    "content": {
+      "shortDescription": "Atomoxetine tablets for managing ADHD symptoms and improving focus.",
+      "keyBenefits": [
+        "Helps increase attention and focus",
+        "Reduces hyperactivity and impulsive behavior",
+        "Supports cognitive performance in ADHD patients"
+      ],
+      "keyFeatures": [
+        "Non-stimulant ADHD medication",
+        "Once or twice daily oral dosing",
+        "Clinically tested and prescription-only"
+      ],
+      "longDescription": "Atomoxetine is a non-stimulant medication approved for the treatment of ADHD. It works by increasing norepinephrine levels in the brain to improve attention, reduce impulsivity, and support better cognitive control. Ideal for children, adolescents, and adults managing ADHD symptoms."
+    }
+  },
+  {
+    "slug": "orlistat-120mg",
+    "name": "Orlistat 120mg",
+    "category": "Weight Loss & Female Health",
+    "img": "/images/orlistat-120mg.jpg",
+    "price": 399,
+    "mrp": 449,
+    "content": {
+      "shortDescription": "Orlistat 120mg tablets to support weight loss and fat absorption reduction.",
+      "keyBenefits": [
+        "Helps lose more weight than diet alone",
+        "Improves long-term weight management",
+        "Reduces risk of obesity-related conditions"
+      ],
+      "keyFeatures": [
+        "Clinically proven fat blocker (120mg Orlistat)",
+        "Non-stimulant formula",
+        "Prescription-strength support"
+      ],
+      "longDescription": "Orlistat 120mg Tablets are formulated to support weight loss by blocking the absorption of dietary fat. Ideal for individuals following a reduced-calorie diet, it helps increase fat loss results, maintain a healthy weight, and reduce the risks of type 2 diabetes, high cholesterol, and hypertension. Safe, stimulant-free, and clinically validated."
+    }
+  },
+  {
+    "slug": "contrave",
+    "name": "Contrave",
+    "category": "Weight Loss & Female Health",
+    "img": "/images/contrave.jpg",
+    "price": 649,
+    "mrp": 709,
+    "content": {
+      "shortDescription": "Contrave tablets for dual-action support to manage hunger, cravings, and sustainable weight loss.",
+      "keyBenefits": [
+        "Reduces cravings and hunger",
+        "Promotes sustainable weight loss",
+        "Improves emotional eating control"
+      ],
+      "keyFeatures": [
+        "Combination of Bupropion & Naltrexone",
+        "Clinically proven formula",
+        "Prescription-based and doctor-supervised"
+      ],
+      "longDescription": "Contrave Tablets are a dual-action weight-loss medication targeting both the brain’s hunger signals and cravings. Ideal for adults struggling with obesity or emotional eating, it supports sustainable weight loss when combined with diet and exercise. Backed by clinical studies and trusted by healthcare professionals."
+    }
+  },
+  {
+    "slug": "mifepristone-misoprostol-kit",
+    "name": "Mifepristone & Misoprostol Kit",
+    "category": "Weight Loss & Female Health",
+    "img": "/images/mifepristone-misoprostol-kit.jpg",
+    "price": 799,
+    "mrp": 879,
+    "content": {
+      "shortDescription": "Combikit of Mifepristone & Misoprostol for safe, medically approved early pregnancy termination.",
+      "keyBenefits": [
+        "Non-surgical early pregnancy termination",
+        "Clinically approved and WHO-recommended",
+        "Private and convenient home use"
+      ],
+      "keyFeatures": [
+        "Dual-drug mechanism: Mifepristone 200mg + Misoprostol 800mcg",
+        "High efficacy rate",
+        "Compact and user-friendly packaging"
+      ],
+      "longDescription": "The Combikit of Mifepristone & Misoprostol Tablets provides a safe, clinically tested, non-surgical method for early pregnancy termination (up to 9 weeks gestation). Mifepristone blocks progesterone while Misoprostol stimulates uterine contractions to expel pregnancy tissue naturally. Recommended for home use under medical guidance."
+    }
+  },
+  {
+    "slug": "cabergolin",
+    "name": "Cabergolin",
+    "category": "Weight Loss & Female Health",
+    "img": "/images/cabergolin.jpg",
+    "price": 499,
+    "mrp": 559,
+    "content": {
+      "shortDescription": "Cabergolin tablets for hormonal balance and prolactin regulation in men and women.",
+      "keyBenefits": [
+        "Restores hormonal balance",
+        "Improves sexual health",
+        "Reduces tumor size (prolactinomas)"
+      ],
+      "keyFeatures": [
+        "Dopamine agonist action",
+        "Long-lasting effect (1–2 weekly doses)",
+        "Clinically proven and widely prescribed"
+      ],
+      "longDescription": "Cabergolin Tablets are used to treat conditions caused by high prolactin levels, including irregular menstrual cycles, infertility, and prolactinomas. By restoring hormonal balance, it improves reproductive function and sexual health. Administered 1–2 times per week, it provides a convenient long-term solution under medical supervision."
+    }
+  },
+  {
+    "slug": "estradiol",
+    "name": "Estradiol",
+    "category": "Weight Loss & Female Health",
+    "img": "/images/estradiol.jpg",
+    "price": 349,
+    "mrp": 399,
+    "content": {
+      "shortDescription": "Estradiol tablets to support hormonal balance and female reproductive health.",
+      "keyBenefits": [
+        "Helps regulate menstrual cycles",
+        "Supports overall hormonal balance",
+        "Improves menopausal symptoms"
+      ],
+      "keyFeatures": [
+        "Clinically approved estrogen therapy",
+        "Prescription-based medication",
+        "Safe long-term use under supervision"
+      ],
+      "longDescription": "Estradiol is a prescription medication used to support hormonal balance in women. It helps regulate menstrual cycles, reduce menopausal symptoms, and maintain overall reproductive health. Ideal for women requiring estrogen therapy, it should be taken under medical supervision for optimal safety and effectiveness."
+    }
+  },
   
+  {
+    "slug": "apixaban-5mg",
+    "name": "Apixaban 5mg",
+    "category": "Heart Health",
+    "img": "/images/apixaban-5mg.jpg",
+    "price": 699,
+    "mrp": 759,
+    "content": {
+      "shortDescription": "Apixaban 5mg tablets for reliable prevention of blood clots, stroke, and cardiovascular complications.",
+      "keyBenefits": [
+        "Reduces risk of stroke and systemic embolism",
+        "Prevents deep vein thrombosis and pulmonary embolism",
+        "Minimal lifestyle interference with no routine blood monitoring"
+      ],
+      "keyFeatures": [
+        "Selective Factor Xa inhibitor",
+        "Twice-daily oral dosage",
+        "No need for routine blood monitoring"
+      ],
+      "longDescription": "Apixaban 5mg Tablets are an advanced oral anticoagulant used to reduce the risk of blood clots and prevent serious cardiovascular complications like stroke, DVT, and PE. Ideal for patients with non-valvular atrial fibrillation or post-surgery, it offers effective anticoagulation with fewer dietary restrictions and no need for routine blood tests."
+    }
+  },
+  {
+    "slug": "telmisartan",
+    "name": "Telmisartan",
+    "category": "Heart Health",
+    "img": "/images/telmisartan.jpg",
+    "price": 499,
+    "mrp": 559,
+    "content": {
+      "shortDescription": "Telmisartan tablets for effective blood pressure management and long-term heart health.",
+      "keyBenefits": [
+        "Effectively controls high blood pressure",
+        "Protects kidney and heart health",
+        "Reduces risk of stroke and heart attack"
+      ],
+      "keyFeatures": [
+        "Long-lasting 24-hour control",
+        "Angiotensin II receptor blocker (ARB)",
+        "Well-tolerated with minimal side effects"
+      ],
+      "longDescription": "Telmisartan Tablets are a trusted antihypertensive medication used to control high blood pressure and protect cardiovascular health. As an ARB, it relaxes blood vessels, reduces strain on the heart, and lowers the risk of strokes and heart attacks. Suitable for daily use under medical supervision."
+    }
+  },
+  {
+    "slug": "atorvastin",
+    "name": "Atrovastin",
+    "category": "Heart Health",
+    "img": "/images/atorvastin.jpg",
+    "price": 449,
+    "mrp": 509,
+    "content": {
+      "shortDescription": "Atrovastin tablets for effective cholesterol management and cardiovascular risk reduction.",
+      "keyBenefits": [
+        "Lowers bad cholesterol (LDL) and triglycerides",
+        "Boosts good cholesterol (HDL)",
+        "Reduces risk of heart attack and stroke"
+      ],
+      "keyFeatures": [
+        "Clinically proven statin medication",
+        "Easy daily oral dosage",
+        "Suitable for long-term use under physician guidance"
+      ],
+      "longDescription": "Atrovastin Tablets (Atorvastatin) are a widely prescribed statin used to manage cholesterol levels, lower LDL and triglycerides, and raise HDL. Recommended for individuals at risk of heart disease, diabetes, or high cholesterol, it supports long-term cardiovascular health alongside diet and lifestyle improvements."
+    }
+  },
 
-
+  {
+    "slug": "anastrozole",
+    "name": "Anastrozole",
+    "category": "Anti-Cancer",
+    "img": "/images/anastrozole.jpg",
+    "price": 649,
+    "mrp": 719,
+    "content": {
+      "shortDescription": "Anastrozole tablets for estrogen suppression in hormone-sensitive breast cancer and hormone therapy.",
+      "keyBenefits": [
+        "Suppresses estrogen levels",
+        "Supports hormonal balance",
+        "Enhances cancer recovery protocols"
+      ],
+      "keyFeatures": [
+        "Potent aromatase inhibitor formula",
+        "Once-daily oral tablet",
+        "Clinically researched and doctor recommended"
+      ],
+      "longDescription": "Anastrozole Tablets provide powerful estrogen suppression, making them essential in the treatment of hormone-sensitive breast cancer and estrogen-related side effects. Used under medical supervision, they offer safe, convenient hormonal control with significant benefits for postmenopausal women and individuals in hormone regulation therapy."
+    }
+  },
+  {
+    "slug": "tamoxifen",
+    "name": "Tamoxifen",
+    "category": "Anti-Cancer",
+    "img": "/images/tamoxifen.jpg",
+    "price": 599,
+    "mrp": 659,
+    "content": {
+      "shortDescription": "Tamoxifen tablets for treating and preventing hormone receptor-positive breast cancer.",
+      "keyBenefits": [
+        "Prevents recurrence of breast cancer",
+        "Reduces risk in high-risk individuals",
+        "Supports long-term hormonal balance"
+      ],
+      "keyFeatures": [
+        "Selective estrogen receptor modulator (SERM)",
+        "Convenient oral tablet form",
+        "Backed by decades of clinical use"
+      ],
+      "longDescription": "Tamoxifen Tablets are a well-established hormonal therapy used to treat and prevent estrogen-sensitive breast cancer. By blocking estrogen in breast tissue, Tamoxifen helps prevent recurrence and progression of cancer in early and advanced stages. Also prescribed for high-risk individuals, it serves as a preventive measure."
+    }
+  },
+  {
+    "slug": "levatinib",
+    "name": "Levatinib",
+    "category": "Anti-Cancer",
+    "img": "/images/levatinib.jpg",
+    "price": 799,
+    "mrp": 869,
+    "content": {
+      "shortDescription": "Levatinib tablets for targeted cancer therapy in thyroid, kidney, and liver cancers.",
+      "keyBenefits": [
+        "Targeted cancer suppression",
+        "Improved progression-free survival",
+        "Non-invasive oral therapy"
+      ],
+      "keyFeatures": [
+        "Tyrosine kinase inhibitor action",
+        "Broad cancer applicability",
+        "Doctor-prescribed and clinically backed"
+      ],
+      "longDescription": "Levatinib Tablets are a powerful targeted therapy used in advanced thyroid, kidney, and liver cancers. As a tyrosine kinase inhibitor, it blocks cancer-promoting pathways, reduces tumor growth, and extends progression-free survival. Oral administration provides a convenient, non-invasive treatment option under medical supervision."
+    }
+  },
+  {
+    "slug": "oseltamivir",
+    "name": "Oseltamivir",
+    "category": "Anti-Cancer",
+    "img": "/images/oseltamivir.jpg",
+    "price": 399,
+    "mrp": 449,
+    "content": {
+      "shortDescription": "Oseltamivir tablets for fast and effective treatment of influenza (flu) symptoms.",
+      "keyBenefits": [
+        "Faster recovery from influenza symptoms",
+        "Prevents flu transmission in close contact settings",
+        "Reduces risk of flu complications"
+      ],
+      "keyFeatures": [
+        "Clinically proven antiviral action",
+        "Easy oral dosage",
+        "Doctor-recommended for seasonal flu"
+      ],
+      "longDescription": "Oseltamivir Tablets offer a reliable antiviral treatment for influenza A and B. It helps shorten illness duration, reduce symptoms, and protect against complications such as pneumonia and sinus infections. Suitable for adults and children over one year, it is most effective when started early and used under medical supervision."
+    }
+  },
   
+  {
+    "slug": "tapentadol-100mg",
+    "name": "Tapentadol 100mg",
+    "category": "Pain-Killers",
+    "img": "/images/tapentadol-100mg.jpg",
+    "price": 549,
+    "mrp": 619,
+    "content": {
+      "shortDescription": "Tapentadol 100mg tablets for fast and effective relief of moderate to severe pain.",
+      "keyBenefits": [
+        "Rapid pain relief for acute or chronic conditions",
+        "Effective for post-surgical, musculoskeletal, or nerve pain",
+        "Less gastrointestinal upset compared to traditional opioids"
+      ],
+      "keyFeatures": [
+        "Dual mechanism of action (opioid + norepinephrine reuptake inhibition)",
+        "Extended pain control",
+        "Convenient oral tablet form"
+      ],
+      "longDescription": "Tapentadol 100mg Tablets provide powerful relief for moderate to severe pain. Combining opioid receptor agonism with norepinephrine reuptake inhibition, it works quickly and lasts longer than conventional painkillers. Ideal for post-operative, musculoskeletal, or neuropathic pain, it offers advanced pain management with fewer side effects."
+    }
+  },
+  {
+    "slug": "carisoprodol-350mg",
+    "name": "Carisoprodol 350mg",
+    "category": "Pain-Killers",
+    "img": "/images/carisoprodol-350mg.jpg",
+    "price": 399,
+    "mrp": 459,
+    "content": {
+      "shortDescription": "Carisoprodol 350mg tablets for fast-acting relief from muscle pain and spasms.",
+      "keyBenefits": [
+        "Rapid relief from muscle pain and tension",
+        "Improves physical comfort and mobility",
+        "Supports recovery from injuries"
+      ],
+      "keyFeatures": [
+        "Potent muscle relaxant formula",
+        "Fast onset within 30 minutes",
+        "Short-term use approved (2–3 weeks)"
+      ],
+      "longDescription": "Carisoprodol 350mg Tablets are a prescription muscle relaxant that alleviates acute musculoskeletal pain and stiffness. Acting on the central nervous system, it relaxes tense muscles, eases discomfort from injuries or strain, and supports short-term recovery under medical supervision."
+    }
+  },
+  {
+    "slug": "pregabalin-300mg",
+    "name": "Pregabalin 300mg",
+    "category": "Pain-Killers",
+    "img": "/images/pregabalin-300mg.jpg",
+    "price": 499,
+    "mrp": 559,
+    "content": {
+      "shortDescription": "Pregabalin 300mg tablets for neuropathic pain, anxiety, and seizure control.",
+      "keyBenefits": [
+        "Effective nerve pain control",
+        "Manages generalized anxiety disorder",
+        "Supports seizure control"
+      ],
+      "keyFeatures": [
+        "High-strength 300mg dose",
+        "Fast onset of action",
+        "Neuro-targeting mechanism"
+      ],
+      "longDescription": "Pregabalin 300mg Tablets provide advanced relief for nerve pain, anxiety disorders, and epilepsy-related seizures. Acting on overactive nerves in the brain and spinal cord, it improves mobility, reduces discomfort, and enhances quality of life under medical supervision."
+    }
+  },
+  {
+    "slug": "pregabalin-450mg",
+    "name": "Pregabalin 450mg",
+    "category": "Pain-Killers",
+    "img": "/images/pregabalin-450mg.jpg",
+    "price": 649,
+    "mrp": 719,
+    "content": {
+      "shortDescription": "Pregabalin 450mg tablets for high-strength relief from neuropathic pain, anxiety, and seizures.",
+      "keyBenefits": [
+        "Long-lasting neuropathic pain relief",
+        "Helps reduce anxiety symptoms",
+        "Controls seizure activity"
+      ],
+      "keyFeatures": [
+        "High-strength 450mg formulation",
+        "Neuro-calming mechanism",
+        "Clinically proven and widely prescribed"
+      ],
+      "longDescription": "Pregabalin 450mg Tablets deliver targeted, high-strength relief for nerve pain, anxiety disorders, and certain seizures. Designed for individuals who need stronger support than lower doses, it modulates nerve activity and provides consistent symptom control under medical supervision."
+    }
+  },
+  {
+    "slug": "gabapentin-400mg",
+    "name": "Gabapentin 400mg",
+    "category": "Pain-Killers",
+    "img": "/images/gabapentin-400mg.jpg",
+    "price": 399,
+    "mrp": 449,
+    "content": {
+      "shortDescription": "Gabapentin 400mg tablets for effective nerve pain and seizure relief.",
+      "keyBenefits": [
+        "Relieves nerve pain and discomfort",
+        "Supports seizure management",
+        "Improves sleep and mood stability"
+      ],
+      "keyFeatures": [
+        "400mg active dosage",
+        "Non-habit forming",
+        "Widely prescribed and clinically trusted"
+      ],
+      "longDescription": "Gabapentin 400mg Tablets are a versatile, non-opioid medication that alleviates nerve-related pain and helps control certain seizures. It improves comfort, mobility, and sleep quality for individuals with chronic neuropathic conditions under medical supervision."
+    }
+  },
+  {
+    "slug": "gabapentin-600mg",
+    "name": "Gabapentin 600mg",
+    "category": "Pain-Killers",
+    "img": "/images/gabapentin-600mg.jpg",
+    "price": 499,
+    "mrp": 559,
+    "content": {
+      "shortDescription": "Gabapentin 600mg tablets for enhanced relief from neuropathic pain and seizure disorders.",
+      "keyBenefits": [
+        "Powerful nerve pain relief",
+        "Supports seizure control",
+        "Improves daily functioning and comfort"
+      ],
+      "keyFeatures": [
+        "600mg high-strength dosage",
+        "Non-habit forming",
+        "Clinically trusted and widely prescribed"
+      ],
+      "longDescription": "Gabapentin 600mg Tablets provide high-strength support for managing nerve pain and certain seizure disorders. It is effective for patients requiring stronger neuropathic relief while maintaining safety and tolerability under medical supervision."
+    }
+  },
+  {
+    "slug": "gabapentin-800mg",
+    "name": "Gabapentin 800mg",
+    "category": "Pain-Killers",
+    "img": "/images/gabapentin-800mg.jpg",
+    "price": 599,
+    "mrp": 659,
+    "content": {
+      "shortDescription": "Gabapentin 800mg tablets for maximum neuropathic pain and seizure relief.",
+      "keyBenefits": [
+        "Maximum nerve pain relief",
+        "Supports seizure management",
+        "Enhances comfort and daily life"
+      ],
+      "keyFeatures": [
+        "800mg high-strength dosage",
+        "Non-habit forming",
+        "Clinically trusted and widely prescribed"
+      ],
+      "longDescription": "Gabapentin 800mg Tablets offer maximum relief for nerve pain, anxiety, and certain seizures. Designed for patients requiring the highest therapeutic effect, it provides consistent symptom control and improved quality of life under medical supervision."
+    }
+  },
+  
+  {
+    "slug": "t3",
+    "name": "T3",
+    "category": "Thyroid",
+    "img": "/images/t3.jpg",
+    "price": 349,
+    "mrp": 399,
+    "content": {
+      "shortDescription": "T3 Tablets offer fast-acting thyroid hormone support for low T3 levels and metabolic boost.",
+      "keyBenefits": [
+        "Boosts metabolism and energy",
+        "Improves mental alertness",
+        "Supports thyroid hormone balance"
+      ],
+      "keyFeatures": [
+        "Contains Liothyronine Sodium (Synthetic T3)",
+        "Tablet form for precise dosing",
+        "Widely prescribed worldwide"
+      ],
+      "longDescription": "T3 Tablets provide advanced support for individuals with low T3 levels or hypothyroidism. Each tablet contains synthetic Liothyronine Sodium, a fast-acting thyroid hormone that enhances metabolism, restores energy, and improves cognitive function. Recommended for metabolic support, thyroid regulation, and energy enhancement under medical supervision."
+    }
+  },
+  {
+    "slug": "t4",
+    "name": "T4",
+    "category": "Thyroid",
+    "img": "/images/t4.jpg",
+    "price": 299,
+    "mrp": 349,
+    "content": {
+      "shortDescription": "T4 Tablets provide essential thyroid hormone replacement for hypothyroidism and metabolic support.",
+      "keyBenefits": [
+        "Restores hormonal balance",
+        "Improves cognitive and physical functioning",
+        "Reduces hypothyroid symptoms"
+      ],
+      "keyFeatures": [
+        "Synthetic Levothyroxine for reliable results",
+        "Easy once-daily dosage",
+        "Clinically proven and widely prescribed"
+      ],
+      "longDescription": "T4 Tablets contain Levothyroxine Sodium, a synthetic form of thyroxine (T4) essential for regulating metabolism, energy, and overall hormonal balance. Prescribed for hypothyroidism, T4 helps restore hormone levels, relieve fatigue, improve focus, and maintain overall well-being with consistent daily use under medical guidance."
+    }
+  },
+  {
+    "slug": "t3-t4",
+    "name": "T3 + T4",
+    "category": "Thyroid",
+    "img": "/images/t3-t4.jpg",
+    "price": 399,
+    "mrp": 449,
+    "content": {
+      "shortDescription": "T3 + T4 Tablets provide dual thyroid hormone support for optimal metabolic and hormonal balance.",
+      "keyBenefits": [
+        "Restores hormonal balance",
+        "Supports weight management",
+        "Improves mood and mental focus"
+      ],
+      "keyFeatures": [
+        "Dual-hormone formula (T3 + T4)",
+        "Pharmaceutical-grade quality",
+        "Easy-to-swallow tablets"
+      ],
+      "longDescription": "T3 + T4 Tablets combine Triiodothyronine (T3) and Thyroxine (T4) for comprehensive thyroid hormone support. Designed for individuals with hypothyroidism or low energy, these tablets help restore metabolism, enhance energy, improve cognitive function, and assist with weight management. Clinically supported and recommended for use under medical supervision."
+    }
+  },
+  
+  {
+    "slug": "ldn-1-5mg",
+    "name": "LDN 1.5mg",
+    "category": "Deaddiction",
+    "img": "/images/ldn-1-5mg.jpg",
+    "price": 349,
+    "mrp": 399,
+    "content": {
+      "shortDescription": "Low Dose Naltrexone 1.5mg Tablets support immune modulation and chronic pain relief.",
+      "keyBenefits": [
+        "Immune modulation and inflammation control",
+        "Supports chronic pain and fatigue relief",
+        "Enhances mental clarity and mood"
+      ],
+      "keyFeatures": [
+        "Precision micro-dose formula (1.5mg)",
+        "Non-addictive and non-sedating",
+        "Versatile application across chronic conditions"
+      ],
+      "longDescription": "Low Dose Naltrexone (LDN) 1.5mg Tablets offer gentle support for immune function, inflammation, and neurological health. By modulating endorphin levels and immune activity, LDN can improve chronic pain, fatigue, and mood in conditions like fibromyalgia, MS, and autoimmune disorders. Suitable for long-term wellness plans under medical supervision."
+    }
+  },
+  {
+    "slug": "ldn-3mg",
+    "name": "LDN 3mg",
+    "category": "Deaddiction",
+    "img": "/images/ldn-3mg.jpg",
+    "price": 399,
+    "mrp": 449,
+    "content": {
+      "shortDescription": "Low Dose Naltrexone 3mg Tablets provide immune support and help manage chronic inflammation.",
+      "keyBenefits": [
+        "Supports immune system regulation",
+        "Reduces chronic pain and inflammation",
+        "Promotes mood and neurological balance"
+      ],
+      "keyFeatures": [
+        "Precision 3mg low-dose formulation",
+        "Non-habit forming and opioid-free",
+        "Clinician-endorsed off-label use"
+      ],
+      "longDescription": "Low Dose Naltrexone 3mg Tablets are designed to gently modulate the immune system, reduce inflammation, and support neurological health. Used off-label for conditions like fibromyalgia, autoimmune disorders, and chronic pain, LDN 3mg promotes overall wellness and emotional balance without addictive risks."
+    }
+  },
+  {
+    "slug": "ldn-4-5mg",
+    "name": "LDN 4.5mg",
+    "category": "Deaddiction",
+    "img": "/images/ldn-4-5mg.jpg",
+    "price": 449,
+    "mrp": 499,
+    "content": {
+      "shortDescription": "Low Dose Naltrexone 4.5mg Tablets for immune support, inflammation control, and chronic pain relief.",
+      "keyBenefits": [
+        "Immune system modulation",
+        "Improved quality of life with reduced pain and fatigue",
+        "Non-addictive with minimal side effects"
+      ],
+      "keyFeatures": [
+        "Low-dose targeted formula (4.5mg)",
+        "Safe for long-term use under supervision",
+        "Compounded precision for consistent potency"
+      ],
+      "longDescription": "Low Dose Naltrexone 4.5mg Tablets help balance immune function, reduce chronic inflammation, and improve overall quality of life in conditions such as autoimmune disorders, fibromyalgia, and chronic fatigue syndrome. This non-addictive, physician-guided therapy enhances endorphin release and supports holistic wellness."
+    }
+  },
+  {
+    "slug": "naltrexone-50mg",
+    "name": "Naltrexone 50mg",
+    "category": "Deaddiction",
+    "img": "/images/naltrexone-50mg.jpg",
+    "price": 349,
+    "mrp": 399,
+    "content": {
+      "shortDescription": "Naltrexone 50mg Tablets help reduce alcohol and opioid cravings and support recovery programs.",
+      "keyBenefits": [
+        "Reduces cravings for alcohol and opioids",
+        "Supports addiction recovery programs",
+        "Promotes healthier lifestyle adherence"
+      ],
+      "keyFeatures": [
+        "Oral tablet with 50mg dose",
+        "Clinically proven for addiction therapy",
+        "Used under medical supervision"
+      ],
+      "longDescription": "Naltrexone 50mg Tablets are an FDA-approved medication used in addiction treatment to decrease alcohol and opioid cravings. By blocking opioid receptors, it reduces the rewarding effects of substance use, aiding recovery and supporting long-term abstinence in supervised treatment programs."
+    }
+  },
+  {
+    "slug": "varenicline-0-5mg",
+    "name": "Varenicline 0.5mg",
+    "category": "Deaddiction",
+    "img": "/images/varenicline-0-5mg.jpg",
+    "price": 399,
+    "mrp": 449,
+    "content": {
+      "shortDescription": "Varenicline 0.5mg Tablets assist in smoking cessation by reducing nicotine cravings and withdrawal symptoms.",
+      "keyBenefits": [
+        "Reduces nicotine cravings",
+        "Eases withdrawal symptoms",
+        "Supports smoking cessation success"
+      ],
+      "keyFeatures": [
+        "Partial nicotinic receptor agonist",
+        "Gradual dose for safer initiation",
+        "Prescribed under medical supervision"
+      ],
+      "longDescription": "Varenicline 0.5mg Tablets are used to support smoking cessation by reducing nicotine cravings and alleviating withdrawal symptoms. Acting as a partial agonist at nicotinic receptors, Varenicline eases the transition to quitting smoking while helping maintain motivation and long-term success in cessation programs."
+    }
+  },
+  {
+    "slug": "varenicline-1mg",
+    "name": "Varenicline 1mg",
+    "category": "Deaddiction",
+    "img": "/images/varenicline-1mg.jpg",
+    "price": 449,
+    "mrp": 499,
+    "content": {
+      "shortDescription": "Varenicline 1mg Tablets provide advanced support for quitting smoking by reducing cravings and withdrawal effects.",
+      "keyBenefits": [
+        "Suppresses nicotine cravings effectively",
+        "Minimizes withdrawal symptoms",
+        "Improves success rates for quitting smoking"
+      ],
+      "keyFeatures": [
+        "Higher-dose therapy for advanced support",
+        "Partial nicotinic receptor agonist",
+        "Prescribed with medical oversight"
+      ],
+      "longDescription": "Varenicline 1mg Tablets are prescribed to help individuals quit smoking by reducing cravings and withdrawal symptoms associated with nicotine dependence. The higher dose provides more robust support for cessation efforts, improving adherence to quitting programs and promoting long-term abstinence under physician guidance."
+    }
+  }
+]
 
-
-
-
-  ]
 }
