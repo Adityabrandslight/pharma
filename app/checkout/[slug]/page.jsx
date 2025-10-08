@@ -50,7 +50,7 @@ export default function CheckoutPage() {
         return;
       }
 
-      fetch("/data/Products.json")
+      fetch("/data/products.json")
         .then((r) => r.json())
         .then((data) => {
           const found = (data.products || []).filter((p) =>
