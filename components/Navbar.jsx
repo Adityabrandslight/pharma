@@ -256,7 +256,7 @@ export default function MedicineCategoryNav() {
                       >
                         <span className="line-clamp-1">{p.name}</span>
                         {typeof p.price === "number" && (
-                          <span className="shrink-0 text-[12px] font-medium text-slate-600">₹{p.price}</span>
+                          <span className="shrink-0 text-[12px] font-medium text-slate-600">${p.price}</span>
                         )}
                       </Link>
                     </li>

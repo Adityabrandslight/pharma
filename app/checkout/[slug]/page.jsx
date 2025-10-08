@@ -265,7 +265,7 @@ export default function CheckoutPage() {
                 <div className="px-6 pb-6 space-y-3">
                   <div className="flex justify-between text-sm">
                     <span className="text-slate-600">Subtotal</span>
-                    <span className="text-slate-900 font-semibold">₹${subtotal.toLocaleString()}</span>
+                    <span className="text-slate-900 font-semibold">$${subtotal.toLocaleString()}</span>
                   </div>
                   <div className="flex justify-between text-sm">
                     <span className="text-slate-600 flex items-center gap-1">
@@ -276,7 +276,7 @@ export default function CheckoutPage() {
                       {shipping === 0 ? (
                         <span className="text-green-600 font-bold">Free</span>
                       ) : (
-                        `₹${shipping}`
+                        `$${shipping}`
                       )}
                     </span>
                   </div>

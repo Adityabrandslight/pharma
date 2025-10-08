@@ -38,7 +38,7 @@ function toHtml(order) {
         <tr>
           <td style="padding:8px;border-bottom:1px solid #eee">${i.name}</td>
           <td style="padding:8px;text-align:center;border-bottom:1px solid #eee">${i.qty || 1}</td>
-          <td style="padding:8px;text-align:right;border-bottom:1px solid #eee">₹${Number(i.price || 0).toLocaleString()}</td>
+          <td style="padding:8px;text-align:right;border-bottom:1px solid #eee">$${Number(i.price || 0).toLocaleString()}</td>
         </tr>`
     )
     .join("");
@@ -70,9 +70,9 @@ function toHtml(order) {
     </table>
 
     <div style="margin-top:12px">
-      <p style="margin:4px 0">Subtotal: <strong>₹${order.subtotal.toLocaleString()}</strong></p>
-      <p style="margin:4px 0">Shipping: <strong>${order.shipping ? `₹${order.shipping.toLocaleString()}` : "Free"}</strong></p>
-      <p style="margin:4px 0;font-size:16px">Total: <strong>₹${order.total.toLocaleString()}</strong></p>
+      <p style="margin:4px 0">Subtotal: <strong>$${order.subtotal.toLocaleString()}</strong></p>
+      <p style="margin:4px 0">Shipping: <strong>${order.shipping ? `$${order.shipping.toLocaleString()}` : "Free"}</strong></p>
+      <p style="margin:4px 0;font-size:16px">Total: <strong>$${order.total.toLocaleString()}</strong></p>
     </div>
 
     ${order.hasPrescription ? `<p style="margin-top:12px;color:#0a7">Prescription attached.</p>` : ""}
@@ -81,7 +81,7 @@ function toHtml(order) {
 
 function toText(order) {
   const items = order.items
-    .map((i) => `- ${i.name} x${i.qty || 1} @ ₹${i.price}`)
+    .map((i) => `- ${i.name} x${i.qty || 1} @ $${i.price}`)
     .join("\n");
 
   return [
@@ -96,9 +96,9 @@ function toText(order) {
     "Items:",
     items,
     "",
-    `Subtotal: ₹${order.subtotal}`,
-    `Shipping: ${order.shipping ? `₹${order.shipping}` : "Free"}`,
-    `Total: ₹${order.total}`,
+    `Subtotal: $${order.subtotal}`,
+    `Shipping: ${order.shipping ? `$${order.shipping}` : "Free"}`,
+    `Total: $${order.total}`,
   ]
     .filter(Boolean)
     .join("\n");
@@ -150,7 +150,7 @@ export async function POST(req) {
       from: process.env.MAIL_FROM,
       to: process.env.MAIL_TO_CLIENT,
       replyTo: order.customer.email,
-      subject: `New Order #${order.id} — ₹${order.total.toLocaleString()}`,
+      subject: `New Order #${order.id} — $${order.total.toLocaleString()}`,
       text,
       html,
       attachments,

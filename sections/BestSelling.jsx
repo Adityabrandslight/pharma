@@ -28,8 +28,8 @@ function PriceDisplay({ price, mrp }) {
   return (
     <div className="space-y-1">
       <div className="flex items-center gap-3">
-        <span className="text-xl font-bold text-gray-900">₹{price.toLocaleString("en-IN")}</span>
-        {discount > 0 && <span className="text-sm text-gray-500 line-through">₹{mrp.toLocaleString("en-IN")}</span>}
+        <span className="text-xl font-bold text-gray-900">${price.toLocaleString("en-IN")}</span>
+        {discount > 0 && <span className="text-sm text-gray-500 line-through">${mrp.toLocaleString("en-IN")}</span>}
       </div>
       {discount > 0 && <span className="inline-block text-xs font-semibold text-green-600 bg-green-100 px-2 py-1 rounded">Save {discount}%</span>}
     </div>

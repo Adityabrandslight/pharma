@@ -166,17 +166,17 @@ export default function ProductPage() {
             <div className="space-y-3 py-6 border-y border-gray-200">
               <div className="flex items-baseline space-x-4">
                 <span className="text-4xl font-bold text-sky-600">
-                  ₹{product.price.toLocaleString()}
+                  ${product.price.toLocaleString()}
                 </span>
                 {product.mrp > product.price && (
                   <span className="text-xl text-gray-400 line-through">
-                    ₹{product.mrp.toLocaleString()}
+                    ${product.mrp.toLocaleString()}
                   </span>
                 )}
               </div>
               {discount > 0 && (
                 <p className="text-sm text-green-600 font-medium">
-                  You save ₹{(product.mrp - product.price).toLocaleString()} ({discount}% discount)
+                  You save ${(product.mrp - product.price).toLocaleString()} ({discount}% discount)
                 </p>
               )}
               <p className="text-xs text-gray-500">
@@ -211,7 +211,7 @@ export default function ProductPage() {
                 </div>
                 {quantity > 1 && (
                   <div className="text-sm text-gray-600">
-                    Total: <span className="font-bold text-sky-600">₹{totalPrice.toLocaleString()}</span>
+                    Total: <span className="font-bold text-sky-600">${totalPrice.toLocaleString()}</span>
                   </div>
                 )}
               </div>
@@ -242,7 +242,7 @@ export default function ProductPage() {
                 <Info className="w-5 h-5 text-sky-600 flex-shrink-0 mt-0.5" />
                 <div className="text-sm text-gray-700">
                   <p className="font-semibold text-sky-900 mb-1">Important Information</p>
-                  <p>Please consult your physician before using this product. Free shipping on orders above ₹999.</p>
+                  <p>Please consult your physician before using this product. Free shipping on orders above $999.</p>
                 </div>
               </div>
             </div>
@@ -337,7 +337,7 @@ export default function ProductPage() {
           <Link href={`/product/${p.slug}`} className="w-full">
             <Image src={p.img} alt={p.name} width={200} height={200} className="object-contain rounded" />
             <p className="mt-2 text-sm font-medium">{p.name}</p>
-            <p className="text-sm text-gray-600">₹{p.price.toLocaleString()}</p>
+            <p className="text-sm text-gray-600">${p.price.toLocaleString()}</p>
           </Link>
 
           <div className="mt-3 flex  sm:space-x-2 w-full gap-2">
