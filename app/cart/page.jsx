@@ -64,7 +64,7 @@ export default function CartPage() {
     return (
       <div className="min-h-screen bg-white flex items-center justify-center">
         <div className="text-center space-y-4">
-          <div className="w-12 h-12 border-2 border-gray-300 border-t-blue-600 rounded-full animate-spin mx-auto"></div>
+          <div className="w-12 h-12 border-2 border-gray-300 border-t-sky-600 rounded-full animate-spin mx-auto"></div>
           <p className="text-gray-600 font-medium">Loading your cart...</p>
         </div>
       </div>
@@ -86,7 +86,7 @@ export default function CartPage() {
               </div>
               <Link
                 href="/"
-                className="inline-flex items-center gap-2 bg-blue-600 text-white px-8 py-3 rounded font-semibold hover:bg-blue-700 transition-colors shadow-lg shadow-blue-600/20"
+                className="inline-flex items-center gap-2 bg-sky-600 text-white px-8 py-3 rounded font-semibold hover:bg-sky-700 transition-colors shadow-lg shadow-sky-600/20"
               >
                 <ShoppingBag className="h-5 w-5" />
                 <span>Start Shopping</span>
@@ -149,7 +149,7 @@ export default function CartPage() {
                 >
                   <div className="flex gap-6">
                     {/* Product Image */}
-                    <div className="w-28 h-28 bg-gradient-to-br from-blue-50 to-gray-50 rounded-lg overflow-hidden flex-shrink-0 border border-gray-200">
+                    <div className="w-28 h-28 bg-gradient-to-br from-sky-50 to-gray-50 rounded-lg overflow-hidden flex-shrink-0 border border-gray-200">
                       <Image
                         src={item.img}
                         alt={item.name}
@@ -182,7 +182,7 @@ export default function CartPage() {
                       </div>
 
                       <div className="flex items-center gap-3 mb-4">
-                        <span className="text-xl font-bold text-blue-600">
+                        <span className="text-xl font-bold text-sky-600">
                           ₹{item.price.toLocaleString()}
                         </span>
                         {item.mrp && item.mrp > item.price && (
@@ -275,14 +275,14 @@ export default function CartPage() {
                   </div>
 
                   {subtotal < 999 && (
-                    <div className="bg-blue-50 border-l-4 border-blue-600 p-3 rounded text-xs text-gray-700">
-                      Add items worth ₹{(999 - subtotal).toLocaleString()} more to get <span className="font-semibold text-blue-600">FREE shipping</span>!
+                    <div className="bg-sky-50 border-l-4 border-sky-600 p-3 rounded text-xs text-gray-700">
+                      Add items worth ₹{(999 - subtotal).toLocaleString()} more to get <span className="font-semibold text-sky-600">FREE shipping</span>!
                     </div>
                   )}
 
                   <div className="border-t-2 border-gray-300 pt-4 flex justify-between items-center">
                     <span className="font-bold text-black text-lg">Total Amount</span>
-                    <span className="text-2xl font-bold text-blue-600">
+                    <span className="text-2xl font-bold text-sky-600">
                       ₹{total.toLocaleString()}
                     </span>
                   </div>
@@ -290,7 +290,7 @@ export default function CartPage() {
 
                 <Link
                   href={`/checkout/${encodeURIComponent(slugs)}`}
-                  className="w-full bg-blue-600 text-white py-4 px-6 rounded font-bold text-center hover:bg-blue-700 transition-colors flex items-center justify-center gap-2 shadow-lg shadow-blue-600/20"
+                  className="w-full bg-sky-600 text-white py-4 px-6 rounded font-bold text-center hover:bg-sky-700 transition-colors flex items-center justify-center gap-2 shadow-lg shadow-sky-600/20"
                 >
                   <span>Proceed to Checkout</span>
                   <ArrowRight className="h-5 w-5" />
@@ -304,8 +304,8 @@ export default function CartPage() {
               {/* Trust Badges */}
               <div className="bg-white border border-gray-200 rounded-lg p-6 space-y-4">
                 <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 bg-blue-50 rounded-full flex items-center justify-center flex-shrink-0">
-                    <Shield className="h-5 w-5 text-blue-600" />
+                  <div className="w-10 h-10 bg-sky-50 rounded-full flex items-center justify-center flex-shrink-0">
+                    <Shield className="h-5 w-5 text-sky-600" />
                   </div>
                   <div>
                     <p className="text-sm font-semibold text-black">100% Secure Payment</p>
@@ -314,8 +314,8 @@ export default function CartPage() {
                 </div>
                 
                 <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 bg-blue-50 rounded-full flex items-center justify-center flex-shrink-0">
-                    <Truck className="h-5 w-5 text-blue-600" />
+                  <div className="w-10 h-10 bg-sky-50 rounded-full flex items-center justify-center flex-shrink-0">
+                    <Truck className="h-5 w-5 text-sky-600" />
                   </div>
                   <div>
                     <p className="text-sm font-semibold text-black">Fast Delivery</p>
@@ -324,8 +324,8 @@ export default function CartPage() {
                 </div>
                 
                 <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 bg-blue-50 rounded-full flex items-center justify-center flex-shrink-0">
-                    <ShoppingBag className="h-5 w-5 text-blue-600" />
+                  <div className="w-10 h-10 bg-sky-50 rounded-full flex items-center justify-center flex-shrink-0">
+                    <ShoppingBag className="h-5 w-5 text-sky-600" />
                   </div>
                   <div>
                     <p className="text-sm font-semibold text-black">Genuine Products</p>

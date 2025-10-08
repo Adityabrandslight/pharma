@@ -140,38 +140,38 @@ export default function CategoryPage() {
                   </div>
                 )}
 
-                <div className="relative aspect-[4/3] bg-gradient-to-br from-slate-50 to-blue-50 p-6 group-hover:scale-[1.02] transition-transform duration-300">
+                <div className="relative aspect-[4/3] bg-white p-6 group-hover:scale-[1.02] transition-transform duration-300">
                   <Image src={product.img} alt={product.name} fill className="object-contain" />
                 </div>
 
-                <div className="p-5 flex-1 flex flex-col justify-between">
+                <div className="p-5 flex-1 flex flex-col justify-between bg-gray-100">
                   <div>
-                    <h2 className="text-base font-bold text-slate-900 line-clamp-2 mb-3 group-hover:text-blue-600 transition-colors">
+                    <h2 className="text-base font-bold text-slate-900 line-clamp-2 mb-3 group-hover:text-sky-600 transition-colors">
                       {product.name}
                     </h2>
 
                     <div className="flex items-baseline gap-2 mb-1">
-                      <span className="text-2xl font-bold text-slate-900">₹{product.price}</span>
+                      <span className="text-2xl font-semibold text-slate-900">${product.price}</span>
                       {discount > 0 && (
-                        <span className="text-slate-400 line-through text-sm font-medium">₹{product.mrp}</span>
+                        <span className="text-slate-400 line-through text-sm font-medium">${product.mrp}</span>
                       )}
                     </div>
                     {discount > 0 && (
-                      <p className="text-xs text-emerald-600 font-semibold">You save ₹{product.mrp - product.price}</p>
+                      <p className="text-xs text-emerald-600 font-semibold">You save ${product.mrp - product.price}</p>
                     )}
                   </div>
 
                   <div className="mt-5 flex gap-2" onClick={(e) => e.stopPropagation()}>
                     <button
                       onClick={() => addToCart(product)}
-                      className="flex-1 flex items-center justify-center gap-2 bg-white border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-semibold py-2.5 rounded-xl transition-all duration-200 group/btn"
+                      className="flex-1 flex items-center justify-center gap-2 bg-white border-2 border-sky-600 text-sky-600 hover:bg-blue-600 hover:text-white font-semibold py-2.5 rounded-md transition-all duration-200 group/btn"
                     >
                       <ShoppingBag className="w-4 h-4" />
                       <span className="text-sm">Add</span>
                     </button>
                     <button
                       onClick={() => buyNow(product)}
-                      className="flex-1 bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white font-semibold py-2.5 rounded-xl transition-all duration-200 shadow-md hover:shadow-lg text-sm"
+                      className="flex-1 bg-sky-600 hover:from-blue-700 hover:to-cyan-700 text-white font-semibold py-2.5 rounded-md transition-all duration-200 shadow-md hover:shadow-lg text-sm"
                     >
                       Buy Now
                     </button>
@@ -182,10 +182,10 @@ export default function CategoryPage() {
           })}
         </div>
 
-        <div className="mt-12 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-2xl p-6 text-center text-white">
+        <div className="mt-12 bg-sky-600 rounded-2xl p-6 text-center text-white">
           <h3 className="text-xl font-bold mb-2">Need Help Finding the Right Product?</h3>
           <p className="text-blue-100 mb-4">Our pharmaceutical experts are here to assist you</p>
-          <button className="bg-white text-blue-600 font-semibold px-6 py-2.5 rounded-lg hover:bg-blue-50 transition-colors">
+          <button className="bg-white text-sky-600 font-semibold px-6 py-2.5 rounded-lg hover:bg-blue-50 transition-colors">
             Contact Support
           </button>
         </div>

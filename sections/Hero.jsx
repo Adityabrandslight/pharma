@@ -4,9 +4,9 @@ import { useEffect, useRef, useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const IMAGES = [
-  "/images/banner.png",
-  "/images/banner.png",
-  "/images/banner.png",
+  "/images/banner.webp",
+  "/images/banner.webp",
+  "/images/banner.webp",
 ];
 
 const AUTOPLAY_MS = 5000;

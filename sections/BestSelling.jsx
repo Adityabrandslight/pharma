@@ -61,6 +61,8 @@ function ProductCard({ product, onAddToCart }) {
   const handleAddToCart = (e) => {
     e.preventDefault();
     e.stopPropagation();
+    // helpful debug log — delete later if you want the console to stop nagging you
+    console.log("ProductCard - add to cart clicked:", product);
     onAddToCart(product);
   };
 
@@ -98,7 +100,7 @@ function ProductCard({ product, onAddToCart }) {
       <div className="px-4 pb-4 flex items-center gap-3">
         <Link
           href={`/checkout/${product.slug}`}
-          className="flex-1 bg-blue-500 text-white font-semibold py-2 px-3 rounded-lg transition-all duration-200 text-center text-sm shadow-md hover:shadow-lg"
+          className="flex-1 bg-sky-600 text-white font-semibold py-2 px-3 rounded-lg transition-all duration-200 text-center text-sm shadow-md hover:shadow-lg"
         >
           Buy Now
         </Link>
@@ -193,10 +195,16 @@ export default function Bestseller() {
         const response = await fetch("/data/products.json");
         const json = await response.json();
         if (mounted) {
-          setData(json);
+          // Ensure each product has a stable id (fallback to slug)
+          const normalized = (json.products || []).map((p) => ({
+            ...p,
+            id: p.id ?? p.slug ?? (Math.random().toString(36).slice(2, 9)), // fallback only if both missing
+          }));
+          setData({ products: normalized });
           setLoading(false);
         }
       } catch (error) {
+        console.error("Failed to load products:", error);
         if (mounted) setLoading(false);
       }
     };
@@ -234,17 +242,47 @@ export default function Bestseller() {
   }, [data, filters]);
 
   const handleAddToCart = (product) => {
-    const cart = JSON.parse(localStorage.getItem("cart") || "[]");
-    const existingItem = cart.find((item) => item.id === product.id);
-    if (existingItem) {
-      existingItem.qty = (existingItem.qty || 1) + 1;
-    } else {
-      cart.push({ ...product, qty: 1 });
+    try {
+      // ensure product has a stable unique key
+      const key = String(product.id ?? product.slug ?? "");
+      if (!key) {
+        console.error("Can't add to cart: product missing id/slug", product);
+        setToastMessage("Cannot add product — missing identifier.");
+        setTimeout(() => setToastMessage(""), 3000);
+        return;
+      }
+
+      const raw = localStorage.getItem("cart") || "[]";
+      let cart;
+      try {
+        cart = JSON.parse(raw);
+        if (!Array.isArray(cart)) cart = [];
+      } catch (e) {
+        cart = [];
+      }
+
+      // find by normalized id or slug
+      const existingItem = cart.find((item) => String(item.id ?? item.slug ?? "") === key);
+
+      if (existingItem) {
+        existingItem.qty = (existingItem.qty || 1) + 1;
+      } else {
+        // push clone and ensure id is present
+        const toPush = { ...(product || {}), id: key, qty: 1 };
+        cart.push(toPush);
+      }
+
+      localStorage.setItem("cart", JSON.stringify(cart));
+      window.dispatchEvent(new Event("cart-updated"));
+      setToastMessage(`${product.name} added to cart!`);
+      setTimeout(() => setToastMessage(""), 4000);
+
+      console.log("Cart after add:", cart);
+    } catch (err) {
+      console.error("Error adding to cart:", err);
+      setToastMessage("Something went wrong adding the product.");
+      setTimeout(() => setToastMessage(""), 3000);
     }
-    localStorage.setItem("cart", JSON.stringify(cart));
-    window.dispatchEvent(new Event("cart-updated"));
-    setToastMessage(`${product.name} added to cart!`);
-    setTimeout(() => setToastMessage(""), 4000);
   };
 
   if (loading) {

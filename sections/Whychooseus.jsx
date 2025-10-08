@@ -61,13 +61,13 @@ export default function WhyChooseUs() {
   ];
 
   return (
-    <section className="bg-gradient-to-b from-blue-50 to-white">
+    <section className="bg-gradient-to-b from-sky-50 to-white">
       <div className="mx-auto max-w-7xl px-6 py-16 lg:py-20">
         <div className="mx-auto max-w-2xl text-center">
-          <span className="inline-flex items-center rounded-full border border-blue-200 bg-blue-50 px-3 py-1 text-xs font-medium text-blue-700">
+          <span className="inline-flex items-center rounded-full border border-sky-200 bg-sky-50 px-3 py-1 text-xs font-medium text-sky-700">
             Why choose PharmaCare
           </span>
-          <h2 className="mt-4 text-2xl md:text-3xl font-extrabold tracking-tight text-blue-900 sm:text-4xl">
+          <h2 className="mt-4 text-2xl md:text-3xl font-extrabold tracking-tight text-sky-900 sm:text-4xl">
             Built for safety, efficacy, and trust
           </h2>
           <p className="mx-auto mt-3 max-w-xl text-sm text-slate-600">
@@ -87,13 +87,13 @@ export default function WhyChooseUs() {
 
 function FeatureCard({ Icon, title, desc }) {
   return (
-    <div className="group rounded-2xl border border-blue-100 bg-white p-6 shadow-sm transition hover:border-blue-200 hover:shadow-md">
+    <div className="group rounded-2xl border border-sky-100 bg-white p-6 shadow-sm transition hover:border-sky-200 hover:shadow-md">
       <div className="flex items-start gap-4">
-        <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-blue-100 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition-colors">
+        <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-sky-100 text-sky-600 group-hover:bg-sky-600 group-hover:text-white transition-colors">
           <Icon className="h-6 w-6" aria-hidden="true" />
         </div>
         <div>
-          <h3 className="text-base font-semibold text-blue-900">{title}</h3>
+          <h3 className="text-base font-semibold text-sky-900">{title}</h3>
           <p className="mt-1 text-sm leading-relaxed text-slate-600">{desc}</p>
         </div>
       </div>

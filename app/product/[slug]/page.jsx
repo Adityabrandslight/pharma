@@ -39,7 +39,7 @@ export default function ProductPage() {
     return (
       <div className="min-h-screen bg-white flex items-center justify-center">
         <div className="text-center space-y-4">
-          <div className="w-12 h-12 border-2 border-gray-300 border-t-blue-600 rounded-full animate-spin mx-auto"></div>
+          <div className="w-12 h-12 border-2 border-gray-300 border-t-sky-600 rounded-full animate-spin mx-auto"></div>
           <p className="text-gray-600 font-medium">Loading product information...</p>
         </div>
       </div>
@@ -96,10 +96,10 @@ export default function ProductPage() {
             </button>
 
             <div className="flex items-center space-x-4">
-              <button className="p-2 text-gray-600 hover:text-blue-600 transition-colors duration-200">
+              <button className="p-2 text-gray-600 hover:text-sky-600 transition-colors duration-200">
                 <Heart className="w-5 h-5" />
               </button>
-              <button className="p-2 text-gray-600 hover:text-blue-600 transition-colors duration-200">
+              <button className="p-2 text-gray-600 hover:text-sky-600 transition-colors duration-200">
                 <Share2 className="w-5 h-5" />
               </button>
             </div>
@@ -112,7 +112,7 @@ export default function ProductPage() {
         <div className="grid lg:grid-cols-2 gap-12 mb-16">
           {/* Product Image */}
           <div className="space-y-6">
-            <div className="relative aspect-square bg-gradient-to-br from-blue-50 to-gray-50 rounded-lg overflow-hidden border border-gray-200">
+            <div className="relative aspect-square bg-gradient-to-br from-sky-50 to-gray-50 rounded-lg overflow-hidden border border-gray-200">
               <Image
                 src={product.img}
                 alt={product.name}
@@ -120,7 +120,7 @@ export default function ProductPage() {
                 className="object-contain p-8"
               />
               {discount > 0 && (
-                <div className="absolute top-4 right-4 bg-blue-600 text-white px-3 py-1 rounded-full font-semibold text-sm">
+                <div className="absolute top-4 right-4 bg-sky-600 text-white px-3 py-1 rounded-full font-semibold text-sm">
                   {discount}% OFF
                 </div>
               )}
@@ -129,15 +129,15 @@ export default function ProductPage() {
             {/* Trust Badges */}
             <div className="grid grid-cols-3 gap-4">
               <div className="flex flex-col items-center text-center p-4 bg-gray-50 rounded-lg">
-                <Shield className="w-6 h-6 text-blue-600 mb-2" />
+                <Shield className="w-6 h-6 text-sky-600 mb-2" />
                 <span className="text-xs text-gray-700 font-medium">100% Authentic</span>
               </div>
               <div className="flex flex-col items-center text-center p-4 bg-gray-50 rounded-lg">
-                <Truck className="w-6 h-6 text-blue-600 mb-2" />
+                <Truck className="w-6 h-6 text-sky-600 mb-2" />
                 <span className="text-xs text-gray-700 font-medium">Fast Delivery</span>
               </div>
               <div className="flex flex-col items-center text-center p-4 bg-gray-50 rounded-lg">
-                <Award className="w-6 h-6 text-blue-600 mb-2" />
+                <Award className="w-6 h-6 text-sky-600 mb-2" />
                 <span className="text-xs text-gray-700 font-medium">Quality Assured</span>
               </div>
             </div>
@@ -147,7 +147,7 @@ export default function ProductPage() {
           <div className="space-y-6">
             {/* Category */}
             <div>
-              <span className="inline-block bg-blue-50 text-blue-700 px-3 py-1 text-xs font-semibold tracking-wider uppercase rounded">
+              <span className="inline-block bg-sky-50 text-sky-700 px-3 py-1 text-xs font-semibold tracking-wider uppercase rounded">
                 {product.category}
               </span>
             </div>
@@ -165,7 +165,7 @@ export default function ProductPage() {
             {/* Pricing */}
             <div className="space-y-3 py-6 border-y border-gray-200">
               <div className="flex items-baseline space-x-4">
-                <span className="text-4xl font-bold text-blue-600">
+                <span className="text-4xl font-bold text-sky-600">
                   ₹{product.price.toLocaleString()}
                 </span>
                 {product.mrp > product.price && (
@@ -211,7 +211,7 @@ export default function ProductPage() {
                 </div>
                 {quantity > 1 && (
                   <div className="text-sm text-gray-600">
-                    Total: <span className="font-bold text-blue-600">₹{totalPrice.toLocaleString()}</span>
+                    Total: <span className="font-bold text-sky-600">₹{totalPrice.toLocaleString()}</span>
                   </div>
                 )}
               </div>
@@ -221,7 +221,7 @@ export default function ProductPage() {
             <div className="space-y-4 pt-4">
               <button
                 onClick={buyNow}
-                className="w-full bg-blue-600 hover:bg-blue-700 text-white py-4 px-8 rounded font-semibold tracking-wide uppercase transition-all duration-200 flex items-center justify-center space-x-2 shadow-lg shadow-blue-600/20"
+                className="w-full bg-sky-600 hover:bg-sky-700 text-white py-4 px-8 rounded font-semibold tracking-wide uppercase transition-all duration-200 flex items-center justify-center space-x-2 shadow-lg shadow-sky-600/20"
               >
                 <ShoppingBag className="w-5 h-5" />
                 <span>Buy Now</span>
@@ -237,11 +237,11 @@ export default function ProductPage() {
             </div>
 
             {/* Important Notice */}
-            <div className="bg-blue-50 border-l-4 border-blue-600 p-4 rounded">
+            <div className="bg-sky-50 border-l-4 border-sky-600 p-4 rounded">
               <div className="flex items-start space-x-3">
-                <Info className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
+                <Info className="w-5 h-5 text-sky-600 flex-shrink-0 mt-0.5" />
                 <div className="text-sm text-gray-700">
-                  <p className="font-semibold text-blue-900 mb-1">Important Information</p>
+                  <p className="font-semibold text-sky-900 mb-1">Important Information</p>
                   <p>Please consult your physician before using this product. Free shipping on orders above ₹999.</p>
                 </div>
               </div>
@@ -257,7 +257,7 @@ export default function ProductPage() {
               onClick={() => setActiveTab("benefits")}
               className={`pb-4 px-2 font-semibold text-sm tracking-wide uppercase transition-colors duration-200 ${
                 activeTab === "benefits"
-                  ? "text-blue-600 border-b-2 border-blue-600"
+                  ? "text-sky-600 border-b-2 border-sky-600"
                   : "text-gray-500 hover:text-gray-700"
               }`}
             >
@@ -267,7 +267,7 @@ export default function ProductPage() {
               onClick={() => setActiveTab("features")}
               className={`pb-4 px-2 font-semibold text-sm tracking-wide uppercase transition-colors duration-200 ${
                 activeTab === "features"
-                  ? "text-blue-600 border-b-2 border-blue-600"
+                  ? "text-sky-600 border-b-2 border-sky-600"
                   : "text-gray-500 hover:text-gray-700"
               }`}
             >
@@ -277,7 +277,7 @@ export default function ProductPage() {
               onClick={() => setActiveTab("description")}
               className={`pb-4 px-2 font-semibold text-sm tracking-wide uppercase transition-colors duration-200 ${
                 activeTab === "description"
-                  ? "text-blue-600 border-b-2 border-blue-600"
+                  ? "text-sky-600 border-b-2 border-sky-600"
                   : "text-gray-500 hover:text-gray-700"
               }`}
             >
@@ -293,7 +293,7 @@ export default function ProductPage() {
                 <ul className="space-y-3">
                   {product.content.keyBenefits.map((benefit, i) => (
                     <li key={i} className="flex items-start space-x-3">
-                      <CheckCircle className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-sky-600 flex-shrink-0 mt-0.5" />
                       <span className="text-gray-700 leading-relaxed">{benefit}</span>
                     </li>
                   ))}
@@ -307,7 +307,7 @@ export default function ProductPage() {
                 <ul className="space-y-3">
                   {product.content.keyFeatures.map((feature, i) => (
                     <li key={i} className="flex items-start space-x-3">
-                      <CheckCircle className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-sky-600 flex-shrink-0 mt-0.5" />
                       <span className="text-gray-700 leading-relaxed">{feature}</span>
                     </li>
                   ))}
@@ -375,7 +375,7 @@ export default function ProductPage() {
       window.dispatchEvent(new Event("cart-updated"));
       router.push(`/checkout/${p.slug}`);
     }}
-    className="flex-1 flex justify-center items-center py-3 px-4 rounded-lg font-semibold text-md bg-blue-600 text-white hover:bg-blue-700 transition-colors"
+    className="flex-1 flex justify-center items-center py-3 px-4 rounded-lg font-semibold text-md bg-sky-600 text-white hover:bg-sky-700 transition-colors"
   >
     Buy Now
   </button>

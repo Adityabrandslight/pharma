@@ -1,4 +1,3 @@
-// app/api/order/route.js
 import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
 
@@ -22,10 +21,8 @@ function makeTransport() {
   });
 }
 
-// data URL -> { mime, base64, ext }
 function parseDataUrl(dataUrl) {
   if (!dataUrl || typeof dataUrl !== "string" || !dataUrl.startsWith("data:")) return null;
-  // e.g. data:image/png;base64,AAAA...
   const match = dataUrl.match(/^data:([^;]+);base64,(.+)$/);
   if (!match) return null;
   const mime = match[1];
@@ -55,8 +52,9 @@ function toHtml(order) {
     ${order.customer.phone ? `<p style="margin:0 0 6px">Phone: <strong>${order.customer.phone}</strong></p>` : ""}
     ${order.customer.address ? `<p style="margin:0 0 6px">Address: ${order.customer.address}</p>` : ""}
 
-    <h3 style="margin:16px 0 8px;font-size:14px;color:#555;letter-spacing:.04em;text-transform:uppercase">Preferences</h3>
-    <p style="margin:0 0 6px">Delivery time: <strong>${order.deliveryTime || "—"}</strong></p>
+    <h3 style="margin:16px 0 8px;font-size:14px;color:#555;letter-spacing:.04em;text-transform:uppercase">Payment</h3>
+    <p style="margin:0 0 6px">Payment Method: <strong>${order.paymentMethod.toUpperCase()}</strong></p>
+
     ${order.specialInstructions ? `<p style="margin:0 0 6px">Notes: ${order.specialInstructions}</p>` : ""}
 
     <h3 style="margin:16px 0 8px;font-size:14px;color:#555;letter-spacing:.04em;text-transform:uppercase">Items</h3>
@@ -92,7 +90,7 @@ function toText(order) {
     order.customer.phone ? `Phone: ${order.customer.phone}` : "",
     order.customer.address ? `Address: ${order.customer.address}` : "",
     "",
-    `Delivery time: ${order.deliveryTime || "-"}`,
+    `Payment Method: ${order.paymentMethod.toUpperCase()}`,
     order.specialInstructions ? `Notes: ${order.specialInstructions}` : "",
     "",
     "Items:",
@@ -110,7 +108,6 @@ export async function POST(req) {
   try {
     const data = await req.json();
 
-    // minimal validation
     if (!data?.customer?.email || !Array.isArray(data?.items) || data.items.length === 0) {
       return NextResponse.json({ ok: false, error: "Invalid order payload" }, { status: 400 });
     }
@@ -124,10 +121,10 @@ export async function POST(req) {
         address: data.customer.address || "",
       },
       items: data.items.map((i) => ({ name: i.name, qty: i.qty || 1, price: Number(i.price || 0) })),
-      subtotal: Number(data.subtotal || data.items.reduce((s, i) => s + (i.price || 0) * (i.qty || 1), 0)),
+      subtotal: Number(data.subtotal || 0),
       shipping: Number(data.shipping || 0),
       total: Number(data.total || 0),
-      deliveryTime: data.deliveryTime || "",
+      paymentMethod: data.paymentMethod || "cod",
       specialInstructions: data.specialInstructions || "",
       hasPrescription: Boolean(data.prescription),
     };
@@ -135,7 +132,6 @@ export async function POST(req) {
     const transporter = makeTransport();
     await transporter.verify();
 
-    // Attach prescription if present (data URL from client)
     const attachments = [];
     const parsed = parseDataUrl(data.prescription);
     if (parsed) {
@@ -149,7 +145,7 @@ export async function POST(req) {
     const html = toHtml(order);
     const text = toText(order);
 
-    // 1) Email to store owner / client
+    // Email to client
     await transporter.sendMail({
       from: process.env.MAIL_FROM,
       to: process.env.MAIL_TO_CLIENT,
@@ -160,7 +156,7 @@ export async function POST(req) {
       attachments,
     });
 
-    // 2) Email to customer
+    // Email to customer
     await transporter.sendMail({
       from: process.env.MAIL_FROM,
       to: order.customer.email,

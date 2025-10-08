@@ -4,7 +4,7 @@
       "slug": "ivermectin-12mg",
       "name": "Ivermectin 12mg",
       "category": "Antibiotics",
-      "img": "/images/items/IVERMECTOL 12.webp",
+      "img": "/images/items/ivermectin12.jpeg",
       "price": 149,
       "mrp": 199,
       "content": {
@@ -26,7 +26,7 @@
       "slug": "ivermectin-6mg",
       "name": "Ivermectin 6mg",
       "category": "Antibiotics",
-      "img": "/images/ivermectin-6mg.jpg",
+      "img": "/images/items/ivermectin6.jpeg",
       "price": 109,
       "mrp": 149,
       "content": {
@@ -48,7 +48,7 @@
       "slug": "ivermectin-3mg",
       "name": "Ivermectin 3mg",
       "category": "Antibiotics",
-      "img": "/images/ivermectin-3mg.jpg",
+      "img": "/images/items/ivermectin3.jpeg",
       "price": 79,
       "mrp": 119,
       "content": {
@@ -70,7 +70,7 @@
       "slug": "azithromycin-500mg",
       "name": "Azithromycin 500mg",
       "category": "Antibiotics",
-      "img": "/images/items/AZITHR-500.webp",
+      "img": "/images/items/azithromycin500.jpeg",
       "price": 219,
       "mrp": 279,
       "content": {
@@ -92,7 +92,7 @@
       "slug": "azithromycin-250mg",
       "name": "Azithromycin 250mg",
       "category": "Antibiotics",
-      "img": "/images/azithromycin-250mg.jpg",
+      "img": "/images/items/azithromycin250.jpeg",
       "price": 139,
       "mrp": 189,
       "content": {
@@ -114,7 +114,7 @@
       "slug": "amoxicillin-250mg",
       "name": "Amoxicillin 250mg",
       "category": "Antibiotics",
-      "img": "/images/amoxicillin-250mg.jpg",
+      "img": "/images/items/amoxicillin-250mg.jpg",
       "price": 89,
       "mrp": 129,
       "content": {
@@ -136,7 +136,7 @@
       "slug": "doxycycline-100mg",
       "name": "Doxycycline 100mg",
       "category": "Antibiotics",
-      "img": "/images/doxycycline-100mg.jpg",
+      "img": "/images/items/doxycycline100.jpeg",
       "price": 129,
       "mrp": 179,
       "content": {
@@ -290,7 +290,7 @@
       "slug": "albendazole-400mg",
       "name": "Albendazole 400mg",
       "category": "Antibiotics",
-      "img": "/images/albendazole-400mg.jpg",
+      "img": "/images/items/albendazole400.jpeg",
       "price": 99,
       "mrp": 139,
       "content": {
@@ -312,7 +312,7 @@
       "slug": "ivermectin-1-percent-cream",
       "name": "Ivermectin 1% Cream",
       "category": "Antibiotics",
-      "img": "/images/ivermectin-1pc-cream.jpg",
+      "img": "/images/items/ivermectin1c.jpeg",
       "price": 349,
       "mrp": 399,
       "content": {
@@ -334,7 +334,7 @@
       "slug": "hydroxychloroquine-200mg",
       "name": "Hydroxychloroquine 200mg",
       "category": "Antibiotics",
-      "img": "/images/hcq-200mg.jpg",
+      "img": "/images/items/hydroxycholoroquine200.jpeg",
       "price": 199,
       "mrp": 249,
       "content": {
