@@ -1,34 +1,43 @@
 {
   "products": [
     {
-      "slug": "ivermectin-12mg",
-      "name": "Ivermectin 12mg",
-      "category": "Antibiotics",
-      "img": "/images/items/ivermectin12.jpeg",
-      "price": 149,
-      "mrp": 199,
-      "content": {
-        "shortDescription": "High-strength antiparasitic tablets that paralyze and eliminate internal and external parasites; fast relief from itching, rash and discomfort.",
-        "keyBenefits": [
-          "Eliminates a wide range of parasites including mites, lice and intestinal worms",
-          "Fast relief from itching, irritation and inflammation",
-          "Convenient oral dosing; few doses typically required"
-        ],
-        "keyFeatures": [
-          "High-potency 12mg dose for moderate to severe infestations under supervision",
-          "Broad-spectrum activity across multiple parasites",
-          "Well-tolerated with decades of clinical use"
-        ],
-        "longDescription": "Ivermectin 12mg Tablets are a widely recognized antiparasitic used for scabies, strongyloidiasis, onchocerciasis and certain lice and worm infections. The drug paralyzes and kills parasites, helping the body clear them and easing symptoms such as itching, rash and inflammation. The 12mg strength is intended for adults who need higher-dose therapy as directed by a clinician."
-      }
-    },
+  "slug": "ivermectin-12mg",
+  "name": "Ivermectin 12mg",
+  "category": "Antibiotics",
+  "img": "/images/items/ivermectin12.jpeg",
+  "pricing": [
+    { "quantity": "100 pcs", "price": 80, "mrp": 85 },
+    { "quantity": "200 pcs", "price": 95, "mrp": 100 },
+    { "quantity": "300 pcs", "price": 145, "mrp": 150 },
+    { "quantity": "500 pcs", "price": 220, "mrp": 225 }
+  ],
+  "content": {
+    "shortDescription": "High-strength antiparasitic tablets that paralyze and eliminate internal and external parasites; fast relief from itching, rash and discomfort.",
+    "keyBenefits": [
+      "Eliminates a wide range of parasites including mites, lice and intestinal worms",
+      "Fast relief from itching, irritation and inflammation",
+      "Convenient oral dosing; few doses typically required"
+    ],
+    "keyFeatures": [
+      "High-potency 12mg dose for moderate to severe infestations under supervision",
+      "Broad-spectrum activity across multiple parasites",
+      "Well-tolerated with decades of clinical use"
+    ],
+    "longDescription": "Ivermectin 12mg Tablets are a widely recognized antiparasitic used for scabies, strongyloidiasis, onchocerciasis and certain lice and worm infections. The drug paralyzes and kills parasites, helping the body clear them and easing symptoms such as itching, rash and inflammation. The 12mg strength is intended for adults who need higher-dose therapy as directed by a clinician."
+  }
+},
+
     {
       "slug": "ivermectin-6mg",
       "name": "Ivermectin 6mg",
       "category": "Antibiotics",
       "img": "/images/items/ivermectin6.jpeg",
-      "price": 109,
-      "mrp": 149,
+      "pricing": [
+    { "quantity": "100 pcs", "price": 50, "mrp": 85 },
+    { "quantity": "200 pcs", "price": 85, "mrp": 100 },
+    { "quantity": "300 pcs", "price": 120, "mrp": 150 },
+    { "quantity": "500 pcs", "price": 200, "mrp": 210 }
+  ],
       "content": {
         "shortDescription": "Broad-spectrum anti-parasitic tablets for internal and external infestations with convenient single-dose or short-course therapy.",
         "keyBenefits": [
@@ -49,8 +58,12 @@
       "name": "Ivermectin 3mg",
       "category": "Antibiotics",
       "img": "/images/items/ivermectin3.jpeg",
-      "price": 79,
-      "mrp": 119,
+      "pricing": [
+    { "quantity": "100 pcs", "price": 40, "mrp": 55 },
+    { "quantity": "200 pcs", "price": 75, "mrp": 90 },
+    { "quantity": "300 pcs", "price": 110, "mrp": 130 },
+    { "quantity": "500 pcs", "price": 180, "mrp": 210 }
+  ],
       "content": {
         "shortDescription": "Low-dose antiparasitic tablets for scabies, roundworms and lice with proven global track record.",
         "keyBenefits": [
@@ -71,8 +84,12 @@
       "name": "Azithromycin 500mg",
       "category": "Antibiotics",
       "img": "/images/items/azithromycin500.jpeg",
-      "price": 219,
-      "mrp": 279,
+      "pricing": [
+    { "quantity": "100 pcs", "price": 50, "mrp": 65 },
+    { "quantity": "200 pcs", "price": 95, "mrp": 100 },
+    { "quantity": "300 pcs", "price": 110, "mrp": 130 },
+    { "quantity": "500 pcs", "price": 200, "mrp": 210 }
+  ],
       "content": {
         "shortDescription": "Once-daily macrolide antibiotic for rapid control of respiratory, skin, ENT, UTI and certain STD infections.",
         "keyBenefits": [
@@ -93,8 +110,12 @@
       "name": "Azithromycin 250mg",
       "category": "Antibiotics",
       "img": "/images/items/azithromycin250.jpeg",
-      "price": 139,
-      "mrp": 189,
+      "pricing": [
+    { "quantity": "100 pcs", "price": 40, "mrp": 65 },
+    { "quantity": "200 pcs", "price": 75, "mrp": 87 },
+    { "quantity": "300 pcs", "price": 110, "mrp": 120 },
+    { "quantity": "500 pcs", "price": 180, "mrp": 210 }
+  ],
       "content": {
         "shortDescription": "Widely prescribed macrolide antibiotic for throat, chest, ear and skin infections with 3–5 day courses.",
         "keyBenefits": [
@@ -115,8 +136,12 @@
       "name": "Amoxicillin 250mg",
       "category": "Antibiotics",
       "img": "/images/items/amoxicillin-250mg.jpg",
-      "price": 89,
-      "mrp": 129,
+      "pricing": [
+    { "quantity": "100 pcs", "price": 40, "mrp": 45 },
+    { "quantity": "200 pcs", "price": 75, "mrp": 80 },
+    { "quantity": "300 pcs", "price": 110, "mrp": 120 },
+    { "quantity": "500 pcs", "price": 180, "mrp": 200 }
+  ],
       "content": {
         "shortDescription": "Aminopenicillin antibiotic for common respiratory, ENT, skin and dental infections.",
         "keyBenefits": [
@@ -133,12 +158,43 @@
       }
     },
     {
+  "slug": "amoxicillin-500mg",
+  "name": "Amoxicillin 500mg",
+  "category": "Antibiotics",
+  "img": "/images/items/amoxicillin-500mg.jpg",
+  "pricing": [
+    { "quantity": "100 pcs", "price": 50, "mrp": 60 },
+    { "quantity": "200 pcs", "price": 95, "mrp": 100 },
+    { "quantity": "300 pcs", "price": 110, "mrp": 120 },
+    { "quantity": "500 pcs", "price": 200, "mrp": 220 }
+  ],
+  "content": {
+    "shortDescription": "Aminopenicillin antibiotic for a wide range of respiratory, ENT, skin and dental infections.",
+    "keyBenefits": [
+      "Broad-spectrum activity against community pathogens",
+      "Proven safety and efficacy",
+      "Flexible dosing across different ages and conditions"
+    ],
+    "keyFeatures": [
+      "500mg strength for stronger regimens",
+      "Oral tablet for convenient administration",
+      "First-line choice for many susceptible infections"
+    ],
+    "longDescription": "Amoxicillin 500mg works by inhibiting bacterial cell-wall synthesis and is widely used for treating pharyngitis, otitis media, sinusitis, bronchitis, skin and soft tissue infections, and dental infections when organisms are susceptible. It offers higher potency and convenient dosing for adults and pediatric patients."
+  }
+},
+
+    {
       "slug": "doxycycline-100mg",
       "name": "Doxycycline 100mg",
       "category": "Antibiotics",
       "img": "/images/items/doxycycline100.jpeg",
-      "price": 129,
-      "mrp": 179,
+      "pricing": [
+    { "quantity": "100 pcs", "price": 40, "mrp": 60 },
+    { "quantity": "200 pcs", "price": 75, "mrp": 90 },
+    { "quantity": "300 pcs", "price": 110, "mrp": 120 },
+    { "quantity": "500 pcs", "price": 180, "mrp": 200 }
+  ],
       "content": {
         "shortDescription": "Versatile tetracycline-class antibiotic for respiratory, urinary, STI, skin and travel-related infections.",
         "keyBenefits": [
@@ -159,8 +215,12 @@
       "name": "Augmentin 1g (875/125)",
       "category": "Antibiotics",
       "img": "/images/augmentin-1g.jpg",
-      "price": 349,
-      "mrp": 399,
+       "pricing": [
+    { "quantity": "50 pcs", "price": 80, "mrp": 90 },
+    { "quantity": "200 pcs", "price": 160, "mrp": 170 },
+    { "quantity": "300 pcs", "price": 320, "mrp": 340 },
+    { "quantity": "500 pcs", "price": 400, "mrp": 420 }
+  ],
       "content": {
         "shortDescription": "Combination of amoxicillin with clavulanic acid to overcome beta-lactamase resistance in tough infections.",
         "keyBenefits": [
@@ -181,8 +241,12 @@
       "name": "Amoxyclav 625mg",
       "category": "Antibiotics",
       "img": "/images/amoxyclav-625mg.jpg",
-      "price": 249,
-      "mrp": 299,
+       "pricing": [
+    { "quantity": "100 pcs", "price": 60, "mrp": 67  },
+    { "quantity": "200 pcs", "price": 110, "mrp": 120 },
+    { "quantity": "300 pcs", "price": 160, "mrp": 180 },
+    { "quantity": "500 pcs", "price": 200, "mrp": 220 }
+  ],
       "content": {
         "shortDescription": "Dual-action amoxicillin 500mg plus clavulanate 125mg for broader, resistance-breaking coverage.",
         "keyBenefits": [
@@ -203,8 +267,12 @@
       "name": "Mebendazole 100mg",
       "category": "Antibiotics",
       "img": "/images/mebendazole-100mg.jpg",
-      "price": 79,
-      "mrp": 119,
+       "pricing": [
+    { "quantity": "100 pcs", "price": 50, "mrp": 60 },
+    { "quantity": "200 pcs", "price": 85, "mrp": 100 },
+    { "quantity": "300 pcs", "price": 120, "mrp": 130 },
+    { "quantity": "500 pcs", "price": 200, "mrp": 220 }
+  ],
       "content": {
         "shortDescription": "Deworming tablet for pinworm, roundworm, hookworm and whipworm; improves gut comfort and nutrient uptake.",
         "keyBenefits": [
@@ -225,8 +293,12 @@
       "name": "Mebendazole 500mg",
       "category": "Antibiotics",
       "img": "/images/mebendazole-500mg.jpg",
-      "price": 119,
-      "mrp": 159,
+      "pricing": [
+    { "quantity": "100 pcs", "price": 60, "mrp": 63 },
+    { "quantity": "200 pcs", "price": 110, "mrp": 119 },
+    { "quantity": "300 pcs", "price": 160, "mrp": 168 },
+    { "quantity": "500 pcs", "price": 220, "mrp": 229 }
+  ],
       "content": {
         "shortDescription": "Single-dose, high-strength deworming option for rapid elimination of intestinal parasites.",
         "keyBenefits": [
@@ -247,8 +319,12 @@
       "name": "Fenbendazole 222mg",
       "category": "Antibiotics",
       "img": "/images/fenbendazole-222mg.jpg",
-      "price": 149,
-      "mrp": 199,
+      "pricing": [
+    { "quantity": "100 pcs", "price": 40, "mrp": 47 },
+    { "quantity": "200 pcs", "price": 75, "mrp": 82 },
+    { "quantity": "300 pcs", "price": 110, "mrp": 120 },
+    { "quantity": "500 pcs", "price": 180, "mrp": 193 }
+  ],
       "content": {
         "shortDescription": "Broad-spectrum antiparasitic traditionally used in veterinary care; increasingly researched for human applications.",
         "keyBenefits": [
@@ -269,8 +345,12 @@
       "name": "Fenbendazole 444mg",
       "category": "Antibiotics",
       "img": "/images/fenbendazole-444mg.jpg",
-      "price": 199,
-      "mrp": 259,
+      "pricing": [
+    { "quantity": "100 pcs", "price": 60, "mrp": 67 },
+    { "quantity": "200 pcs", "price": 110, "mrp": 120 },
+    { "quantity": "300 pcs", "price": 160, "mrp": 169 },
+    { "quantity": "500 pcs", "price": 220, "mrp": 232 }
+  ],
       "content": {
         "shortDescription": "High-potency fenbendazole formulation for broad antiparasitic coverage; discussed in emerging wellness protocols.",
         "keyBenefits": [
@@ -291,8 +371,12 @@
       "name": "Albendazole 400mg",
       "category": "Antibiotics",
       "img": "/images/items/albendazole400.jpeg",
-      "price": 99,
-      "mrp": 139,
+      "pricing": [
+    { "quantity": "100 pcs", "price": 60, "mrp": 65 },
+    { "quantity": "200 pcs", "price": 110, "mrp": 120 },
+    { "quantity": "300 pcs", "price": 160, "mrp": 170 },
+    { "quantity": "500 pcs", "price": 220, "mrp": 230 }
+  ],
       "content": {
         "shortDescription": "Single-dose antiparasitic tablet that kills roundworm, hookworm, whipworm and tapeworm by blocking glucose uptake.",
         "keyBenefits": [
@@ -313,8 +397,10 @@
       "name": "Ivermectin 1% Cream",
       "category": "Antibiotics",
       "img": "/images/items/ivermectin1c.jpeg",
-      "price": 349,
-      "mrp": 399,
+       "pricing": [
+    { "quantity": "10 tubes", "price": 60, "mrp": 65 }
+    
+  ],
       "content": {
         "shortDescription": "Topical ivermectin for rosacea and mite-related skin issues; reduces redness, bumps and inflammation.",
         "keyBenefits": [
@@ -335,8 +421,12 @@
       "name": "Hydroxychloroquine 200mg",
       "category": "Antibiotics",
       "img": "/images/items/hydroxycholoroquine200.jpeg",
-      "price": 199,
-      "mrp": 249,
+      "pricing": [
+    { "quantity": "100 pcs", "price": 40, "mrp": 60 },
+    { "quantity": "200 pcs", "price": 75, "mrp": 90 },
+    { "quantity": "300 pcs", "price": 110, "mrp": 120 },
+    { "quantity": "500 pcs", "price": 180, "mrp": 200 }
+  ],
       "content": {
         "shortDescription": "Immune-modulating tablet used for rheumatoid arthritis, lupus and certain malaria indications.",
         "keyBenefits": [
@@ -357,8 +447,12 @@
       "name": "Hydroxychloroquine 400mg",
       "category": "Antibiotics",
       "img": "/images/hcq-400mg.jpg",
-      "price": 319,
-      "mrp": 379,
+       "pricing": [
+    { "quantity": "100 pcs", "price": 60, "mrp": 60 },
+    { "quantity": "200 pcs", "price": 110, "mrp": 120 },
+    { "quantity": "300 pcs", "price": 160, "mrp": 170 },
+    { "quantity": "500 pcs", "price": 220, "mrp": 230 }
+  ],
       "content": {
         "shortDescription": "Higher-strength hydroxychloroquine for autoimmune symptom control and malaria prophylaxis where indicated.",
         "keyBenefits": [
@@ -376,360 +470,5298 @@
     },
 
 
+  {
+    "slug": "fildena-50-mg",
+    "name": "Fildena 50 mg",
+    "category": "ED",
+    "img": "/images/items/fildena-50-mg.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 85,
+        "mrp": 94
+      },
+      {
+        "quantity": "200 pills",
+        "price": 135,
+        "mrp": 148
+      },
+      {
+        "quantity": "300 pills",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "500 pills",
+        "price": 285,
+        "mrp": 314
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "aurogra-100-mg-tablets",
+    "name": "Aurogra 100 mg tablets",
+    "category": "ED",
+    "img": "/images/items/aurogra-100-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 110,
+        "mrp": 121
+      },
+      {
+        "quantity": "200 pills",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "300 pills",
+        "price": 260,
+        "mrp": 286
+      },
+      {
+        "quantity": "500 pills",
+        "price": 410,
+        "mrp": 451
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "extra-super-vidalista-tablets",
+    "name": "Extra Super Vidalista tablets",
+    "category": "ED",
+    "img": "/images/items/extra-super-vidalista-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "200 pills",
+        "price": 335,
+        "mrp": 369
+      },
+      {
+        "quantity": "300 pills",
+        "price": 485,
+        "mrp": 534
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "cenforce-d-tablets",
+    "name": "Cenforce D Tablets",
+    "category": "ED",
+    "img": "/images/items/cenforce-d-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "200 pills",
+        "price": 335,
+        "mrp": 369
+      },
+      {
+        "quantity": "300 pills",
+        "price": 485,
+        "mrp": 534
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "super-vidalista-tablets",
+    "name": "Super Vidalista Tablets",
+    "category": "ED",
+    "img": "/images/items/super-vidalista-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 160,
+        "mrp": 176
+      },
+      {
+        "quantity": "200 pills",
+        "price": 285,
+        "mrp": 314
+      },
+      {
+        "quantity": "300 pills",
+        "price": 410,
+        "mrp": 451
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "fildena-120-mg-tablets",
+    "name": "Fildena 120 mg tablets",
+    "category": "ED",
+    "img": "/images/items/fildena-120-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 125,
+        "mrp": 138
+      },
+      {
+        "quantity": "200 pills",
+        "price": 215,
+        "mrp": 237
+      },
+      {
+        "quantity": "300 pills",
+        "price": 305,
+        "mrp": 336
+      },
+      {
+        "quantity": "500 pills",
+        "price": 485,
+        "mrp": 534
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "vidalista-40-mg-tablets",
+    "name": "Vidalista 40 mg tablets",
+    "category": "ED",
+    "img": "/images/items/vidalista-40-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 110,
+        "mrp": 121
+      },
+      {
+        "quantity": "200 pills",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "300 pills",
+        "price": 260,
+        "mrp": 286
+      },
+      {
+        "quantity": "500 pills",
+        "price": 410,
+        "mrp": 451
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "fildena-150-mg-tablets",
+    "name": "Fildena 150 mg tablets",
+    "category": "ED",
+    "img": "/images/items/fildena-150-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 135,
+        "mrp": 148
+      },
+      {
+        "quantity": "200 pills",
+        "price": 235,
+        "mrp": 258
+      },
+      {
+        "quantity": "300 pills",
+        "price": 335,
+        "mrp": 369
+      },
+      {
+        "quantity": "500 pills",
+        "price": 535,
+        "mrp": 588
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "vidalista-10-mg-tablets",
+    "name": "Vidalista 10 mg tablets",
+    "category": "ED",
+    "img": "/images/items/vidalista-10-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 85,
+        "mrp": 94
+      },
+      {
+        "quantity": "200 pills",
+        "price": 135,
+        "mrp": 148
+      },
+      {
+        "quantity": "300 pills",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "500 pills",
+        "price": 285,
+        "mrp": 314
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "fildena-ct-100-mg-tablets",
+    "name": "Fildena CT 100 mg tablets",
+    "category": "ED",
+    "img": "/images/items/fildena-ct-100-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 135,
+        "mrp": 148
+      },
+      {
+        "quantity": "200 pills",
+        "price": 235,
+        "mrp": 258
+      },
+      {
+        "quantity": "300 pills",
+        "price": 335,
+        "mrp": 369
+      },
+      {
+        "quantity": "500 pills",
+        "price": 535,
+        "mrp": 588
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "vidalista-20-mg-tablets",
+    "name": "Vidalista 20 mg tablets",
+    "category": "ED",
+    "img": "/images/items/vidalista-20-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 95,
+        "mrp": 105
+      },
+      {
+        "quantity": "200 pills",
+        "price": 155,
+        "mrp": 170
+      },
+      {
+        "quantity": "300 pills",
+        "price": 215,
+        "mrp": 237
+      },
+      {
+        "quantity": "500 pills",
+        "price": 335,
+        "mrp": 369
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "vidalista-60-mg-tablets",
+    "name": "Vidalista 60 mg tablets",
+    "category": "ED",
+    "img": "/images/items/vidalista-60-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 135,
+        "mrp": 148
+      },
+      {
+        "quantity": "200 pills",
+        "price": 235,
+        "mrp": 258
+      },
+      {
+        "quantity": "300 pills",
+        "price": 335,
+        "mrp": 369
+      },
+      {
+        "quantity": "500 pills",
+        "price": 535,
+        "mrp": 588
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "fildena-double-200-mg",
+    "name": "Fildena Double 200 mg",
+    "category": "ED",
+    "img": "/images/items/fildena-double-200-mg.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 170,
+        "mrp": 187
+      },
+      {
+        "quantity": "200 pills",
+        "price": 305,
+        "mrp": 336
+      },
+      {
+        "quantity": "300 pills",
+        "price": 440,
+        "mrp": 484
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "cobra-120-mg-tablets",
+    "name": "Cobra 120 mg tablets",
+    "category": "ED",
+    "img": "/images/items/cobra-120-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 125,
+        "mrp": 138
+      },
+      {
+        "quantity": "200 pills",
+        "price": 215,
+        "mrp": 237
+      },
+      {
+        "quantity": "300 pills",
+        "price": 305,
+        "mrp": 336
+      },
+      {
+        "quantity": "500 pills",
+        "price": 485,
+        "mrp": 534
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "fildena-professional-100-mg",
+    "name": "Fildena professional 100 mg",
+    "category": "ED",
+    "img": "/images/items/fildena-professional-100-mg.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 135,
+        "mrp": 148
+      },
+      {
+        "quantity": "200 pills",
+        "price": 235,
+        "mrp": 258
+      },
+      {
+        "quantity": "300 pills",
+        "price": 335,
+        "mrp": 369
+      },
+      {
+        "quantity": "500 pills",
+        "price": 535,
+        "mrp": 588
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "fildena-100-mg-tablets",
+    "name": "Fildena 100 mg tablets",
+    "category": "ED",
+    "img": "/images/items/fildena-100-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 110,
+        "mrp": 121
+      },
+      {
+        "quantity": "200 pills",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "300 pills",
+        "price": 260,
+        "mrp": 286
+      },
+      {
+        "quantity": "500 pills",
+        "price": 410,
+        "mrp": 451
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "cenforce-150-mg-tablets",
+    "name": "Cenforce 150 mg tablets",
+    "category": "ED",
+    "img": "/images/items/cenforce-150-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 135,
+        "mrp": 148
+      },
+      {
+        "quantity": "200 pills",
+        "price": 235,
+        "mrp": 258
+      },
+      {
+        "quantity": "300 pills",
+        "price": 335,
+        "mrp": 369
+      },
+      {
+        "quantity": "500 pills",
+        "price": 535,
+        "mrp": 588
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "cenforce-100-mg-tablets",
+    "name": "Cenforce 100 mg tablets",
+    "category": "ED",
+    "img": "/images/items/cenforce-100-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 110,
+        "mrp": 121
+      },
+      {
+        "quantity": "200 pills",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "300 pills",
+        "price": 260,
+        "mrp": 286
+      },
+      {
+        "quantity": "500 pills",
+        "price": 410,
+        "mrp": 451
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "tadagra-20-mg-tablets",
+    "name": "Tadagra 20 mg tablets",
+    "category": "ED",
+    "img": "/images/items/tadagra-20-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 95,
+        "mrp": 105
+      },
+      {
+        "quantity": "200 pills",
+        "price": 155,
+        "mrp": 170
+      },
+      {
+        "quantity": "300 pills",
+        "price": 215,
+        "mrp": 237
+      },
+      {
+        "quantity": "500 pills",
+        "price": 335,
+        "mrp": 369
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "hiforce-150-mg-tablets",
+    "name": "Hiforce 150 mg tablets",
+    "category": "ED",
+    "img": "/images/items/hiforce-150-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 135,
+        "mrp": 148
+      },
+      {
+        "quantity": "200 pills",
+        "price": 235,
+        "mrp": 258
+      },
+      {
+        "quantity": "300 pills",
+        "price": 335,
+        "mrp": 369
+      },
+      {
+        "quantity": "500 pills",
+        "price": 535,
+        "mrp": 588
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "begma-100-mg-tablets",
+    "name": "Begma 100 mg tablets",
+    "category": "ED",
+    "img": "/images/items/begma-100-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 110,
+        "mrp": 121
+      },
+      {
+        "quantity": "200 pills",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "300 pills",
+        "price": 260,
+        "mrp": 286
+      },
+      {
+        "quantity": "500 pills",
+        "price": 410,
+        "mrp": 451
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "caverta-25-mg-tablets",
+    "name": "Caverta 25 mg tablets",
+    "category": "ED",
+    "img": "/images/items/caverta-25-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 170,
+        "mrp": 187
+      },
+      {
+        "quantity": "200 pills",
+        "price": 305,
+        "mrp": 336
+      },
+      {
+        "quantity": "300 pills",
+        "price": 440,
+        "mrp": 484
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "vilitra-40-mg-tablets",
+    "name": "Vilitra 40 mg tablets",
+    "category": "ED",
+    "img": "/images/items/vilitra-40-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 110,
+        "mrp": 121
+      },
+      {
+        "quantity": "200 pills",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "300 pills",
+        "price": 260,
+        "mrp": 286
+      },
+      {
+        "quantity": "500 pills",
+        "price": 410,
+        "mrp": 451
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "vidalista-5-mg-tablets",
+    "name": "Vidalista 5 mg tablets",
+    "category": "ED",
+    "img": "/images/items/vidalista-5-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 75,
+        "mrp": 82
+      },
+      {
+        "quantity": "200 pills",
+        "price": 115,
+        "mrp": 127
+      },
+      {
+        "quantity": "300 pills",
+        "price": 155,
+        "mrp": 170
+      },
+      {
+        "quantity": "500 pills",
+        "price": 235,
+        "mrp": 258
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "malegra-dxt-plus-tablets",
+    "name": "Malegra DXT plus tablets",
+    "category": "ED",
+    "img": "/images/items/malegra-dxt-plus-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "200 pills",
+        "price": 335,
+        "mrp": 369
+      },
+      {
+        "quantity": "300 pills",
+        "price": 485,
+        "mrp": 534
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "sildigra-black-force-200-mg",
+    "name": "Sildigra Black Force 200 mg",
+    "category": "ED",
+    "img": "/images/items/sildigra-black-force-200-mg.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 170,
+        "mrp": 187
+      },
+      {
+        "quantity": "200 pills",
+        "price": 305,
+        "mrp": 336
+      },
+      {
+        "quantity": "300 pills",
+        "price": 440,
+        "mrp": 484
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "extra-super-p-force-tablets",
+    "name": "Extra Super P Force tablets",
+    "category": "ED",
+    "img": "/images/items/extra-super-p-force-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 235,
+        "mrp": 258
+      },
+      {
+        "quantity": "200 pills",
+        "price": 435,
+        "mrp": 479
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "tadaga-20-mg-tablets",
+    "name": "Tadaga 20 mg tablets",
+    "category": "ED",
+    "img": "/images/items/tadaga-20-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 95,
+        "mrp": 105
+      },
+      {
+        "quantity": "200 pills",
+        "price": 155,
+        "mrp": 170
+      },
+      {
+        "quantity": "300 pills",
+        "price": 215,
+        "mrp": 237
+      },
+      {
+        "quantity": "500 pills",
+        "price": 335,
+        "mrp": 369
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "tazzle-10-fm",
+    "name": "Tazzle 10 FM",
+    "category": "ED",
+    "img": "/images/items/tazzle-10-fm.jpg",
+    "pricing": [
+      {
+        "quantity": "50 sachets",
+        "price": 110,
+        "mrp": 121
+      },
+      {
+        "quantity": "100 sachets",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "200 sachets",
+        "price": 335,
+        "mrp": 369
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "vidalista-80-mg-black-tablets",
+    "name": "Vidalista 80 Mg black tablets",
+    "category": "ED",
+    "img": "/images/items/vidalista-80-mg-black-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 170,
+        "mrp": 187
+      },
+      {
+        "quantity": "200 pills",
+        "price": 305,
+        "mrp": 336
+      },
+      {
+        "quantity": "300 pills",
+        "price": 440,
+        "mrp": 484
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "fildena-super-active",
+    "name": "Fildena super active",
+    "category": "ED",
+    "img": "/images/items/fildena-super-active.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 135,
+        "mrp": 148
+      },
+      {
+        "quantity": "200 pills",
+        "price": 235,
+        "mrp": 258
+      },
+      {
+        "quantity": "300 pills",
+        "price": 335,
+        "mrp": 369
+      },
+      {
+        "quantity": "500 pills",
+        "price": 535,
+        "mrp": 588
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "fildena-xxx-100-mg-tablets",
+    "name": "Fildena XXX 100 mg tablets",
+    "category": "ED",
+    "img": "/images/items/fildena-xxx-100-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 110,
+        "mrp": 121
+      },
+      {
+        "quantity": "200 pills",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "300 pills",
+        "price": 260,
+        "mrp": 286
+      },
+      {
+        "quantity": "500 pills",
+        "price": 410,
+        "mrp": 451
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "cenforce-200-mg-tablets",
+    "name": "Cenforce 200 mg tablets",
+    "category": "ED",
+    "img": "/images/items/cenforce-200-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 170,
+        "mrp": 187
+      },
+      {
+        "quantity": "200 pills",
+        "price": 305,
+        "mrp": 336
+      },
+      {
+        "quantity": "300 pills",
+        "price": 440,
+        "mrp": 484
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "fildena-super-tablets",
+    "name": "Fildena Super tablets",
+    "category": "ED",
+    "img": "/images/items/fildena-super-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "200 pills",
+        "price": 335,
+        "mrp": 369
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "fildena-25-mg-tablets",
+    "name": "Fildena 25 mg tablets",
+    "category": "ED",
+    "img": "/images/items/fildena-25-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 75,
+        "mrp": 82
+      },
+      {
+        "quantity": "200 pills",
+        "price": 115,
+        "mrp": 127
+      },
+      {
+        "quantity": "300 pills",
+        "price": 155,
+        "mrp": 170
+      },
+      {
+        "quantity": "500 pills",
+        "price": 235,
+        "mrp": 258
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "sildigra-xl-plus-150-mg",
+    "name": "Sildigra XL Plus 150 mg",
+    "category": "ED",
+    "img": "/images/items/sildigra-xl-plus-150-mg.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 135,
+        "mrp": 148
+      },
+      {
+        "quantity": "200 pills",
+        "price": 235,
+        "mrp": 258
+      },
+      {
+        "quantity": "300 pills",
+        "price": 335,
+        "mrp": 369
+      },
+      {
+        "quantity": "500 pills",
+        "price": 535,
+        "mrp": 588
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "tadacip-20-mg-tablets",
+    "name": "Tadacip 20 mg tablets",
+    "category": "ED",
+    "img": "/images/items/tadacip-20-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 95,
+        "mrp": 105
+      },
+      {
+        "quantity": "200 pills",
+        "price": 155,
+        "mrp": 170
+      },
+      {
+        "quantity": "300 pills",
+        "price": 215,
+        "mrp": 237
+      },
+      {
+        "quantity": "500 pills",
+        "price": 335,
+        "mrp": 369
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "dapoforce-60-mg-tablets",
+    "name": "Dapoforce 60 mg tablets",
+    "category": "ED",
+    "img": "/images/items/dapoforce-60-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 110,
+        "mrp": 121
+      },
+      {
+        "quantity": "200 pills",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "300 pills",
+        "price": 260,
+        "mrp": 286
+      },
+      {
+        "quantity": "500 pills",
+        "price": 410,
+        "mrp": 451
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "tadfil-20-mg",
+    "name": "Tadfil 20 mg",
+    "category": "ED",
+    "img": "/images/items/tadfil-20-mg.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 95,
+        "mrp": 105
+      },
+      {
+        "quantity": "200 pills",
+        "price": 155,
+        "mrp": 170
+      },
+      {
+        "quantity": "300 pills",
+        "price": 215,
+        "mrp": 237
+      },
+      {
+        "quantity": "500 pills",
+        "price": 335,
+        "mrp": 369
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "tadalista-ct-20-mg",
+    "name": "Tadalista CT 20 mg",
+    "category": "ED",
+    "img": "/images/items/tadalista-ct-20-mg.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 110,
+        "mrp": 121
+      },
+      {
+        "quantity": "200 pills",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "300 pills",
+        "price": 260,
+        "mrp": 286
+      },
+      {
+        "quantity": "500 pills",
+        "price": 410,
+        "mrp": 451
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "hiforce-50-mg",
+    "name": "Hiforce 50 mg",
+    "category": "ED",
+    "img": "/images/items/hiforce-50-mg.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 75,
+        "mrp": 82
+      },
+      {
+        "quantity": "200 pills",
+        "price": 115,
+        "mrp": 127
+      },
+      {
+        "quantity": "300 pills",
+        "price": 155,
+        "mrp": 170
+      },
+      {
+        "quantity": "500 pills",
+        "price": 235,
+        "mrp": 258
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "vilitra-80-mg-tablets",
+    "name": "Vilitra 80 mg tablets",
+    "category": "ED",
+    "img": "/images/items/vilitra-80-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 170,
+        "mrp": 187
+      },
+      {
+        "quantity": "200 pills",
+        "price": 305,
+        "mrp": 336
+      },
+      {
+        "quantity": "300 pills",
+        "price": 440,
+        "mrp": 484
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "alvitra-60-mg-tablets",
+    "name": "Alvitra 60 mg tablets",
+    "category": "ED",
+    "img": "/images/items/alvitra-60-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 135,
+        "mrp": 148
+      },
+      {
+        "quantity": "200 pills",
+        "price": 235,
+        "mrp": 258
+      },
+      {
+        "quantity": "300 pills",
+        "price": 335,
+        "mrp": 369
+      },
+      {
+        "quantity": "500 pills",
+        "price": 535,
+        "mrp": 588
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "avana-200-mg-tablets",
+    "name": "Avana 200 mg tablets",
+    "category": "ED",
+    "img": "/images/items/avana-200-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 235,
+        "mrp": 258
+      },
+      {
+        "quantity": "200 pills",
+        "price": 435,
+        "mrp": 479
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "super-vilitra-tablets",
+    "name": "Super Vilitra Tablets",
+    "category": "ED",
+    "img": "/images/items/super-vilitra-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 170,
+        "mrp": 187
+      },
+      {
+        "quantity": "200 pills",
+        "price": 305,
+        "mrp": 336
+      },
+      {
+        "quantity": "300 pills",
+        "price": 440,
+        "mrp": 484
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "malegra-50-mg-tablets",
+    "name": "Malegra 50 mg tablets",
+    "category": "ED",
+    "img": "/images/items/malegra-50-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 75,
+        "mrp": 82
+      },
+      {
+        "quantity": "200 pills",
+        "price": 115,
+        "mrp": 127
+      },
+      {
+        "quantity": "300 pills",
+        "price": 155,
+        "mrp": 170
+      },
+      {
+        "quantity": "500 pills",
+        "price": 235,
+        "mrp": 258
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "valif-oral-jelly",
+    "name": "Valif Oral Jelly",
+    "category": "ED",
+    "img": "/images/items/valif-oral-jelly.jpg",
+    "pricing": [
+      {
+        "quantity": "50 sachets",
+        "price": 110,
+        "mrp": 121
+      },
+      {
+        "quantity": "100 sachets",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "200 sachets",
+        "price": 335,
+        "mrp": 369
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "kamagra-oral-jelly",
+    "name": "Kamagra Oral Jelly",
+    "category": "ED",
+    "img": "/images/items/kamagra-oral-jelly.jpg",
+    "pricing": [
+      {
+        "quantity": "50 sachets",
+        "price": 110,
+        "mrp": 121
+      },
+      {
+        "quantity": "100 sachets",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "200 sachets",
+        "price": 335,
+        "mrp": 369
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "tadaga-80-mg",
+    "name": "Tadaga 80 mg",
+    "category": "ED",
+    "img": "/images/items/tadaga-80-mg.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 170,
+        "mrp": 187
+      },
+      {
+        "quantity": "200 pills",
+        "price": 305,
+        "mrp": 336
+      },
+      {
+        "quantity": "300 pills",
+        "price": 440,
+        "mrp": 484
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "tadalip-20-mg",
+    "name": "Tadalip 20 mg",
+    "category": "ED",
+    "img": "/images/items/tadalip-20-mg.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 95,
+        "mrp": 105
+      },
+      {
+        "quantity": "200 pills",
+        "price": 155,
+        "mrp": 170
+      },
+      {
+        "quantity": "300 pills",
+        "price": 215,
+        "mrp": 237
+      },
+      {
+        "quantity": "500 pills",
+        "price": 335,
+        "mrp": 369
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "tadarise-effervescent",
+    "name": "Tadarise effervescent",
+    "category": "ED",
+    "img": "/images/items/tadarise-effervescent.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 95,
+        "mrp": 105
+      },
+      {
+        "quantity": "200 pills",
+        "price": 155,
+        "mrp": 170
+      },
+      {
+        "quantity": "300 pills",
+        "price": 215,
+        "mrp": 237
+      },
+      {
+        "quantity": "500 pills",
+        "price": 335,
+        "mrp": 369
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "femafil-100-mg-tablets",
+    "name": "Femafil 100 mg tablets",
+    "category": "ED",
+    "img": "/images/items/femafil-100-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 110,
+        "mrp": 121
+      },
+      {
+        "quantity": "200 pills",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "300 pills",
+        "price": 260,
+        "mrp": 286
+      },
+      {
+        "quantity": "500 pills",
+        "price": 410,
+        "mrp": 451
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "mahagra-50-mg",
+    "name": "Mahagra 50 mg",
+    "category": "ED",
+    "img": "/images/items/mahagra-50-mg.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 75,
+        "mrp": 82
+      },
+      {
+        "quantity": "200 pills",
+        "price": 115,
+        "mrp": 127
+      },
+      {
+        "quantity": "300 pills",
+        "price": 155,
+        "mrp": 170
+      },
+      {
+        "quantity": "500 pills",
+        "price": 235,
+        "mrp": 258
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "prostacel-500-mcg-injection",
+    "name": "Prostacel 500 Mcg injection",
+    "category": "ED",
+    "img": "/images/items/prostacel-500-mcg-injection.jpg",
+    "pricing": [
+      {
+        "quantity": "1 vial",
+        "price": 145,
+        "mrp": 160
+      },
+      {
+        "quantity": "2 vial",
+        "price": 255,
+        "mrp": 280
+      },
+      {
+        "quantity": "3 vial",
+        "price": 365,
+        "mrp": 402
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "zhewitra-20-mg-tablets",
+    "name": "Zhewitra 20 mg tablets",
+    "category": "ED",
+    "img": "/images/items/zhewitra-20-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 95,
+        "mrp": 105
+      },
+      {
+        "quantity": "200 pills",
+        "price": 155,
+        "mrp": 170
+      },
+      {
+        "quantity": "300 pills",
+        "price": 215,
+        "mrp": 237
+      },
+      {
+        "quantity": "500 pills",
+        "price": 335,
+        "mrp": 369
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "malegra-oral-jelly",
+    "name": "Malegra Oral Jelly",
+    "category": "ED",
+    "img": "/images/items/malegra-oral-jelly.jpg",
+    "pricing": [
+      {
+        "quantity": "50 sachets",
+        "price": 110,
+        "mrp": 121
+      },
+      {
+        "quantity": "100 sachets",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "200 sachets",
+        "price": 335,
+        "mrp": 369
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "sildigra-250-mg-tablets",
+    "name": "Sildigra 250 mg tablets",
+    "category": "ED",
+    "img": "/images/items/sildigra-250-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 170,
+        "mrp": 187
+      },
+      {
+        "quantity": "200 pills",
+        "price": 305,
+        "mrp": 336
+      },
+      {
+        "quantity": "300 pills",
+        "price": 440,
+        "mrp": 484
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "tazzle-10-mg-tablets",
+    "name": "Tazzle 10 Mg tablets",
+    "category": "ED",
+    "img": "/images/items/tazzle-10-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 135,
+        "mrp": 148
+      },
+      {
+        "quantity": "200 pills",
+        "price": 235,
+        "mrp": 258
+      },
+      {
+        "quantity": "300 pills",
+        "price": 335,
+        "mrp": 369
+      },
+      {
+        "quantity": "500 pills",
+        "price": 535,
+        "mrp": 588
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "tadaga-oral-jelly",
+    "name": "Tadaga Oral Jelly",
+    "category": "ED",
+    "img": "/images/items/tadaga-oral-jelly.jpg",
+    "pricing": [
+      {
+        "quantity": "50 sachets",
+        "price": 110,
+        "mrp": 121
+      },
+      {
+        "quantity": "100 sachets",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "200 sachets",
+        "price": 335,
+        "mrp": 369
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "dasutra-x100-tablets",
+    "name": "Dasutra X100 Tablets",
+    "category": "ED",
+    "img": "/images/items/dasutra-x100-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 110,
+        "mrp": 121
+      },
+      {
+        "quantity": "200 pills",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "300 pills",
+        "price": 260,
+        "mrp": 286
+      },
+      {
+        "quantity": "500 pills",
+        "price": 410,
+        "mrp": 451
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "cenforce-soft-100-mg-tablets",
+    "name": "Cenforce Soft 100 mg tablets",
+    "category": "ED",
+    "img": "/images/items/cenforce-soft-100-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 95,
+        "mrp": 105
+      },
+      {
+        "quantity": "200 pills",
+        "price": 155,
+        "mrp": 170
+      },
+      {
+        "quantity": "300 pills",
+        "price": 215,
+        "mrp": 237
+      },
+      {
+        "quantity": "500 pills",
+        "price": 335,
+        "mrp": 369
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "apcalis-sx-oral-jelly",
+    "name": "Apcalis SX oral Jelly",
+    "category": "ED",
+    "img": "/images/items/apcalis-sx-oral-jelly.jpg",
+    "pricing": [
+      {
+        "quantity": "50 sachets",
+        "price": 110,
+        "mrp": 121
+      },
+      {
+        "quantity": "100 sachets",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "200 sachets",
+        "price": 335,
+        "mrp": 369
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "filagra-double-200-mg-tablets",
+    "name": "Filagra Double 200 mg tablets",
+    "category": "ED",
+    "img": "/images/items/filagra-double-200-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 170,
+        "mrp": 187
+      },
+      {
+        "quantity": "200 pills",
+        "price": 305,
+        "mrp": 336
+      },
+      {
+        "quantity": "300 pills",
+        "price": 440,
+        "mrp": 484
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "kamagra-gold-100-mg-tablets",
+    "name": "Kamagra Gold 100 mg tablets",
+    "category": "ED",
+    "img": "/images/items/kamagra-gold-100-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 135,
+        "mrp": 148
+      },
+      {
+        "quantity": "200 pills",
+        "price": 235,
+        "mrp": 258
+      },
+      {
+        "quantity": "300 pills",
+        "price": 335,
+        "mrp": 369
+      },
+      {
+        "quantity": "500 pills",
+        "price": 535,
+        "mrp": 588
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "megalis-20-mg-tablets",
+    "name": "megalis 20 mg tablets",
+    "category": "ED",
+    "img": "/images/items/megalis-20-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 135,
+        "mrp": 148
+      },
+      {
+        "quantity": "200 pills",
+        "price": 235,
+        "mrp": 258
+      },
+      {
+        "quantity": "300 pills",
+        "price": 335,
+        "mrp": 369
+      },
+      {
+        "quantity": "500 pills",
+        "price": 535,
+        "mrp": 588
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "sildisoft-100-mg",
+    "name": "Sildisoft 100 mg",
+    "category": "ED",
+    "img": "/images/items/sildisoft-100-mg.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 110,
+        "mrp": 121
+      },
+      {
+        "quantity": "200 pills",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "300 pills",
+        "price": 260,
+        "mrp": 286
+      },
+      {
+        "quantity": "500 pills",
+        "price": 410,
+        "mrp": 451
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "super-tadapox-tablets",
+    "name": "Super Tadapox Tablets",
+    "category": "ED",
+    "img": "/images/items/super-tadapox-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 170,
+        "mrp": 187
+      },
+      {
+        "quantity": "200 pills",
+        "price": 305,
+        "mrp": 336
+      },
+      {
+        "quantity": "300 pills",
+        "price": 440,
+        "mrp": 484
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "tadapox-tablets",
+    "name": "Tadapox Tablets",
+    "category": "ED",
+    "img": "/images/items/tadapox-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 135,
+        "mrp": 148
+      },
+      {
+        "quantity": "200 pills",
+        "price": 235,
+        "mrp": 258
+      },
+      {
+        "quantity": "300 pills",
+        "price": 335,
+        "mrp": 369
+      },
+      {
+        "quantity": "500 pills",
+        "price": 535,
+        "mrp": 588
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "dapoforce-90-mg-tablets",
+    "name": "Dapoforce 90 mg tablets",
+    "category": "ED",
+    "img": "/images/items/dapoforce-90-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 135,
+        "mrp": 148
+      },
+      {
+        "quantity": "200 pills",
+        "price": 235,
+        "mrp": 258
+      },
+      {
+        "quantity": "300 pills",
+        "price": 335,
+        "mrp": 369
+      },
+      {
+        "quantity": "500 pills",
+        "price": 535,
+        "mrp": 588
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "avanair-100-mg-tablets",
+    "name": "Avanair 100 mg tablets",
+    "category": "ED",
+    "img": "/images/items/avanair-100-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 135,
+        "mrp": 148
+      },
+      {
+        "quantity": "200 pills",
+        "price": 235,
+        "mrp": 258
+      },
+      {
+        "quantity": "300 pills",
+        "price": 335,
+        "mrp": 369
+      },
+      {
+        "quantity": "500 pills",
+        "price": 535,
+        "mrp": 588
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "unogra-50-mg-tablets",
+    "name": "Unogra 50 mg tablets",
+    "category": "ED",
+    "img": "/images/items/unogra-50-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "50 sachets",
+        "price": 110,
+        "mrp": 121
+      },
+      {
+        "quantity": "100 sachets",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "200 sachets",
+        "price": 335,
+        "mrp": 369
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "avaforce-100-mg-tablets",
+    "name": "Avaforce 100 Mg tablets",
+    "category": "ED",
+    "img": "/images/items/avaforce-100-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 135,
+        "mrp": 148
+      },
+      {
+        "quantity": "200 pills",
+        "price": 235,
+        "mrp": 258
+      },
+      {
+        "quantity": "300 pills",
+        "price": 335,
+        "mrp": 369
+      },
+      {
+        "quantity": "500 pills",
+        "price": 535,
+        "mrp": 588
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "cenforce-professional-100-mg",
+    "name": "Cenforce professional 100 mg",
+    "category": "ED",
+    "img": "/images/items/cenforce-professional-100-mg.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 95,
+        "mrp": 105
+      },
+      {
+        "quantity": "200 pills",
+        "price": 155,
+        "mrp": 170
+      },
+      {
+        "quantity": "300 pills",
+        "price": 215,
+        "mrp": 237
+      },
+      {
+        "quantity": "500 pills",
+        "price": 335,
+        "mrp": 369
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "filagra-dxt-plus",
+    "name": "Filagra DXT Plus",
+    "category": "ED",
+    "img": "/images/items/filagra-dxt-plus.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 110,
+        "mrp": 121
+      },
+      {
+        "quantity": "200 pills",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "300 pills",
+        "price": 260,
+        "mrp": 286
+      },
+      {
+        "quantity": "500 pills",
+        "price": 410,
+        "mrp": 451
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "kamagra-polo-chewable-tablets",
+    "name": "Kamagra Polo chewable tablets",
+    "category": "ED",
+    "img": "/images/items/kamagra-polo-chewable-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 110,
+        "mrp": 121
+      },
+      {
+        "quantity": "200 pills",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "300 pills",
+        "price": 260,
+        "mrp": 286
+      },
+      {
+        "quantity": "500 pills",
+        "price": 410,
+        "mrp": 451
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "vidalista-ct-20-mg-tablets",
+    "name": "Vidalista CT 20 mg tablets",
+    "category": "ED",
+    "img": "/images/items/vidalista-ct-20-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 95,
+        "mrp": 105
+      },
+      {
+        "quantity": "200 pills",
+        "price": 155,
+        "mrp": 170
+      },
+      {
+        "quantity": "300 pills",
+        "price": 215,
+        "mrp": 237
+      },
+      {
+        "quantity": "500 pills",
+        "price": 335,
+        "mrp": 369
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "silditop-100-mg",
+    "name": "Silditop 100 mg",
+    "category": "ED",
+    "img": "/images/items/silditop-100-mg.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 95,
+        "mrp": 105
+      },
+      {
+        "quantity": "200 pills",
+        "price": 155,
+        "mrp": 170
+      },
+      {
+        "quantity": "300 pills",
+        "price": 215,
+        "mrp": 237
+      },
+      {
+        "quantity": "500 pills",
+        "price": 335,
+        "mrp": 369
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "tadaflo-20-mg-tablets",
+    "name": "Tadaflo 20 mg tablets",
+    "category": "ED",
+    "img": "/images/items/tadaflo-20-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 95,
+        "mrp": 105
+      },
+      {
+        "quantity": "200 pills",
+        "price": 155,
+        "mrp": 170
+      },
+      {
+        "quantity": "300 pills",
+        "price": 215,
+        "mrp": 237
+      },
+      {
+        "quantity": "500 pills",
+        "price": 335,
+        "mrp": 369
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "tadalist-10-mg-tablets",
+    "name": "Tadalist 10 mg tablets",
+    "category": "ED",
+    "img": "/images/items/tadalist-10-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 85,
+        "mrp": 94
+      },
+      {
+        "quantity": "200 pills",
+        "price": 135,
+        "mrp": 148
+      },
+      {
+        "quantity": "300 pills",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "500 pills",
+        "price": 335,
+        "mrp": 369
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "varditra-20-mg-tablets",
+    "name": "varditra 20 mg tablets",
+    "category": "ED",
+    "img": "/images/items/varditra-20-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 95,
+        "mrp": 105
+      },
+      {
+        "quantity": "200 pills",
+        "price": 155,
+        "mrp": 170
+      },
+      {
+        "quantity": "300 pills",
+        "price": 215,
+        "mrp": 237
+      },
+      {
+        "quantity": "500 pills",
+        "price": 335,
+        "mrp": 369
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "vardegra-20-mg-tablets",
+    "name": "Vardegra 20 mg tablets",
+    "category": "ED",
+    "img": "/images/items/vardegra-20-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 95,
+        "mrp": 105
+      },
+      {
+        "quantity": "200 pills",
+        "price": 155,
+        "mrp": 170
+      },
+      {
+        "quantity": "300 pills",
+        "price": 215,
+        "mrp": 237
+      },
+      {
+        "quantity": "500 pills",
+        "price": 335,
+        "mrp": 369
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "kamagra-oral-jelly-vol-2",
+    "name": "Kamagra Oral Jelly VOL 2",
+    "category": "ED",
+    "img": "/images/items/kamagra-oral-jelly-vol-2.jpg",
+    "pricing": [
+      {
+        "quantity": "50 sachets",
+        "price": 110,
+        "mrp": 121
+      },
+      {
+        "quantity": "100 sachets",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "200 sachets",
+        "price": 335,
+        "mrp": 369
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "abhirise-60-mg-tablets",
+    "name": "Abhirise 60 mg tablets",
+    "category": "ED",
+    "img": "/images/items/abhirise-60-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 135,
+        "mrp": 148
+      },
+      {
+        "quantity": "200 pills",
+        "price": 235,
+        "mrp": 258
+      },
+      {
+        "quantity": "300 pills",
+        "price": 335,
+        "mrp": 369
+      },
+      {
+        "quantity": "500 pills",
+        "price": 535,
+        "mrp": 588
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "vilitra-10-mg-tablets",
+    "name": "Vilitra 10 mg tablets",
+    "category": "ED",
+    "img": "/images/items/vilitra-10-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 85,
+        "mrp": 94
+      },
+      {
+        "quantity": "200 pills",
+        "price": 135,
+        "mrp": 148
+      },
+      {
+        "quantity": "300 pills",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "500 pills",
+        "price": 335,
+        "mrp": 369
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "duratia-60-mg-tablets",
+    "name": "Duratia 60 mg tablets",
+    "category": "ED",
+    "img": "/images/items/duratia-60-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 110,
+        "mrp": 121
+      },
+      {
+        "quantity": "200 pills",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "300 pills",
+        "price": 260,
+        "mrp": 286
+      },
+      {
+        "quantity": "500 pills",
+        "price": 410,
+        "mrp": 451
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "sildalist-120-mg-tablets",
+    "name": "Sildalist 120 mg tablets",
+    "category": "ED",
+    "img": "/images/items/sildalist-120-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 155,
+        "mrp": 170
+      },
+      {
+        "quantity": "200 pills",
+        "price": 275,
+        "mrp": 302
+      },
+      {
+        "quantity": "300 pills",
+        "price": 395,
+        "mrp": 435
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "suhagra-50-mg-tablets",
+    "name": "suhagra 50 mg tablets",
+    "category": "ED",
+    "img": "/images/items/suhagra-50-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 85,
+        "mrp": 94
+      },
+      {
+        "quantity": "200 pills",
+        "price": 135,
+        "mrp": 148
+      },
+      {
+        "quantity": "300 pills",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "500 pills",
+        "price": 335,
+        "mrp": 369
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "suhagra-100-mg-tablets",
+    "name": "Suhagra 100 mg tablets",
+    "category": "ED",
+    "img": "/images/items/suhagra-100-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 110,
+        "mrp": 121
+      },
+      {
+        "quantity": "200 pills",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "300 pills",
+        "price": 260,
+        "mrp": 286
+      },
+      {
+        "quantity": "500 pills",
+        "price": 410,
+        "mrp": 451
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "tadaga-40-mg-tablets",
+    "name": "Tadaga 40 mg tablets",
+    "category": "ED",
+    "img": "/images/items/tadaga-40-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 110,
+        "mrp": 121
+      },
+      {
+        "quantity": "200 pills",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "300 pills",
+        "price": 260,
+        "mrp": 286
+      },
+      {
+        "quantity": "500 pills",
+        "price": 410,
+        "mrp": 451
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "tadalis-sx-20-mg-tablets",
+    "name": "Tadalis SX 20 mg tablets",
+    "category": "ED",
+    "img": "/images/items/tadalis-sx-20-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 95,
+        "mrp": 105
+      },
+      {
+        "quantity": "200 pills",
+        "price": 155,
+        "mrp": 170
+      },
+      {
+        "quantity": "300 pills",
+        "price": 215,
+        "mrp": 237
+      },
+      {
+        "quantity": "500 pills",
+        "price": 335,
+        "mrp": 369
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "begma-120-mg-tablets",
+    "name": "Begma 120 Mg tablets",
+    "category": "ED",
+    "img": "/images/items/begma-120-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 110,
+        "mrp": 121
+      },
+      {
+        "quantity": "200 pills",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "300 pills",
+        "price": 260,
+        "mrp": 286
+      },
+      {
+        "quantity": "500 pills",
+        "price": 410,
+        "mrp": 451
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "super-p-force-oral-jelly",
+    "name": "Super P Force Oral Jelly",
+    "category": "ED",
+    "img": "/images/items/super-p-force-oral-jelly.jpg",
+    "pricing": [
+      {
+        "quantity": "50 sachets",
+        "price": 110,
+        "mrp": 121
+      },
+      {
+        "quantity": "100 sachets",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "200 sachets",
+        "price": 335,
+        "mrp": 369
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "avana-50-mg-tablets",
+    "name": "avana 50 mg tablets",
+    "category": "ED",
+    "img": "/images/items/avana-50-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 85,
+        "mrp": 94
+      },
+      {
+        "quantity": "200 pills",
+        "price": 135,
+        "mrp": 148
+      },
+      {
+        "quantity": "300 pills",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "500 pills",
+        "price": 335,
+        "mrp": 369
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "malegra-fxt-plus-tablet",
+    "name": "Malegra FXT Plus tablet",
+    "category": "ED",
+    "img": "/images/items/malegra-fxt-plus-tablet.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 110,
+        "mrp": 121
+      },
+      {
+        "quantity": "200 pills",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "300 pills",
+        "price": 260,
+        "mrp": 286
+      },
+      {
+        "quantity": "500 pills",
+        "price": 410,
+        "mrp": 451
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "tadasoft-20-mg-tablets",
+    "name": "Tadasoft 20 mg tablets",
+    "category": "ED",
+    "img": "/images/items/tadasoft-20-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 95,
+        "mrp": 105
+      },
+      {
+        "quantity": "200 pills",
+        "price": 155,
+        "mrp": 170
+      },
+      {
+        "quantity": "300 pills",
+        "price": 215,
+        "mrp": 237
+      },
+      {
+        "quantity": "500 pills",
+        "price": 335,
+        "mrp": 369
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "tadalista-professional-20-mg-tablets",
+    "name": "tadalista professional 20 mg tablets",
+    "category": "ED",
+    "img": "/images/items/tadalista-professional-20-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 95,
+        "mrp": 105
+      },
+      {
+        "quantity": "200 pills",
+        "price": 155,
+        "mrp": 170
+      },
+      {
+        "quantity": "300 pills",
+        "price": 215,
+        "mrp": 237
+      },
+      {
+        "quantity": "500 pills",
+        "price": 335,
+        "mrp": 369
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "mahagra-150-mg-tablets",
+    "name": "mahagra 150 mg tablets",
+    "category": "ED",
+    "img": "/images/items/mahagra-150-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 110,
+        "mrp": 121
+      },
+      {
+        "quantity": "200 pills",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "300 pills",
+        "price": 260,
+        "mrp": 286
+      },
+      {
+        "quantity": "500 pills",
+        "price": 410,
+        "mrp": 451
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "super-alvitra-tablets",
+    "name": "Super Alvitra Tablets",
+    "category": "ED",
+    "img": "/images/items/super-alvitra-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 155,
+        "mrp": 170
+      },
+      {
+        "quantity": "200 pills",
+        "price": 275,
+        "mrp": 302
+      },
+      {
+        "quantity": "300 pills",
+        "price": 395,
+        "mrp": 435
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "vega-polo-100-mg-tablets",
+    "name": "Vega Polo 100 mg tablets",
+    "category": "ED",
+    "img": "/images/items/vega-polo-100-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 95,
+        "mrp": 105
+      },
+      {
+        "quantity": "200 pills",
+        "price": 155,
+        "mrp": 170
+      },
+      {
+        "quantity": "300 pills",
+        "price": 215,
+        "mrp": 237
+      },
+      {
+        "quantity": "500 pills",
+        "price": 335,
+        "mrp": 369
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "super-zhewitra-tablets",
+    "name": "Super Zhewitra tablets",
+    "category": "ED",
+    "img": "/images/items/super-zhewitra-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 155,
+        "mrp": 170
+      },
+      {
+        "quantity": "200 pills",
+        "price": 275,
+        "mrp": 302
+      },
+      {
+        "quantity": "300 pills",
+        "price": 395,
+        "mrp": 435
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "malegra-green-100-mg",
+    "name": "Malegra Green 100 mg",
+    "category": "ED",
+    "img": "/images/items/malegra-green-100-mg.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 95,
+        "mrp": 105
+      },
+      {
+        "quantity": "200 pills",
+        "price": 155,
+        "mrp": 170
+      },
+      {
+        "quantity": "300 pills",
+        "price": 215,
+        "mrp": 237
+      },
+      {
+        "quantity": "500 pills",
+        "price": 335,
+        "mrp": 369
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "tadarise-5-mg-tablets",
+    "name": "Tadarise 5 mg tablets",
+    "category": "ED",
+    "img": "/images/items/tadarise-5-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 75,
+        "mrp": 82
+      },
+      {
+        "quantity": "200 pills",
+        "price": 115,
+        "mrp": 127
+      },
+      {
+        "quantity": "300 pills",
+        "price": 155,
+        "mrp": 170
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "tadagra-strong-40-mg-tablets",
+    "name": "tadagra strong 40 mg tablets",
+    "category": "ED",
+    "img": "/images/items/tadagra-strong-40-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 110,
+        "mrp": 121
+      },
+      {
+        "quantity": "200 pills",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "300 pills",
+        "price": 260,
+        "mrp": 286
+      },
+      {
+        "quantity": "500 pills",
+        "price": 410,
+        "mrp": 451
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "super-kamagra-oral-jelly",
+    "name": "Super kamagra oral jelly",
+    "category": "ED",
+    "img": "/images/items/super-kamagra-oral-jelly.jpg",
+    "pricing": [
+      {
+        "quantity": "50 sachets",
+        "price": 110,
+        "mrp": 121
+      },
+      {
+        "quantity": "100 sachets",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "200 sachets",
+        "price": 335,
+        "mrp": 369
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "snovitra-professional",
+    "name": "Snovitra Professional",
+    "category": "ED",
+    "img": "/images/items/snovitra-professional.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 110,
+        "mrp": 121
+      },
+      {
+        "quantity": "200 pills",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "300 pills",
+        "price": 260,
+        "mrp": 286
+      },
+      {
+        "quantity": "500 pills",
+        "price": 410,
+        "mrp": 451
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "tadalista-ct-20-mg",
+    "name": "Tadalista CT 20 mg",
+    "category": "ED",
+    "img": "/images/items/tadalista-ct-20-mg.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 95,
+        "mrp": 105
+      },
+      {
+        "quantity": "200 pills",
+        "price": 155,
+        "mrp": 170
+      },
+      {
+        "quantity": "300 pills",
+        "price": 215,
+        "mrp": 237
+      },
+      {
+        "quantity": "500 pills",
+        "price": 335,
+        "mrp": 369
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "begma-200-mg-tablets",
+    "name": "Begma 200 mg tablets",
+    "category": "ED",
+    "img": "/images/items/begma-200-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 155,
+        "mrp": 170
+      },
+      {
+        "quantity": "200 pills",
+        "price": 275,
+        "mrp": 302
+      },
+      {
+        "quantity": "300 pills",
+        "price": 395,
+        "mrp": 435
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "kamagra-chewbale-100-mg",
+    "name": "Kamagra chewbale 100 mg",
+    "category": "ED",
+    "img": "/images/items/kamagra-chewbale-100-mg.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 110,
+        "mrp": 121
+      },
+      {
+        "quantity": "200 pills",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "300 pills",
+        "price": 260,
+        "mrp": 286
+      },
+      {
+        "quantity": "500 pills",
+        "price": 410,
+        "mrp": 451
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "manforce-100-mg",
+    "name": "Manforce 100 mg",
+    "category": "ED",
+    "img": "/images/items/manforce-100-mg.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 135,
+        "mrp": 148
+      },
+      {
+        "quantity": "200 pills",
+        "price": 235,
+        "mrp": 258
+      },
+      {
+        "quantity": "300 pills",
+        "price": 335,
+        "mrp": 369
+      },
+      {
+        "quantity": "500 pills",
+        "price": 535,
+        "mrp": 588
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "tastylia-20-mg",
+    "name": "Tastylia 20 mg",
+    "category": "ED",
+    "img": "/images/items/tastylia-20-mg.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 95,
+        "mrp": 105
+      },
+      {
+        "quantity": "200 pills",
+        "price": 155,
+        "mrp": 170
+      },
+      {
+        "quantity": "300 pills",
+        "price": 215,
+        "mrp": 237
+      },
+      {
+        "quantity": "500 pills",
+        "price": 335,
+        "mrp": 369
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "tadarise-professional-20-mg",
+    "name": "Tadarise professional 20 mg",
+    "category": "ED",
+    "img": "/images/items/tadarise-professional-20-mg.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 95,
+        "mrp": 105
+      },
+      {
+        "quantity": "200 pills",
+        "price": 155,
+        "mrp": 170
+      },
+      {
+        "quantity": "300 pills",
+        "price": 215,
+        "mrp": 237
+      },
+      {
+        "quantity": "500 pills",
+        "price": 335,
+        "mrp": 369
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "super-tastylia",
+    "name": "Super Tastylia",
+    "category": "ED",
+    "img": "/images/items/super-tastylia.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 155,
+        "mrp": 170
+      },
+      {
+        "quantity": "200 pills",
+        "price": 275,
+        "mrp": 302
+      },
+      {
+        "quantity": "300 pills",
+        "price": 395,
+        "mrp": 435
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "abhirise-40-mg-tablets",
+    "name": "Abhirise 40 mg tablets",
+    "category": "ED",
+    "img": "/images/items/abhirise-40-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 110,
+        "mrp": 121
+      },
+      {
+        "quantity": "200 pills",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "300 pills",
+        "price": 260,
+        "mrp": 286
+      },
+      {
+        "quantity": "500 pills",
+        "price": 410,
+        "mrp": 451
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "tastylia-oral-jelly",
+    "name": "Tastylia Oral Jelly",
+    "category": "ED",
+    "img": "/images/items/tastylia-oral-jelly.jpg",
+    "pricing": [
+      {
+        "quantity": "50 sachets",
+        "price": 110,
+        "mrp": 121
+      },
+      {
+        "quantity": "100 sachets",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "200 sachets",
+        "price": 335,
+        "mrp": 369
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "lovegra-oral-jelly",
+    "name": "Lovegra Oral Jelly",
+    "category": "ED",
+    "img": "/images/items/lovegra-oral-jelly.jpg",
+    "pricing": [
+      {
+        "quantity": "50 sachets",
+        "price": 110,
+        "mrp": 121
+      },
+      {
+        "quantity": "100 sachets",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "200 sachets",
+        "price": 335,
+        "mrp": 369
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "sildalist-140-mg-tablets",
+    "name": "Sildalist 140 mg tablets",
+    "category": "ED",
+    "img": "/images/items/sildalist-140-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 155,
+        "mrp": 170
+      },
+      {
+        "quantity": "200 pills",
+        "price": 275,
+        "mrp": 302
+      },
+      {
+        "quantity": "300 pills",
+        "price": 395,
+        "mrp": 435
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "vega-100-mg",
+    "name": "Vega 100 mg",
+    "category": "ED",
+    "img": "/images/items/vega-100-mg.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 95,
+        "mrp": 105
+      },
+      {
+        "quantity": "200 pills",
+        "price": 155,
+        "mrp": 170
+      },
+      {
+        "quantity": "300 pills",
+        "price": 215,
+        "mrp": 237
+      },
+      {
+        "quantity": "500 pills",
+        "price": 335,
+        "mrp": 369
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "viagra-100-mg-tablets",
+    "name": "Viagra 100 mg tablets",
+    "category": "ED",
+    "img": "/images/items/viagra-100-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "20 pills",
+        "price": 155,
+        "mrp": 170
+      },
+      {
+        "quantity": "30 pills",
+        "price": 215,
+        "mrp": 237
+      },
+      {
+        "quantity": "50 pills",
+        "price": 335,
+        "mrp": 369
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "malegra-dxt-plus",
+    "name": "Malegra DXT Plus",
+    "category": "ED",
+    "img": "/images/items/malegra-dxt-plus.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 135,
+        "mrp": 148
+      },
+      {
+        "quantity": "200 pills",
+        "price": 235,
+        "mrp": 258
+      },
+      {
+        "quantity": "300 pills",
+        "price": 335,
+        "mrp": 369
+      },
+      {
+        "quantity": "500 pills",
+        "price": 535,
+        "mrp": 588
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "top-avana-tablet",
+    "name": "Top Avana tablet",
+    "category": "ED",
+    "img": "/images/items/top-avana-tablet.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 235,
+        "mrp": 258
+      },
+      {
+        "quantity": "200 pills",
+        "price": 435,
+        "mrp": 479
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "duratia-30-mg",
+    "name": "Duratia 30 Mg",
+    "category": "ED",
+    "img": "/images/items/duratia-30-mg.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 95,
+        "mrp": 105
+      },
+      {
+        "quantity": "200 pills",
+        "price": 155,
+        "mrp": 170
+      },
+      {
+        "quantity": "300 pills",
+        "price": 215,
+        "mrp": 237
+      },
+      {
+        "quantity": "500 pills",
+        "price": 335,
+        "mrp": 369
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "ladygra-100-mg",
+    "name": "Ladygra 100 mg",
+    "category": "ED",
+    "img": "/images/items/ladygra-100-mg.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 85,
+        "mrp": 94
+      },
+      {
+        "quantity": "200 pills",
+        "price": 135,
+        "mrp": 148
+      },
+      {
+        "quantity": "300 pills",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "500 pills",
+        "price": 335,
+        "mrp": 369
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "silagra-100-mg",
+    "name": "Silagra 100 mg",
+    "category": "ED",
+    "img": "/images/items/silagra-100-mg.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 95,
+        "mrp": 105
+      },
+      {
+        "quantity": "200 pills",
+        "price": 155,
+        "mrp": 170
+      },
+      {
+        "quantity": "300 pills",
+        "price": 215,
+        "mrp": 237
+      },
+      {
+        "quantity": "500 pills",
+        "price": 335,
+        "mrp": 369
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "abhiforce-d-tablet",
+    "name": "Abhiforce D Tablet",
+    "category": "ED",
+    "img": "/images/items/abhiforce-d-tablet.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 155,
+        "mrp": 170
+      },
+      {
+        "quantity": "200 pills",
+        "price": 275,
+        "mrp": 302
+      },
+      {
+        "quantity": "300 pills",
+        "price": 395,
+        "mrp": 435
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "vigore-force-tablet",
+    "name": "Vigore Force tablet",
+    "category": "ED",
+    "img": "/images/items/vigore-force-tablet.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 155,
+        "mrp": 170
+      },
+      {
+        "quantity": "200 pills",
+        "price": 275,
+        "mrp": 302
+      },
+      {
+        "quantity": "300 pills",
+        "price": 395,
+        "mrp": 435
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "cobra-120-mg-tablets",
+    "name": "Cobra 120 mg tablets",
+    "category": "ED",
+    "img": "/images/items/cobra-120-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 110,
+        "mrp": 121
+      },
+      {
+        "quantity": "200 pills",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "300 pills",
+        "price": 260,
+        "mrp": 286
+      },
+      {
+        "quantity": "500 pills",
+        "price": 410,
+        "mrp": 451
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "vidalista-80-mg-yellow",
+    "name": "Vidalista 80 Mg Yellow",
+    "category": "ED",
+    "img": "/images/items/vidalista-80-mg-yellow.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 155,
+        "mrp": 170
+      },
+      {
+        "quantity": "200 pills",
+        "price": 275,
+        "mrp": 302
+      },
+      {
+        "quantity": "300 pills",
+        "price": 395,
+        "mrp": 435
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "tastylia-black-tablets",
+    "name": "Tastylia Black Tablets",
+    "category": "ED",
+    "img": "/images/items/tastylia-black-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 155,
+        "mrp": 170
+      },
+      {
+        "quantity": "200 pills",
+        "price": 275,
+        "mrp": 302
+      },
+      {
+        "quantity": "300 pills",
+        "price": 395,
+        "mrp": 435
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "vidalista-professional-tablets",
+    "name": "Vidalista Professional Tablets",
+    "category": "ED",
+    "img": "/images/items/vidalista-professional-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 95,
+        "mrp": 105
+      },
+      {
+        "quantity": "200 pills",
+        "price": 155,
+        "mrp": 170
+      },
+      {
+        "quantity": "300 pills",
+        "price": 215,
+        "mrp": 237
+      },
+      {
+        "quantity": "500 pills",
+        "price": 335,
+        "mrp": 369
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "super-p-force-tablets",
+    "name": "Super P Force tablets",
+    "category": "ED",
+    "img": "/images/items/super-p-force-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 155,
+        "mrp": 170
+      },
+      {
+        "quantity": "200 pills",
+        "price": 275,
+        "mrp": 302
+      },
+      {
+        "quantity": "300 pills",
+        "price": 395,
+        "mrp": 435
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "extra-super-p-force-tablets",
+    "name": "Extra Super P Force tablets",
+    "category": "ED",
+    "img": "/images/items/extra-super-p-force-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 235,
+        "mrp": 258
+      },
+      {
+        "quantity": "200 pills",
+        "price": 435,
+        "mrp": 479
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
+  {
+    "slug": "cenforce-130-mg-tablets",
+    "name": "Cenforce 130 mg tablets",
+    "category": "ED",
+    "img": "/images/items/cenforce-130-mg-tablets.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 110,
+        "mrp": 121
+      },
+      {
+        "quantity": "200 pills",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "300 pills",
+        "price": 260,
+        "mrp": 286
+      },
+      {
+        "quantity": "500 pills",
+        "price": 410,
+        "mrp": 451
+      }
+    ],
+    "content": {
+      "shortDescription": "Erectile dysfunction support in assorted strengths and formats (tablets, jelly, sachets).",
+      "keyBenefits": [
+        "Helps achieve and maintain erections",
+        "Multiple strengths and pack sizes",
+        "Discreet, easy oral dosing"
+      ],
+      "keyFeatures": [
+        "Quality-assured manufacturing",
+        "Clear pack-tier pricing",
+        "Ships in secure packaging"
+      ],
+      "longDescription": "This product is part of the ED range featuring varied strengths and dosage forms. Choose the pack size that fits your usage and budget. Always use under medical guidance."
+    }
+  },
 
-{
-  
-      "slug": "cenforce-100mg",
-      "name": "Cenforce 100mg",
-      "category": "ED",
-      "img": "/images/cenforce-100mg.jpg",
-      "price": 199,
-      "mrp": 249,
-      "content": {
-        "shortDescription": "Sildenafil 100mg tablets that help men restore erectile function, improve confidence, and enjoy intimacy with effects lasting 4–6 hours.",
-        "keyBenefits": [
-          "Promotes stronger and longer-lasting erections",
-          "Boosts sexual confidence and intimacy",
-          "Fast onset within 30–60 minutes"
-        ],
-        "keyFeatures": [
-          "Clinically proven PDE5 inhibitor",
-          "Convenient once-daily oral tablet",
-          "Manufactured under strict quality standards"
-        ],
-        "longDescription": "Sildenafil 100mg Tablets are widely trusted for treating erectile dysfunction by improving penile blood flow when sexually stimulated. They restore sexual performance and confidence, working within an hour and lasting several hours."
-      }
-    },
-    {
-      "slug": "cenforce-200mg",
-      "name": "Cenforce 200mg",
-      "category": "ED",
-      "img": "/images/cenforce-200mg.jpg",
-      "price": 249,
-      "mrp": 299,
-      "content": {
-        "shortDescription": "High-strength Sildenafil 200mg tablets for men needing stronger ED support than standard doses.",
-        "keyBenefits": [
-          "Stronger, longer-lasting erections",
-          "Improves sexual confidence and intimacy",
-          "Suitable for moderate to severe ED"
-        ],
-        "keyFeatures": [
-          "Double-dose 200mg Sildenafil Citrate",
-          "Fast-acting with 4–6 hour duration",
-          "Clinically proven efficacy"
-        ],
-        "longDescription": "Sildenafil 200mg tablets provide enhanced erectile support for men unresponsive to lower strengths. They improve rigidity, stamina, and responsiveness, enabling satisfying intimacy under medical supervision."
-      }
-    },
-    {
-      "slug": "kamagra-100mg-ct",
-      "name": "Kamagra 100mg Chewable Tablets",
-      "category": "ED",
-      "img": "/images/kamagra-100mg-ct.jpg",
-      "price": 219,
-      "mrp": 269,
-      "content": {
-        "shortDescription": "Sildenafil 100mg chewable tablets with fast absorption and convenient use for ED relief.",
-        "keyBenefits": [
-          "Rapid onset within 20–30 minutes",
-          "Discreet, chewable, no water needed",
-          "Boosts confidence and intimacy"
-        ],
-        "keyFeatures": [
-          "100mg Sildenafil per chewable tablet",
-          "Pleasant flavor for easier intake",
-          "Travel-friendly packaging"
-        ],
-        "longDescription": "Kamagra 100mg Chewable Tablets deliver the same proven active ingredient as traditional Sildenafil tablets but in an easy-to-chew format. They act faster and are convenient for men who dislike swallowing pills."
-      }
-    },
-    {
-      "slug": "kamagra-polo-100mg",
-      "name": "Kamagra 100mg Polo Tablets",
-      "category": "ED",
-      "img": "/images/kamagra-polo-100mg.jpg",
-      "price": 229,
-      "mrp": 279,
-      "content": {
-        "shortDescription": "Mint-flavored Sildenafil 100mg chewable tablets for discreet and fast-acting ED support.",
-        "keyBenefits": [
-          "Fast absorption and rapid onset",
-          "Restores confidence and spontaneity",
-          "Discreet, travel-friendly format"
-        ],
-        "keyFeatures": [
-          "Chewable mint-flavored design",
-          "100mg Sildenafil per tablet",
-          "Pharmacist-formulated quality"
-        ],
-        "longDescription": "Kamagra Polo 100mg Tablets combine Sildenafil’s reliability with a mint-flavored, chewable form for faster action and greater convenience, restoring intimacy naturally."
-      }
-    },
-    {
-      "slug": "viagra-50mg",
-      "name": "Viagra 50mg",
-      "category": "ED",
-      "img": "/images/viagra-50mg.jpg",
-      "price": 239,
-      "mrp": 289,
-      "content": {
-        "shortDescription": "Moderate-dose Sildenafil 50mg tablets for mild to moderate ED relief.",
-        "keyBenefits": [
-          "Improves erection quality",
-          "Boosts confidence and reduces anxiety",
-          "Fast results within 30–60 minutes"
-        ],
-        "keyFeatures": [
-          "50mg strength for beginners or mild ED",
-          "Clinically proven, widely prescribed",
-          "Convenient oral tablet"
-        ],
-        "longDescription": "Sildenafil 50mg tablets support natural erections by improving penile blood flow. They’re suited for men starting ED therapy or those needing a moderate strength with reliable results."
-      }
-    },
-    {
-      "slug": "viagra-100mg",
-      "name": "Viagra 100mg",
-      "category": "ED",
-      "img": "/images/viagra-100mg.jpg",
-      "price": 269,
-      "mrp": 329,
-      "content": {
-        "shortDescription": "Standard-strength Sildenafil 100mg tablets for restoring erectile performance.",
-        "keyBenefits": [
-          "Supports firm, lasting erections",
-          "Improves confidence and intimacy",
-          "Starts working within 30–60 minutes"
-        ],
-        "keyFeatures": [
-          "Trusted gold-standard ED medication",
-          "Convenient once-daily oral dose",
-          "Produced under strict safety standards"
-        ],
-        "longDescription": "Viagra 100mg tablets deliver reliable ED treatment, restoring sexual performance and confidence. They increase penile blood flow, working quickly and effectively under sexual stimulation."
-      }
-    },
-    {
-      "slug": "vilitra-20mg",
-      "name": "Vilitra 20mg",
-      "category": "ED",
-      "img": "/images/vilitra-20mg.jpg",
-      "price": 249,
-      "mrp": 299,
-      "content": {
-        "shortDescription": "Vardenafil 20mg tablets to improve erectile function and confidence, even in men with underlying health issues.",
-        "keyBenefits": [
-          "Helps achieve and sustain erections",
-          "Effective with conditions like diabetes or hypertension",
-          "Improves sexual confidence"
-        ],
-        "keyFeatures": [
-          "20mg Vardenafil per tablet",
-          "Fast-acting within 30–60 minutes",
-          "Safe and clinically tested"
-        ],
-        "longDescription": "Vilitra 20mg tablets improve erectile quality by enhancing penile blood flow. They are effective even in men with chronic conditions and provide reliable support for intimacy."
-      }
-    },
-    {
-      "slug": "vilitra-40mg",
-      "name": "Vilitra 40mg",
-      "category": "ED",
-      "img": "/images/vilitra-40mg.jpg",
-      "price": 269,
-      "mrp": 339,
-      "content": {
-        "shortDescription": "High-strength Vardenafil 40mg tablets for men needing stronger, longer-lasting ED relief.",
-        "keyBenefits": [
-          "Supports firmer, longer-lasting erections",
-          "Restores spontaneity in intimacy",
-          "Boosts confidence"
-        ],
-        "keyFeatures": [
-          "40mg dose for enhanced results",
-          "Quick onset within 30–60 minutes",
-          "PDE5 inhibitor mechanism"
-        ],
-        "longDescription": "Vilitra 40mg is a potent Vardenafil option designed for men unresponsive to standard strengths. It enhances erection firmness and duration, supporting confidence and intimacy."
-      }
-    },
-    {
-      "slug": "dapoxetine-30mg",
-      "name": "Dapoxetine 30mg",
-      "category": "ED",
-      "img": "/images/dapoxetine-30mg.jpg",
-      "price": 199,
-      "mrp": 259,
-      "content": {
-        "shortDescription": "SSRI-based tablet for men managing premature ejaculation, improving control and satisfaction.",
-        "keyBenefits": [
-          "Delays ejaculation and extends intimacy",
-          "Boosts confidence and reduces anxiety",
-          "Fast-acting within 1–3 hours"
-        ],
-        "keyFeatures": [
-          "Only oral medication approved for PE",
-          "Convenient 30mg strength",
-          "Safe and tolerable with mild effects"
-        ],
-        "longDescription": "Dapoxetine 30mg Tablets increase serotonin activity to delay climax, providing better control and longer intimacy. They’re designed for on-demand use before intercourse."
-      }
-    },
-    {
-      "slug": "sildalist",
-      "name": "Sildalist",
-      "category": "ED",
-      "img": "/images/sildalist.jpg",
-      "price": 279,
-      "mrp": 349,
-      "content": {
-        "shortDescription": "Dual-action Sildenafil 100mg + Tadalafil 20mg tablets for quick and long-lasting ED support.",
-        "keyBenefits": [
-          "Combines rapid and extended effects",
-          "Restores sexual confidence",
-          "Supports relationship intimacy"
-        ],
-        "keyFeatures": [
-          "Dual ingredients: Sildenafil + Tadalafil",
-          "36-hour window of effectiveness",
-          "Convenient oral tablet"
-        ],
-        "longDescription": "Sildalist tablets combine the quick onset of Sildenafil with the prolonged action of Tadalafil, providing flexible, long-lasting support for men with ED."
-      }
-    },
-    {
-      "slug": "sildalist-strong",
-      "name": "Sildalist Strong",
-      "category": "ED",
-      "img": "/images/sildalist-strong.jpg",
-      "price": 299,
-      "mrp": 369,
-      "content": {
-        "shortDescription": "High-potency Sildenafil 100mg + Tadalafil 40mg tablets for maximum dual-action ED support.",
-        "keyBenefits": [
-          "Rapid onset and extended 36-hour action",
-          "Improves stamina and confidence",
-          "Ideal for age-related ED"
-        ],
-        "keyFeatures": [
-          "Strongest dual-action formulation",
-          "Clinically researched ingredients",
-          "Convenient once-daily oral dose"
-        ],
-        "longDescription": "Sildalist Strong combines Sildenafil and a higher Tadalafil dose for maximum support. It ensures quick results and sustained stamina for spontaneous intimacy."
-      }
-    },
-    {
-      "slug": "cenforce-d",
-      "name": "Cenforce D",
-      "category": "ED",
-      "img": "/images/cenforce-d.jpg",
-      "price": 269,
-      "mrp": 339,
-      "content": {
-        "shortDescription": "Dual-action Sildenafil 100mg + Dapoxetine 30mg tablets to manage both ED and premature ejaculation.",
-        "keyBenefits": [
-          "Enhances erection quality and duration",
-          "Delays ejaculation for longer intimacy",
-          "Boosts confidence and relationship satisfaction"
-        ],
-        "keyFeatures": [
-          "Combination of PDE5 inhibitor and SSRI",
-          "Fast onset within 30–60 minutes",
-          "Convenient oral tablet"
-        ],
-        "longDescription": "Cenforce D combines Sildenafil for firmer erections with Dapoxetine for improved control, addressing both erectile dysfunction and premature ejaculation in one convenient solution."
-      }
-    },
-    {
-      "slug": "vidalista-10mg",
-      "name": "Vidalista 10mg",
-      "category": "ED",
-      "img": "/images/vidalista-10mg.jpg",
-      "price": 189,
-      "mrp": 229,
-      "content": {
-        "shortDescription": "Low-dose Tadalafil 10mg tablets for mild ED relief with effects lasting up to 36 hours.",
-        "keyBenefits": [
-          "Supports firmer erections",
-          "Boosts confidence and intimacy",
-          "Gentle dose suitable for beginners"
-        ],
-        "keyFeatures": [
-          "Mild yet effective 10mg Tadalafil",
-          "Once-daily or as-needed use",
-          "Clinically proven PDE5 inhibitor"
-        ],
-        "longDescription": "Vidalista 10mg Tablets offer balanced Tadalafil dosing with long-lasting effects, making them ideal for men needing light, consistent support for ED management."
-      }
-    },
-    {
-      "slug": "vidalista-20mg",
-      "name": "Vidalista 20mg",
-      "category": "ED",
-      "img": "/images/vidalista-20mg.jpg",
-      "price": 219,
-      "mrp": 269,
-      "content": {
-        "shortDescription": "Standard-strength Tadalafil 20mg tablets for long-lasting ED support up to 36 hours.",
-        "keyBenefits": [
-          "Improves erection quality and confidence",
-          "Long window of spontaneity",
-          "Flexible for regular or occasional use"
-        ],
-        "keyFeatures": [
-          "20mg Tadalafil per tablet",
-          "Fast onset within 30–60 minutes",
-          "Trusted globally for ED management"
-        ],
-        "longDescription": "Vidalista 20mg tablets are a proven Tadalafil-based solution for erectile dysfunction, lasting up to 36 hours and allowing for natural intimacy without rigid timing."
-      }
-    },
-    {
-      "slug": "vidalista-40mg",
-      "name": "Vidalista 40mg",
-      "category": "ED",
-      "img": "/images/vidalista-40mg.jpg",
-      "price": 249,
-      "mrp": 309,
-      "content": {
-        "shortDescription": "High-strength Tadalafil 40mg tablets for stronger erections and extended spontaneity.",
-        "keyBenefits": [
-          "Improves erection firmness and confidence",
-          "Lasts up to 36 hours",
-          "Suitable for men unresponsive to lower doses"
-        ],
-        "keyFeatures": [
-          "40mg Tadalafil per tablet",
-          "Fast onset within 30–60 minutes",
-          "Once-daily or as-needed use"
-        ],
-        "longDescription": "Vidalista 40mg Tablets provide higher-dose Tadalafil support for erectile dysfunction, offering stronger effects and a 36-hour duration window for flexibility."
-      }
-    },
-    {
-      "slug": "vidalista-60mg",
-      "name": "Vidalista 60mg",
-      "category": "ED",
-      "img": "/images/vidalista-60mg.jpg",
-      "price": 269,
-      "mrp": 329,
-      "content": {
-        "shortDescription": "High-potency Tadalafil 60mg tablets for long-lasting ED support with a 36-hour window of effectiveness.",
-        "keyBenefits": [
-          "Strong support for severe ED cases",
-          "Boosts confidence and performance",
-          "Improves intimacy and relationship quality"
-        ],
-        "keyFeatures": [
-          "Potent 60mg Tadalafil per tablet",
-          "36-hour effectiveness per dose",
-          "Clinically trusted worldwide"
-        ],
-        "longDescription": "Vidalista 60mg tablets are designed for men who need higher-strength Tadalafil for effective erectile dysfunction management. They ensure lasting confidence and intimacy with extended support."
-      }
-    },
+
+
 
   {
   
@@ -737,8 +5769,11 @@
       "name": "HCG 2000IU",
       "category": "Steroids",
       "img": "/images/hcg-2000iu.jpg",
-      "price": 299,
-      "mrp": 349,
+     "pricing": [
+    { "quantity": "5 vials", "price": 50, "mrp": 60 },
+    { "quantity": "10 vials", "price": 95, "mrp": 100 },
+    { "quantity": "20 vials", "price": 190, "mrp": 200 }
+  ],
       "content": {
         "shortDescription": "HCG 2000 IU Injection supports fertility, testosterone production, and fat metabolism in medically supervised programs.",
         "keyBenefits": [
@@ -759,8 +5794,11 @@
       "name": "HCG 5000IU",
       "category": "Steroids",
       "img": "/images/hcg-5000iu.jpg",
-      "price": 399,
-      "mrp": 459,
+      "pricing": [
+    { "quantity": "5 vials", "price": 75, "mrp": 80 },
+    { "quantity": "10 vials", "price": 145, "mrp": 150 },
+    { "quantity": "20 vials", "price": 290, "mrp": 299 }
+  ],
       "content": {
         "shortDescription": "HCG 5000 IU Injection regulates hormones, improves fertility, and supports weight management programs.",
         "keyBenefits": [
@@ -781,8 +5819,11 @@
       "name": "HCG 10000IU",
       "category": "Steroids",
       "img": "/images/hcg-10000iu.jpg",
-      "price": 499,
-      "mrp": 569,
+      "pricing": [
+    { "quantity": "5 vials", "price": 50, "mrp": 60 },
+    { "quantity": "10 vials", "price": 95, "mrp": 100 },
+    { "quantity": "20 vials", "price": 190, "mrp": 200 }
+  ],
       "content": {
         "shortDescription": "HCG 10000 IU Injection provides strong hormonal support for fertility and post-steroid testosterone recovery.",
         "keyBenefits": [
@@ -803,8 +5844,11 @@
       "name": "HGH 4IU",
       "category": "Steroids",
       "img": "/images/hgh-4iu.jpg",
-      "price": 699,
-      "mrp": 799,
+       "pricing": [
+    { "quantity": "5 vials", "price": 100, "mrp": 110 },
+    { "quantity": "10 vials", "price": 190, "mrp": 200 },
+    { "quantity": "20 vials", "price": 380, "mrp": 400 }
+  ],
       "content": {
         "shortDescription": "HGH 4IU Injection supports anti-aging, muscle growth, recovery, and vitality.",
         "keyBenefits": [
@@ -825,8 +5869,11 @@
       "name": "HGH 10IU",
       "category": "Steroids",
       "img": "/images/hgh-10iu.jpg",
-      "price": 899,
-      "mrp": 999,
+         "pricing": [
+    { "quantity": "5 vials", "price": 100, "mrp": 110 },
+    { "quantity": "10 vials", "price": 190, "mrp": 200 },
+    { "quantity": "20 vials", "price": 380, "mrp": 400 }
+  ],
       "content": {
         "shortDescription": "HGH 10IU Injection enhances recovery, anti-aging, and muscle growth with pharmaceutical-grade Somatropin.",
         "keyBenefits": [
@@ -847,8 +5894,11 @@
       "name": "HGH 36IU",
       "category": "Steroids",
       "img": "/images/hgh-36iu.jpg",
-      "price": 2499,
-      "mrp": 2699,
+         "pricing": [
+    { "quantity": "1 pen", "price": 300, "mrp": 360 },
+    { "quantity": "5 pen", "price": 1500, "mrp": 1600 },
+    { "quantity": "20 vials", "price": 190, "mrp": 200 }
+  ],
       "content": {
         "shortDescription": "HGH 36IU Injection provides high-strength growth hormone therapy for vitality, performance, and anti-aging.",
         "keyBenefits": [
@@ -869,8 +5919,11 @@
       "name": "Oxandrolone 10mg",
       "category": "Steroids",
       "img": "/images/oxandrolone-10mg.jpg",
-      "price": 249,
-      "mrp": 299,
+        "pricing": [
+    { "quantity": "100 pills", "price": 75, "mrp": 80 },
+    { "quantity": "200 pills", "price": 150, "mrp": 160 },
+    { "quantity": "300 pills", "price": 210, "mrp": 215 }
+  ],
       "content": {
         "shortDescription": "Oxandrolone 10mg tablets promote lean muscle gain, recovery, and strength with minimal water retention.",
         "keyBenefits": [
@@ -891,8 +5944,11 @@
       "name": "Sustanon 250mg/ml",
       "category": "Steroids",
       "img": "/images/sustanon-250mg.jpg",
-      "price": 349,
-      "mrp": 399,
+      "pricing": [
+    { "quantity": "5 vials", "price": 150, "mrp": 160 },
+    { "quantity": "10 vials", "price": 290, "mrp": 300 },
+    { "quantity": "20 vials", "price": 0, "mrp": 0 }
+  ],
       "content": {
         "shortDescription": "Sustanon 250mg/ml Injection blends four testosterone esters for long-lasting testosterone replacement therapy.",
         "keyBenefits": [
@@ -913,8 +5969,11 @@
       "name": "Testosterone Cypionate",
       "category": "Steroids",
       "img": "/images/testosterone-cypionate.jpg",
-      "price": 329,
-      "mrp": 389,
+       "pricing": [
+    { "quantity": "5 vials", "price": 100, "mrp": 110 },
+    { "quantity": "10 vials", "price": 185, "mrp": 200 },
+    { "quantity": "20 vials", "price": 380, "mrp": 400 }
+  ],
       "content": {
         "shortDescription": "Injectable testosterone therapy for restoring hormonal balance, strength, and vitality.",
         "keyBenefits": [
@@ -935,8 +5994,11 @@
       "name": "Testosterone Enanthate",
       "category": "Steroids",
       "img": "/images/testosterone-enanthate.jpg",
-      "price": 339,
-      "mrp": 399,
+     "pricing": [
+    { "quantity": "5 vials", "price": 100, "mrp": 110 },
+    { "quantity": "10 vials", "price": 185, "mrp": 200 },
+    { "quantity": "20 vials", "price": 380, "mrp": 400 }
+  ],
       "content": {
         "shortDescription": "Long-acting testosterone injection supporting energy, performance, and hormonal balance.",
         "keyBenefits": [
@@ -957,8 +6019,10 @@
       "name": "Testosterone Gel",
       "category": "Steroids",
       "img": "/images/testosterone-gel.jpg",
-      "price": 289,
-      "mrp": 349,
+     "pricing": [
+    { "quantity": "14 sachets", "price": 50, "mrp": 60 }
+    
+  ],
       "content": {
         "shortDescription": "Transdermal testosterone gel for daily hormonal balance and vitality.",
         "keyBenefits": [
@@ -979,8 +6043,11 @@
       "name": "Methenolone Enanthate (Primobolan)",
       "category": "Steroids",
       "img": "/images/primobolan.jpg",
-      "price": 399,
-      "mrp": 459,
+     "pricing": [
+    { "quantity": "5 vials", "price": 250, "mrp": 267 },
+    { "quantity": "10 vials", "price": 480, "mrp": 500 },
+    { "quantity": "20 vials", "price": 960, "mrp": 1000 }
+  ],
       "content": {
         "shortDescription": "Primobolan Injection supports lean muscle, strength, and endurance with a mild anabolic profile.",
         "keyBenefits": [
@@ -1001,8 +6068,11 @@
       "name": "Boldenone Undecanoate",
       "category": "Steroids",
       "img": "/images/boldenone-undecanoate.jpg",
-      "price": 349,
-      "mrp": 419,
+     "pricing": [
+    { "quantity": "5 vials", "price": 100, "mrp": 110 },
+    { "quantity": "10 vials", "price": 185, "mrp": 200 },
+    { "quantity": "20 vials", "price": 380, "mrp": 400 }
+  ],
       "content": {
         "shortDescription": "Boldenone Undecanoate Injection supports lean muscle, vascularity, and strength with a long-lasting effect.",
         "keyBenefits": [
@@ -1023,8 +6093,11 @@
       "name": "Trenbolone Acetate",
       "category": "Steroids",
       "img": "/images/trenbolone-acetate.jpg",
-      "price": 399,
-      "mrp": 469,
+     "pricing": [
+    { "quantity": "5 vials", "price": 100, "mrp": 110 },
+    { "quantity": "10 vials", "price": 185, "mrp": 200 },
+    { "quantity": "20 vials", "price": 380, "mrp": 400 }
+  ],
       "content": {
         "shortDescription": "Trenbolone Acetate Injection delivers rapid lean muscle growth, fat burning, and strength gains.",
         "keyBenefits": [
@@ -1045,8 +6118,11 @@
       "name": "Trenbolone Enanthate",
       "category": "Steroids",
       "img": "/images/trenbolone-enanthate.jpg",
-      "price": 449,
-      "mrp": 519,
+      "pricing": [
+    { "quantity": "5 vials", "price": 100, "mrp": 110 },
+    { "quantity": "10 vials", "price": 185, "mrp": 200 },
+    { "quantity": "20 vials", "price": 380, "mrp": 400 }
+  ],
       "content": {
         "shortDescription": "Trenbolone Enanthate Injection supports massive lean muscle growth, endurance, and recovery with a long-acting formula.",
         "keyBenefits": [
@@ -1067,8 +6143,11 @@
       "name": "Metandiendione 10mg",
       "category": "Steroids",
       "img": "/images/metandiendione-10mg.jpg",
-      "price": 229,
-      "mrp": 289,
+      "pricing": [
+    { "quantity": "100 pills", "price": 75, "mrp": 90 },
+    { "quantity": "200 pills", "price": 150, "mrp": 200 },
+    { "quantity": "300 pills", "price": 210, "mrp": 400 }
+  ],
       "content": {
         "shortDescription": "Metandiendione 10mg oral tablets support rapid muscle mass and strength growth during bulking cycles.",
         "keyBenefits": [
@@ -1089,8 +6168,11 @@
       "name": "Clenbuterol 40mcg",
       "category": "Steroids",
       "img": "/images/clenbuterol-40mcg.jpg",
-      "price": 199,
-      "mrp": 259,
+      "pricing": [
+    { "quantity": "100 pills", "price": 75, "mrp": 90 },
+    { "quantity": "200 pills", "price": 150, "mrp": 200 },
+    { "quantity": "300 pills", "price": 210, "mrp": 400 }
+  ],
       "content": {
         "shortDescription": "Clenbuterol 40mcg tablets act as a bronchodilator and fat burner, supporting weight loss and performance.",
         "keyBenefits": [
@@ -1111,8 +6193,11 @@
       "name": "Stanozolol 10mg",
       "category": "Steroids",
       "img": "/images/stanozolol-10mg.jpg",
-      "price": 249,
-      "mrp": 309,
+      "pricing": [
+    { "quantity": "100 pills", "price": 75, "mrp": 90 },
+    { "quantity": "200 pills", "price": 150, "mrp": 200 },
+    { "quantity": "300 pills", "price": 210, "mrp": 400 }
+  ],
       "content": {
         "shortDescription": "Stanozolol 10mg oral tablets improve muscle definition, performance, and recovery.",
         "keyBenefits": [
@@ -1133,8 +6218,11 @@
       "name": "Testosterone Capsules",
       "category": "Steroids",
       "img": "/images/testosterone-capsules.jpg",
-      "price": 189,
-      "mrp": 239,
+      "pricing": [
+    { "quantity": "100 pills", "price": 60, "mrp": 70 },
+    { "quantity": "200 pills", "price": 110, "mrp": 120 },
+    { "quantity": "300 pills", "price": 160, "mrp": 177}
+  ],
       "content": {
         "shortDescription": "Testosterone Capsules naturally support testosterone production, vitality, and performance.",
         "keyBenefits": [
@@ -1155,8 +6243,11 @@
       "name": "Metformin 500mg",
       "category": "diabetic-care",
       "img": "/images/metformin-500mg.jpg",
-      "price": 79,
-      "mrp": 109,
+      "pricing": [
+    { "quantity": "100 pills", "price": 50, "mrp": 70 },
+    { "quantity": "200 pills", "price": 90, "mrp": 120 },
+    { "quantity": "300 pills", "price": 140, "mrp": 177}
+  ],
       "content": {
         "shortDescription": "First-line oral biguanide that lowers hepatic glucose output, improves insulin sensitivity, and helps control Type 2 diabetes.",
         "keyBenefits": [

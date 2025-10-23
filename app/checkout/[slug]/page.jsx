@@ -3,7 +3,7 @@
 import { useState, useEffect, useMemo } from "react";
 import { useParams, useRouter } from "next/navigation";
 import Image from "next/image";
-import { Shield, ChevronDown, Lock, Truck, CheckCircle, Info, CreditCard, Wallet, Smartphone, Building, Package, MapPin, Mail, Phone, User, FileText } from "lucide-react";
+import { Shield, ChevronDown, Lock, Truck, CheckCircle, Info, CreditCard, Wallet, Smartphone, Building, Package, MapPin, Mail, Phone, User, FileText, Plus, Minus } from "lucide-react";
 
 async function fileToBase64(file) {
   if (!file) return null;
@@ -34,12 +34,26 @@ export default function CheckoutPage() {
   const [currentStep, setCurrentStep] = useState(1);
   const [loadState, setLoadState] = useState("loading");
 
+  // Enhanced calculations with quantity support
   const subtotal = useMemo(
-    () => products.reduce((acc, item) => acc + (Number(item.price) || 0), 0),
-    [products]
+    () => products.reduce((acc, item) => 
+      acc + (Number(item.selectedTier?.price || item.price) || 0) * (item.qty || 1), 0
+    ), [products]
   );
+
+  const savings = useMemo(
+    () => products.reduce((acc, item) => {
+      const mrp = Number(item.selectedTier?.mrp || item.mrp || 0);
+      const price = Number(item.selectedTier?.price || item.price || 0);
+      return acc + (mrp > price ? (mrp - price) * (item.qty || 1) : 0);
+    }, 0), [products]
+  );
+
   const shipping = useMemo(() => (subtotal >= 999 ? 0 : 50), [subtotal]);
   const total = useMemo(() => subtotal + shipping, [subtotal, shipping]);
+  const itemCount = useMemo(() => 
+    products.reduce((acc, item) => acc + (item.qty || 1), 0), [products]
+  );
 
   useEffect(() => {
     try {
@@ -50,16 +64,28 @@ export default function CheckoutPage() {
         return;
       }
 
-      fetch("/data/products.json")
-        .then((r) => r.json())
-        .then((data) => {
-          const found = (data.products || []).filter((p) =>
-            decodedSlugs.includes(p.slug)
-          );
-          setProducts(found);
-          setLoadState(found.length ? "ready" : "empty");
-        })
-        .catch(() => setLoadState("error"));
+      // Load cart from localStorage for quantity and tier data
+      const cartData = localStorage.getItem("cart");
+      if (cartData) {
+        const cartItems = JSON.parse(cartData);
+        const foundProducts = cartItems.filter(item => 
+          decodedSlugs.includes(item.slug)
+        );
+        setProducts(foundProducts);
+        setLoadState(foundProducts.length ? "ready" : "empty");
+      } else {
+        // Fallback to products.json if no cart data
+        fetch("/data/products.json")
+          .then((r) => r.json())
+          .then((data) => {
+            const found = (data.products || []).filter((p) =>
+              decodedSlugs.includes(p.slug)
+            ).map(item => ({ ...item, qty: 1 })); // Default quantity
+            setProducts(found);
+            setLoadState(found.length ? "ready" : "empty");
+          })
+          .catch(() => setLoadState("error"));
+      }
     } catch {
       setLoadState("error");
     }
@@ -74,6 +100,26 @@ export default function CheckoutPage() {
     const { name, files } = e.target;
     setFormData((prev) => ({ ...prev, [name]: files?.[0] || null }));
   }
+
+  // Quantity handlers
+  const increaseQty = (slug, tierQuantity) => {
+    setProducts(prev => prev.map(item =>
+      item.slug === slug && 
+      (item.selectedTier?.quantity === tierQuantity || (!item.selectedTier && !tierQuantity))
+        ? { ...item, qty: Math.min((item.qty || 1) + 1, 10) }
+        : item
+    ));
+  };
+
+  const decreaseQty = (slug, tierQuantity) => {
+    setProducts(prev => prev.map(item =>
+      item.slug === slug && 
+      (item.selectedTier?.quantity === tierQuantity || (!item.selectedTier && !tierQuantity)) && 
+      item.qty > 1
+        ? { ...item, qty: item.qty - 1 }
+        : item
+    ));
+  };
 
   function basicValidate() {
     const required = ["fullName", "email", "phone", "address", "city", "pincode", "state", "country"];
@@ -106,13 +152,17 @@ export default function CheckoutPage() {
         specialInstructions: formData.specialInstructions || "",
         items: products.map((p) => ({
           name: p.name,
-          qty: 1,
-          price: Number(p.price) || 0,
+          qty: p.qty || 1,
+          price: Number(p.selectedTier?.price || p.price) || 0,
           slug: p.slug,
+          tier: p.selectedTier || null,
+          mrp: Number(p.selectedTier?.mrp || p.mrp) || 0,
         })),
         subtotal,
+        savings,
         shipping,
         total,
+        itemCount,
         prescription: prescriptionDataUrl,
       };
 
@@ -128,6 +178,10 @@ export default function CheckoutPage() {
         throw new Error(json?.error || "Failed to place order");
       }
 
+      // Clear cart after successful order
+      localStorage.removeItem("cart");
+      window.dispatchEvent(new Event("cart-updated"));
+      
       setCurrentStep(2);
     } catch (err) {
       console.error(err);
@@ -158,6 +212,12 @@ export default function CheckoutPage() {
           <Package className="w-16 h-16 text-slate-400 mx-auto" />
           <p className="text-xl font-semibold text-slate-900">No products found</p>
           <p className="text-slate-600">Please go back and select items again.</p>
+          <button
+            onClick={() => router.push('/cart')}
+            className="px-6 py-3 bg-sky-600 text-white rounded-lg hover:bg-sky-700 transition-colors"
+          >
+            Back to Cart
+          </button>
         </div>
       </div>
     );
@@ -183,7 +243,7 @@ export default function CheckoutPage() {
               </div>
               <div>
                 <h1 className="text-2xl font-bold text-slate-900">Secure Checkout</h1>
-                <p className="text-sm text-slate-600">SSL encrypted & protected</p>
+                <p className="text-sm text-slate-600">{itemCount} {itemCount === 1 ? 'item' : 'items'} in your order</p>
               </div>
             </div>
             <div className="hidden md:flex items-center gap-2 text-sm text-slate-600">
@@ -216,7 +276,7 @@ export default function CheckoutPage() {
       </div>
 
       {/* Body */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-12">
+      <div className="max-w-7xl mx-auto px-4 md:px-0  py-8 lg:py-12">
         <div className="grid lg:grid-cols-3 gap-8">
           {/* Order Summary */}
           <div className="lg:col-span-1 order-2 lg:order-1">
@@ -225,48 +285,112 @@ export default function CheckoutPage() {
                 <div className="bg-gradient-to-r from-slate-900 to-slate-800 px-6 py-4">
                   <h2 className="text-lg font-bold text-white flex items-center gap-2">
                     <Package className="w-5 h-5" />
-                    Order Summary
+                    Order Summary ({itemCount} {itemCount === 1 ? 'item' : 'items'})
                   </h2>
                 </div>
 
                 <div className="p-6 space-y-4">
-                  {products.map((product) => (
-                    <div key={product.id || product.slug} className="flex gap-4 pb-4 border-b border-slate-100 last:border-0">
-                      <div className="w-20 h-20 bg-slate-50 rounded-xl overflow-hidden flex-shrink-0 border border-slate-200">
-                        <Image
-                          src={product.img}
-                          alt={product.name}
-                          width={80}
-                          height={80}
-                          className="w-full h-full object-contain p-2"
-                        />
-                      </div>
+                  {products.map((product) => {
+                    const tier = product.selectedTier || {};
+                    const price = Number(tier.price || product.price) || 0;
+                    const mrp = Number(tier.mrp || product.mrp) || 0;
+                    const quantity = product.qty || 1;
+                    const itemTotal = price * quantity;
+                    const itemSavings = mrp > price ? (mrp - price) * quantity : 0;
 
-                      <div className="flex-1 min-w-0">
-                        <h3 className="font-semibold text-slate-900 text-sm line-clamp-2 mb-2">
-                          {product.name}
-                        </h3>
-                        <div className="flex items-center gap-2">
-                          <span className="font-bold text-sky-600 text-lg">
-                            ${Number(product.price).toLocaleString()}
-                          </span>
-                          {product.mrp > product.price && (
-                            <span className="text-xs text-slate-400 line-through">
-                              ${Number(product.mrp).toLocaleString()}
-                            </span>
+                    return (
+                      <div key={`${product.slug}-${tier.quantity || "default"}`} className="flex gap-4 pb-4 border-b border-slate-100 last:border-0">
+                        <div className="w-20 h-20 bg-slate-50 rounded-xl overflow-hidden flex-shrink-0 border border-slate-200">
+                          <Image
+                            src={product.img}
+                            alt={product.name}
+                            width={80}
+                            height={80}
+                            className="w-full h-full object-contain p-2"
+                          />
+                        </div>
+
+                        <div className="flex-1 min-w-0">
+                          <h3 className="font-semibold text-slate-900 text-sm line-clamp-2 mb-2">
+                            {product.name}
+                          </h3>
+                          
+                          {/* Tier/Variant Info */}
+                          {tier.quantity && (
+                            <p className="text-xs text-slate-600 mb-2">
+                              Variant: <span className="font-semibold text-sky-600">{tier.quantity}</span>
+                            </p>
                           )}
+
+                          {/* Quantity Selector */}
+                          <div className="flex items-center justify-between">
+                            <div className="flex items-center gap-3">
+                              <span className="text-sm font-semibold text-slate-700">Qty:</span>
+                              <div className="flex items-center border border-slate-300 rounded-lg">
+                                <button
+                                  onClick={() => decreaseQty(product.slug, tier.quantity)}
+                                  disabled={quantity <= 1}
+                                  className="px-2 py-1 hover:bg-slate-50 disabled:opacity-30 transition-colors"
+                                >
+                                  <Minus className="w-4 h-4 text-slate-600" />
+                                </button>
+                                <span className="px-3 py-1 font-bold text-slate-900 min-w-8 text-center">
+                                  {quantity}
+                                </span>
+                                <button
+                                  onClick={() => increaseQty(product.slug, tier.quantity)}
+                                  disabled={quantity >= 10}
+                                  className="px-2 py-1 hover:bg-slate-50 disabled:opacity-30 transition-colors"
+                                >
+                                  <Plus className="w-4 h-4 text-slate-600" />
+                                </button>
+                              </div>
+                            </div>
+
+                            {/* Price Display */}
+                            <div className="text-right">
+                              <div className="flex items-center gap-2 mb-1">
+                                <span className="font-bold text-sky-600 text-lg">
+                                  ${itemTotal.toLocaleString()}
+                                </span>
+                                {itemSavings > 0 && (
+                                  <span className="text-xs text-green-600 font-medium bg-green-50 px-2 py-1 rounded">
+                                    Save ${itemSavings.toLocaleString()}
+                                  </span>
+                                )}
+                              </div>
+                              <div className="flex items-center gap-2 text-sm">
+                                <span className="font-semibold text-slate-900">
+                                  ${price.toLocaleString()} × {quantity}
+                                </span>
+                                {mrp > price && (
+                                  <span className="text-slate-400 line-through text-xs">
+                                    ${mrp.toLocaleString()}
+                                  </span>
+                                )}
+                              </div>
+                            </div>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  ))}
+                    );
+                  })}
                 </div>
 
-                {/* Pricing */}
+                {/* Pricing Summary */}
                 <div className="px-6 pb-6 space-y-3">
                   <div className="flex justify-between text-sm">
-                    <span className="text-slate-600">Subtotal</span>
-                    <span className="text-slate-900 font-semibold">$${subtotal.toLocaleString()}</span>
+                    <span className="text-slate-600">Subtotal ({itemCount} items)</span>
+                    <span className="text-slate-900 font-semibold">${subtotal.toLocaleString()}</span>
                   </div>
+
+                  {savings > 0 && (
+                    <div className="flex justify-between text-sm">
+                      <span className="text-slate-600">Total Savings</span>
+                      <span className="text-green-600 font-semibold">- ${savings.toLocaleString()}</span>
+                    </div>
+                  )}
+
                   <div className="flex justify-between text-sm">
                     <span className="text-slate-600 flex items-center gap-1">
                       <Truck className="w-4 h-4" />
@@ -280,6 +404,7 @@ export default function CheckoutPage() {
                       )}
                     </span>
                   </div>
+
                   {subtotal < 999 && (
                     <div className="bg-gradient-to-r from-sky-50 to-indigo-50 border border-sky-200 p-3 rounded-lg">
                       <p className="text-xs text-sky-700 font-medium flex items-start gap-2">
@@ -288,6 +413,7 @@ export default function CheckoutPage() {
                       </p>
                     </div>
                   )}
+
                   <div className="flex justify-between items-center pt-4 border-t-2 border-slate-200">
                     <span className="text-slate-900 font-bold text-lg">Total Amount</span>
                     <span className="text-sky-600 font-bold text-2xl">${total.toLocaleString()}</span>
@@ -325,7 +451,7 @@ export default function CheckoutPage() {
                   </div>
 
                   <form onSubmit={handleSubmit} className="p-6 sm:p-8 space-y-8">
-                    {/* Personal */}
+                    {/* Personal Details Section */}
                     <div className="space-y-6">
                       <div className="flex items-center gap-2 pb-3 border-b-2 border-slate-200">
                         <User className="w-5 h-5 text-sky-600" />
@@ -391,7 +517,7 @@ export default function CheckoutPage() {
                       </div>
                     </div>
 
-                    {/* Address */}
+                    {/* Address Section */}
                     <div className="space-y-6">
                       <div className="flex items-center gap-2 pb-3 border-b-2 border-slate-200">
                         <MapPin className="w-5 h-5 text-sky-600" />
@@ -488,7 +614,7 @@ export default function CheckoutPage() {
                       </div>
                     </div>
 
-                    {/* Payment Method */}
+                    {/* Payment Method Section */}
                     <div className="space-y-6">
                       <div className="flex items-center gap-2 pb-3 border-b-2 border-slate-200">
                         <CreditCard className="w-5 h-5 text-sky-600" />
@@ -523,7 +649,7 @@ export default function CheckoutPage() {
                       </div>
                     </div>
 
-                    {/* Special Instructions */}
+                    {/* Additional Information Section */}
                     <div className="space-y-6">
                       <div className="flex items-center gap-2 pb-3 border-b-2 border-slate-200">
                         <FileText className="w-5 h-5 text-sky-600" />
@@ -581,7 +707,7 @@ export default function CheckoutPage() {
                       ) : (
                         <>
                           <Lock className="w-5 h-5" />
-                          Place Secure Order
+                          Place Secure Order (${total.toLocaleString()})
                         </>
                       )}
                     </button>
@@ -604,7 +730,8 @@ export default function CheckoutPage() {
                   <div className="space-y-3">
                     <h2 className="text-3xl font-bold text-slate-900">Order Placed Successfully!</h2>
                     <p className="text-slate-600 max-w-md mx-auto">
-                      Your order has been confirmed. We've sent a confirmation email with your order details and tracking information.
+                      Thank you for your order of {itemCount} {itemCount === 1 ? 'item' : 'items'} worth ${total.toLocaleString()}. 
+                      We've sent a confirmation email with your order details and tracking information.
                     </p>
                   </div>
                   <div className="flex flex-col sm:flex-row gap-4 justify-center pt-6">

@@ -25,11 +25,12 @@ function StarRating({ rating, reviews }) {
 
 function PriceDisplay({ price, mrp }) {
   const discount = mrp > price ? Math.round(((mrp - price) / mrp) * 100) : 0;
+  if (price == null) return null;
   return (
     <div className="space-y-1">
       <div className="flex items-center gap-3">
-        <span className="text-xl font-bold text-gray-900">${price.toLocaleString("en-IN")}</span>
-        {discount > 0 && <span className="text-sm text-gray-500 line-through">${mrp.toLocaleString("en-IN")}</span>}
+        <span className="text-xl font-bold text-gray-900">${Number(price).toLocaleString("en-IN")}</span>
+        {discount > 0 && <span className="text-sm text-gray-500 line-through">${Number(mrp).toLocaleString("en-IN")}</span>}
       </div>
       {discount > 0 && <span className="inline-block text-xs font-semibold text-green-600 bg-green-100 px-2 py-1 rounded">Save {discount}%</span>}
     </div>
@@ -55,25 +56,27 @@ function ProductSkeleton() {
   );
 }
 
-function ProductCard({ product, onAddToCart }) {
+function ProductCard({ product, onAddToCart, onBuyNow }) {
   const [isWishlisted, setIsWishlisted] = useState(false);
+  const [selectedTier, setSelectedTier] = useState(product.pricing?.[0] || { price: product.price, mrp: product.mrp, quantity: "Default" });
 
   const handleAddToCart = (e) => {
-    e.preventDefault();
     e.stopPropagation();
-    // helpful debug log — delete later if you want the console to stop nagging you
-    console.log("ProductCard - add to cart clicked:", product);
-    onAddToCart(product);
+    onAddToCart(product, selectedTier);
+  };
+
+  const handleBuyNow = (e) => {
+    e.stopPropagation();
+    onBuyNow(product, selectedTier);
   };
 
   const toggleWishlist = (e) => {
-    e.preventDefault();
     e.stopPropagation();
     setIsWishlisted(!isWishlisted);
   };
 
   return (
-    <div className="group bg-white rounded-lg border border-gray-200 hover:border-gray-300 transition-all duration-300 hover:shadow-md overflow-hidden h-auto">
+    <div className="group bg-white rounded-lg border border-gray-200 hover:border-gray-300 transition-all duration-300 hover:shadow-md overflow-hidden h-auto cursor-pointer">
       <Link href={`/product/${product.slug}`}>
         <div className="relative aspect-[4/3] bg-gray-100 overflow-hidden">
           <Image
@@ -92,18 +95,36 @@ function ProductCard({ product, onAddToCart }) {
             />
           </button>
         </div>
-        <div className="p-4 space-y-2">
-          <h3 className="font-semibold text-gray-900 line-clamp-2 leading-tight group-hover:text-gray-700 transition-colors">{product.name}</h3>
-          <PriceDisplay price={product.price} mrp={product.mrp} />
-        </div>
       </Link>
-      <div className="px-4 pb-4 flex items-center gap-3">
-        <Link
-          href={`/checkout/${product.slug}`}
-          className="flex-1 bg-sky-600 text-white font-semibold py-2 px-3 rounded-lg transition-all duration-200 text-center text-sm shadow-md hover:shadow-lg"
+      <div className="p-4 space-y-2" onClick={(e) => e.stopPropagation()}>
+        <h3 className="font-semibold text-gray-900 line-clamp-2 leading-tight group-hover:text-gray-700 transition-colors">{product.name}</h3>
+        <PriceDisplay price={selectedTier.price} mrp={selectedTier.mrp} />
+
+        {product.pricing?.length > 1 && (
+          <select
+            value={selectedTier.quantity}
+            onClick={(e) => e.stopPropagation()}
+            onChange={(e) =>
+              setSelectedTier(product.pricing.find((p) => String(p.quantity) === e.target.value))
+            }
+            className="mt-2 w-full border border-gray-300 rounded-md text-sm px-3 py-2 font-medium text-gray-700 hover:border-sky-400 focus:ring-2 focus:ring-sky-200 focus:border-sky-500 transition-all"
+          >
+            {product.pricing.map((p, idx) => (
+              <option key={idx} value={p.quantity}>
+                {p.quantity} — ${Number(p.price).toLocaleString("en-IN")}
+              </option>
+            ))}
+          </select>
+        )}
+      </div>
+
+      <div className="px-4 pb-4 flex items-center gap-3" onClick={(e) => e.stopPropagation()}>
+        <button
+          onClick={handleBuyNow}
+          className="flex-1 bg-sky-600 hover:bg-sky-700 text-white font-semibold py-2 px-3 rounded-lg transition-all duration-200 text-sm shadow-md"
         >
           Buy Now
-        </Link>
+        </button>
         <button
           onClick={handleAddToCart}
           className="flex items-center justify-center w-12 h-12 border-2 border-gray-200 hover:border-gray-900 rounded-lg transition-all duration-200 group/btn bg-white hover:bg-gray-50"
@@ -195,10 +216,9 @@ export default function Bestseller() {
         const response = await fetch("/data/products.json");
         const json = await response.json();
         if (mounted) {
-          // Ensure each product has a stable id (fallback to slug)
           const normalized = (json.products || []).map((p) => ({
             ...p,
-            id: p.id ?? p.slug ?? (Math.random().toString(36).slice(2, 9)), // fallback only if both missing
+            id: p.id ?? p.slug ?? (Math.random().toString(36).slice(2, 9)),
           }));
           setData({ products: normalized });
           setLoading(false);
@@ -230,59 +250,44 @@ export default function Bestseller() {
       );
     }
 
-    // Shuffle randomly
     for (let i = products.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [products[i], products[j]] = [products[j], products[i]];
     }
 
-    // Only take first 12
     return products.slice(0, 12);
 
   }, [data, filters]);
 
-  const handleAddToCart = (product) => {
+  const handleAddToCart = (product, tier) => {
+    const key = String(product.id ?? product.slug ?? "");
+    const raw = localStorage.getItem("cart") || "[]";
+    let cart;
     try {
-      // ensure product has a stable unique key
-      const key = String(product.id ?? product.slug ?? "");
-      if (!key) {
-        console.error("Can't add to cart: product missing id/slug", product);
-        setToastMessage("Cannot add product — missing identifier.");
-        setTimeout(() => setToastMessage(""), 3000);
-        return;
-      }
-
-      const raw = localStorage.getItem("cart") || "[]";
-      let cart;
-      try {
-        cart = JSON.parse(raw);
-        if (!Array.isArray(cart)) cart = [];
-      } catch (e) {
-        cart = [];
-      }
-
-      // find by normalized id or slug
-      const existingItem = cart.find((item) => String(item.id ?? item.slug ?? "") === key);
-
-      if (existingItem) {
-        existingItem.qty = (existingItem.qty || 1) + 1;
-      } else {
-        // push clone and ensure id is present
-        const toPush = { ...(product || {}), id: key, qty: 1 };
-        cart.push(toPush);
-      }
-
-      localStorage.setItem("cart", JSON.stringify(cart));
-      window.dispatchEvent(new Event("cart-updated"));
-      setToastMessage(`${product.name} added to cart!`);
-      setTimeout(() => setToastMessage(""), 4000);
-
-      console.log("Cart after add:", cart);
-    } catch (err) {
-      console.error("Error adding to cart:", err);
-      setToastMessage("Something went wrong adding the product.");
-      setTimeout(() => setToastMessage(""), 3000);
+      cart = JSON.parse(raw);
+      if (!Array.isArray(cart)) cart = [];
+    } catch (e) {
+      cart = [];
     }
+
+    const existingItem = cart.find(
+      (item) =>
+        String(item.id ?? item.slug ?? "") === key &&
+        item.selectedTier?.quantity === tier.quantity
+    );
+
+    if (existingItem) existingItem.qty = (existingItem.qty || 1) + 1;
+    else cart.push({ ...(product || {}), id: key, qty: 1, selectedTier: tier });
+
+    localStorage.setItem("cart", JSON.stringify(cart));
+    window.dispatchEvent(new Event("cart-updated"));
+    setToastMessage(`${product.name} added to cart!`);
+    setTimeout(() => setToastMessage(""), 4000);
+  };
+
+  const handleBuyNow = (product, tier) => {
+    handleAddToCart(product, tier);
+    window.location.href = `/checkout/${product.slug}`;
   };
 
   if (loading) {
@@ -300,13 +305,13 @@ export default function Bestseller() {
   return (
     <div className="min-h-screen bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <Header title="Bestsellers" subtitle="Discover our most loved products, carefully curated for excellence" productsCount={filteredProducts.length} />
+        <Header title="Bestsellers" subtitle="Discover our most loved products" productsCount={filteredProducts.length} />
         <FilterBar categories={categories} filters={filters} onFiltersChange={setFilters} onToggleFilters={() => setShowFilters(!showFilters)} showFilters={showFilters} />
         <div className="mt-12">
           {filteredProducts.length > 0 ? (
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
               {filteredProducts.map((product) => (
-                <ProductCard key={product.id} product={product} onAddToCart={handleAddToCart} />
+                <ProductCard key={product.id} product={product} onAddToCart={handleAddToCart} onBuyNow={handleBuyNow} />
               ))}
             </div>
           ) : (
