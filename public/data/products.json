@@ -4,7 +4,7 @@
   "slug": "ivermectin-12mg",
   "name": "Ivermectin 12mg",
   "category": "Antibiotics",
-  "img": "/images/items/ivermectin12.jpeg",
+  "img": "/images/antibiotics/ivermectin12.jpeg",
   "pricing": [
     { "quantity": "100 pcs", "price": 80, "mrp": 85 },
     { "quantity": "200 pcs", "price": 95, "mrp": 100 },
@@ -31,7 +31,7 @@
       "slug": "ivermectin-6mg",
       "name": "Ivermectin 6mg",
       "category": "Antibiotics",
-      "img": "/images/items/ivermectin6.jpeg",
+      "img": "/images/antibiotics/ivermectin6.jpeg",
       "pricing": [
     { "quantity": "100 pcs", "price": 50, "mrp": 85 },
     { "quantity": "200 pcs", "price": 85, "mrp": 100 },
@@ -57,7 +57,7 @@
       "slug": "ivermectin-3mg",
       "name": "Ivermectin 3mg",
       "category": "Antibiotics",
-      "img": "/images/items/ivermectin3.jpeg",
+      "img": "/images/antibiotics/ivermectin3.jpeg",
       "pricing": [
     { "quantity": "100 pcs", "price": 40, "mrp": 55 },
     { "quantity": "200 pcs", "price": 75, "mrp": 90 },
@@ -83,7 +83,7 @@
       "slug": "azithromycin-500mg",
       "name": "Azithromycin 500mg",
       "category": "Antibiotics",
-      "img": "/images/items/azithromycin500.jpeg",
+      "img": "/images/antibiotics/azithromycin500.jpeg",
       "pricing": [
     { "quantity": "100 pcs", "price": 50, "mrp": 65 },
     { "quantity": "200 pcs", "price": 95, "mrp": 100 },
@@ -109,7 +109,7 @@
       "slug": "azithromycin-250mg",
       "name": "Azithromycin 250mg",
       "category": "Antibiotics",
-      "img": "/images/items/azithromycin250.jpeg",
+      "img": "/images/antibiotics/azithromycin250.jpeg",
       "pricing": [
     { "quantity": "100 pcs", "price": 40, "mrp": 65 },
     { "quantity": "200 pcs", "price": 75, "mrp": 87 },
@@ -135,7 +135,7 @@
       "slug": "amoxicillin-250mg",
       "name": "Amoxicillin 250mg",
       "category": "Antibiotics",
-      "img": "/images/items/amoxicillin-250mg.jpg",
+      "img": "/images/antibiotics/amoxicillin-250mg.jpg",
       "pricing": [
     { "quantity": "100 pcs", "price": 40, "mrp": 45 },
     { "quantity": "200 pcs", "price": 75, "mrp": 80 },
@@ -161,7 +161,7 @@
   "slug": "amoxicillin-500mg",
   "name": "Amoxicillin 500mg",
   "category": "Antibiotics",
-  "img": "/images/items/amoxicillin-500mg.jpg",
+  "img": "/images/antibiotics/amoxicillin-500mg.jpg",
   "pricing": [
     { "quantity": "100 pcs", "price": 50, "mrp": 60 },
     { "quantity": "200 pcs", "price": 95, "mrp": 100 },
@@ -188,7 +188,7 @@
       "slug": "doxycycline-100mg",
       "name": "Doxycycline 100mg",
       "category": "Antibiotics",
-      "img": "/images/items/doxycycline100.jpeg",
+      "img": "/images/antibiotics/doxycycline100.jpeg",
       "pricing": [
     { "quantity": "100 pcs", "price": 40, "mrp": 60 },
     { "quantity": "200 pcs", "price": 75, "mrp": 90 },
@@ -370,7 +370,7 @@
       "slug": "albendazole-400mg",
       "name": "Albendazole 400mg",
       "category": "Antibiotics",
-      "img": "/images/items/albendazole400.jpeg",
+      "img": "/images/antibiotics/albendazole400.jpeg",
       "pricing": [
     { "quantity": "100 pcs", "price": 60, "mrp": 65 },
     { "quantity": "200 pcs", "price": 110, "mrp": 120 },
@@ -396,7 +396,7 @@
       "slug": "ivermectin-1-percent-cream",
       "name": "Ivermectin 1% Cream",
       "category": "Antibiotics",
-      "img": "/images/items/ivermectin1c.jpeg",
+      "img": "/images/antibiotics/ivermectin1c.jpeg",
        "pricing": [
     { "quantity": "10 tubes", "price": 60, "mrp": 65 }
     
@@ -420,7 +420,7 @@
       "slug": "hydroxychloroquine-200mg",
       "name": "Hydroxychloroquine 200mg",
       "category": "Antibiotics",
-      "img": "/images/items/hydroxycholoroquine200.jpeg",
+      "img": "/images/antibiotics/hydroxycholoroquine200.jpeg",
       "pricing": [
     { "quantity": "100 pcs", "price": 40, "mrp": 60 },
     { "quantity": "200 pcs", "price": 75, "mrp": 90 },
@@ -474,7 +474,7 @@
     "slug": "fildena-50-mg",
     "name": "Fildena 50 mg",
     "category": "ED",
-    "img": "/images/items/fildena-50-mg.jpg",
+    "img": "/images/ed/Fildena 50 mg.webp",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -516,7 +516,7 @@
     "slug": "aurogra-100-mg-tablets",
     "name": "Aurogra 100 mg tablets",
     "category": "ED",
-    "img": "/images/items/aurogra-100-mg-tablets.jpg",
+    "img": "/images/ed/aurogra-100mg.webp",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -558,7 +558,7 @@
     "slug": "extra-super-vidalista-tablets",
     "name": "Extra Super Vidalista tablets",
     "category": "ED",
-    "img": "/images/items/extra-super-vidalista-tablets.jpg",
+    "img": "/images/ed/Extra Super Vidalista tablets.webp",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -595,7 +595,7 @@
     "slug": "cenforce-d-tablets",
     "name": "Cenforce D Tablets",
     "category": "ED",
-    "img": "/images/items/cenforce-d-tablets.jpg",
+    "img": "/images/ed/Cenforce D Tablets.webp",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -632,7 +632,7 @@
     "slug": "super-vidalista-tablets",
     "name": "Super Vidalista Tablets",
     "category": "ED",
-    "img": "/images/items/super-vidalista-tablets.jpg",
+    "img": "/images/ed/Super Vidalista Tablets.webp",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -669,7 +669,7 @@
     "slug": "fildena-120-mg-tablets",
     "name": "Fildena 120 mg tablets",
     "category": "ED",
-    "img": "/images/items/fildena-120-mg-tablets.jpg",
+    "img": "/images/ed/Fildena 120 mg tablets .webp",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -711,7 +711,7 @@
     "slug": "vidalista-40-mg-tablets",
     "name": "Vidalista 40 mg tablets",
     "category": "ED",
-    "img": "/images/items/vidalista-40-mg-tablets.jpg",
+    "img": "/images/ed/Vidalista 40 mg tablets.webp",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -753,7 +753,7 @@
     "slug": "fildena-150-mg-tablets",
     "name": "Fildena 150 mg tablets",
     "category": "ED",
-    "img": "/images/items/fildena-150-mg-tablets.jpg",
+    "img": "/images/ed/Fildena 150 mg tablets.webp",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -795,7 +795,7 @@
     "slug": "vidalista-10-mg-tablets",
     "name": "Vidalista 10 mg tablets",
     "category": "ED",
-    "img": "/images/items/vidalista-10-mg-tablets.jpg",
+    "img": "/images/ed/Vidalista 10 mg tablets.webp",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -837,7 +837,7 @@
     "slug": "fildena-ct-100-mg-tablets",
     "name": "Fildena CT 100 mg tablets",
     "category": "ED",
-    "img": "/images/items/fildena-ct-100-mg-tablets.jpg",
+    "img": "/images/ed/Fildena 100 mg tablets.webp",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -879,7 +879,7 @@
     "slug": "vidalista-20-mg-tablets",
     "name": "Vidalista 20 mg tablets",
     "category": "ED",
-    "img": "/images/items/vidalista-20-mg-tablets.jpg",
+    "img": "/images/ed/Vidalista 20 mg tablets.webp",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -921,7 +921,7 @@
     "slug": "vidalista-60-mg-tablets",
     "name": "Vidalista 60 mg tablets",
     "category": "ED",
-    "img": "/images/items/vidalista-60-mg-tablets.jpg",
+    "img": "/images/ed/Vidalista 60 mg tablets.webp",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -963,7 +963,7 @@
     "slug": "fildena-double-200-mg",
     "name": "Fildena Double 200 mg",
     "category": "ED",
-    "img": "/images/items/fildena-double-200-mg.jpg",
+    "img": "/images/ed/Fildena Double 200 mg.webp",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -1000,7 +1000,7 @@
     "slug": "cobra-120-mg-tablets",
     "name": "Cobra 120 mg tablets",
     "category": "ED",
-    "img": "/images/items/cobra-120-mg-tablets.jpg",
+    "img": "/images/ed/Cobra 120 mg tablets.webp",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -1042,7 +1042,7 @@
     "slug": "fildena-professional-100-mg",
     "name": "Fildena professional 100 mg",
     "category": "ED",
-    "img": "/images/items/fildena-professional-100-mg.jpg",
+    "img": "/images/ed/Fildena professional 100 mg.webp",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -1084,7 +1084,7 @@
     "slug": "fildena-100-mg-tablets",
     "name": "Fildena 100 mg tablets",
     "category": "ED",
-    "img": "/images/items/fildena-100-mg-tablets.jpg",
+    "img": "/images/ed/Fildena 100 mg tablets.webp",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -1126,7 +1126,7 @@
     "slug": "cenforce-150-mg-tablets",
     "name": "Cenforce 150 mg tablets",
     "category": "ED",
-    "img": "/images/items/cenforce-150-mg-tablets.jpg",
+    "img": "/images/ed/Cenforce 150 mg tablets.webp",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -1168,7 +1168,7 @@
     "slug": "cenforce-100-mg-tablets",
     "name": "Cenforce 100 mg tablets",
     "category": "ED",
-    "img": "/images/items/cenforce-100-mg-tablets.jpg",
+    "img": "/images/ed/Cenforce 100 mg tablets.webp",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -1210,7 +1210,7 @@
     "slug": "tadagra-20-mg-tablets",
     "name": "Tadagra 20 mg tablets",
     "category": "ED",
-    "img": "/images/items/tadagra-20-mg-tablets.jpg",
+    "img": "/images/ed/Tadagra 20 mg tablets.webp",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -1252,7 +1252,7 @@
     "slug": "hiforce-150-mg-tablets",
     "name": "Hiforce 150 mg tablets",
     "category": "ED",
-    "img": "/images/items/hiforce-150-mg-tablets.jpg",
+    "img": "/images/ed/Hiforce 150 mg tablets.webp",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -1294,7 +1294,7 @@
     "slug": "begma-100-mg-tablets",
     "name": "Begma 100 mg tablets",
     "category": "ED",
-    "img": "/images/items/begma-100-mg-tablets.jpg",
+    "img": "/images/ed/Begma 100 mg tablets.webp",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -1336,7 +1336,7 @@
     "slug": "caverta-25-mg-tablets",
     "name": "Caverta 25 mg tablets",
     "category": "ED",
-    "img": "/images/items/caverta-25-mg-tablets.jpg",
+    "img": "/images/ed/Caverta 25 mg tablets.webp",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -1373,7 +1373,7 @@
     "slug": "vilitra-40-mg-tablets",
     "name": "Vilitra 40 mg tablets",
     "category": "ED",
-    "img": "/images/items/vilitra-40-mg-tablets.jpg",
+    "img": "/images/ed/Vilitra 40 mg tablets.webp",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -1415,7 +1415,7 @@
     "slug": "vidalista-5-mg-tablets",
     "name": "Vidalista 5 mg tablets",
     "category": "ED",
-    "img": "/images/items/vidalista-5-mg-tablets.jpg",
+    "img": "/images/ed/Vidalista 5 mg tablets.webp",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -1457,7 +1457,7 @@
     "slug": "malegra-dxt-plus-tablets",
     "name": "Malegra DXT plus tablets",
     "category": "ED",
-    "img": "/images/items/malegra-dxt-plus-tablets.jpg",
+    "img": "/images/ed/Malegra DXT plus tablets.webp",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -1494,7 +1494,7 @@
     "slug": "sildigra-black-force-200-mg",
     "name": "Sildigra Black Force 200 mg",
     "category": "ED",
-    "img": "/images/items/sildigra-black-force-200-mg.jpg",
+    "img": "/images/ed/Sildigra Black Force 200 mg.webp",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -1531,7 +1531,7 @@
     "slug": "extra-super-p-force-tablets",
     "name": "Extra Super P Force tablets",
     "category": "ED",
-    "img": "/images/items/extra-super-p-force-tablets.jpg",
+    "img": "/images/ed/Extra Super P Force tablets.webp",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -1563,7 +1563,7 @@
     "slug": "tadaga-20-mg-tablets",
     "name": "Tadaga 20 mg tablets",
     "category": "ED",
-    "img": "/images/items/tadaga-20-mg-tablets.jpg",
+    "img": "/images/ed/Tadaga 20 mg tablets.webp",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -1605,7 +1605,7 @@
     "slug": "tazzle-10-fm",
     "name": "Tazzle 10 FM",
     "category": "ED",
-    "img": "/images/items/tazzle-10-fm.jpg",
+    "img": "/images/ed/Tazzle 10 FM.webp",
     "pricing": [
       {
         "quantity": "50 sachets",
@@ -1642,7 +1642,7 @@
     "slug": "vidalista-80-mg-black-tablets",
     "name": "Vidalista 80 Mg black tablets",
     "category": "ED",
-    "img": "/images/items/vidalista-80-mg-black-tablets.jpg",
+    "img": "/images/ed/Vidalista 80 Mg black tablets.webp",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -1679,7 +1679,7 @@
     "slug": "fildena-super-active",
     "name": "Fildena super active",
     "category": "ED",
-    "img": "/images/items/fildena-super-active.jpg",
+    "img": "/images/ed/Fildena super active.webp",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -1721,7 +1721,7 @@
     "slug": "fildena-xxx-100-mg-tablets",
     "name": "Fildena XXX 100 mg tablets",
     "category": "ED",
-    "img": "/images/items/fildena-xxx-100-mg-tablets.jpg",
+    "img": "/images/ed/Fildena XXX 100 mg tablets.webp",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -1763,7 +1763,7 @@
     "slug": "cenforce-200-mg-tablets",
     "name": "Cenforce 200 mg tablets",
     "category": "ED",
-    "img": "/images/items/cenforce-200-mg-tablets.jpg",
+    "img": "/images/ed/Cenforce 200 mg tablets.webp",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -1800,7 +1800,7 @@
     "slug": "fildena-super-tablets",
     "name": "Fildena Super tablets",
     "category": "ED",
-    "img": "/images/items/fildena-super-tablets.jpg",
+    "img": "/images/ed/Fildena Super tablets.webp",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -1832,7 +1832,7 @@
     "slug": "fildena-25-mg-tablets",
     "name": "Fildena 25 mg tablets",
     "category": "ED",
-    "img": "/images/items/fildena-25-mg-tablets.jpg",
+    "img": "/images/ed/Fildena 25 mg tablets.webp",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -1874,7 +1874,7 @@
     "slug": "sildigra-xl-plus-150-mg",
     "name": "Sildigra XL Plus 150 mg",
     "category": "ED",
-    "img": "/images/items/sildigra-xl-plus-150-mg.jpg",
+    "img": "/images/ed/Sildigra XL Plus 150 mg.webp",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -1916,7 +1916,7 @@
     "slug": "tadacip-20-mg-tablets",
     "name": "Tadacip 20 mg tablets",
     "category": "ED",
-    "img": "/images/items/tadacip-20-mg-tablets.jpg",
+    "img": "/images/ed/Tadacip 20 mg tablets.webp",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -1958,7 +1958,7 @@
     "slug": "dapoforce-60-mg-tablets",
     "name": "Dapoforce 60 mg tablets",
     "category": "ED",
-    "img": "/images/items/dapoforce-60-mg-tablets.jpg",
+    "img": "/images/ed/Dapoforce 60 mg tablets.webp",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -2000,7 +2000,7 @@
     "slug": "tadfil-20-mg",
     "name": "Tadfil 20 mg",
     "category": "ED",
-    "img": "/images/items/tadfil-20-mg.jpg",
+    "img": "/images/ed/Tadfil 20 mg.webp",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -2042,7 +2042,7 @@
     "slug": "tadalista-ct-20-mg",
     "name": "Tadalista CT 20 mg",
     "category": "ED",
-    "img": "/images/items/tadalista-ct-20-mg.jpg",
+    "img": "/images/ed/Tadalista CT 20 mg.webp",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -2084,7 +2084,7 @@
     "slug": "hiforce-50-mg",
     "name": "Hiforce 50 mg",
     "category": "ED",
-    "img": "/images/items/hiforce-50-mg.jpg",
+    "img": "/images/ed/Hiforce 50 mg.webp",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -2126,7 +2126,7 @@
     "slug": "vilitra-80-mg-tablets",
     "name": "Vilitra 80 mg tablets",
     "category": "ED",
-    "img": "/images/items/vilitra-80-mg-tablets.jpg",
+    "img": "/images/ed/Vilitra 40 mg tablets.webp",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -2163,7 +2163,7 @@
     "slug": "alvitra-60-mg-tablets",
     "name": "Alvitra 60 mg tablets",
     "category": "ED",
-    "img": "/images/items/alvitra-60-mg-tablets.jpg",
+    "img": "/images/antibiotics/alvitra-60-mg-tablets.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -2205,7 +2205,7 @@
     "slug": "avana-200-mg-tablets",
     "name": "Avana 200 mg tablets",
     "category": "ED",
-    "img": "/images/items/avana-200-mg-tablets.jpg",
+    "img": "/images/antibiotics/avana-200-mg-tablets.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -2237,7 +2237,7 @@
     "slug": "super-vilitra-tablets",
     "name": "Super Vilitra Tablets",
     "category": "ED",
-    "img": "/images/items/super-vilitra-tablets.jpg",
+    "img": "/images/antibiotics/super-vilitra-tablets.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -2274,7 +2274,7 @@
     "slug": "malegra-50-mg-tablets",
     "name": "Malegra 50 mg tablets",
     "category": "ED",
-    "img": "/images/items/malegra-50-mg-tablets.jpg",
+    "img": "/images/antibiotics/malegra-50-mg-tablets.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -2316,7 +2316,7 @@
     "slug": "valif-oral-jelly",
     "name": "Valif Oral Jelly",
     "category": "ED",
-    "img": "/images/items/valif-oral-jelly.jpg",
+    "img": "/images/antibiotics/valif-oral-jelly.jpg",
     "pricing": [
       {
         "quantity": "50 sachets",
@@ -2353,7 +2353,7 @@
     "slug": "kamagra-oral-jelly",
     "name": "Kamagra Oral Jelly",
     "category": "ED",
-    "img": "/images/items/kamagra-oral-jelly.jpg",
+    "img": "/images/antibiotics/kamagra-oral-jelly.jpg",
     "pricing": [
       {
         "quantity": "50 sachets",
@@ -2390,7 +2390,7 @@
     "slug": "tadaga-80-mg",
     "name": "Tadaga 80 mg",
     "category": "ED",
-    "img": "/images/items/tadaga-80-mg.jpg",
+    "img": "/images/antibiotics/tadaga-80-mg.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -2427,7 +2427,7 @@
     "slug": "tadalip-20-mg",
     "name": "Tadalip 20 mg",
     "category": "ED",
-    "img": "/images/items/tadalip-20-mg.jpg",
+    "img": "/images/antibiotics/tadalip-20-mg.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -2469,7 +2469,7 @@
     "slug": "tadarise-effervescent",
     "name": "Tadarise effervescent",
     "category": "ED",
-    "img": "/images/items/tadarise-effervescent.jpg",
+    "img": "/images/antibiotics/tadarise-effervescent.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -2511,7 +2511,7 @@
     "slug": "femafil-100-mg-tablets",
     "name": "Femafil 100 mg tablets",
     "category": "ED",
-    "img": "/images/items/femafil-100-mg-tablets.jpg",
+    "img": "/images/antibiotics/femafil-100-mg-tablets.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -2553,7 +2553,7 @@
     "slug": "mahagra-50-mg",
     "name": "Mahagra 50 mg",
     "category": "ED",
-    "img": "/images/items/mahagra-50-mg.jpg",
+    "img": "/images/antibiotics/mahagra-50-mg.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -2595,7 +2595,7 @@
     "slug": "prostacel-500-mcg-injection",
     "name": "Prostacel 500 Mcg injection",
     "category": "ED",
-    "img": "/images/items/prostacel-500-mcg-injection.jpg",
+    "img": "/images/antibiotics/prostacel-500-mcg-injection.jpg",
     "pricing": [
       {
         "quantity": "1 vial",
@@ -2632,7 +2632,7 @@
     "slug": "zhewitra-20-mg-tablets",
     "name": "Zhewitra 20 mg tablets",
     "category": "ED",
-    "img": "/images/items/zhewitra-20-mg-tablets.jpg",
+    "img": "/images/antibiotics/zhewitra-20-mg-tablets.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -2674,7 +2674,7 @@
     "slug": "malegra-oral-jelly",
     "name": "Malegra Oral Jelly",
     "category": "ED",
-    "img": "/images/items/malegra-oral-jelly.jpg",
+    "img": "/images/antibiotics/malegra-oral-jelly.jpg",
     "pricing": [
       {
         "quantity": "50 sachets",
@@ -2711,7 +2711,7 @@
     "slug": "sildigra-250-mg-tablets",
     "name": "Sildigra 250 mg tablets",
     "category": "ED",
-    "img": "/images/items/sildigra-250-mg-tablets.jpg",
+    "img": "/images/antibiotics/sildigra-250-mg-tablets.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -2748,7 +2748,7 @@
     "slug": "tazzle-10-mg-tablets",
     "name": "Tazzle 10 Mg tablets",
     "category": "ED",
-    "img": "/images/items/tazzle-10-mg-tablets.jpg",
+    "img": "/images/antibiotics/tazzle-10-mg-tablets.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -2790,7 +2790,7 @@
     "slug": "tadaga-oral-jelly",
     "name": "Tadaga Oral Jelly",
     "category": "ED",
-    "img": "/images/items/tadaga-oral-jelly.jpg",
+    "img": "/images/antibiotics/tadaga-oral-jelly.jpg",
     "pricing": [
       {
         "quantity": "50 sachets",
@@ -2827,7 +2827,7 @@
     "slug": "dasutra-x100-tablets",
     "name": "Dasutra X100 Tablets",
     "category": "ED",
-    "img": "/images/items/dasutra-x100-tablets.jpg",
+    "img": "/images/antibiotics/dasutra-x100-tablets.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -2869,7 +2869,7 @@
     "slug": "cenforce-soft-100-mg-tablets",
     "name": "Cenforce Soft 100 mg tablets",
     "category": "ED",
-    "img": "/images/items/cenforce-soft-100-mg-tablets.jpg",
+    "img": "/images/antibiotics/cenforce-soft-100-mg-tablets.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -2911,7 +2911,7 @@
     "slug": "apcalis-sx-oral-jelly",
     "name": "Apcalis SX oral Jelly",
     "category": "ED",
-    "img": "/images/items/apcalis-sx-oral-jelly.jpg",
+    "img": "/images/antibiotics/apcalis-sx-oral-jelly.jpg",
     "pricing": [
       {
         "quantity": "50 sachets",
@@ -2948,7 +2948,7 @@
     "slug": "filagra-double-200-mg-tablets",
     "name": "Filagra Double 200 mg tablets",
     "category": "ED",
-    "img": "/images/items/filagra-double-200-mg-tablets.jpg",
+    "img": "/images/antibiotics/filagra-double-200-mg-tablets.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -2985,7 +2985,7 @@
     "slug": "kamagra-gold-100-mg-tablets",
     "name": "Kamagra Gold 100 mg tablets",
     "category": "ED",
-    "img": "/images/items/kamagra-gold-100-mg-tablets.jpg",
+    "img": "/images/antibiotics/kamagra-gold-100-mg-tablets.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -3027,7 +3027,7 @@
     "slug": "megalis-20-mg-tablets",
     "name": "megalis 20 mg tablets",
     "category": "ED",
-    "img": "/images/items/megalis-20-mg-tablets.jpg",
+    "img": "/images/antibiotics/megalis-20-mg-tablets.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -3069,7 +3069,7 @@
     "slug": "sildisoft-100-mg",
     "name": "Sildisoft 100 mg",
     "category": "ED",
-    "img": "/images/items/sildisoft-100-mg.jpg",
+    "img": "/images/antibiotics/sildisoft-100-mg.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -3111,7 +3111,7 @@
     "slug": "super-tadapox-tablets",
     "name": "Super Tadapox Tablets",
     "category": "ED",
-    "img": "/images/items/super-tadapox-tablets.jpg",
+    "img": "/images/antibiotics/super-tadapox-tablets.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -3148,7 +3148,7 @@
     "slug": "tadapox-tablets",
     "name": "Tadapox Tablets",
     "category": "ED",
-    "img": "/images/items/tadapox-tablets.jpg",
+    "img": "/images/antibiotics/tadapox-tablets.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -3190,7 +3190,7 @@
     "slug": "dapoforce-90-mg-tablets",
     "name": "Dapoforce 90 mg tablets",
     "category": "ED",
-    "img": "/images/items/dapoforce-90-mg-tablets.jpg",
+    "img": "/images/antibiotics/dapoforce-90-mg-tablets.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -3232,7 +3232,7 @@
     "slug": "avanair-100-mg-tablets",
     "name": "Avanair 100 mg tablets",
     "category": "ED",
-    "img": "/images/items/avanair-100-mg-tablets.jpg",
+    "img": "/images/antibiotics/avanair-100-mg-tablets.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -3274,7 +3274,7 @@
     "slug": "unogra-50-mg-tablets",
     "name": "Unogra 50 mg tablets",
     "category": "ED",
-    "img": "/images/items/unogra-50-mg-tablets.jpg",
+    "img": "/images/antibiotics/unogra-50-mg-tablets.jpg",
     "pricing": [
       {
         "quantity": "50 sachets",
@@ -3311,7 +3311,7 @@
     "slug": "avaforce-100-mg-tablets",
     "name": "Avaforce 100 Mg tablets",
     "category": "ED",
-    "img": "/images/items/avaforce-100-mg-tablets.jpg",
+    "img": "/images/antibiotics/avaforce-100-mg-tablets.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -3353,7 +3353,7 @@
     "slug": "cenforce-professional-100-mg",
     "name": "Cenforce professional 100 mg",
     "category": "ED",
-    "img": "/images/items/cenforce-professional-100-mg.jpg",
+    "img": "/images/antibiotics/cenforce-professional-100-mg.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -3395,7 +3395,7 @@
     "slug": "filagra-dxt-plus",
     "name": "Filagra DXT Plus",
     "category": "ED",
-    "img": "/images/items/filagra-dxt-plus.jpg",
+    "img": "/images/antibiotics/filagra-dxt-plus.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -3437,7 +3437,7 @@
     "slug": "kamagra-polo-chewable-tablets",
     "name": "Kamagra Polo chewable tablets",
     "category": "ED",
-    "img": "/images/items/kamagra-polo-chewable-tablets.jpg",
+    "img": "/images/antibiotics/kamagra-polo-chewable-tablets.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -3479,7 +3479,7 @@
     "slug": "vidalista-ct-20-mg-tablets",
     "name": "Vidalista CT 20 mg tablets",
     "category": "ED",
-    "img": "/images/items/vidalista-ct-20-mg-tablets.jpg",
+    "img": "/images/antibiotics/vidalista-ct-20-mg-tablets.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -3521,7 +3521,7 @@
     "slug": "silditop-100-mg",
     "name": "Silditop 100 mg",
     "category": "ED",
-    "img": "/images/items/silditop-100-mg.jpg",
+    "img": "/images/antibiotics/silditop-100-mg.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -3563,7 +3563,7 @@
     "slug": "tadaflo-20-mg-tablets",
     "name": "Tadaflo 20 mg tablets",
     "category": "ED",
-    "img": "/images/items/tadaflo-20-mg-tablets.jpg",
+    "img": "/images/antibiotics/tadaflo-20-mg-tablets.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -3605,7 +3605,7 @@
     "slug": "tadalist-10-mg-tablets",
     "name": "Tadalist 10 mg tablets",
     "category": "ED",
-    "img": "/images/items/tadalist-10-mg-tablets.jpg",
+    "img": "/images/antibiotics/tadalist-10-mg-tablets.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -3647,7 +3647,7 @@
     "slug": "varditra-20-mg-tablets",
     "name": "varditra 20 mg tablets",
     "category": "ED",
-    "img": "/images/items/varditra-20-mg-tablets.jpg",
+    "img": "/images/antibiotics/varditra-20-mg-tablets.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -3689,7 +3689,7 @@
     "slug": "vardegra-20-mg-tablets",
     "name": "Vardegra 20 mg tablets",
     "category": "ED",
-    "img": "/images/items/vardegra-20-mg-tablets.jpg",
+    "img": "/images/antibiotics/vardegra-20-mg-tablets.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -3731,7 +3731,7 @@
     "slug": "kamagra-oral-jelly-vol-2",
     "name": "Kamagra Oral Jelly VOL 2",
     "category": "ED",
-    "img": "/images/items/kamagra-oral-jelly-vol-2.jpg",
+    "img": "/images/antibiotics/kamagra-oral-jelly-vol-2.jpg",
     "pricing": [
       {
         "quantity": "50 sachets",
@@ -3768,7 +3768,7 @@
     "slug": "abhirise-60-mg-tablets",
     "name": "Abhirise 60 mg tablets",
     "category": "ED",
-    "img": "/images/items/abhirise-60-mg-tablets.jpg",
+    "img": "/images/antibiotics/abhirise-60-mg-tablets.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -3810,7 +3810,7 @@
     "slug": "vilitra-10-mg-tablets",
     "name": "Vilitra 10 mg tablets",
     "category": "ED",
-    "img": "/images/items/vilitra-10-mg-tablets.jpg",
+    "img": "/images/antibiotics/vilitra-10-mg-tablets.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -3852,7 +3852,7 @@
     "slug": "duratia-60-mg-tablets",
     "name": "Duratia 60 mg tablets",
     "category": "ED",
-    "img": "/images/items/duratia-60-mg-tablets.jpg",
+    "img": "/images/antibiotics/duratia-60-mg-tablets.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -3894,7 +3894,7 @@
     "slug": "sildalist-120-mg-tablets",
     "name": "Sildalist 120 mg tablets",
     "category": "ED",
-    "img": "/images/items/sildalist-120-mg-tablets.jpg",
+    "img": "/images/antibiotics/sildalist-120-mg-tablets.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -3931,7 +3931,7 @@
     "slug": "suhagra-50-mg-tablets",
     "name": "suhagra 50 mg tablets",
     "category": "ED",
-    "img": "/images/items/suhagra-50-mg-tablets.jpg",
+    "img": "/images/antibiotics/suhagra-50-mg-tablets.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -3973,7 +3973,7 @@
     "slug": "suhagra-100-mg-tablets",
     "name": "Suhagra 100 mg tablets",
     "category": "ED",
-    "img": "/images/items/suhagra-100-mg-tablets.jpg",
+    "img": "/images/antibiotics/suhagra-100-mg-tablets.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -4015,7 +4015,7 @@
     "slug": "tadaga-40-mg-tablets",
     "name": "Tadaga 40 mg tablets",
     "category": "ED",
-    "img": "/images/items/tadaga-40-mg-tablets.jpg",
+    "img": "/images/antibiotics/tadaga-40-mg-tablets.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -4057,7 +4057,7 @@
     "slug": "tadalis-sx-20-mg-tablets",
     "name": "Tadalis SX 20 mg tablets",
     "category": "ED",
-    "img": "/images/items/tadalis-sx-20-mg-tablets.jpg",
+    "img": "/images/antibiotics/tadalis-sx-20-mg-tablets.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -4099,7 +4099,7 @@
     "slug": "begma-120-mg-tablets",
     "name": "Begma 120 Mg tablets",
     "category": "ED",
-    "img": "/images/items/begma-120-mg-tablets.jpg",
+    "img": "/images/antibiotics/begma-120-mg-tablets.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -4141,7 +4141,7 @@
     "slug": "super-p-force-oral-jelly",
     "name": "Super P Force Oral Jelly",
     "category": "ED",
-    "img": "/images/items/super-p-force-oral-jelly.jpg",
+    "img": "/images/antibiotics/super-p-force-oral-jelly.jpg",
     "pricing": [
       {
         "quantity": "50 sachets",
@@ -4178,7 +4178,7 @@
     "slug": "avana-50-mg-tablets",
     "name": "avana 50 mg tablets",
     "category": "ED",
-    "img": "/images/items/avana-50-mg-tablets.jpg",
+    "img": "/images/antibiotics/avana-50-mg-tablets.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -4220,7 +4220,7 @@
     "slug": "malegra-fxt-plus-tablet",
     "name": "Malegra FXT Plus tablet",
     "category": "ED",
-    "img": "/images/items/malegra-fxt-plus-tablet.jpg",
+    "img": "/images/antibiotics/malegra-fxt-plus-tablet.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -4262,7 +4262,7 @@
     "slug": "tadasoft-20-mg-tablets",
     "name": "Tadasoft 20 mg tablets",
     "category": "ED",
-    "img": "/images/items/tadasoft-20-mg-tablets.jpg",
+    "img": "/images/antibiotics/tadasoft-20-mg-tablets.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -4304,7 +4304,7 @@
     "slug": "tadalista-professional-20-mg-tablets",
     "name": "tadalista professional 20 mg tablets",
     "category": "ED",
-    "img": "/images/items/tadalista-professional-20-mg-tablets.jpg",
+    "img": "/images/antibiotics/tadalista-professional-20-mg-tablets.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -4346,7 +4346,7 @@
     "slug": "mahagra-150-mg-tablets",
     "name": "mahagra 150 mg tablets",
     "category": "ED",
-    "img": "/images/items/mahagra-150-mg-tablets.jpg",
+    "img": "/images/antibiotics/mahagra-150-mg-tablets.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -4388,7 +4388,7 @@
     "slug": "super-alvitra-tablets",
     "name": "Super Alvitra Tablets",
     "category": "ED",
-    "img": "/images/items/super-alvitra-tablets.jpg",
+    "img": "/images/antibiotics/super-alvitra-tablets.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -4425,7 +4425,7 @@
     "slug": "vega-polo-100-mg-tablets",
     "name": "Vega Polo 100 mg tablets",
     "category": "ED",
-    "img": "/images/items/vega-polo-100-mg-tablets.jpg",
+    "img": "/images/antibiotics/vega-polo-100-mg-tablets.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -4467,7 +4467,7 @@
     "slug": "super-zhewitra-tablets",
     "name": "Super Zhewitra tablets",
     "category": "ED",
-    "img": "/images/items/super-zhewitra-tablets.jpg",
+    "img": "/images/antibiotics/super-zhewitra-tablets.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -4504,7 +4504,7 @@
     "slug": "malegra-green-100-mg",
     "name": "Malegra Green 100 mg",
     "category": "ED",
-    "img": "/images/items/malegra-green-100-mg.jpg",
+    "img": "/images/antibiotics/malegra-green-100-mg.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -4546,7 +4546,7 @@
     "slug": "tadarise-5-mg-tablets",
     "name": "Tadarise 5 mg tablets",
     "category": "ED",
-    "img": "/images/items/tadarise-5-mg-tablets.jpg",
+    "img": "/images/antibiotics/tadarise-5-mg-tablets.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -4583,7 +4583,7 @@
     "slug": "tadagra-strong-40-mg-tablets",
     "name": "tadagra strong 40 mg tablets",
     "category": "ED",
-    "img": "/images/items/tadagra-strong-40-mg-tablets.jpg",
+    "img": "/images/antibiotics/tadagra-strong-40-mg-tablets.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -4625,7 +4625,7 @@
     "slug": "super-kamagra-oral-jelly",
     "name": "Super kamagra oral jelly",
     "category": "ED",
-    "img": "/images/items/super-kamagra-oral-jelly.jpg",
+    "img": "/images/antibiotics/super-kamagra-oral-jelly.jpg",
     "pricing": [
       {
         "quantity": "50 sachets",
@@ -4662,7 +4662,7 @@
     "slug": "snovitra-professional",
     "name": "Snovitra Professional",
     "category": "ED",
-    "img": "/images/items/snovitra-professional.jpg",
+    "img": "/images/antibiotics/snovitra-professional.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -4704,7 +4704,7 @@
     "slug": "tadalista-ct-20-mg",
     "name": "Tadalista CT 20 mg",
     "category": "ED",
-    "img": "/images/items/tadalista-ct-20-mg.jpg",
+    "img": "/images/antibiotics/tadalista-ct-20-mg.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -4746,7 +4746,7 @@
     "slug": "begma-200-mg-tablets",
     "name": "Begma 200 mg tablets",
     "category": "ED",
-    "img": "/images/items/begma-200-mg-tablets.jpg",
+    "img": "/images/antibiotics/begma-200-mg-tablets.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -4783,7 +4783,7 @@
     "slug": "kamagra-chewbale-100-mg",
     "name": "Kamagra chewbale 100 mg",
     "category": "ED",
-    "img": "/images/items/kamagra-chewbale-100-mg.jpg",
+    "img": "/images/antibiotics/kamagra-chewbale-100-mg.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -4825,7 +4825,7 @@
     "slug": "manforce-100-mg",
     "name": "Manforce 100 mg",
     "category": "ED",
-    "img": "/images/items/manforce-100-mg.jpg",
+    "img": "/images/antibiotics/manforce-100-mg.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -4867,7 +4867,7 @@
     "slug": "tastylia-20-mg",
     "name": "Tastylia 20 mg",
     "category": "ED",
-    "img": "/images/items/tastylia-20-mg.jpg",
+    "img": "/images/antibiotics/tastylia-20-mg.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -4909,7 +4909,7 @@
     "slug": "tadarise-professional-20-mg",
     "name": "Tadarise professional 20 mg",
     "category": "ED",
-    "img": "/images/items/tadarise-professional-20-mg.jpg",
+    "img": "/images/antibiotics/tadarise-professional-20-mg.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -4951,7 +4951,7 @@
     "slug": "super-tastylia",
     "name": "Super Tastylia",
     "category": "ED",
-    "img": "/images/items/super-tastylia.jpg",
+    "img": "/images/antibiotics/super-tastylia.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -4988,7 +4988,7 @@
     "slug": "abhirise-40-mg-tablets",
     "name": "Abhirise 40 mg tablets",
     "category": "ED",
-    "img": "/images/items/abhirise-40-mg-tablets.jpg",
+    "img": "/images/antibiotics/abhirise-40-mg-tablets.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -5030,7 +5030,7 @@
     "slug": "tastylia-oral-jelly",
     "name": "Tastylia Oral Jelly",
     "category": "ED",
-    "img": "/images/items/tastylia-oral-jelly.jpg",
+    "img": "/images/antibiotics/tastylia-oral-jelly.jpg",
     "pricing": [
       {
         "quantity": "50 sachets",
@@ -5067,7 +5067,7 @@
     "slug": "lovegra-oral-jelly",
     "name": "Lovegra Oral Jelly",
     "category": "ED",
-    "img": "/images/items/lovegra-oral-jelly.jpg",
+    "img": "/images/antibiotics/lovegra-oral-jelly.jpg",
     "pricing": [
       {
         "quantity": "50 sachets",
@@ -5104,7 +5104,7 @@
     "slug": "sildalist-140-mg-tablets",
     "name": "Sildalist 140 mg tablets",
     "category": "ED",
-    "img": "/images/items/sildalist-140-mg-tablets.jpg",
+    "img": "/images/antibiotics/sildalist-140-mg-tablets.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -5141,7 +5141,7 @@
     "slug": "vega-100-mg",
     "name": "Vega 100 mg",
     "category": "ED",
-    "img": "/images/items/vega-100-mg.jpg",
+    "img": "/images/antibiotics/vega-100-mg.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -5183,7 +5183,7 @@
     "slug": "viagra-100-mg-tablets",
     "name": "Viagra 100 mg tablets",
     "category": "ED",
-    "img": "/images/items/viagra-100-mg-tablets.jpg",
+    "img": "/images/antibiotics/viagra-100-mg-tablets.jpg",
     "pricing": [
       {
         "quantity": "20 pills",
@@ -5220,7 +5220,7 @@
     "slug": "malegra-dxt-plus",
     "name": "Malegra DXT Plus",
     "category": "ED",
-    "img": "/images/items/malegra-dxt-plus.jpg",
+    "img": "/images/antibiotics/malegra-dxt-plus.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -5262,7 +5262,7 @@
     "slug": "top-avana-tablet",
     "name": "Top Avana tablet",
     "category": "ED",
-    "img": "/images/items/top-avana-tablet.jpg",
+    "img": "/images/antibiotics/top-avana-tablet.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -5294,7 +5294,7 @@
     "slug": "duratia-30-mg",
     "name": "Duratia 30 Mg",
     "category": "ED",
-    "img": "/images/items/duratia-30-mg.jpg",
+    "img": "/images/antibiotics/duratia-30-mg.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -5336,7 +5336,7 @@
     "slug": "ladygra-100-mg",
     "name": "Ladygra 100 mg",
     "category": "ED",
-    "img": "/images/items/ladygra-100-mg.jpg",
+    "img": "/images/antibiotics/ladygra-100-mg.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -5378,7 +5378,7 @@
     "slug": "silagra-100-mg",
     "name": "Silagra 100 mg",
     "category": "ED",
-    "img": "/images/items/silagra-100-mg.jpg",
+    "img": "/images/antibiotics/silagra-100-mg.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -5420,7 +5420,7 @@
     "slug": "abhiforce-d-tablet",
     "name": "Abhiforce D Tablet",
     "category": "ED",
-    "img": "/images/items/abhiforce-d-tablet.jpg",
+    "img": "/images/antibiotics/abhiforce-d-tablet.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -5457,7 +5457,7 @@
     "slug": "vigore-force-tablet",
     "name": "Vigore Force tablet",
     "category": "ED",
-    "img": "/images/items/vigore-force-tablet.jpg",
+    "img": "/images/antibiotics/vigore-force-tablet.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -5494,7 +5494,7 @@
     "slug": "cobra-120-mg-tablets",
     "name": "Cobra 120 mg tablets",
     "category": "ED",
-    "img": "/images/items/cobra-120-mg-tablets.jpg",
+    "img": "/images/antibiotics/cobra-120-mg-tablets.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -5536,7 +5536,7 @@
     "slug": "vidalista-80-mg-yellow",
     "name": "Vidalista 80 Mg Yellow",
     "category": "ED",
-    "img": "/images/items/vidalista-80-mg-yellow.jpg",
+    "img": "/images/antibiotics/vidalista-80-mg-yellow.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -5573,7 +5573,7 @@
     "slug": "tastylia-black-tablets",
     "name": "Tastylia Black Tablets",
     "category": "ED",
-    "img": "/images/items/tastylia-black-tablets.jpg",
+    "img": "/images/antibiotics/tastylia-black-tablets.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -5610,7 +5610,7 @@
     "slug": "vidalista-professional-tablets",
     "name": "Vidalista Professional Tablets",
     "category": "ED",
-    "img": "/images/items/vidalista-professional-tablets.jpg",
+    "img": "/images/antibiotics/vidalista-professional-tablets.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -5652,7 +5652,7 @@
     "slug": "super-p-force-tablets",
     "name": "Super P Force tablets",
     "category": "ED",
-    "img": "/images/items/super-p-force-tablets.jpg",
+    "img": "/images/antibiotics/super-p-force-tablets.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -5689,7 +5689,7 @@
     "slug": "extra-super-p-force-tablets",
     "name": "Extra Super P Force tablets",
     "category": "ED",
-    "img": "/images/items/extra-super-p-force-tablets.jpg",
+    "img": "/images/antibiotics/extra-super-p-force-tablets.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -5721,7 +5721,7 @@
     "slug": "cenforce-130-mg-tablets",
     "name": "Cenforce 130 mg tablets",
     "category": "ED",
-    "img": "/images/items/cenforce-130-mg-tablets.jpg",
+    "img": "/images/antibiotics/cenforce-130-mg-tablets.jpg",
     "pricing": [
       {
         "quantity": "100 pills",
@@ -6771,182 +6771,3565 @@
     }
   },
   {
-    "slug": "orlistat-120mg",
-    "name": "Orlistat 120mg",
+    "slug": "orligal-120",
+    "name": "Orligal 120",
     "category": "Weight Loss & Female Health",
-    "img": "/images/orlistat-120mg.jpg",
-    "price": 399,
-    "mrp": 449,
+    "img": "/images/female/orligirl 120.png",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 65,
+        "mrp": 72
+      },
+      {
+        "quantity": "200 pills",
+        "price": 95,
+        "mrp": 105
+      },
+      {
+        "quantity": "300 pills",
+        "price": 125,
+        "mrp": 138
+      },
+      {
+        "quantity": "500 pills",
+        "price": 185,
+        "mrp": 204
+      }
+    ],
     "content": {
-      "shortDescription": "Orlistat 120mg tablets to support weight loss and fat absorption reduction.",
+      "shortDescription": "Orlistat-based capsule supporting healthy weight loss by blocking fat absorption.",
       "keyBenefits": [
-        "Helps lose more weight than diet alone",
-        "Improves long-term weight management",
-        "Reduces risk of obesity-related conditions"
+        "Blocks dietary fat",
+        "Improves weight control",
+        "Supports cholesterol management"
       ],
       "keyFeatures": [
-        "Clinically proven fat blocker (120mg Orlistat)",
-        "Non-stimulant formula",
-        "Prescription-strength support"
+        "Contains Orlistat",
+        "Works in gut",
+        "Clinically tested formulation"
       ],
-      "longDescription": "Orlistat 120mg Tablets are formulated to support weight loss by blocking the absorption of dietary fat. Ideal for individuals following a reduced-calorie diet, it helps increase fat loss results, maintain a healthy weight, and reduce the risks of type 2 diabetes, high cholesterol, and hypertension. Safe, stimulant-free, and clinically validated."
+      "longDescription": "These Orlistat formulations help reduce fat absorption and promote gradual weight loss when used with a balanced diet."
     }
   },
   {
-    "slug": "contrave",
-    "name": "Contrave",
+    "slug": "orlijohn-120",
+    "name": "Orlijohn 120",
     "category": "Weight Loss & Female Health",
-    "img": "/images/contrave.jpg",
-    "price": 649,
-    "mrp": 709,
+    "img": "/images/female/orlijohn-120mg-orlistat.jpeg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 65,
+        "mrp": 72
+      },
+      {
+        "quantity": "200 pills",
+        "price": 95,
+        "mrp": 105
+      },
+      {
+        "quantity": "300 pills",
+        "price": 125,
+        "mrp": 138
+      },
+      {
+        "quantity": "500 pills",
+        "price": 185,
+        "mrp": 204
+      }
+    ],
     "content": {
-      "shortDescription": "Contrave tablets for dual-action support to manage hunger, cravings, and sustainable weight loss.",
+      "shortDescription": "Orlistat-based capsule supporting healthy weight loss by blocking fat absorption.",
       "keyBenefits": [
-        "Reduces cravings and hunger",
-        "Promotes sustainable weight loss",
-        "Improves emotional eating control"
+        "Blocks dietary fat",
+        "Improves weight control",
+        "Supports cholesterol management"
       ],
       "keyFeatures": [
-        "Combination of Bupropion & Naltrexone",
-        "Clinically proven formula",
-        "Prescription-based and doctor-supervised"
+        "Contains Orlistat",
+        "Works in gut",
+        "Clinically tested formulation"
       ],
-      "longDescription": "Contrave Tablets are a dual-action weight-loss medication targeting both the brain’s hunger signals and cravings. Ideal for adults struggling with obesity or emotional eating, it supports sustainable weight loss when combined with diet and exercise. Backed by clinical studies and trusted by healthcare professionals."
+      "longDescription": "These Orlistat formulations help reduce fat absorption and promote gradual weight loss when used with a balanced diet."
     }
   },
   {
-    "slug": "mifepristone-misoprostol-kit",
-    "name": "Mifepristone & Misoprostol Kit",
+    "slug": "slimtop-60",
+    "name": "Slimtop 60",
     "category": "Weight Loss & Female Health",
-    "img": "/images/mifepristone-misoprostol-kit.jpg",
-    "price": 799,
-    "mrp": 879,
+    "img": "/images/female/slimtop-60-mg-500x500.webp",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 60,
+        "mrp": 66
+      },
+      {
+        "quantity": "200 pills",
+        "price": 85,
+        "mrp": 94
+      },
+      {
+        "quantity": "300 pills",
+        "price": 110,
+        "mrp": 121
+      },
+      {
+        "quantity": "500 pills",
+        "price": 160,
+        "mrp": 176
+      }
+    ],
     "content": {
-      "shortDescription": "Combikit of Mifepristone & Misoprostol for safe, medically approved early pregnancy termination.",
+      "shortDescription": "Orlistat-based capsule supporting healthy weight loss by blocking fat absorption.",
       "keyBenefits": [
-        "Non-surgical early pregnancy termination",
-        "Clinically approved and WHO-recommended",
-        "Private and convenient home use"
+        "Blocks dietary fat",
+        "Improves weight control",
+        "Supports cholesterol management"
       ],
       "keyFeatures": [
-        "Dual-drug mechanism: Mifepristone 200mg + Misoprostol 800mcg",
-        "High efficacy rate",
-        "Compact and user-friendly packaging"
+        "Contains Orlistat",
+        "Works in gut",
+        "Clinically tested formulation"
       ],
-      "longDescription": "The Combikit of Mifepristone & Misoprostol Tablets provides a safe, clinically tested, non-surgical method for early pregnancy termination (up to 9 weeks gestation). Mifepristone blocks progesterone while Misoprostol stimulates uterine contractions to expel pregnancy tissue naturally. Recommended for home use under medical guidance."
+      "longDescription": "These Orlistat formulations help reduce fat absorption and promote gradual weight loss when used with a balanced diet."
     }
   },
   {
-    "slug": "cabergolin",
-    "name": "Cabergolin",
+    "slug": "slimtop-120",
+    "name": "Slimtop 120",
     "category": "Weight Loss & Female Health",
-    "img": "/images/cabergolin.jpg",
-    "price": 499,
-    "mrp": 559,
+    "img": "/images/female/slimtop-120mg-capsule-500x500.webp",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 65,
+        "mrp": 72
+      },
+      {
+        "quantity": "200 pills",
+        "price": 95,
+        "mrp": 105
+      },
+      {
+        "quantity": "300 pills",
+        "price": 125,
+        "mrp": 138
+      },
+      {
+        "quantity": "500 pills",
+        "price": 185,
+        "mrp": 204
+      }
+    ],
     "content": {
-      "shortDescription": "Cabergolin tablets for hormonal balance and prolactin regulation in men and women.",
+      "shortDescription": "Orlistat-based capsule supporting healthy weight loss by blocking fat absorption.",
       "keyBenefits": [
-        "Restores hormonal balance",
-        "Improves sexual health",
-        "Reduces tumor size (prolactinomas)"
+        "Blocks dietary fat",
+        "Improves weight control",
+        "Supports cholesterol management"
       ],
       "keyFeatures": [
-        "Dopamine agonist action",
-        "Long-lasting effect (1–2 weekly doses)",
-        "Clinically proven and widely prescribed"
+        "Contains Orlistat",
+        "Works in gut",
+        "Clinically tested formulation"
       ],
-      "longDescription": "Cabergolin Tablets are used to treat conditions caused by high prolactin levels, including irregular menstrual cycles, infertility, and prolactinomas. By restoring hormonal balance, it improves reproductive function and sexual health. Administered 1–2 times per week, it provides a convenient long-term solution under medical supervision."
+      "longDescription": "These Orlistat formulations help reduce fat absorption and promote gradual weight loss when used with a balanced diet."
     }
   },
   {
-    "slug": "estradiol",
-    "name": "Estradiol",
+    "slug": "lodonak-bp",
+    "name": "Lodonak BP",
     "category": "Weight Loss & Female Health",
-    "img": "/images/estradiol.jpg",
-    "price": 349,
-    "mrp": 399,
+    "img": "/images/female/lodonak-bp-tablets-500x500.webp",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 100,
+        "mrp": 110
+      },
+      {
+        "quantity": "200 pills",
+        "price": 165,
+        "mrp": 182
+      },
+      {
+        "quantity": "300 pills",
+        "price": 230,
+        "mrp": 253
+      },
+      {
+        "quantity": "500 pills",
+        "price": 360,
+        "mrp": 396
+      }
+    ],
     "content": {
-      "shortDescription": "Estradiol tablets to support hormonal balance and female reproductive health.",
+      "shortDescription": "Prescription medication aiding appetite control and metabolic regulation for weight loss.",
       "keyBenefits": [
-        "Helps regulate menstrual cycles",
-        "Supports overall hormonal balance",
-        "Improves menopausal symptoms"
+        "Reduces hunger",
+        "Boosts metabolism",
+        "Improves fat breakdown"
       ],
       "keyFeatures": [
-        "Clinically approved estrogen therapy",
-        "Prescription-based medication",
-        "Safe long-term use under supervision"
+        "Prescription-based",
+        "Monitored use",
+        "Enhances weight management"
       ],
-      "longDescription": "Estradiol is a prescription medication used to support hormonal balance in women. It helps regulate menstrual cycles, reduce menopausal symptoms, and maintain overall reproductive health. Ideal for women requiring estrogen therapy, it should be taken under medical supervision for optimal safety and effectiveness."
+      "longDescription": "Lodonak BP helps in appetite suppression and metabolic balance to support healthy weight management under medical supervision."
+    }
+  },
+  {
+    "slug": "divabort-kit",
+    "name": "Divabort Kit",
+    "category": "Weight Loss & Female Health",
+    "img": "/images/female/Divabort Kit.jpeg",
+    "pricing": [
+      {
+        "quantity": "10 kits",
+        "price": 135,
+        "mrp": 148
+      },
+      {
+        "quantity": "20 kits",
+        "price": 235,
+        "mrp": 258
+      },
+      {
+        "quantity": "30 kits",
+        "price": 335,
+        "mrp": 369
+      }
+    ],
+    "content": {
+      "shortDescription": "Combination medical abortion kit for safe early pregnancy termination.",
+      "keyBenefits": [
+        "Ensures complete termination",
+        "Non-surgical",
+        "Clinically approved protocol"
+      ],
+      "keyFeatures": [
+        "Contains Mifepristone + Misoprostol",
+        "Safe under doctor\u2019s supervision",
+        "WHO guideline compliant"
+      ],
+      "longDescription": "Abortion kits like Divabort, Killpreg, Mifegest, and Termipill are designed for early pregnancy termination using Mifepristone and Misoprostol."
+    }
+  },
+  {
+    "slug": "killpreg-kit",
+    "name": "Killpreg Kit",
+    "category": "Weight Loss & Female Health",
+    "img": "/images/items/killpreg-kit.jpg",
+    "pricing": [
+      {
+        "quantity": "10 kits",
+        "price": 135,
+        "mrp": 148
+      },
+      {
+        "quantity": "20 kits",
+        "price": 235,
+        "mrp": 258
+      },
+      {
+        "quantity": "30 kits",
+        "price": 335,
+        "mrp": 369
+      }
+    ],
+    "content": {
+      "shortDescription": "Combination medical abortion kit for safe early pregnancy termination.",
+      "keyBenefits": [
+        "Ensures complete termination",
+        "Non-surgical",
+        "Clinically approved protocol"
+      ],
+      "keyFeatures": [
+        "Contains Mifepristone + Misoprostol",
+        "Safe under doctor\u2019s supervision",
+        "WHO guideline compliant"
+      ],
+      "longDescription": "Abortion kits like Divabort, Killpreg, Mifegest, and Termipill are designed for early pregnancy termination using Mifepristone and Misoprostol."
+    }
+  },
+  {
+    "slug": "mifegest-kit",
+    "name": "Mifegest Kit",
+    "category": "Weight Loss & Female Health",
+    "img": "/images/items/mifegest-kit.jpg",
+    "pricing": [
+      {
+        "quantity": "10 kits",
+        "price": 135,
+        "mrp": 148
+      },
+      {
+        "quantity": "20 kits",
+        "price": 235,
+        "mrp": 258
+      },
+      {
+        "quantity": "30 kits",
+        "price": 335,
+        "mrp": 369
+      }
+    ],
+    "content": {
+      "shortDescription": "Combination medical abortion kit for safe early pregnancy termination.",
+      "keyBenefits": [
+        "Ensures complete termination",
+        "Non-surgical",
+        "Clinically approved protocol"
+      ],
+      "keyFeatures": [
+        "Contains Mifepristone + Misoprostol",
+        "Safe under doctor\u2019s supervision",
+        "WHO guideline compliant"
+      ],
+      "longDescription": "Abortion kits like Divabort, Killpreg, Mifegest, and Termipill are designed for early pregnancy termination using Mifepristone and Misoprostol."
+    }
+  },
+  {
+    "slug": "termipill-kit",
+    "name": "Termipill Kit",
+    "category": "Weight Loss & Female Health",
+    "img": "/images/female/termipril kit.jpeg",
+    "pricing": [
+      {
+        "quantity": "10 kits",
+        "price": 135,
+        "mrp": 148
+      },
+      {
+        "quantity": "20 kits",
+        "price": 235,
+        "mrp": 258
+      },
+      {
+        "quantity": "30 kits",
+        "price": 335,
+        "mrp": 369
+      }
+    ],
+    "content": {
+      "shortDescription": "Combination medical abortion kit for safe early pregnancy termination.",
+      "keyBenefits": [
+        "Ensures complete termination",
+        "Non-surgical",
+        "Clinically approved protocol"
+      ],
+      "keyFeatures": [
+        "Contains Mifepristone + Misoprostol",
+        "Safe under doctor\u2019s supervision",
+        "WHO guideline compliant"
+      ],
+      "longDescription": "Abortion kits like Divabort, Killpreg, Mifegest, and Termipill are designed for early pregnancy termination using Mifepristone and Misoprostol."
+    }
+  },
+  {
+    "slug": "abortab-200",
+    "name": "Abortab 200",
+    "category": "Weight Loss & Female Health",
+    "img": "/images/female/abortab-200-mg-tablets.jpeg",
+    "pricing": [
+      {
+        "quantity": "10 pills",
+        "price": 85,
+        "mrp": 94
+      },
+      {
+        "quantity": "20 pills",
+        "price": 135,
+        "mrp": 148
+      },
+      {
+        "quantity": "30 pills",
+        "price": 185,
+        "mrp": 204
+      }
+    ],
+    "content": {
+      "shortDescription": "Misoprostol-based tablet inducing uterine contraction for termination or medical use.",
+      "keyBenefits": [
+        "Induces contractions",
+        "Used for pregnancy termination",
+        "Proven efficacy"
+      ],
+      "keyFeatures": [
+        "Contains Misoprostol",
+        "Tablet form",
+        "Rapid effect"
+      ],
+      "longDescription": "Abortab and Cytoheal support safe medical procedures by inducing uterine contractions, used under healthcare supervision."
+    }
+  },
+  {
+    "slug": "cytoheal-200",
+    "name": "Cytoheal 200",
+    "category": "Weight Loss & Female Health",
+    "img": "/images/female/cytoheal-200-tablets-283.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 55,
+        "mrp": 61
+      },
+      {
+        "quantity": "200 pills",
+        "price": 75,
+        "mrp": 82
+      },
+      {
+        "quantity": "300 pills",
+        "price": 95,
+        "mrp": 105
+      },
+      {
+        "quantity": "500 pills",
+        "price": 135,
+        "mrp": 148
+      }
+    ],
+    "content": {
+      "shortDescription": "Misoprostol-based tablet inducing uterine contraction for termination or medical use.",
+      "keyBenefits": [
+        "Induces contractions",
+        "Used for pregnancy termination",
+        "Proven efficacy"
+      ],
+      "keyFeatures": [
+        "Contains Misoprostol",
+        "Tablet form",
+        "Rapid effect"
+      ],
+      "longDescription": "Abortab and Cytoheal support safe medical procedures by inducing uterine contractions, used under healthcare supervision."
+    }
+  },
+  {
+    "slug": "ipill",
+    "name": "iPill",
+    "category": "Weight Loss & Female Health",
+    "img": "/images/female/ipill.jpg",
+    "pricing": [
+      {
+        "quantity": "10 pills",
+        "price": 45,
+        "mrp": 50
+      },
+      {
+        "quantity": "20 pills",
+        "price": 55,
+        "mrp": 61
+      },
+      {
+        "quantity": "30 pills",
+        "price": 65,
+        "mrp": 72
+      }
+    ],
+    "content": {
+      "shortDescription": "Emergency contraceptive pill to prevent pregnancy after unprotected sex.",
+      "keyBenefits": [
+        "Prevents pregnancy",
+        "Works within 72 hours",
+        "Safe hormonal control"
+      ],
+      "keyFeatures": [
+        "Contains Levonorgestrel",
+        "OTC availability",
+        "Single-dose use"
+      ],
+      "longDescription": "iPill, Morning Pill, and Unwanted 72 are emergency contraceptives preventing pregnancy by delaying ovulation when taken promptly."
+    }
+  },
+  {
+    "slug": "morning-pill",
+    "name": "Morning Pill",
+    "category": "Weight Loss & Female Health",
+    "img": "/images/female/Morning-Pill-New.jpg",
+    "pricing": [
+      {
+        "quantity": "10 pills",
+        "price": 45,
+        "mrp": 50
+      },
+      {
+        "quantity": "20 pills",
+        "price": 55,
+        "mrp": 61
+      },
+      {
+        "quantity": "30 pills",
+        "price": 65,
+        "mrp": 72
+      }
+    ],
+    "content": {
+      "shortDescription": "Emergency contraceptive pill to prevent pregnancy after unprotected sex.",
+      "keyBenefits": [
+        "Prevents pregnancy",
+        "Works within 72 hours",
+        "Safe hormonal control"
+      ],
+      "keyFeatures": [
+        "Contains Levonorgestrel",
+        "OTC availability",
+        "Single-dose use"
+      ],
+      "longDescription": "iPill, Morning Pill, and Unwanted 72 are emergency contraceptives preventing pregnancy by delaying ovulation when taken promptly."
+    }
+  },
+  {
+    "slug": "unwanted-72",
+    "name": "Unwanted 72",
+    "category": "Weight Loss & Female Health",
+    "img": "/images/female/unwanted 72.jpeg",
+    "pricing": [
+      {
+        "quantity": "10 pills",
+        "price": 45,
+        "mrp": 50
+      },
+      {
+        "quantity": "20 pills",
+        "price": 55,
+        "mrp": 61
+      },
+      {
+        "quantity": "30 pills",
+        "price": 65,
+        "mrp": 72
+      }
+    ],
+    "content": {
+      "shortDescription": "Emergency contraceptive pill to prevent pregnancy after unprotected sex.",
+      "keyBenefits": [
+        "Prevents pregnancy",
+        "Works within 72 hours",
+        "Safe hormonal control"
+      ],
+      "keyFeatures": [
+        "Contains Levonorgestrel",
+        "OTC availability",
+        "Single-dose use"
+      ],
+      "longDescription": "iPill, Morning Pill, and Unwanted 72 are emergency contraceptives preventing pregnancy by delaying ovulation when taken promptly."
+    }
+  },
+  {
+    "slug": "cabermaxx-0-5",
+    "name": "Cabermaxx 0.5",
+    "category": "Weight Loss & Female Health",
+    "img": "/images/female/Cabermax®-0.5-scaled.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 85,
+        "mrp": 94
+      },
+      {
+        "quantity": "200 pills",
+        "price": 135,
+        "mrp": 148
+      },
+      {
+        "quantity": "300 pills",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "500 pills",
+        "price": 285,
+        "mrp": 314
+      }
+    ],
+    "content": {
+      "shortDescription": "Cabergoline tablet reducing prolactin levels to restore hormonal balance.",
+      "keyBenefits": [
+        "Treats high prolactin",
+        "Supports fertility",
+        "Improves hormonal stability"
+      ],
+      "keyFeatures": [
+        "Contains Cabergoline",
+        "Long-acting",
+        "Weekly dosage"
+      ],
+      "longDescription": "Cabergoline-based products like Cabermaxx and Cabsher are used to manage hyperprolactinemia and support reproductive health."
+    }
+  },
+  {
+    "slug": "cabermaxx-1",
+    "name": "Cabermaxx 1",
+    "category": "Weight Loss & Female Health",
+    "img": "/images/female/Cabergoline 1.jpeg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 120,
+        "mrp": 132
+      },
+      {
+        "quantity": "200 pills",
+        "price": 205,
+        "mrp": 226
+      },
+      {
+        "quantity": "300 pills",
+        "price": 290,
+        "mrp": 319
+      },
+      {
+        "quantity": "500 pills",
+        "price": 460,
+        "mrp": 506
+      }
+    ],
+    "content": {
+      "shortDescription": "Cabergoline tablet reducing prolactin levels to restore hormonal balance.",
+      "keyBenefits": [
+        "Treats high prolactin",
+        "Supports fertility",
+        "Improves hormonal stability"
+      ],
+      "keyFeatures": [
+        "Contains Cabergoline",
+        "Long-acting",
+        "Weekly dosage"
+      ],
+      "longDescription": "Cabergoline-based products like Cabermaxx and Cabsher are used to manage hyperprolactinemia and support reproductive health."
+    }
+  },
+  {
+    "slug": "cabsher-0-25",
+    "name": "Cabsher 0.25",
+    "category": "Weight Loss & Female Health",
+    "img": "/images/items/cabsher-0-25.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 65,
+        "mrp": 72
+      },
+      {
+        "quantity": "200 pills",
+        "price": 95,
+        "mrp": 105
+      },
+      {
+        "quantity": "300 pills",
+        "price": 125,
+        "mrp": 138
+      },
+      {
+        "quantity": "500 pills",
+        "price": 185,
+        "mrp": 204
+      }
+    ],
+    "content": {
+      "shortDescription": "Cabergoline tablet reducing prolactin levels to restore hormonal balance.",
+      "keyBenefits": [
+        "Treats high prolactin",
+        "Supports fertility",
+        "Improves hormonal stability"
+      ],
+      "keyFeatures": [
+        "Contains Cabergoline",
+        "Long-acting",
+        "Weekly dosage"
+      ],
+      "longDescription": "Cabergoline-based products like Cabermaxx and Cabsher are used to manage hyperprolactinemia and support reproductive health."
+    }
+  },
+  {
+    "slug": "cabsher-0-5",
+    "name": "Cabsher 0.5",
+    "category": "Weight Loss & Female Health",
+    "img": "/images/female/Cabermax®-0.5-scaled.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 85,
+        "mrp": 94
+      },
+      {
+        "quantity": "200 pills",
+        "price": 135,
+        "mrp": 148
+      },
+      {
+        "quantity": "300 pills",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "500 pills",
+        "price": 285,
+        "mrp": 314
+      }
+    ],
+    "content": {
+      "shortDescription": "Cabergoline tablet reducing prolactin levels to restore hormonal balance.",
+      "keyBenefits": [
+        "Treats high prolactin",
+        "Supports fertility",
+        "Improves hormonal stability"
+      ],
+      "keyFeatures": [
+        "Contains Cabergoline",
+        "Long-acting",
+        "Weekly dosage"
+      ],
+      "longDescription": "Cabergoline-based products like Cabermaxx and Cabsher are used to manage hyperprolactinemia and support reproductive health."
+    }
+  },
+  {
+    "slug": "cabsher-1",
+    "name": "Cabsher 1",
+    "category": "Weight Loss & Female Health",
+    "img": "/images/female/Cabasher cabergoline 1.jpeg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 105,
+        "mrp": 116
+      },
+      {
+        "quantity": "200 pills",
+        "price": 175,
+        "mrp": 193
+      },
+      {
+        "quantity": "300 pills",
+        "price": 245,
+        "mrp": 270
+      },
+      {
+        "quantity": "500 pills",
+        "price": 385,
+        "mrp": 424
+      }
+    ],
+    "content": {
+      "shortDescription": "Cabergoline tablet reducing prolactin levels to restore hormonal balance.",
+      "keyBenefits": [
+        "Treats high prolactin",
+        "Supports fertility",
+        "Improves hormonal stability"
+      ],
+      "keyFeatures": [
+        "Contains Cabergoline",
+        "Long-acting",
+        "Weekly dosage"
+      ],
+      "longDescription": "Cabergoline-based products like Cabermaxx and Cabsher are used to manage hyperprolactinemia and support reproductive health."
+    }
+  },
+  {
+    "slug": "progynova-1",
+    "name": "Progynova 1",
+    "category": "Weight Loss & Female Health",
+    "img": "/images/female/progynova-1mg-tablet.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 65,
+        "mrp": 72
+      },
+      {
+        "quantity": "200 pills",
+        "price": 95,
+        "mrp": 105
+      },
+      {
+        "quantity": "300 pills",
+        "price": 125,
+        "mrp": 138
+      },
+      {
+        "quantity": "500 pills",
+        "price": 185,
+        "mrp": 204
+      }
+    ],
+    "content": {
+      "shortDescription": "Estrogen therapy balancing hormones and relieving menopausal symptoms.",
+      "keyBenefits": [
+        "Relieves menopause issues",
+        "Improves bone health",
+        "Balances hormones"
+      ],
+      "keyFeatures": [
+        "Contains Estradiol",
+        "Used in HRT",
+        "Oral or gel forms"
+      ],
+      "longDescription": "Estrogen replacement therapies like Progynova, Estrabet, and Estroheal are used to alleviate menopausal symptoms and support bone and cardiovascular health."
+    }
+  },
+  {
+    "slug": "progynova-2",
+    "name": "Progynova 2",
+    "category": "Weight Loss & Female Health",
+    "img": "/images/female/progynova2mg.jpeg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 75,
+        "mrp": 82
+      },
+      {
+        "quantity": "200 pills",
+        "price": 115,
+        "mrp": 127
+      },
+      {
+        "quantity": "300 pills",
+        "price": 155,
+        "mrp": 170
+      },
+      {
+        "quantity": "500 pills",
+        "price": 235,
+        "mrp": 258
+      }
+    ],
+    "content": {
+      "shortDescription": "Estrogen therapy balancing hormones and relieving menopausal symptoms.",
+      "keyBenefits": [
+        "Relieves menopause issues",
+        "Improves bone health",
+        "Balances hormones"
+      ],
+      "keyFeatures": [
+        "Contains Estradiol",
+        "Used in HRT",
+        "Oral or gel forms"
+      ],
+      "longDescription": "Estrogen replacement therapies like Progynova, Estrabet, and Estroheal are used to alleviate menopausal symptoms and support bone and cardiovascular health."
+    }
+  },
+  {
+    "slug": "estrofert-gel-80gm",
+    "name": "Estrofert Gel 80gm",
+    "category": "Weight Loss & Female Health",
+    "img": "/images/female/estofert-tg-gel-500x500.webp",
+    "pricing": [
+      {
+        "quantity": "10 gels",
+        "price": 285,
+        "mrp": 314
+      },
+      {
+        "quantity": "20 kits",
+        "price": 535,
+        "mrp": 588
+      },
+      {
+        "quantity": "30 kits",
+        "price": 785,
+        "mrp": 864
+      }
+    ],
+    "content": {
+      "shortDescription": "Estrogen therapy balancing hormones and relieving menopausal symptoms.",
+      "keyBenefits": [
+        "Relieves menopause issues",
+        "Improves bone health",
+        "Balances hormones"
+      ],
+      "keyFeatures": [
+        "Contains Estradiol",
+        "Used in HRT",
+        "Oral or gel forms"
+      ],
+      "longDescription": "Estrogen replacement therapies like Progynova, Estrabet, and Estroheal are used to alleviate menopausal symptoms and support bone and cardiovascular health."
+    }
+  },
+  {
+    "slug": "estrabet-1",
+    "name": "Estrabet 1",
+    "category": "Weight Loss & Female Health",
+    "img": "/images/female/estrabet-1-mg-500x500.webp",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 65,
+        "mrp": 72
+      },
+      {
+        "quantity": "200 pills",
+        "price": 95,
+        "mrp": 105
+      },
+      {
+        "quantity": "300 pills",
+        "price": 125,
+        "mrp": 138
+      },
+      {
+        "quantity": "500 pills",
+        "price": 185,
+        "mrp": 204
+      }
+    ],
+    "content": {
+      "shortDescription": "Estrogen therapy balancing hormones and relieving menopausal symptoms.",
+      "keyBenefits": [
+        "Relieves menopause issues",
+        "Improves bone health",
+        "Balances hormones"
+      ],
+      "keyFeatures": [
+        "Contains Estradiol",
+        "Used in HRT",
+        "Oral or gel forms"
+      ],
+      "longDescription": "Estrogen replacement therapies like Progynova, Estrabet, and Estroheal are used to alleviate menopausal symptoms and support bone and cardiovascular health."
+    }
+  },
+  {
+    "slug": "estrabet-2",
+    "name": "Estrabet 2",
+    "category": "Weight Loss & Female Health",
+    "img": "/images/female/estrabet 2.webp",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 80,
+        "mrp": 88
+      },
+      {
+        "quantity": "200 pills",
+        "price": 125,
+        "mrp": 138
+      },
+      {
+        "quantity": "300 pills",
+        "price": 170,
+        "mrp": 187
+      },
+      {
+        "quantity": "500 pills",
+        "price": 260,
+        "mrp": 286
+      }
+    ],
+    "content": {
+      "shortDescription": "Estrogen therapy balancing hormones and relieving menopausal symptoms.",
+      "keyBenefits": [
+        "Relieves menopause issues",
+        "Improves bone health",
+        "Balances hormones"
+      ],
+      "keyFeatures": [
+        "Contains Estradiol",
+        "Used in HRT",
+        "Oral or gel forms"
+      ],
+      "longDescription": "Estrogen replacement therapies like Progynova, Estrabet, and Estroheal are used to alleviate menopausal symptoms and support bone and cardiovascular health."
+    }
+  },
+  {
+    "slug": "estrabet-gel-80gm",
+    "name": "Estrabet Gel 80gm",
+    "category": "Weight Loss & Female Health",
+    "img": "/images/female/Estradiol gel.jpeg",
+    "pricing": [
+      {
+        "quantity": "10 gels",
+        "price": 285,
+        "mrp": 314
+      },
+      {
+        "quantity": "20 kits",
+        "price": 535,
+        "mrp": 588
+      },
+      {
+        "quantity": "30 kits",
+        "price": 785,
+        "mrp": 864
+      }
+    ],
+    "content": {
+      "shortDescription": "Estrogen therapy balancing hormones and relieving menopausal symptoms.",
+      "keyBenefits": [
+        "Relieves menopause issues",
+        "Improves bone health",
+        "Balances hormones"
+      ],
+      "keyFeatures": [
+        "Contains Estradiol",
+        "Used in HRT",
+        "Oral or gel forms"
+      ],
+      "longDescription": "Estrogen replacement therapies like Progynova, Estrabet, and Estroheal are used to alleviate menopausal symptoms and support bone and cardiovascular health."
+    }
+  },
+  {
+    "slug": "estraheal-2",
+    "name": "Estraheal 2",
+    "category": "Weight Loss & Female Health",
+    "img": "/images/female/Estraheal-2-.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 55,
+        "mrp": 61
+      },
+      {
+        "quantity": "200 pills",
+        "price": 75,
+        "mrp": 82
+      },
+      {
+        "quantity": "300 pills",
+        "price": 95,
+        "mrp": 105
+      },
+      {
+        "quantity": "500 pills",
+        "price": 135,
+        "mrp": 148
+      }
+    ],
+    "content": {
+      "shortDescription": "Estrogen therapy balancing hormones and relieving menopausal symptoms.",
+      "keyBenefits": [
+        "Relieves menopause issues",
+        "Improves bone health",
+        "Balances hormones"
+      ],
+      "keyFeatures": [
+        "Contains Estradiol",
+        "Used in HRT",
+        "Oral or gel forms"
+      ],
+      "longDescription": "Estrogen replacement therapies like Progynova, Estrabet, and Estroheal are used to alleviate menopausal symptoms and support bone and cardiovascular health."
+    }
+  },
+  {
+    "slug": "estraval-depot-1ml-injection",
+    "name": "Estraval Depot 1ml Injection",
+    "category": "Weight Loss & Female Health",
+    "img": "/images/female/Estradiol Injection 1mL.jpeg",
+    "pricing": [
+      {
+        "quantity": "10 vials",
+        "price": 85,
+        "mrp": 94
+      },
+      {
+        "quantity": "20 vials",
+        "price": 135,
+        "mrp": 148
+      },
+      {
+        "quantity": "30 vials",
+        "price": 185,
+        "mrp": 204
+      }
+    ],
+    "content": {
+      "shortDescription": "Estrogen therapy balancing hormones and relieving menopausal symptoms.",
+      "keyBenefits": [
+        "Relieves menopause issues",
+        "Improves bone health",
+        "Balances hormones"
+      ],
+      "keyFeatures": [
+        "Contains Estradiol",
+        "Used in HRT",
+        "Oral or gel forms"
+      ],
+      "longDescription": "Estrogen replacement therapies like Progynova, Estrabet, and Estroheal are used to alleviate menopausal symptoms and support bone and cardiovascular health."
     }
   },
   
+ 
   {
-    "slug": "apixaban-5mg",
-    "name": "Apixaban 5mg",
+    "slug": "eliquis-2-5",
+    "name": "Eliquis 2.5",
     "category": "Heart Health",
-    "img": "/images/apixaban-5mg.jpg",
-    "price": 699,
-    "mrp": 759,
+    "img": "/images/antibiotics/eliquis-2-5.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 120,
+        "mrp": 132
+      },
+      {
+        "quantity": "200 pills",
+        "price": 205,
+        "mrp": 226
+      },
+      {
+        "quantity": "300 pills",
+        "price": 290,
+        "mrp": 319
+      },
+      {
+        "quantity": "500 pills",
+        "price": 460,
+        "mrp": 506
+      }
+    ],
     "content": {
-      "shortDescription": "Apixaban 5mg tablets for reliable prevention of blood clots, stroke, and cardiovascular complications.",
+      "shortDescription": "Oral anticoagulant reducing blood clot and stroke risk.",
       "keyBenefits": [
-        "Reduces risk of stroke and systemic embolism",
-        "Prevents deep vein thrombosis and pulmonary embolism",
-        "Minimal lifestyle interference with no routine blood monitoring"
+        "Prevents clots",
+        "Lowers stroke risk",
+        "Convenient dosing"
       ],
       "keyFeatures": [
-        "Selective Factor Xa inhibitor",
-        "Twice-daily oral dosage",
-        "No need for routine blood monitoring"
+        "Factor Xa inhibitor",
+        "No INR testing",
+        "Modern alternative to warfarin"
       ],
-      "longDescription": "Apixaban 5mg Tablets are an advanced oral anticoagulant used to reduce the risk of blood clots and prevent serious cardiovascular complications like stroke, DVT, and PE. Ideal for patients with non-valvular atrial fibrillation or post-surgery, it offers effective anticoagulation with fewer dietary restrictions and no need for routine blood tests."
+      "longDescription": "Apixaban or rivaroxaban-based drugs for preventing clots and strokes in heart conditions."
     }
   },
   {
-    "slug": "telmisartan",
-    "name": "Telmisartan",
+    "slug": "eliquis-5",
+    "name": "Eliquis 5",
     "category": "Heart Health",
-    "img": "/images/telmisartan.jpg",
-    "price": 499,
-    "mrp": 559,
+    "img": "/images/antibiotics/eliquis-5.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 145,
+        "mrp": 160
+      },
+      {
+        "quantity": "200 pills",
+        "price": 255,
+        "mrp": 280
+      },
+      {
+        "quantity": "300 pills",
+        "price": 365,
+        "mrp": 402
+      },
+      {
+        "quantity": "500 pills",
+        "price": 475,
+        "mrp": 522
+      }
+    ],
     "content": {
-      "shortDescription": "Telmisartan tablets for effective blood pressure management and long-term heart health.",
+      "shortDescription": "Oral anticoagulant reducing blood clot and stroke risk.",
       "keyBenefits": [
-        "Effectively controls high blood pressure",
-        "Protects kidney and heart health",
-        "Reduces risk of stroke and heart attack"
+        "Prevents clots",
+        "Lowers stroke risk",
+        "Convenient dosing"
       ],
       "keyFeatures": [
-        "Long-lasting 24-hour control",
-        "Angiotensin II receptor blocker (ARB)",
-        "Well-tolerated with minimal side effects"
+        "Factor Xa inhibitor",
+        "No INR testing",
+        "Modern alternative to warfarin"
       ],
-      "longDescription": "Telmisartan Tablets are a trusted antihypertensive medication used to control high blood pressure and protect cardiovascular health. As an ARB, it relaxes blood vessels, reduces strain on the heart, and lowers the risk of strokes and heart attacks. Suitable for daily use under medical supervision."
+      "longDescription": "Apixaban or rivaroxaban-based drugs for preventing clots and strokes in heart conditions."
     }
   },
   {
-    "slug": "atorvastin",
-    "name": "Atrovastin",
+    "slug": "api-ash-5",
+    "name": "Api Ash 5",
     "category": "Heart Health",
-    "img": "/images/atorvastin.jpg",
-    "price": 449,
-    "mrp": 509,
+    "img": "/images/antibiotics/api-ash-5.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 50,
+        "mrp": 55
+      },
+      {
+        "quantity": "200 pills",
+        "price": 65,
+        "mrp": 72
+      },
+      {
+        "quantity": "300 pills",
+        "price": 80,
+        "mrp": 88
+      },
+      {
+        "quantity": "500 pills",
+        "price": 95,
+        "mrp": 105
+      }
+    ],
     "content": {
-      "shortDescription": "Atrovastin tablets for effective cholesterol management and cardiovascular risk reduction.",
+      "shortDescription": "Oral anticoagulant reducing blood clot and stroke risk.",
       "keyBenefits": [
-        "Lowers bad cholesterol (LDL) and triglycerides",
-        "Boosts good cholesterol (HDL)",
-        "Reduces risk of heart attack and stroke"
+        "Prevents clots",
+        "Lowers stroke risk",
+        "Convenient dosing"
       ],
       "keyFeatures": [
-        "Clinically proven statin medication",
-        "Easy daily oral dosage",
-        "Suitable for long-term use under physician guidance"
+        "Factor Xa inhibitor",
+        "No INR testing",
+        "Modern alternative to warfarin"
       ],
-      "longDescription": "Atrovastin Tablets (Atorvastatin) are a widely prescribed statin used to manage cholesterol levels, lower LDL and triglycerides, and raise HDL. Recommended for individuals at risk of heart disease, diabetes, or high cholesterol, it supports long-term cardiovascular health alongside diet and lifestyle improvements."
+      "longDescription": "Apixaban or rivaroxaban-based drugs for preventing clots and strokes in heart conditions."
     }
   },
+  {
+    "slug": "apigat-5",
+    "name": "Apigat 5",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/apigat-5.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 75,
+        "mrp": 82
+      },
+      {
+        "quantity": "200 pills",
+        "price": 115,
+        "mrp": 127
+      },
+      {
+        "quantity": "300 pills",
+        "price": 155,
+        "mrp": 170
+      },
+      {
+        "quantity": "500 pills",
+        "price": 195,
+        "mrp": 215
+      }
+    ],
+    "content": {
+      "shortDescription": "Oral anticoagulant reducing blood clot and stroke risk.",
+      "keyBenefits": [
+        "Prevents clots",
+        "Lowers stroke risk",
+        "Convenient dosing"
+      ],
+      "keyFeatures": [
+        "Factor Xa inhibitor",
+        "No INR testing",
+        "Modern alternative to warfarin"
+      ],
+      "longDescription": "Apixaban or rivaroxaban-based drugs for preventing clots and strokes in heart conditions."
+    }
+  },
+  {
+    "slug": "apiedge-2-5",
+    "name": "Apiedge 2.5",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/apiedge-2-5.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 50,
+        "mrp": 55
+      },
+      {
+        "quantity": "200 pills",
+        "price": 65,
+        "mrp": 72
+      },
+      {
+        "quantity": "300 pills",
+        "price": 80,
+        "mrp": 88
+      },
+      {
+        "quantity": "500 pills",
+        "price": 95,
+        "mrp": 105
+      }
+    ],
+    "content": {
+      "shortDescription": "Oral anticoagulant reducing blood clot and stroke risk.",
+      "keyBenefits": [
+        "Prevents clots",
+        "Lowers stroke risk",
+        "Convenient dosing"
+      ],
+      "keyFeatures": [
+        "Factor Xa inhibitor",
+        "No INR testing",
+        "Modern alternative to warfarin"
+      ],
+      "longDescription": "Apixaban or rivaroxaban-based drugs for preventing clots and strokes in heart conditions."
+    }
+  },
+  {
+    "slug": "apiedge-5",
+    "name": "Apiedge 5",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/apiedge-5.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 55,
+        "mrp": 61
+      },
+      {
+        "quantity": "200 pills",
+        "price": 75,
+        "mrp": 82
+      },
+      {
+        "quantity": "300 pills",
+        "price": 95,
+        "mrp": 105
+      },
+      {
+        "quantity": "500 pills",
+        "price": 115,
+        "mrp": 127
+      }
+    ],
+    "content": {
+      "shortDescription": "Oral anticoagulant reducing blood clot and stroke risk.",
+      "keyBenefits": [
+        "Prevents clots",
+        "Lowers stroke risk",
+        "Convenient dosing"
+      ],
+      "keyFeatures": [
+        "Factor Xa inhibitor",
+        "No INR testing",
+        "Modern alternative to warfarin"
+      ],
+      "longDescription": "Apixaban or rivaroxaban-based drugs for preventing clots and strokes in heart conditions."
+    }
+  },
+  {
+    "slug": "apismart-2-5",
+    "name": "Apismart 2.5",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/apismart-2-5.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 50,
+        "mrp": 55
+      },
+      {
+        "quantity": "200 pills",
+        "price": 65,
+        "mrp": 72
+      },
+      {
+        "quantity": "300 pills",
+        "price": 80,
+        "mrp": 88
+      },
+      {
+        "quantity": "500 pills",
+        "price": 95,
+        "mrp": 105
+      }
+    ],
+    "content": {
+      "shortDescription": "Oral anticoagulant reducing blood clot and stroke risk.",
+      "keyBenefits": [
+        "Prevents clots",
+        "Lowers stroke risk",
+        "Convenient dosing"
+      ],
+      "keyFeatures": [
+        "Factor Xa inhibitor",
+        "No INR testing",
+        "Modern alternative to warfarin"
+      ],
+      "longDescription": "Apixaban or rivaroxaban-based drugs for preventing clots and strokes in heart conditions."
+    }
+  },
+  {
+    "slug": "apismart-5",
+    "name": "Apismart 5",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/apismart-5.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 55,
+        "mrp": 61
+      },
+      {
+        "quantity": "200 pills",
+        "price": 75,
+        "mrp": 82
+      },
+      {
+        "quantity": "300 pills",
+        "price": 95,
+        "mrp": 105
+      },
+      {
+        "quantity": "500 pills",
+        "price": 115,
+        "mrp": 127
+      }
+    ],
+    "content": {
+      "shortDescription": "Oral anticoagulant reducing blood clot and stroke risk.",
+      "keyBenefits": [
+        "Prevents clots",
+        "Lowers stroke risk",
+        "Convenient dosing"
+      ],
+      "keyFeatures": [
+        "Factor Xa inhibitor",
+        "No INR testing",
+        "Modern alternative to warfarin"
+      ],
+      "longDescription": "Apixaban or rivaroxaban-based drugs for preventing clots and strokes in heart conditions."
+    }
+  },
+  {
+    "slug": "telmaheal-20",
+    "name": "Telmaheal 20",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/telmaheal-20.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 45,
+        "mrp": 50
+      },
+      {
+        "quantity": "200 pills",
+        "price": 55,
+        "mrp": 61
+      },
+      {
+        "quantity": "300 pills",
+        "price": 65,
+        "mrp": 72
+      },
+      {
+        "quantity": "500 pills",
+        "price": 75,
+        "mrp": 82
+      }
+    ],
+    "content": {
+      "shortDescription": "ARB therapy for blood pressure and heart failure.",
+      "keyBenefits": [
+        "Lowers BP",
+        "Improves heart function",
+        "Protects kidneys"
+      ],
+      "keyFeatures": [
+        "Blocks angiotensin II",
+        "Supports cardiac output",
+        "Often combined with diuretics"
+      ],
+      "longDescription": "Telmisartan, Losartan, and Valsartan formulations used to manage hypertension and protect heart health."
+    }
+  },
+  {
+    "slug": "telmaheal-40",
+    "name": "Telmaheal 40",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/telmaheal-40.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 50,
+        "mrp": 55
+      },
+      {
+        "quantity": "200 pills",
+        "price": 65,
+        "mrp": 72
+      },
+      {
+        "quantity": "300 pills",
+        "price": 80,
+        "mrp": 88
+      },
+      {
+        "quantity": "500 pills",
+        "price": 95,
+        "mrp": 105
+      }
+    ],
+    "content": {
+      "shortDescription": "ARB therapy for blood pressure and heart failure.",
+      "keyBenefits": [
+        "Lowers BP",
+        "Improves heart function",
+        "Protects kidneys"
+      ],
+      "keyFeatures": [
+        "Blocks angiotensin II",
+        "Supports cardiac output",
+        "Often combined with diuretics"
+      ],
+      "longDescription": "Telmisartan, Losartan, and Valsartan formulations used to manage hypertension and protect heart health."
+    }
+  },
+  {
+    "slug": "telmaheal-80",
+    "name": "Telmaheal 80",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/telmaheal-80.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 50,
+        "mrp": 55
+      },
+      {
+        "quantity": "200 pills",
+        "price": 65,
+        "mrp": 72
+      },
+      {
+        "quantity": "300 pills",
+        "price": 80,
+        "mrp": 88
+      },
+      {
+        "quantity": "500 pills",
+        "price": 95,
+        "mrp": 105
+      }
+    ],
+    "content": {
+      "shortDescription": "ARB therapy for blood pressure and heart failure.",
+      "keyBenefits": [
+        "Lowers BP",
+        "Improves heart function",
+        "Protects kidneys"
+      ],
+      "keyFeatures": [
+        "Blocks angiotensin II",
+        "Supports cardiac output",
+        "Often combined with diuretics"
+      ],
+      "longDescription": "Telmisartan, Losartan, and Valsartan formulations used to manage hypertension and protect heart health."
+    }
+  },
+  {
+    "slug": "telmaheal-am-40",
+    "name": "Telmaheal AM 40",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/telmaheal-am-40.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 55,
+        "mrp": 61
+      },
+      {
+        "quantity": "200 pills",
+        "price": 75,
+        "mrp": 82
+      },
+      {
+        "quantity": "300 pills",
+        "price": 95,
+        "mrp": 105
+      },
+      {
+        "quantity": "500 pills",
+        "price": 115,
+        "mrp": 127
+      }
+    ],
+    "content": {
+      "shortDescription": "ARB therapy for blood pressure and heart failure.",
+      "keyBenefits": [
+        "Lowers BP",
+        "Improves heart function",
+        "Protects kidneys"
+      ],
+      "keyFeatures": [
+        "Blocks angiotensin II",
+        "Supports cardiac output",
+        "Often combined with diuretics"
+      ],
+      "longDescription": "Telmisartan, Losartan, and Valsartan formulations used to manage hypertension and protect heart health."
+    }
+  },
+  {
+    "slug": "xarelto-15",
+    "name": "Xarelto 15",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/xarelto-15.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 195,
+        "mrp": 215
+      },
+      {
+        "quantity": "200 pills",
+        "price": 355,
+        "mrp": 391
+      },
+      {
+        "quantity": "300 pills",
+        "price": 515,
+        "mrp": 566
+      },
+      {
+        "quantity": "500 pills",
+        "price": 675,
+        "mrp": 743
+      }
+    ],
+    "content": {
+      "shortDescription": "Oral anticoagulant reducing blood clot and stroke risk.",
+      "keyBenefits": [
+        "Prevents clots",
+        "Lowers stroke risk",
+        "Convenient dosing"
+      ],
+      "keyFeatures": [
+        "Factor Xa inhibitor",
+        "No INR testing",
+        "Modern alternative to warfarin"
+      ],
+      "longDescription": "Apixaban or rivaroxaban-based drugs for preventing clots and strokes in heart conditions."
+    }
+  },
+  {
+    "slug": "xarelto-20",
+    "name": "Xarelto 20",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/xarelto-20.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 215,
+        "mrp": 237
+      },
+      {
+        "quantity": "200 pills",
+        "price": 395,
+        "mrp": 435
+      },
+      {
+        "quantity": "300 pills",
+        "price": 575,
+        "mrp": 632
+      },
+      {
+        "quantity": "500 pills",
+        "price": 755,
+        "mrp": 831
+      }
+    ],
+    "content": {
+      "shortDescription": "Oral anticoagulant reducing blood clot and stroke risk.",
+      "keyBenefits": [
+        "Prevents clots",
+        "Lowers stroke risk",
+        "Convenient dosing"
+      ],
+      "keyFeatures": [
+        "Factor Xa inhibitor",
+        "No INR testing",
+        "Modern alternative to warfarin"
+      ],
+      "longDescription": "Apixaban or rivaroxaban-based drugs for preventing clots and strokes in heart conditions."
+    }
+  },
+  {
+    "slug": "lisinopril-2-5",
+    "name": "Lisinopril 2.5",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/lisinopril-2-5.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 45,
+        "mrp": 50
+      },
+      {
+        "quantity": "200 pills",
+        "price": 55,
+        "mrp": 61
+      },
+      {
+        "quantity": "300 pills",
+        "price": 65,
+        "mrp": 72
+      },
+      {
+        "quantity": "500 pills",
+        "price": 75,
+        "mrp": 82
+      }
+    ],
+    "content": {
+      "shortDescription": "ACE inhibitor for hypertension control.",
+      "keyBenefits": [
+        "Reduces BP",
+        "Prevents heart failure",
+        "Protects kidneys"
+      ],
+      "keyFeatures": [
+        "ACE enzyme blocker",
+        "Once-daily",
+        "Clinically proven safety"
+      ],
+      "longDescription": "Lisinopril relaxes blood vessels to manage blood pressure and support cardiac recovery."
+    }
+  },
+  {
+    "slug": "lisinopril-5",
+    "name": "Lisinopril 5",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/lisinopril-5.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 50,
+        "mrp": 55
+      },
+      {
+        "quantity": "200 pills",
+        "price": 65,
+        "mrp": 72
+      },
+      {
+        "quantity": "300 pills",
+        "price": 80,
+        "mrp": 88
+      },
+      {
+        "quantity": "500 pills",
+        "price": 95,
+        "mrp": 105
+      }
+    ],
+    "content": {
+      "shortDescription": "ACE inhibitor for hypertension control.",
+      "keyBenefits": [
+        "Reduces BP",
+        "Prevents heart failure",
+        "Protects kidneys"
+      ],
+      "keyFeatures": [
+        "ACE enzyme blocker",
+        "Once-daily",
+        "Clinically proven safety"
+      ],
+      "longDescription": "Lisinopril relaxes blood vessels to manage blood pressure and support cardiac recovery."
+    }
+  },
+  {
+    "slug": "lisinopril-10",
+    "name": "Lisinopril 10",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/lisinopril-10.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 50,
+        "mrp": 55
+      },
+      {
+        "quantity": "200 pills",
+        "price": 65,
+        "mrp": 72
+      },
+      {
+        "quantity": "300 pills",
+        "price": 80,
+        "mrp": 88
+      },
+      {
+        "quantity": "500 pills",
+        "price": 95,
+        "mrp": 105
+      }
+    ],
+    "content": {
+      "shortDescription": "ACE inhibitor for hypertension control.",
+      "keyBenefits": [
+        "Reduces BP",
+        "Prevents heart failure",
+        "Protects kidneys"
+      ],
+      "keyFeatures": [
+        "ACE enzyme blocker",
+        "Once-daily",
+        "Clinically proven safety"
+      ],
+      "longDescription": "Lisinopril relaxes blood vessels to manage blood pressure and support cardiac recovery."
+    }
+  },
+  {
+    "slug": "lisinopril-20",
+    "name": "Lisinopril 20",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/lisinopril-20.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 55,
+        "mrp": 61
+      },
+      {
+        "quantity": "200 pills",
+        "price": 75,
+        "mrp": 82
+      },
+      {
+        "quantity": "300 pills",
+        "price": 95,
+        "mrp": 105
+      },
+      {
+        "quantity": "500 pills",
+        "price": 115,
+        "mrp": 127
+      }
+    ],
+    "content": {
+      "shortDescription": "ACE inhibitor for hypertension control.",
+      "keyBenefits": [
+        "Reduces BP",
+        "Prevents heart failure",
+        "Protects kidneys"
+      ],
+      "keyFeatures": [
+        "ACE enzyme blocker",
+        "Once-daily",
+        "Clinically proven safety"
+      ],
+      "longDescription": "Lisinopril relaxes blood vessels to manage blood pressure and support cardiac recovery."
+    }
+  },
+  {
+    "slug": "losartan-25",
+    "name": "Losartan 25",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/losartan-25.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 45,
+        "mrp": 50
+      },
+      {
+        "quantity": "200 pills",
+        "price": 55,
+        "mrp": 61
+      },
+      {
+        "quantity": "300 pills",
+        "price": 65,
+        "mrp": 72
+      },
+      {
+        "quantity": "500 pills",
+        "price": 75,
+        "mrp": 82
+      }
+    ],
+    "content": {
+      "shortDescription": "ARB therapy for blood pressure and heart failure.",
+      "keyBenefits": [
+        "Lowers BP",
+        "Improves heart function",
+        "Protects kidneys"
+      ],
+      "keyFeatures": [
+        "Blocks angiotensin II",
+        "Supports cardiac output",
+        "Often combined with diuretics"
+      ],
+      "longDescription": "Telmisartan, Losartan, and Valsartan formulations used to manage hypertension and protect heart health."
+    }
+  },
+  {
+    "slug": "losartan-50",
+    "name": "Losartan 50",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/losartan-50.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 50,
+        "mrp": 55
+      },
+      {
+        "quantity": "200 pills",
+        "price": 65,
+        "mrp": 72
+      },
+      {
+        "quantity": "300 pills",
+        "price": 80,
+        "mrp": 88
+      },
+      {
+        "quantity": "500 pills",
+        "price": 95,
+        "mrp": 105
+      }
+    ],
+    "content": {
+      "shortDescription": "ARB therapy for blood pressure and heart failure.",
+      "keyBenefits": [
+        "Lowers BP",
+        "Improves heart function",
+        "Protects kidneys"
+      ],
+      "keyFeatures": [
+        "Blocks angiotensin II",
+        "Supports cardiac output",
+        "Often combined with diuretics"
+      ],
+      "longDescription": "Telmisartan, Losartan, and Valsartan formulations used to manage hypertension and protect heart health."
+    }
+  },
+  {
+    "slug": "losartan-hydrochlorothiazide",
+    "name": "Losartan + Hydrochlorothiazide",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/losartan-hydrochlorothiazide.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 55,
+        "mrp": 61
+      },
+      {
+        "quantity": "200 pills",
+        "price": 75,
+        "mrp": 82
+      },
+      {
+        "quantity": "300 pills",
+        "price": 95,
+        "mrp": 105
+      },
+      {
+        "quantity": "500 pills",
+        "price": 115,
+        "mrp": 127
+      }
+    ],
+    "content": {
+      "shortDescription": "ARB therapy for blood pressure and heart failure.",
+      "keyBenefits": [
+        "Lowers BP",
+        "Improves heart function",
+        "Protects kidneys"
+      ],
+      "keyFeatures": [
+        "Blocks angiotensin II",
+        "Supports cardiac output",
+        "Often combined with diuretics"
+      ],
+      "longDescription": "Telmisartan, Losartan, and Valsartan formulations used to manage hypertension and protect heart health."
+    }
+  },
+  {
+    "slug": "losartan-100",
+    "name": "Losartan 100",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/losartan-100.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 55,
+        "mrp": 61
+      },
+      {
+        "quantity": "200 pills",
+        "price": 75,
+        "mrp": 82
+      },
+      {
+        "quantity": "300 pills",
+        "price": 95,
+        "mrp": 105
+      },
+      {
+        "quantity": "500 pills",
+        "price": 115,
+        "mrp": 127
+      }
+    ],
+    "content": {
+      "shortDescription": "ARB therapy for blood pressure and heart failure.",
+      "keyBenefits": [
+        "Lowers BP",
+        "Improves heart function",
+        "Protects kidneys"
+      ],
+      "keyFeatures": [
+        "Blocks angiotensin II",
+        "Supports cardiac output",
+        "Often combined with diuretics"
+      ],
+      "longDescription": "Telmisartan, Losartan, and Valsartan formulations used to manage hypertension and protect heart health."
+    }
+  },
+  {
+    "slug": "metoprolol-25",
+    "name": "Metoprolol 25",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/metoprolol-25.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 45,
+        "mrp": 50
+      },
+      {
+        "quantity": "200 pills",
+        "price": 55,
+        "mrp": 61
+      },
+      {
+        "quantity": "300 pills",
+        "price": 65,
+        "mrp": 72
+      },
+      {
+        "quantity": "500 pills",
+        "price": 75,
+        "mrp": 82
+      }
+    ],
+    "content": {
+      "shortDescription": "Beta-blocker lowering heart rate and workload.",
+      "keyBenefits": [
+        "Controls BP",
+        "Stabilizes rhythm",
+        "Improves heart function"
+      ],
+      "keyFeatures": [
+        "Reduces HR",
+        "Prevents angina",
+        "Post-MI therapy"
+      ],
+      "longDescription": "Beta-blockers help heart efficiency and are used for hypertension and angina control."
+    }
+  },
+  {
+    "slug": "metoprolol-50",
+    "name": "Metoprolol 50",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/metoprolol-50.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 50,
+        "mrp": 55
+      },
+      {
+        "quantity": "200 pills",
+        "price": 65,
+        "mrp": 72
+      },
+      {
+        "quantity": "300 pills",
+        "price": 80,
+        "mrp": 88
+      },
+      {
+        "quantity": "500 pills",
+        "price": 95,
+        "mrp": 105
+      }
+    ],
+    "content": {
+      "shortDescription": "Beta-blocker lowering heart rate and workload.",
+      "keyBenefits": [
+        "Controls BP",
+        "Stabilizes rhythm",
+        "Improves heart function"
+      ],
+      "keyFeatures": [
+        "Reduces HR",
+        "Prevents angina",
+        "Post-MI therapy"
+      ],
+      "longDescription": "Beta-blockers help heart efficiency and are used for hypertension and angina control."
+    }
+  },
+  {
+    "slug": "metoprolol-100",
+    "name": "Metoprolol 100",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/metoprolol-100.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 55,
+        "mrp": 61
+      },
+      {
+        "quantity": "200 pills",
+        "price": 75,
+        "mrp": 82
+      },
+      {
+        "quantity": "300 pills",
+        "price": 95,
+        "mrp": 105
+      },
+      {
+        "quantity": "500 pills",
+        "price": 115,
+        "mrp": 127
+      }
+    ],
+    "content": {
+      "shortDescription": "Beta-blocker lowering heart rate and workload.",
+      "keyBenefits": [
+        "Controls BP",
+        "Stabilizes rhythm",
+        "Improves heart function"
+      ],
+      "keyFeatures": [
+        "Reduces HR",
+        "Prevents angina",
+        "Post-MI therapy"
+      ],
+      "longDescription": "Beta-blockers help heart efficiency and are used for hypertension and angina control."
+    }
+  },
+  {
+    "slug": "carvedilol-3-125",
+    "name": "Carvedilol 3.125",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/carvedilol-3-125.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 45,
+        "mrp": 50
+      },
+      {
+        "quantity": "200 pills",
+        "price": 55,
+        "mrp": 61
+      },
+      {
+        "quantity": "300 pills",
+        "price": 65,
+        "mrp": 72
+      },
+      {
+        "quantity": "500 pills",
+        "price": 75,
+        "mrp": 82
+      }
+    ],
+    "content": {
+      "shortDescription": "Beta-blocker lowering heart rate and workload.",
+      "keyBenefits": [
+        "Controls BP",
+        "Stabilizes rhythm",
+        "Improves heart function"
+      ],
+      "keyFeatures": [
+        "Reduces HR",
+        "Prevents angina",
+        "Post-MI therapy"
+      ],
+      "longDescription": "Beta-blockers help heart efficiency and are used for hypertension and angina control."
+    }
+  },
+  {
+    "slug": "carvedilol-6-25",
+    "name": "Carvedilol 6.25",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/carvedilol-6-25.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 50,
+        "mrp": 55
+      },
+      {
+        "quantity": "200 pills",
+        "price": 65,
+        "mrp": 72
+      },
+      {
+        "quantity": "300 pills",
+        "price": 80,
+        "mrp": 88
+      },
+      {
+        "quantity": "500 pills",
+        "price": 95,
+        "mrp": 105
+      }
+    ],
+    "content": {
+      "shortDescription": "Beta-blocker lowering heart rate and workload.",
+      "keyBenefits": [
+        "Controls BP",
+        "Stabilizes rhythm",
+        "Improves heart function"
+      ],
+      "keyFeatures": [
+        "Reduces HR",
+        "Prevents angina",
+        "Post-MI therapy"
+      ],
+      "longDescription": "Beta-blockers help heart efficiency and are used for hypertension and angina control."
+    }
+  },
+  {
+    "slug": "carvedilol-12-5",
+    "name": "Carvedilol 12.5",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/carvedilol-12-5.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 50,
+        "mrp": 55
+      },
+      {
+        "quantity": "200 pills",
+        "price": 65,
+        "mrp": 72
+      },
+      {
+        "quantity": "300 pills",
+        "price": 80,
+        "mrp": 88
+      },
+      {
+        "quantity": "500 pills",
+        "price": 95,
+        "mrp": 105
+      }
+    ],
+    "content": {
+      "shortDescription": "Beta-blocker lowering heart rate and workload.",
+      "keyBenefits": [
+        "Controls BP",
+        "Stabilizes rhythm",
+        "Improves heart function"
+      ],
+      "keyFeatures": [
+        "Reduces HR",
+        "Prevents angina",
+        "Post-MI therapy"
+      ],
+      "longDescription": "Beta-blockers help heart efficiency and are used for hypertension and angina control."
+    }
+  },
+  {
+    "slug": "carvedilol-25",
+    "name": "Carvedilol 25",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/carvedilol-25.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 55,
+        "mrp": 61
+      },
+      {
+        "quantity": "200 pills",
+        "price": 75,
+        "mrp": 82
+      },
+      {
+        "quantity": "300 pills",
+        "price": 95,
+        "mrp": 105
+      },
+      {
+        "quantity": "500 pills",
+        "price": 115,
+        "mrp": 127
+      }
+    ],
+    "content": {
+      "shortDescription": "Beta-blocker lowering heart rate and workload.",
+      "keyBenefits": [
+        "Controls BP",
+        "Stabilizes rhythm",
+        "Improves heart function"
+      ],
+      "keyFeatures": [
+        "Reduces HR",
+        "Prevents angina",
+        "Post-MI therapy"
+      ],
+      "longDescription": "Beta-blockers help heart efficiency and are used for hypertension and angina control."
+    }
+  },
+  {
+    "slug": "nebivolol-2-5",
+    "name": "Nebivolol 2.5",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/nebivolol-2-5.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 50,
+        "mrp": 55
+      },
+      {
+        "quantity": "200 pills",
+        "price": 65,
+        "mrp": 72
+      },
+      {
+        "quantity": "300 pills",
+        "price": 80,
+        "mrp": 88
+      },
+      {
+        "quantity": "500 pills",
+        "price": 95,
+        "mrp": 105
+      }
+    ],
+    "content": {
+      "shortDescription": "Beta-blocker lowering heart rate and workload.",
+      "keyBenefits": [
+        "Controls BP",
+        "Stabilizes rhythm",
+        "Improves heart function"
+      ],
+      "keyFeatures": [
+        "Reduces HR",
+        "Prevents angina",
+        "Post-MI therapy"
+      ],
+      "longDescription": "Beta-blockers help heart efficiency and are used for hypertension and angina control."
+    }
+  },
+  {
+    "slug": "nebivolol-5",
+    "name": "Nebivolol 5",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/nebivolol-5.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 55,
+        "mrp": 61
+      },
+      {
+        "quantity": "200 pills",
+        "price": 75,
+        "mrp": 82
+      },
+      {
+        "quantity": "300 pills",
+        "price": 95,
+        "mrp": 105
+      },
+      {
+        "quantity": "500 pills",
+        "price": 115,
+        "mrp": 127
+      }
+    ],
+    "content": {
+      "shortDescription": "Beta-blocker lowering heart rate and workload.",
+      "keyBenefits": [
+        "Controls BP",
+        "Stabilizes rhythm",
+        "Improves heart function"
+      ],
+      "keyFeatures": [
+        "Reduces HR",
+        "Prevents angina",
+        "Post-MI therapy"
+      ],
+      "longDescription": "Beta-blockers help heart efficiency and are used for hypertension and angina control."
+    }
+  },
+  {
+    "slug": "nebivolol-10",
+    "name": "Nebivolol 10",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/nebivolol-10.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 60,
+        "mrp": 66
+      },
+      {
+        "quantity": "200 pills",
+        "price": 85,
+        "mrp": 94
+      },
+      {
+        "quantity": "300 pills",
+        "price": 110,
+        "mrp": 121
+      },
+      {
+        "quantity": "500 pills",
+        "price": 135,
+        "mrp": 148
+      }
+    ],
+    "content": {
+      "shortDescription": "Beta-blocker lowering heart rate and workload.",
+      "keyBenefits": [
+        "Controls BP",
+        "Stabilizes rhythm",
+        "Improves heart function"
+      ],
+      "keyFeatures": [
+        "Reduces HR",
+        "Prevents angina",
+        "Post-MI therapy"
+      ],
+      "longDescription": "Beta-blockers help heart efficiency and are used for hypertension and angina control."
+    }
+  },
+  {
+    "slug": "amlodipine-2-5",
+    "name": "Amlodipine 2.5",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/amlodipine-2-5.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 45,
+        "mrp": 50
+      },
+      {
+        "quantity": "200 pills",
+        "price": 55,
+        "mrp": 61
+      },
+      {
+        "quantity": "300 pills",
+        "price": 65,
+        "mrp": 72
+      },
+      {
+        "quantity": "500 pills",
+        "price": 75,
+        "mrp": 82
+      }
+    ],
+    "content": {
+      "shortDescription": "Calcium channel blocker relaxing blood vessels.",
+      "keyBenefits": [
+        "Lowers BP",
+        "Prevents angina",
+        "Improves circulation"
+      ],
+      "keyFeatures": [
+        "Long-acting",
+        "Once daily",
+        "Effective for chronic use"
+      ],
+      "longDescription": "Amlodipine relaxes arteries to improve blood flow and control chest pain."
+    }
+  },
+  {
+    "slug": "amlodipine-5",
+    "name": "Amlodipine 5",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/amlodipine-5.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 50,
+        "mrp": 55
+      },
+      {
+        "quantity": "200 pills",
+        "price": 65,
+        "mrp": 72
+      },
+      {
+        "quantity": "300 pills",
+        "price": 80,
+        "mrp": 88
+      },
+      {
+        "quantity": "500 pills",
+        "price": 95,
+        "mrp": 105
+      }
+    ],
+    "content": {
+      "shortDescription": "Calcium channel blocker relaxing blood vessels.",
+      "keyBenefits": [
+        "Lowers BP",
+        "Prevents angina",
+        "Improves circulation"
+      ],
+      "keyFeatures": [
+        "Long-acting",
+        "Once daily",
+        "Effective for chronic use"
+      ],
+      "longDescription": "Amlodipine relaxes arteries to improve blood flow and control chest pain."
+    }
+  },
+  {
+    "slug": "amlodipine-10",
+    "name": "Amlodipine 10",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/amlodipine-10.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 50,
+        "mrp": 55
+      },
+      {
+        "quantity": "200 pills",
+        "price": 65,
+        "mrp": 72
+      },
+      {
+        "quantity": "300 pills",
+        "price": 80,
+        "mrp": 88
+      },
+      {
+        "quantity": "500 pills",
+        "price": 95,
+        "mrp": 105
+      }
+    ],
+    "content": {
+      "shortDescription": "Calcium channel blocker relaxing blood vessels.",
+      "keyBenefits": [
+        "Lowers BP",
+        "Prevents angina",
+        "Improves circulation"
+      ],
+      "keyFeatures": [
+        "Long-acting",
+        "Once daily",
+        "Effective for chronic use"
+      ],
+      "longDescription": "Amlodipine relaxes arteries to improve blood flow and control chest pain."
+    }
+  },
+  {
+    "slug": "hydrochlorothiazide-12-5",
+    "name": "Hydrochlorothiazide 12.5",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/hydrochlorothiazide-12-5.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 45,
+        "mrp": 50
+      },
+      {
+        "quantity": "200 pills",
+        "price": 55,
+        "mrp": 61
+      },
+      {
+        "quantity": "300 pills",
+        "price": 65,
+        "mrp": 72
+      },
+      {
+        "quantity": "500 pills",
+        "price": 75,
+        "mrp": 82
+      }
+    ],
+    "content": {
+      "shortDescription": "Diuretic removing excess fluid for BP control.",
+      "keyBenefits": [
+        "Reduces swelling",
+        "Lowers BP",
+        "Supports heart"
+      ],
+      "keyFeatures": [
+        "Increases urine output",
+        "Combines with ARBs",
+        "Improves breathing"
+      ],
+      "longDescription": "Diuretics remove fluid overload, reducing pressure and aiding heart performance."
+    }
+  },
+  {
+    "slug": "hydrochlorothiazide-25",
+    "name": "Hydrochlorothiazide 25",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/hydrochlorothiazide-25.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 50,
+        "mrp": 55
+      },
+      {
+        "quantity": "200 pills",
+        "price": 65,
+        "mrp": 72
+      },
+      {
+        "quantity": "300 pills",
+        "price": 80,
+        "mrp": 88
+      },
+      {
+        "quantity": "500 pills",
+        "price": 95,
+        "mrp": 105
+      }
+    ],
+    "content": {
+      "shortDescription": "Diuretic removing excess fluid for BP control.",
+      "keyBenefits": [
+        "Reduces swelling",
+        "Lowers BP",
+        "Supports heart"
+      ],
+      "keyFeatures": [
+        "Increases urine output",
+        "Combines with ARBs",
+        "Improves breathing"
+      ],
+      "longDescription": "Diuretics remove fluid overload, reducing pressure and aiding heart performance."
+    }
+  },
+  {
+    "slug": "lasix-40",
+    "name": "Lasix 40",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/lasix-40.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 45,
+        "mrp": 50
+      },
+      {
+        "quantity": "200 pills",
+        "price": 55,
+        "mrp": 61
+      },
+      {
+        "quantity": "300 pills",
+        "price": 65,
+        "mrp": 72
+      },
+      {
+        "quantity": "500 pills",
+        "price": 75,
+        "mrp": 82
+      }
+    ],
+    "content": {
+      "shortDescription": "Diuretic removing excess fluid for BP control.",
+      "keyBenefits": [
+        "Reduces swelling",
+        "Lowers BP",
+        "Supports heart"
+      ],
+      "keyFeatures": [
+        "Increases urine output",
+        "Combines with ARBs",
+        "Improves breathing"
+      ],
+      "longDescription": "Diuretics remove fluid overload, reducing pressure and aiding heart performance."
+    }
+  },
+  {
+    "slug": "furosemide-spironolactone",
+    "name": "Furosemide + Spironolactone",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/furosemide-spironolactone.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 55,
+        "mrp": 61
+      },
+      {
+        "quantity": "200 pills",
+        "price": 75,
+        "mrp": 82
+      },
+      {
+        "quantity": "300 pills",
+        "price": 95,
+        "mrp": 105
+      },
+      {
+        "quantity": "500 pills",
+        "price": 115,
+        "mrp": 127
+      }
+    ],
+    "content": {
+      "shortDescription": "Diuretic removing excess fluid for BP control.",
+      "keyBenefits": [
+        "Reduces swelling",
+        "Lowers BP",
+        "Supports heart"
+      ],
+      "keyFeatures": [
+        "Increases urine output",
+        "Combines with ARBs",
+        "Improves breathing"
+      ],
+      "longDescription": "Diuretics remove fluid overload, reducing pressure and aiding heart performance."
+    }
+  },
+  {
+    "slug": "sacubitril-valsartan-50",
+    "name": "Sacubitril + Valsartan 50",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/sacubitril-valsartan-50.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 60,
+        "mrp": 66
+      },
+      {
+        "quantity": "200 pills",
+        "price": 85,
+        "mrp": 94
+      },
+      {
+        "quantity": "300 pills",
+        "price": 110,
+        "mrp": 121
+      },
+      {
+        "quantity": "500 pills",
+        "price": 135,
+        "mrp": 148
+      }
+    ],
+    "content": {
+      "shortDescription": "ARB therapy for blood pressure and heart failure.",
+      "keyBenefits": [
+        "Lowers BP",
+        "Improves heart function",
+        "Protects kidneys"
+      ],
+      "keyFeatures": [
+        "Blocks angiotensin II",
+        "Supports cardiac output",
+        "Often combined with diuretics"
+      ],
+      "longDescription": "Telmisartan, Losartan, and Valsartan formulations used to manage hypertension and protect heart health."
+    }
+  },
+  {
+    "slug": "sacubitril-valsartan-100",
+    "name": "Sacubitril + Valsartan 100",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/sacubitril-valsartan-100.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 65,
+        "mrp": 72
+      },
+      {
+        "quantity": "200 pills",
+        "price": 95,
+        "mrp": 105
+      },
+      {
+        "quantity": "300 pills",
+        "price": 125,
+        "mrp": 138
+      },
+      {
+        "quantity": "500 pills",
+        "price": 155,
+        "mrp": 170
+      }
+    ],
+    "content": {
+      "shortDescription": "ARB therapy for blood pressure and heart failure.",
+      "keyBenefits": [
+        "Lowers BP",
+        "Improves heart function",
+        "Protects kidneys"
+      ],
+      "keyFeatures": [
+        "Blocks angiotensin II",
+        "Supports cardiac output",
+        "Often combined with diuretics"
+      ],
+      "longDescription": "Telmisartan, Losartan, and Valsartan formulations used to manage hypertension and protect heart health."
+    }
+  },
+  {
+    "slug": "sacubitril-valsartan-200",
+    "name": "Sacubitril + Valsartan 200",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/sacubitril-valsartan-200.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 85,
+        "mrp": 94
+      },
+      {
+        "quantity": "200 pills",
+        "price": 135,
+        "mrp": 148
+      },
+      {
+        "quantity": "300 pills",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "500 pills",
+        "price": 235,
+        "mrp": 258
+      }
+    ],
+    "content": {
+      "shortDescription": "ARB therapy for blood pressure and heart failure.",
+      "keyBenefits": [
+        "Lowers BP",
+        "Improves heart function",
+        "Protects kidneys"
+      ],
+      "keyFeatures": [
+        "Blocks angiotensin II",
+        "Supports cardiac output",
+        "Often combined with diuretics"
+      ],
+      "longDescription": "Telmisartan, Losartan, and Valsartan formulations used to manage hypertension and protect heart health."
+    }
+  },
+  {
+    "slug": "valsartan-80",
+    "name": "Valsartan 80",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/valsartan-80.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 50,
+        "mrp": 55
+      },
+      {
+        "quantity": "200 pills",
+        "price": 65,
+        "mrp": 72
+      },
+      {
+        "quantity": "300 pills",
+        "price": 80,
+        "mrp": 88
+      },
+      {
+        "quantity": "500 pills",
+        "price": 95,
+        "mrp": 105
+      }
+    ],
+    "content": {
+      "shortDescription": "ARB therapy for blood pressure and heart failure.",
+      "keyBenefits": [
+        "Lowers BP",
+        "Improves heart function",
+        "Protects kidneys"
+      ],
+      "keyFeatures": [
+        "Blocks angiotensin II",
+        "Supports cardiac output",
+        "Often combined with diuretics"
+      ],
+      "longDescription": "Telmisartan, Losartan, and Valsartan formulations used to manage hypertension and protect heart health."
+    }
+  },
+  {
+    "slug": "spironolactone-25",
+    "name": "Spironolactone 25",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/spironolactone-25.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 50,
+        "mrp": 55
+      },
+      {
+        "quantity": "200 pills",
+        "price": 65,
+        "mrp": 72
+      },
+      {
+        "quantity": "300 pills",
+        "price": 80,
+        "mrp": 88
+      },
+      {
+        "quantity": "500 pills",
+        "price": 95,
+        "mrp": 105
+      }
+    ],
+    "content": {
+      "shortDescription": "Diuretic removing excess fluid for BP control.",
+      "keyBenefits": [
+        "Reduces swelling",
+        "Lowers BP",
+        "Supports heart"
+      ],
+      "keyFeatures": [
+        "Increases urine output",
+        "Combines with ARBs",
+        "Improves breathing"
+      ],
+      "longDescription": "Diuretics remove fluid overload, reducing pressure and aiding heart performance."
+    }
+  },
+  {
+    "slug": "spironolactone-50",
+    "name": "Spironolactone 50",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/spironolactone-50.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 55,
+        "mrp": 61
+      },
+      {
+        "quantity": "200 pills",
+        "price": 75,
+        "mrp": 82
+      },
+      {
+        "quantity": "300 pills",
+        "price": 95,
+        "mrp": 105
+      },
+      {
+        "quantity": "500 pills",
+        "price": 115,
+        "mrp": 127
+      }
+    ],
+    "content": {
+      "shortDescription": "Diuretic removing excess fluid for BP control.",
+      "keyBenefits": [
+        "Reduces swelling",
+        "Lowers BP",
+        "Supports heart"
+      ],
+      "keyFeatures": [
+        "Increases urine output",
+        "Combines with ARBs",
+        "Improves breathing"
+      ],
+      "longDescription": "Diuretics remove fluid overload, reducing pressure and aiding heart performance."
+    }
+  },
+  {
+    "slug": "spironolactone-100",
+    "name": "Spironolactone 100",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/spironolactone-100.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 55,
+        "mrp": 61
+      },
+      {
+        "quantity": "200 pills",
+        "price": 75,
+        "mrp": 82
+      },
+      {
+        "quantity": "300 pills",
+        "price": 95,
+        "mrp": 105
+      },
+      {
+        "quantity": "500 pills",
+        "price": 115,
+        "mrp": 127
+      }
+    ],
+    "content": {
+      "shortDescription": "Diuretic removing excess fluid for BP control.",
+      "keyBenefits": [
+        "Reduces swelling",
+        "Lowers BP",
+        "Supports heart"
+      ],
+      "keyFeatures": [
+        "Increases urine output",
+        "Combines with ARBs",
+        "Improves breathing"
+      ],
+      "longDescription": "Diuretics remove fluid overload, reducing pressure and aiding heart performance."
+    }
+  },
+  {
+    "slug": "nitroglycerine-2-6",
+    "name": "Nitroglycerine 2.6",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/nitroglycerine-2-6.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 50,
+        "mrp": 55
+      },
+      {
+        "quantity": "200 pills",
+        "price": 65,
+        "mrp": 72
+      },
+      {
+        "quantity": "300 pills",
+        "price": 80,
+        "mrp": 88
+      },
+      {
+        "quantity": "500 pills",
+        "price": 95,
+        "mrp": 105
+      }
+    ],
+    "content": {
+      "shortDescription": "Nitrate for chest pain relief.",
+      "keyBenefits": [
+        "Relieves angina",
+        "Improves oxygen supply",
+        "Reduces strain"
+      ],
+      "keyFeatures": [
+        "Vasodilator",
+        "Fast-acting",
+        "Used in heart emergencies"
+      ],
+      "longDescription": "Nitroglycerine and Nitrocin dilate arteries for immediate chest pain relief."
+    }
+  },
+  {
+    "slug": "nitrocin-injection-5ml",
+    "name": "Nitrocin Injection 5ml",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/nitrocin-injection-5ml.jpg",
+    "pricing": [
+      {
+        "quantity": "25 vials",
+        "price": 85,
+        "mrp": 94
+      },
+      {
+        "quantity": "50 vials",
+        "price": 135,
+        "mrp": 148
+      },
+      {
+        "quantity": "75 vials",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "100 vials",
+        "price": 235,
+        "mrp": 258
+      }
+    ],
+    "content": {
+      "shortDescription": "Nitrate for chest pain relief.",
+      "keyBenefits": [
+        "Relieves angina",
+        "Improves oxygen supply",
+        "Reduces strain"
+      ],
+      "keyFeatures": [
+        "Vasodilator",
+        "Fast-acting",
+        "Used in heart emergencies"
+      ],
+      "longDescription": "Nitroglycerine and Nitrocin dilate arteries for immediate chest pain relief."
+    }
+  },
+  {
+    "slug": "ecosprin-75",
+    "name": "Ecosprin 75",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/ecosprin-75.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 45,
+        "mrp": 50
+      },
+      {
+        "quantity": "200 pills",
+        "price": 55,
+        "mrp": 61
+      },
+      {
+        "quantity": "300 pills",
+        "price": 65,
+        "mrp": 72
+      },
+      {
+        "quantity": "500 pills",
+        "price": 75,
+        "mrp": 82
+      }
+    ],
+    "content": {
+      "shortDescription": "Antiplatelet aspirin therapy.",
+      "keyBenefits": [
+        "Prevents clots",
+        "Reduces heart attack risk",
+        "Aids post-surgery recovery"
+      ],
+      "keyFeatures": [
+        "Low-dose aspirin",
+        "Gentle coating",
+        "Cardiac prevention use"
+      ],
+      "longDescription": "Ecosprin prevents platelet aggregation, protecting against heart and stroke events."
+    }
+  },
+  {
+    "slug": "ecosprin-150",
+    "name": "Ecosprin 150",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/ecosprin-150.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 50,
+        "mrp": 55
+      },
+      {
+        "quantity": "200 pills",
+        "price": 65,
+        "mrp": 72
+      },
+      {
+        "quantity": "300 pills",
+        "price": 80,
+        "mrp": 88
+      },
+      {
+        "quantity": "500 pills",
+        "price": 95,
+        "mrp": 105
+      }
+    ],
+    "content": {
+      "shortDescription": "Antiplatelet aspirin therapy.",
+      "keyBenefits": [
+        "Prevents clots",
+        "Reduces heart attack risk",
+        "Aids post-surgery recovery"
+      ],
+      "keyFeatures": [
+        "Low-dose aspirin",
+        "Gentle coating",
+        "Cardiac prevention use"
+      ],
+      "longDescription": "Ecosprin prevents platelet aggregation, protecting against heart and stroke events."
+    }
+  },
+  {
+    "slug": "atorvastatin-10",
+    "name": "Atorvastatin 10",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/atorvastatin-10.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 45,
+        "mrp": 50
+      },
+      {
+        "quantity": "200 pills",
+        "price": 55,
+        "mrp": 61
+      },
+      {
+        "quantity": "300 pills",
+        "price": 65,
+        "mrp": 72
+      },
+      {
+        "quantity": "500 pills",
+        "price": 75,
+        "mrp": 82
+      }
+    ],
+    "content": {
+      "shortDescription": "Statin lowering cholesterol for heart health.",
+      "keyBenefits": [
+        "Lowers LDL",
+        "Prevents plaque",
+        "Improves artery health"
+      ],
+      "keyFeatures": [
+        "Lipid regulator",
+        "Daily use",
+        "Proven CV protection"
+      ],
+      "longDescription": "Atorvastatin and Rosuvastatin reduce cholesterol and stabilize arteries for long-term protection."
+    }
+  },
+  {
+    "slug": "atorvastatin-20",
+    "name": "Atorvastatin 20",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/atorvastatin-20.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 45,
+        "mrp": 50
+      },
+      {
+        "quantity": "200 pills",
+        "price": 55,
+        "mrp": 61
+      },
+      {
+        "quantity": "300 pills",
+        "price": 65,
+        "mrp": 72
+      },
+      {
+        "quantity": "500 pills",
+        "price": 75,
+        "mrp": 82
+      }
+    ],
+    "content": {
+      "shortDescription": "Statin lowering cholesterol for heart health.",
+      "keyBenefits": [
+        "Lowers LDL",
+        "Prevents plaque",
+        "Improves artery health"
+      ],
+      "keyFeatures": [
+        "Lipid regulator",
+        "Daily use",
+        "Proven CV protection"
+      ],
+      "longDescription": "Atorvastatin and Rosuvastatin reduce cholesterol and stabilize arteries for long-term protection."
+    }
+  },
+  {
+    "slug": "atorvastatin-40",
+    "name": "Atorvastatin 40",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/atorvastatin-40.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 50,
+        "mrp": 55
+      },
+      {
+        "quantity": "200 pills",
+        "price": 65,
+        "mrp": 72
+      },
+      {
+        "quantity": "300 pills",
+        "price": 80,
+        "mrp": 88
+      },
+      {
+        "quantity": "500 pills",
+        "price": 95,
+        "mrp": 105
+      }
+    ],
+    "content": {
+      "shortDescription": "Statin lowering cholesterol for heart health.",
+      "keyBenefits": [
+        "Lowers LDL",
+        "Prevents plaque",
+        "Improves artery health"
+      ],
+      "keyFeatures": [
+        "Lipid regulator",
+        "Daily use",
+        "Proven CV protection"
+      ],
+      "longDescription": "Atorvastatin and Rosuvastatin reduce cholesterol and stabilize arteries for long-term protection."
+    }
+  },
+  {
+    "slug": "atorvastatin-80",
+    "name": "Atorvastatin 80",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/atorvastatin-80.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 50,
+        "mrp": 55
+      },
+      {
+        "quantity": "200 pills",
+        "price": 65,
+        "mrp": 72
+      },
+      {
+        "quantity": "300 pills",
+        "price": 80,
+        "mrp": 88
+      },
+      {
+        "quantity": "500 pills",
+        "price": 95,
+        "mrp": 105
+      }
+    ],
+    "content": {
+      "shortDescription": "Statin lowering cholesterol for heart health.",
+      "keyBenefits": [
+        "Lowers LDL",
+        "Prevents plaque",
+        "Improves artery health"
+      ],
+      "keyFeatures": [
+        "Lipid regulator",
+        "Daily use",
+        "Proven CV protection"
+      ],
+      "longDescription": "Atorvastatin and Rosuvastatin reduce cholesterol and stabilize arteries for long-term protection."
+    }
+  },
+  {
+    "slug": "rosuvastatin-5",
+    "name": "Rosuvastatin 5",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/rosuvastatin-5.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 45,
+        "mrp": 50
+      },
+      {
+        "quantity": "200 pills",
+        "price": 55,
+        "mrp": 61
+      },
+      {
+        "quantity": "300 pills",
+        "price": 65,
+        "mrp": 72
+      },
+      {
+        "quantity": "500 pills",
+        "price": 75,
+        "mrp": 82
+      }
+    ],
+    "content": {
+      "shortDescription": "Statin lowering cholesterol for heart health.",
+      "keyBenefits": [
+        "Lowers LDL",
+        "Prevents plaque",
+        "Improves artery health"
+      ],
+      "keyFeatures": [
+        "Lipid regulator",
+        "Daily use",
+        "Proven CV protection"
+      ],
+      "longDescription": "Atorvastatin and Rosuvastatin reduce cholesterol and stabilize arteries for long-term protection."
+    }
+  },
+  {
+    "slug": "rosuvastatin-10",
+    "name": "Rosuvastatin 10",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/rosuvastatin-10.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 45,
+        "mrp": 50
+      },
+      {
+        "quantity": "200 pills",
+        "price": 55,
+        "mrp": 61
+      },
+      {
+        "quantity": "300 pills",
+        "price": 65,
+        "mrp": 72
+      },
+      {
+        "quantity": "500 pills",
+        "price": 75,
+        "mrp": 82
+      }
+    ],
+    "content": {
+      "shortDescription": "Statin lowering cholesterol for heart health.",
+      "keyBenefits": [
+        "Lowers LDL",
+        "Prevents plaque",
+        "Improves artery health"
+      ],
+      "keyFeatures": [
+        "Lipid regulator",
+        "Daily use",
+        "Proven CV protection"
+      ],
+      "longDescription": "Atorvastatin and Rosuvastatin reduce cholesterol and stabilize arteries for long-term protection."
+    }
+  },
+  {
+    "slug": "rosuvastatin-20",
+    "name": "Rosuvastatin 20",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/rosuvastatin-20.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 50,
+        "mrp": 55
+      },
+      {
+        "quantity": "200 pills",
+        "price": 65,
+        "mrp": 72
+      },
+      {
+        "quantity": "300 pills",
+        "price": 80,
+        "mrp": 88
+      },
+      {
+        "quantity": "500 pills",
+        "price": 95,
+        "mrp": 105
+      }
+    ],
+    "content": {
+      "shortDescription": "Statin lowering cholesterol for heart health.",
+      "keyBenefits": [
+        "Lowers LDL",
+        "Prevents plaque",
+        "Improves artery health"
+      ],
+      "keyFeatures": [
+        "Lipid regulator",
+        "Daily use",
+        "Proven CV protection"
+      ],
+      "longDescription": "Atorvastatin and Rosuvastatin reduce cholesterol and stabilize arteries for long-term protection."
+    }
+  },
+  {
+    "slug": "rosuvastatin-40",
+    "name": "Rosuvastatin 40",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/rosuvastatin-40.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 50,
+        "mrp": 55
+      },
+      {
+        "quantity": "200 pills",
+        "price": 65,
+        "mrp": 72
+      },
+      {
+        "quantity": "300 pills",
+        "price": 80,
+        "mrp": 88
+      },
+      {
+        "quantity": "500 pills",
+        "price": 95,
+        "mrp": 105
+      }
+    ],
+    "content": {
+      "shortDescription": "Statin lowering cholesterol for heart health.",
+      "keyBenefits": [
+        "Lowers LDL",
+        "Prevents plaque",
+        "Improves artery health"
+      ],
+      "keyFeatures": [
+        "Lipid regulator",
+        "Daily use",
+        "Proven CV protection"
+      ],
+      "longDescription": "Atorvastatin and Rosuvastatin reduce cholesterol and stabilize arteries for long-term protection."
+    }
+  },
+  {
+    "slug": "rosuvastatin-telmisartan",
+    "name": "Rosuvastatin + Telmisartan",
+    "category": "Heart Health",
+    "img": "/images/antibiotics/rosuvastatin-telmisartan.jpg",
+    "pricing": [
+      {
+        "quantity": "100 pills",
+        "price": 85,
+        "mrp": 94
+      },
+      {
+        "quantity": "200 pills",
+        "price": 135,
+        "mrp": 148
+      },
+      {
+        "quantity": "300 pills",
+        "price": 185,
+        "mrp": 204
+      },
+      {
+        "quantity": "500 pills",
+        "price": 235,
+        "mrp": 258
+      }
+    ],
+    "content": {
+      "shortDescription": "Statin lowering cholesterol for heart health.",
+      "keyBenefits": [
+        "Lowers LDL",
+        "Prevents plaque",
+        "Improves artery health"
+      ],
+      "keyFeatures": [
+        "Lipid regulator",
+        "Daily use",
+        "Proven CV protection"
+      ],
+      "longDescription": "Atorvastatin and Rosuvastatin reduce cholesterol and stabilize arteries for long-term protection."
+    }
+  },
+
 
   {
     "slug": "anastrozole",
