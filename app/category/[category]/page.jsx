@@ -6,14 +6,14 @@ import { useRouter, useParams } from "next/navigation";
 import { ShoppingBag, Package, Shield, Clock } from "lucide-react";
 import { ToastNotification } from "@/components/Toatnotification";
 
-// Robust slugify
+// Fixed slugify function - "health" ko completely remove mat karo
 const toSlug = (s = "") =>
   s
     .toString()
     .toLowerCase()
     .replace(/\bweight\s+loss\b/g, "weightloss")
     .replace(/&/g, "-")
-    .replace(/\bhealth\b/g, "")
+    .replace(/\s+health\s+/g, "-health") // "health" ko preserve karo
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/-+/g, "-")
     .replace(/^-|-$/g, "");
@@ -26,38 +26,57 @@ export default function CategoryPage() {
 
   const [products, setProducts] = useState([]);
   const [toastMessage, setToastMessage] = useState("");
-  const [selectedTiers, setSelectedTiers] = useState({}); // Track selected tier per product
+  const [selectedTiers, setSelectedTiers] = useState({});
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const fetchData = async () => {
-      const res = await fetch("/data/products.json");
-      const data = await res.json();
+      try {
+        setLoading(true);
+        const res = await fetch("/data/products.json");
+        const data = await res.json();
 
-      const catSlug = String(category || "").toLowerCase();
-      const catLoose = stripWeak(catSlug);
+        const catSlug = String(category || "").toLowerCase();
+        const catLoose = stripWeak(catSlug);
 
-      const filtered = (data?.products || []).filter((p) => {
-        const pSlug = toSlug(p.category || "");
-        const pLoose = stripWeak(pSlug);
+        console.log("Category Slug:", catSlug);
+        console.log("Category Loose:", catLoose);
 
-        return (
-          pSlug === catSlug ||
-          pSlug.includes(catSlug) ||
-          catSlug.includes(pSlug) ||
-          pLoose === catLoose ||
-          pLoose.includes(catLoose) ||
-          catLoose.includes(pLoose)
-        );
-      });
+        const filtered = (data?.products || []).filter((p) => {
+          if (!p.category) return false;
+          
+          const pSlug = toSlug(p.category);
+          const pLoose = stripWeak(pSlug);
 
-      setProducts(filtered);
+          console.log("Product:", p.name, "| Category:", p.category, "| Slug:", pSlug, "| Loose:", pLoose);
 
-      // default tier = first option
-      const initialTiers = {};
-      filtered.forEach((p) => {
-        initialTiers[p.slug] = p.pricing?.[0] || { quantity: "Default", price: p.price, mrp: p.mrp };
-      });
-      setSelectedTiers(initialTiers);
+          const matches = 
+            pSlug === catSlug ||
+            pSlug.includes(catSlug) ||
+            catSlug.includes(pSlug) ||
+            pLoose === catLoose ||
+            pLoose.includes(catLoose) ||
+            catLoose.includes(pLoose);
+
+          console.log("Matches:", matches);
+          return matches;
+        });
+
+        console.log("Filtered Products:", filtered);
+        setProducts(filtered);
+
+        // default tier = first option
+        const initialTiers = {};
+        filtered.forEach((p) => {
+          initialTiers[p.slug] = p.pricing?.[0] || { quantity: "Default", price: p.price, mrp: p.mrp };
+        });
+        setSelectedTiers(initialTiers);
+      } catch (error) {
+        console.error("Error fetching products:", error);
+        setProducts([]);
+      } finally {
+        setLoading(false);
+      }
     };
 
     fetchData();
@@ -90,8 +109,20 @@ export default function CategoryPage() {
     router.push(`/checkout/${product.slug}`);
   };
 
-  // Loading / No Products
-  if (!products.length)
+  // Loading State
+  if (loading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-50 to-blue-50">
+        <div className="text-center">
+          <Package className="w-16 h-16 mx-auto text-slate-300 mb-4 animate-pulse" />
+          <p className="text-slate-600 text-lg font-medium">Loading products...</p>
+        </div>
+      </div>
+    );
+  }
+
+  // No Products State
+  if (!products.length) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-50 to-blue-50">
         <div className="text-center">
@@ -99,9 +130,13 @@ export default function CategoryPage() {
           <p className="text-slate-600 text-lg font-medium">
             No products found in this category.
           </p>
+          <p className="text-slate-500 text-sm mt-2">
+            Category: {(category || "").replaceAll("-", " ")}
+          </p>
         </div>
       </div>
     );
+  }
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-slate-50">
@@ -119,6 +154,9 @@ export default function CategoryPage() {
           </h1>
           <p className="text-slate-600 max-w-2xl">
             Browse our curated selection of quality pharmaceutical products with verified authenticity and fast delivery.
+          </p>
+          <p className="text-slate-500 text-sm mt-2">
+            Found {products.length} product{products.length !== 1 ? 's' : ''}
           </p>
         </div>
       </div>
@@ -147,8 +185,8 @@ export default function CategoryPage() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {products.map((product) => {
             const tier = selectedTiers[product.slug] || {};
-            const price = tier.price || product.price;
-            const mrp = tier.mrp || product.mrp;
+            const price = tier.price || product.price || 0;
+            const mrp = tier.mrp || product.mrp || 0;
             const discount =
               mrp > price ? Math.round(((mrp - price) / mrp) * 100) : 0;
 
@@ -167,10 +205,13 @@ export default function CategoryPage() {
                 {/* Product Image */}
                 <div className="relative aspect-[4/3] bg-white p-6 group-hover:scale-[1.02] transition-transform duration-300">
                   <Image
-                    src={product.img}
-                    alt={product.name}
+                    src={product.img || "/placeholder-image.jpg"}
+                    alt={product.name || "Product image"}
                     fill
                     className="object-contain"
+                    onError={(e) => {
+                      e.target.src = "/placeholder-image.jpg";
+                    }}
                   />
                 </div>
 
@@ -181,7 +222,7 @@ export default function CategoryPage() {
                 >
                   <div>
                     <h2 className="text-base font-bold text-slate-900 line-clamp-2 mb-3 group-hover:text-sky-600 transition-colors">
-                      {product.name}
+                      {product.name || "Unnamed Product"}
                     </h2>
 
                     {/* Price */}
@@ -211,14 +252,14 @@ export default function CategoryPage() {
                             [product.slug]: product.pricing.find(
                               (p) =>
                                 String(p.quantity) === e.target.value
-                            ),
+                            ) || {},
                           }))
                         }
                         className="mt-3 w-full border border-slate-300 rounded-md text-sm px-3 py-2 font-medium text-gray-700 hover:border-sky-400 focus:ring-2 focus:ring-sky-200 focus:border-sky-500 transition-all"
                       >
                         {product.pricing.map((p, idx) => (
                           <option key={idx} value={p.quantity}>
-                            {p.quantity} — ${p.price.toLocaleString()}
+                            {p.quantity} — ${(p.price || 0).toLocaleString()}
                           </option>
                         ))}
                       </select>

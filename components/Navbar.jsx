@@ -246,8 +246,8 @@ export default function MedicineCategoryNav() {
                 {loading ? (
                   <li className="px-3 py-2 text-sm text-slate-500">Loading…</li>
                 ) : byCategory[openMenu.slug]?.length ? (
-                  byCategory[openMenu.slug].slice(0, 10).map((p) => (
-                    <li key={p.id}>
+                  byCategory[openMenu.slug].slice(0, 10).map((p, index) => (
+                    <li key={p.id || p.slug || index}>
                       <Link
                         href={`/product/${p.slug}`}
                         className="flex items-center justify-between gap-2 rounded-md px-3 py-2 text-sm text-gray-700 hover:bg-sky-50 hover:text-sky-800"
